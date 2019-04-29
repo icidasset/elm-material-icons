@@ -1,0 +1,33 @@
+{
+    "type": "package",
+    "name": "icidasset/elm-material-icons",
+    "summary": "Material Icons Library",
+    "license": "BSD-3-Clause",
+    "version": "1.0.0",
+    "exposed-modules": [
+        "Material.Icons",
+        "Material.Icons.Action",
+        "Material.Icons.Alert",
+        "Material.Icons.Av",
+        "Material.Icons.Communication",
+        "Material.Icons.Content",
+        "Material.Icons.Device",
+        "Material.Icons.Editor",
+        "Material.Icons.File",
+        "Material.Icons.Hardware",
+        "Material.Icons.Image",
+        "Material.Icons.Maps",
+        "Material.Icons.Navigation",
+        "Material.Icons.Notification",
+        "Material.Icons.Places",
+        "Material.Icons.Social",
+        "Material.Icons.Toggle"
+    ],
+    "elm-version": "0.19.0 <= v < 0.20.0",
+    "dependencies": {
+        "avh4/elm-color": "1.0.0 <= v < 2.0.0",
+        "elm/core": "1.0.0 <= v < 2.0.0",
+        "elm/svg": "1.0.1 <= v < 2.0.0"
+    },
+    "test-dependencies": {}
+}

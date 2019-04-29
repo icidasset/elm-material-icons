@@ -1,0 +1,6 @@
+{
+  "private": true,
+  "dependencies": {
+    "html-elm": "1.1.*"
+  }
+}
