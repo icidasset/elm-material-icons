@@ -12,9 +12,11 @@ offline_bolt 16 (Color <| Color.rgb 96 181 204)
 offline_bolt 16 Inherit
 ```
 
-__Preview:__  
+### Preview
+
 All the icons are listed on the [material.io](https://material.io/tools/icons/) website.
 
-_Notes:_
+### Notes
+
 - It uses [avh4/elm-color](https://package.elm-lang.org/packages/avh4/elm-color/latest/Color) for colors.
 - As opposed to providing a color, you can also inherit the css `color`.
