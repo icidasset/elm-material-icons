@@ -23,7 +23,7 @@ icon attributes nodes size coloring =
                     fill (Color.toCssString color)
 
                 Inherit ->
-                    fill "inherit"
+                    fill "currentColor"
             ]
             nodes
         ]
