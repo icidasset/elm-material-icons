@@ -31,7 +31,7 @@ module Material.Icons.Toggle exposing
 
 import Material.Icons exposing (Coloring)
 import Material.Icons.Internal exposing (icon)
-import Svg exposing (Svg, circle, defs, g, path, svg, use)
+import Svg exposing (Svg, circle, g, path, svg, use)
 import Svg.Attributes exposing (baseProfile, clipRule, cx, cy, d, fill, fillOpacity, fillRule, id, opacity, overflow, r, viewBox, xlinkHref)
 
 
@@ -68,20 +68,8 @@ indeterminate_check_box : Int -> Coloring -> Svg msg
 indeterminate_check_box =
     icon
         [ viewBox "0 0 24 24" ]
-        [ defs
-            []
-            [ path
-                [ id "a", d "M0 0h24v24H0z" ]
-                []
-            ]
-        , Svg.clipPath
-            [ id "b" ]
-            [ use
-                [ xlinkHref "#a", overflow "visible" ]
-                []
-            ]
-        , path
-            [ Svg.Attributes.clipPath "url(#b)", d "M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-2 10H7v-2h10v2z" ]
+        [ path
+            [ d "M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-2 10H7v-2h10v2z" ]
             []
         ]
 
@@ -150,20 +138,8 @@ star_half : Int -> Coloring -> Svg msg
 star_half =
     icon
         [ viewBox "0 0 24 24" ]
-        [ defs
-            []
-            [ path
-                [ id "a", d "M0 0h24v24H0V0z" ]
-                []
-            ]
-        , Svg.clipPath
-            [ id "b" ]
-            [ use
-                [ xlinkHref "#a", overflow "visible" ]
-                []
-            ]
-        , path
-            [ Svg.Attributes.clipPath "url(#b)", d "M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4V6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z" ]
+        [ path
+            [ d "M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4V6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z" ]
             []
         ]
 

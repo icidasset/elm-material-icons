@@ -73,7 +73,7 @@ module Material.Icons.Navigation exposing
 
 import Material.Icons exposing (Coloring)
 import Material.Icons.Internal exposing (icon)
-import Svg exposing (Svg, circle, defs, g, path, svg, use)
+import Svg exposing (Svg, circle, g, path, svg, use)
 import Svg.Attributes exposing (baseProfile, clipRule, cx, cy, d, fill, fillOpacity, fillRule, id, opacity, overflow, r, viewBox, xlinkHref)
 
 

@@ -111,7 +111,7 @@ module Material.Icons.Hardware exposing
 
 import Material.Icons exposing (Coloring)
 import Material.Icons.Internal exposing (icon)
-import Svg exposing (Svg, circle, defs, g, path, svg, use)
+import Svg exposing (Svg, circle, g, path, svg, use)
 import Svg.Attributes exposing (baseProfile, clipRule, cx, cy, d, fill, fillOpacity, fillRule, id, opacity, overflow, r, viewBox, xlinkHref)
 
 
@@ -479,20 +479,8 @@ laptop : Int -> Coloring -> Svg msg
 laptop =
     icon
         [ viewBox "0 0 24 24" ]
-        [ defs
-            []
-            [ path
-                [ id "a", d "M0 0h24v24H0V0z" ]
-                []
-            ]
-        , Svg.clipPath
-            [ id "b" ]
-            [ use
-                [ xlinkHref "#a", overflow "visible" ]
-                []
-            ]
-        , path
-            [ Svg.Attributes.clipPath "url(#b)", d "M20 18c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2H0v2h24v-2h-4zM4 6h16v10H4V6z" ]
+        [ path
+            [ d "M20 18c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2H0v2h24v-2h-4zM4 6h16v10H4V6z" ]
             []
         ]
 
@@ -760,20 +748,8 @@ tablet_android : Int -> Coloring -> Svg msg
 tablet_android =
     icon
         [ viewBox "0 0 24 24" ]
-        [ defs
-            []
-            [ path
-                [ id "a", d "M0 0h24v24H0z" ]
-                []
-            ]
-        , Svg.clipPath
-            [ id "b" ]
-            [ use
-                [ xlinkHref "#a", overflow "visible" ]
-                []
-            ]
-        , path
-            [ Svg.Attributes.clipPath "url(#b)", d "M18 0H6C4.34 0 3 1.34 3 3v18c0 1.66 1.34 3 3 3h12c1.66 0 3-1.34 3-3V3c0-1.66-1.34-3-3-3zm-4 22h-4v-1h4v1zm5.25-3H4.75V3h14.5v16z" ]
+        [ path
+            [ d "M18 0H6C4.34 0 3 1.34 3 3v18c0 1.66 1.34 3 3 3h12c1.66 0 3-1.34 3-3V3c0-1.66-1.34-3-3-3zm-4 22h-4v-1h4v1zm5.25-3H4.75V3h14.5v16z" ]
             []
         ]
 

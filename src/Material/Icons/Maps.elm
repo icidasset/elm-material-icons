@@ -169,7 +169,7 @@ module Material.Icons.Maps exposing
 
 import Material.Icons exposing (Coloring)
 import Material.Icons.Internal exposing (icon)
-import Svg exposing (Svg, circle, defs, g, path, svg, use)
+import Svg exposing (Svg, circle, g, path, svg, use)
 import Svg.Attributes exposing (baseProfile, clipRule, cx, cy, d, fill, fillOpacity, fillRule, id, opacity, overflow, r, viewBox, xlinkHref)
 
 
@@ -1050,20 +1050,8 @@ person_pin_circle : Int -> Coloring -> Svg msg
 person_pin_circle =
     icon
         [ viewBox "0 0 24 24" ]
-        [ defs
-            []
-            [ path
-                [ id "a", d "M0 0h24v24H0V0z" ]
-                []
-            ]
-        , Svg.clipPath
-            [ id "b" ]
-            [ use
-                [ xlinkHref "#a", overflow "visible" ]
-                []
-            ]
-        , path
-            [ Svg.Attributes.clipPath "url(#b)", d "M12 2C8.14 2 5 5.14 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.86-3.14-7-7-7zm0 2c1.1 0 2 .9 2 2 0 1.11-.9 2-2 2s-2-.89-2-2c0-1.1.9-2 2-2zm0 10c-1.67 0-3.14-.85-4-2.15.02-1.32 2.67-2.05 4-2.05s3.98.73 4 2.05c-.86 1.3-2.33 2.15-4 2.15z" ]
+        [ path
+            [ d "M12 2C8.14 2 5 5.14 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.86-3.14-7-7-7zm0 2c1.1 0 2 .9 2 2 0 1.11-.9 2-2 2s-2-.89-2-2c0-1.1.9-2 2-2zm0 10c-1.67 0-3.14-.85-4-2.15.02-1.32 2.67-2.05 4-2.05s3.98.73 4 2.05c-.86 1.3-2.33 2.15-4 2.15z" ]
             []
         ]
 
@@ -1312,22 +1300,10 @@ zoom_out_map : Int -> Coloring -> Svg msg
 zoom_out_map =
     icon
         [ viewBox "0 0 24 24" ]
-        [ defs
-            []
-            [ path
-                [ id "a", d "M0 0h24v24H0z" ]
-                []
-            ]
-        , Svg.clipPath
-            [ id "b" ]
-            [ use
-                [ xlinkHref "#a", overflow "visible" ]
-                []
-            ]
-        , path
-            [ Svg.Attributes.clipPath "url(#b)", d "M15 3l2.3 2.3-2.89 2.87 1.42 1.42L18.7 6.7 21 9V3zM3 9l2.3-2.3 2.87 2.89 1.42-1.42L6.7 5.3 9 3H3zm6 12l-2.3-2.3 2.89-2.87-1.42-1.42L5.3 17.3 3 15v6zm12-6l-2.3 2.3-2.87-2.89-1.42 1.42 2.89 2.87L15 21h6z" ]
+        [ path
+            [ d "M15 3l2.3 2.3-2.89 2.87 1.42 1.42L18.7 6.7 21 9V3zM3 9l2.3-2.3 2.87 2.89 1.42-1.42L6.7 5.3 9 3H3zm6 12l-2.3-2.3 2.89-2.87-1.42-1.42L5.3 17.3 3 15v6zm12-6l-2.3 2.3-2.87-2.89-1.42 1.42 2.89 2.87L15 21h6z" ]
             []
         , path
-            [ Svg.Attributes.clipPath "url(#b)", fill "none", d "M0 0h24v24H0z" ]
+            [ fill "none", d "M0 0h24v24H0z" ]
             []
         ]

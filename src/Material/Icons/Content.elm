@@ -107,7 +107,7 @@ module Material.Icons.Content exposing
 
 import Material.Icons exposing (Coloring)
 import Material.Icons.Internal exposing (icon)
-import Svg exposing (Svg, circle, defs, g, path, svg, use)
+import Svg exposing (Svg, circle, g, path, svg, use)
 import Svg.Attributes exposing (baseProfile, clipRule, cx, cy, d, fill, fillOpacity, fillRule, id, opacity, overflow, r, viewBox, xlinkHref)
 
 
@@ -200,19 +200,7 @@ ballot : Int -> Coloring -> Svg msg
 ballot =
     icon
         [ viewBox "0 0 24 24" ]
-        [ defs
-            []
-            [ path
-                [ id "a", d "M0 0h24v24H0z" ]
-                []
-            ]
-        , Svg.clipPath
-            []
-            [ use
-                [ xlinkHref "#a", overflow "visible" ]
-                []
-            ]
-        , path
+        [ path
             [ fillRule "evenodd", clipRule "evenodd", d "M13 9.5h5v-2h-5v2zm0 7h5v-2h-5v2zm6 4.5H5c-1.1 0-2-.9-2-2V5c0-1.1.9-2 2-2h14c1.1 0 2 .9 2 2v14c0 1.1-.9 2-2 2zM6 11h5V6H6v5zm1-4h3v3H7V7zM6 18h5v-5H6v5zm1-4h3v3H7v-3z" ]
             []
         ]
@@ -512,20 +500,8 @@ next_week : Int -> Coloring -> Svg msg
 next_week =
     icon
         [ viewBox "0 0 24 24" ]
-        [ defs
-            []
-            [ path
-                [ id "a", d "M0 0h24v24H0z" ]
-                []
-            ]
-        , Svg.clipPath
-            [ id "b" ]
-            [ use
-                [ xlinkHref "#a", overflow "visible" ]
-                []
-            ]
-        , path
-            [ Svg.Attributes.clipPath "url(#b)", fill "#010101", d "M20 7h-4V5c0-.55-.22-1.05-.59-1.41C15.05 3.22 14.55 3 14 3h-4c-1.1 0-2 .9-2 2v2H4c-1.1 0-2 .9-2 2v11c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V9c0-1.1-.9-2-2-2zM10 5h4v2h-4V5zm1 13.5l-1-1 3-3-3-3 1-1 4 4-4 4z" ]
+        [ path
+            [ fill "#010101", d "M20 7h-4V5c0-.55-.22-1.05-.59-1.41C15.05 3.22 14.55 3 14 3h-4c-1.1 0-2 .9-2 2v2H4c-1.1 0-2 .9-2 2v11c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V9c0-1.1-.9-2-2-2zM10 5h4v2h-4V5zm1 13.5l-1-1 3-3-3-3 1-1 4 4-4 4z" ]
             []
         ]
 
@@ -745,20 +721,8 @@ unarchive : Int -> Coloring -> Svg msg
 unarchive =
     icon
         [ viewBox "0 0 24 24" ]
-        [ defs
-            []
-            [ path
-                [ id "a", d "M0 0h24v24H0V0z" ]
-                []
-            ]
-        , Svg.clipPath
-            [ id "b" ]
-            [ use
-                [ xlinkHref "#a", overflow "visible" ]
-                []
-            ]
-        , path
-            [ Svg.Attributes.clipPath "url(#b)", d "M20.55 5.22l-1.39-1.68C18.88 3.21 18.47 3 18 3H6c-.47 0-.88.21-1.15.55L3.46 5.22C3.17 5.57 3 6.01 3 6.5V19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6.5c0-.49-.17-.93-.45-1.28zM12 9.5l5.5 5.5H14v2h-4v-2H6.5L12 9.5zM5.12 5l.82-1h12l.93 1H5.12z" ]
+        [ path
+            [ d "M20.55 5.22l-1.39-1.68C18.88 3.21 18.47 3 18 3H6c-.47 0-.88.21-1.15.55L3.46 5.22C3.17 5.57 3 6.01 3 6.5V19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6.5c0-.49-.17-.93-.45-1.28zM12 9.5l5.5 5.5H14v2h-4v-2H6.5L12 9.5zM5.12 5l.82-1h12l.93 1H5.12z" ]
             []
         ]
 
@@ -793,20 +757,8 @@ weekend : Int -> Coloring -> Svg msg
 weekend =
     icon
         [ viewBox "0 0 48 48" ]
-        [ defs
-            []
-            [ path
-                [ id "a", d "M0 0h48v48H0z" ]
-                []
-            ]
-        , Svg.clipPath
-            [ id "b" ]
-            [ use
-                [ xlinkHref "#a", overflow "visible" ]
-                []
-            ]
-        , path
-            [ d "M42 20c-2.21 0-4 1.79-4 4v6H10v-6c0-2.21-1.79-4-4-4s-4 1.79-4 4v10c0 2.2 1.8 4 4 4h36c2.2 0 4-1.8 4-4V24c0-2.21-1.79-4-4-4zm-6-10H12c-2.2 0-4 1.8-4 4v4.31c2.32.83 4 3.03 4 5.63V28h24v-4.06c0-2.6 1.68-4.8 4-5.63V14c0-2.2-1.8-4-4-4z", Svg.Attributes.clipPath "url(#b)" ]
+        [ path
+            [ d "M42 20c-2.21 0-4 1.79-4 4v6H10v-6c0-2.21-1.79-4-4-4s-4 1.79-4 4v10c0 2.2 1.8 4 4 4h36c2.2 0 4-1.8 4-4V24c0-2.21-1.79-4-4-4zm-6-10H12c-2.2 0-4 1.8-4 4v4.31c2.32.83 4 3.03 4 5.63V28h24v-4.06c0-2.6 1.68-4.8 4-5.63V14c0-2.2-1.8-4-4-4z" ]
             []
         ]
 

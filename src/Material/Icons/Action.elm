@@ -495,7 +495,7 @@ module Material.Icons.Action exposing
 
 import Material.Icons exposing (Coloring)
 import Material.Icons.Internal exposing (icon)
-import Svg exposing (Svg, circle, defs, g, path, svg, use)
+import Svg exposing (Svg, circle, g, path, svg, use)
 import Svg.Attributes exposing (baseProfile, clipRule, cx, cy, d, fill, fillOpacity, fillRule, id, opacity, overflow, r, viewBox, xlinkHref)
 
 
@@ -1199,20 +1199,8 @@ compare_arrows : Int -> Coloring -> Svg msg
 compare_arrows =
     icon
         [ viewBox "0 0 24 24" ]
-        [ defs
-            []
-            [ path
-                [ id "a", d "M0 0h24v24H0V0z" ]
-                []
-            ]
-        , Svg.clipPath
-            [ id "b" ]
-            [ use
-                [ xlinkHref "#a", overflow "visible" ]
-                []
-            ]
-        , path
-            [ Svg.Attributes.clipPath "url(#b)", d "M9.01 14H2v2h7.01v3L13 15l-3.99-4v3zm5.98-1v-3H22V8h-7.01V5L11 9l3.99 4z" ]
+        [ path
+            [ d "M9.01 14H2v2h7.01v3L13 15l-3.99-4v3zm5.98-1v-3H22V8h-7.01V5L11 9l3.99 4z" ]
             []
         ]
 
@@ -1236,20 +1224,8 @@ copyright : Int -> Coloring -> Svg msg
 copyright =
     icon
         [ viewBox "0 0 24 24" ]
-        [ defs
-            []
-            [ path
-                [ id "a", d "M24 0v24H0V0h24z" ]
-                []
-            ]
-        , Svg.clipPath
-            [ id "b" ]
-            [ use
-                [ xlinkHref "#a", overflow "visible" ]
-                []
-            ]
-        , path
-            [ d "M10.08 10.86c.05-.33.16-.62.3-.87s.34-.46.59-.62c.24-.15.54-.22.91-.23.23.01.44.05.63.13.2.09.38.21.52.36s.25.33.34.53.13.42.14.64h1.79c-.02-.47-.11-.9-.28-1.29s-.4-.73-.7-1.01-.66-.5-1.08-.66-.88-.23-1.39-.23c-.65 0-1.22.11-1.7.34s-.88.53-1.2.92-.56.84-.71 1.36S8 11.29 8 11.87v.27c0 .58.08 1.12.23 1.64s.39.97.71 1.35.72.69 1.2.91 1.05.34 1.7.34c.47 0 .91-.08 1.32-.23s.77-.36 1.08-.63.56-.58.74-.94.29-.74.3-1.15h-1.79c-.01.21-.06.4-.15.58s-.21.33-.36.46-.32.23-.52.3c-.19.07-.39.09-.6.1-.36-.01-.66-.08-.89-.23-.25-.16-.45-.37-.59-.62s-.25-.55-.3-.88-.08-.67-.08-1v-.27c0-.35.03-.68.08-1.01zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z", Svg.Attributes.clipPath "url(#b)" ]
+        [ path
+            [ d "M10.08 10.86c.05-.33.16-.62.3-.87s.34-.46.59-.62c.24-.15.54-.22.91-.23.23.01.44.05.63.13.2.09.38.21.52.36s.25.33.34.53.13.42.14.64h1.79c-.02-.47-.11-.9-.28-1.29s-.4-.73-.7-1.01-.66-.5-1.08-.66-.88-.23-1.39-.23c-.65 0-1.22.11-1.7.34s-.88.53-1.2.92-.56.84-.71 1.36S8 11.29 8 11.87v.27c0 .58.08 1.12.23 1.64s.39.97.71 1.35.72.69 1.2.91 1.05.34 1.7.34c.47 0 .91-.08 1.32-.23s.77-.36 1.08-.63.56-.58.74-.94.29-.74.3-1.15h-1.79c-.01.21-.06.4-.15.58s-.21.33-.36.46-.32.23-.52.3c-.19.07-.39.09-.6.1-.36-.01-.66-.08-.89-.23-.25-.16-.45-.37-.59-.62s-.25-.55-.3-.88-.08-.67-.08-1v-.27c0-.35.03-.68.08-1.01zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z" ]
             []
         ]
 
@@ -1416,20 +1392,8 @@ donut_large : Int -> Coloring -> Svg msg
 donut_large =
     icon
         [ viewBox "0 0 24 24" ]
-        [ defs
-            []
-            [ path
-                [ id "a", d "M0 0h24v24H0z" ]
-                []
-            ]
-        , Svg.clipPath
-            [ id "b" ]
-            [ use
-                [ xlinkHref "#a", overflow "visible" ]
-                []
-            ]
-        , path
-            [ Svg.Attributes.clipPath "url(#b)", d "M11 5.08V2c-5 .5-9 4.81-9 10s4 9.5 9 10v-3.08c-3-.48-6-3.4-6-6.92s3-6.44 6-6.92zM18.97 11H22c-.47-5-4-8.53-9-9v3.08C16 5.51 18.54 8 18.97 11zM13 18.92V22c5-.47 8.53-4 9-9h-3.03c-.43 3-2.97 5.49-5.97 5.92z" ]
+        [ path
+            [ d "M11 5.08V2c-5 .5-9 4.81-9 10s4 9.5 9 10v-3.08c-3-.48-6-3.4-6-6.92s3-6.44 6-6.92zM18.97 11H22c-.47-5-4-8.53-9-9v3.08C16 5.51 18.54 8 18.97 11zM13 18.92V22c5-.47 8.53-4 9-9h-3.03c-.43 3-2.97 5.49-5.97 5.92z" ]
             []
         ]
 
@@ -1509,20 +1473,8 @@ event_seat : Int -> Coloring -> Svg msg
 event_seat =
     icon
         [ viewBox "0 0 24 24" ]
-        [ defs
-            []
-            [ path
-                [ id "a", d "M0 0h24v24H0V0z" ]
-                []
-            ]
-        , Svg.clipPath
-            [ id "b" ]
-            [ use
-                [ xlinkHref "#a", overflow "visible" ]
-                []
-            ]
-        , path
-            [ d "M4 18v3h3v-3h10v3h3v-6H4zm15-8h3v3h-3zM2 10h3v3H2zm15 3H7V5c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2v8z", Svg.Attributes.clipPath "url(#b)" ]
+        [ path
+            [ d "M4 18v3h3v-3h10v3h3v-6H4zm15-8h3v3h-3zM2 10h3v3H2zm15 3H7V5c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2v8z" ]
             []
         ]
 
@@ -1686,32 +1638,8 @@ flight_land : Int -> Coloring -> Svg msg
 flight_land =
     icon
         [ viewBox "0 0 24 24" ]
-        [ defs
-            []
-            [ path
-                [ id "a", d "M0 0h24v24H0V0z" ]
-                []
-            ]
-        , defs
-            []
-            [ path
-                [ id "c", d "M0 0h24v24H0V0z" ]
-                []
-            ]
-        , Svg.clipPath
-            [ id "b" ]
-            [ use
-                [ xlinkHref "#a", overflow "visible" ]
-                []
-            ]
-        , Svg.clipPath
-            [ id "d", Svg.Attributes.clipPath "url(#b)" ]
-            [ use
-                [ xlinkHref "#c", overflow "visible" ]
-                []
-            ]
-        , path
-            [ d "M2.5 19h19v2h-19zm7.18-5.73l4.35 1.16 5.31 1.42c.8.21 1.62-.26 1.84-1.06.21-.8-.26-1.62-1.06-1.84l-5.31-1.42-2.76-9.02L10.12 2v8.28L5.15 8.95l-.93-2.32-1.45-.39v5.17l1.6.43 5.31 1.43z", Svg.Attributes.clipPath "url(#d)" ]
+        [ path
+            [ d "M2.5 19h19v2h-19zm7.18-5.73l4.35 1.16 5.31 1.42c.8.21 1.62-.26 1.84-1.06.21-.8-.26-1.62-1.06-1.84l-5.31-1.42-2.76-9.02L10.12 2v8.28L5.15 8.95l-.93-2.32-1.45-.39v5.17l1.6.43 5.31 1.43z" ]
             []
         ]
 
@@ -1721,23 +1649,11 @@ flight_takeoff : Int -> Coloring -> Svg msg
 flight_takeoff =
     icon
         [ viewBox "0 0 24 24" ]
-        [ defs
-            []
-            [ path
-                [ id "a", d "M0 0h24v24H0V0z" ]
-                []
-            ]
-        , Svg.clipPath
-            [ id "b" ]
-            [ use
-                [ xlinkHref "#a", overflow "visible" ]
-                []
-            ]
-        , path
-            [ d "M2.5 19h19v2h-19zm19.57-9.36c-.21-.8-1.04-1.28-1.84-1.06L14.92 10l-6.9-6.43-1.93.51 4.14 7.17-4.97 1.33-1.97-1.54-1.45.39 1.82 3.16.77 1.33 1.6-.43 5.31-1.42 4.35-1.16L21 11.49c.81-.23 1.28-1.05 1.07-1.85z", Svg.Attributes.clipPath "url(#b)" ]
+        [ path
+            [ d "M2.5 19h19v2h-19zm19.57-9.36c-.21-.8-1.04-1.28-1.84-1.06L14.92 10l-6.9-6.43-1.93.51 4.14 7.17-4.97 1.33-1.97-1.54-1.45.39 1.82 3.16.77 1.33 1.6-.43 5.31-1.42 4.35-1.16L21 11.49c.81-.23 1.28-1.05 1.07-1.85z" ]
             []
         , path
-            [ Svg.Attributes.clipPath "url(#b)", fill "none", d "M0 0h24v24H0V0z" ]
+            [ fill "none", d "M0 0h24v24H0V0z" ]
             []
         ]
 
@@ -1789,20 +1705,8 @@ gavel : Int -> Coloring -> Svg msg
 gavel =
     icon
         [ viewBox "0 0 24 24" ]
-        [ defs
-            []
-            [ path
-                [ id "a", d "M0 0h24v24H0V0z" ]
-                []
-            ]
-        , Svg.clipPath
-            [ id "b" ]
-            [ use
-                [ xlinkHref "#a", overflow "visible" ]
-                []
-            ]
-        , path
-            [ d "M1 21h12v2H1zM5.245 8.07l2.83-2.827 14.14 14.142-2.828 2.828zM12.317 1l5.657 5.656-2.83 2.83-5.654-5.66zM3.825 9.485l5.657 5.657-2.828 2.828-5.657-5.657z", Svg.Attributes.clipPath "url(#b)" ]
+        [ path
+            [ d "M1 21h12v2H1zM5.245 8.07l2.83-2.827 14.14 14.142-2.828 2.828zM12.317 1l5.657 5.656-2.83 2.83-5.654-5.66zM3.825 9.485l5.657 5.657-2.828 2.828-5.657-5.657z" ]
             []
         ]
 
@@ -1826,20 +1730,8 @@ gif : Int -> Coloring -> Svg msg
 gif =
     icon
         [ viewBox "0 0 24 24" ]
-        [ defs
-            []
-            [ path
-                [ id "a", d "M24 24H0V0h24v24z" ]
-                []
-            ]
-        , Svg.clipPath
-            [ id "b" ]
-            [ use
-                [ xlinkHref "#a", overflow "visible" ]
-                []
-            ]
-        , path
-            [ d "M11.5 9H13v6h-1.5zM9 9H6c-.6 0-1 .5-1 1v4c0 .5.4 1 1 1h3c.6 0 1-.5 1-1v-2H8.5v1.5h-2v-3H10V10c0-.5-.4-1-1-1zm10 1.5V9h-4.5v6H16v-2h2v-1.5h-2v-1z", Svg.Attributes.clipPath "url(#b)" ]
+        [ path
+            [ d "M11.5 9H13v6h-1.5zM9 9H6c-.6 0-1 .5-1 1v4c0 .5.4 1 1 1h3c.6 0 1-.5 1-1v-2H8.5v1.5h-2v-3H10V10c0-.5-.4-1-1-1zm10 1.5V9h-4.5v6H16v-2h2v-1.5h-2v-1z" ]
             []
         ]
 
@@ -2143,20 +2035,8 @@ line_style : Int -> Coloring -> Svg msg
 line_style =
     icon
         [ viewBox "0 0 24 24" ]
-        [ defs
-            []
-            [ path
-                [ id "a", d "M0 0h24v24H0z" ]
-                []
-            ]
-        , Svg.clipPath
-            [ id "b" ]
-            [ use
-                [ xlinkHref "#a", overflow "visible" ]
-                []
-            ]
-        , path
-            [ Svg.Attributes.clipPath "url(#b)", d "M3 16h5v-2H3v2zm6.5 0h5v-2h-5v2zm6.5 0h5v-2h-5v2zM3 20h2v-2H3v2zm4 0h2v-2H7v2zm4 0h2v-2h-2v2zm4 0h2v-2h-2v2zm4 0h2v-2h-2v2zM3 12h8v-2H3v2zm10 0h8v-2h-8v2zM3 4v4h18V4H3z" ]
+        [ path
+            [ d "M3 16h5v-2H3v2zm6.5 0h5v-2h-5v2zm6.5 0h5v-2h-5v2zM3 20h2v-2H3v2zm4 0h2v-2H7v2zm4 0h2v-2h-2v2zm4 0h2v-2h-2v2zm4 0h2v-2h-2v2zM3 12h8v-2H3v2zm10 0h8v-2h-8v2zM3 4v4h18V4H3z" ]
             []
         ]
 
@@ -2166,20 +2046,8 @@ line_weight : Int -> Coloring -> Svg msg
 line_weight =
     icon
         [ viewBox "0 0 24 24" ]
-        [ defs
-            []
-            [ path
-                [ id "a", d "M0 0h24v24H0z" ]
-                []
-            ]
-        , Svg.clipPath
-            [ id "b" ]
-            [ use
-                [ xlinkHref "#a", overflow "visible" ]
-                []
-            ]
-        , path
-            [ Svg.Attributes.clipPath "url(#b)", d "M3 17h18v-2H3v2zm0 3h18v-1H3v1zm0-7h18v-3H3v3zm0-9v4h18V4H3z" ]
+        [ path
+            [ d "M3 17h18v-2H3v2zm0 3h18v-1H3v1zm0-7h18v-3H3v3zm0-9v4h18V4H3z" ]
             []
         ]
 
@@ -2329,20 +2197,8 @@ offline_pin : Int -> Coloring -> Svg msg
 offline_pin =
     icon
         [ viewBox "0 0 24 24" ]
-        [ defs
-            []
-            [ path
-                [ id "a", d "M0 0h24v24H0V0z" ]
-                []
-            ]
-        , Svg.clipPath
-            [ id "b" ]
-            [ use
-                [ xlinkHref "#a", overflow "visible" ]
-                []
-            ]
-        , path
-            [ Svg.Attributes.clipPath "url(#b)", d "M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm5 16H7v-2h10v2zm-6.7-4L7 10.7l1.4-1.4 1.9 1.9 5.3-5.3L17 7.3 10.3 14z" ]
+        [ path
+            [ d "M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm5 16H7v-2h10v2zm-6.7-4L7 10.7l1.4-1.4 1.9 1.9 5.3-5.3L17 7.3 10.3 14z" ]
             []
         ]
 
@@ -2422,20 +2278,8 @@ pan_tool : Int -> Coloring -> Svg msg
 pan_tool =
     icon
         [ viewBox "0 0 24 24" ]
-        [ defs
-            []
-            [ path
-                [ id "a", d "M0 0h24v24H0z" ]
-                []
-            ]
-        , Svg.clipPath
-            [ id "b" ]
-            [ use
-                [ xlinkHref "#a", overflow "visible" ]
-                []
-            ]
-        , path
-            [ Svg.Attributes.clipPath "url(#b)", d "M23 5.5V20c0 2.2-1.8 4-4 4h-7.3c-1.08 0-2.1-.43-2.85-1.19L1 14.83s1.26-1.23 1.3-1.25c.22-.19.49-.29.79-.29.22 0 .42.06.6.16.04.01 4.31 2.46 4.31 2.46V4c0-.83.67-1.5 1.5-1.5S11 3.17 11 4v7h1V1.5c0-.83.67-1.5 1.5-1.5S15 .67 15 1.5V11h1V2.5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5V11h1V5.5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5z" ]
+        [ path
+            [ d "M23 5.5V20c0 2.2-1.8 4-4 4h-7.3c-1.08 0-2.1-.43-2.85-1.19L1 14.83s1.26-1.23 1.3-1.25c.22-.19.49-.29.79-.29.22 0 .42.06.6.16.04.01 4.31 2.46 4.31 2.46V4c0-.83.67-1.5 1.5-1.5S11 3.17 11 4v7h1V1.5c0-.83.67-1.5 1.5-1.5S15 .67 15 1.5V11h1V2.5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5V11h1V5.5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5z" ]
             []
         ]
 
@@ -2667,20 +2511,8 @@ pregnant_woman : Int -> Coloring -> Svg msg
 pregnant_woman =
     icon
         [ viewBox "0 0 24 24" ]
-        [ defs
-            []
-            [ path
-                [ id "a", d "M0 0h24v24H0z" ]
-                []
-            ]
-        , Svg.clipPath
-            [ id "b" ]
-            [ use
-                [ xlinkHref "#a", overflow "visible" ]
-                []
-            ]
-        , path
-            [ Svg.Attributes.clipPath "url(#b)", d "M9 4c0-1.11.89-2 2-2s2 .89 2 2-.89 2-2 2-2-.89-2-2zm7 9c-.01-1.34-.83-2.51-2-3 0-1.66-1.34-3-3-3s-3 1.34-3 3v7h2v5h3v-5h3v-4z" ]
+        [ path
+            [ d "M9 4c0-1.11.89-2 2-2s2 .89 2 2-.89 2-2 2-2-.89-2-2zm7 9c-.01-1.34-.83-2.51-2-3 0-1.66-1.34-3-3-3s-3 1.34-3 3v7h2v5h3v-5h3v-4z" ]
             []
         ]
 
@@ -2878,20 +2710,8 @@ rounded_corner : Int -> Coloring -> Svg msg
 rounded_corner =
     icon
         [ viewBox "0 0 24 24" ]
-        [ defs
-            []
-            [ path
-                [ id "a", d "M0 0h24v24H0V0z" ]
-                []
-            ]
-        , Svg.clipPath
-            [ id "b" ]
-            [ use
-                [ xlinkHref "#a", overflow "visible" ]
-                []
-            ]
-        , path
-            [ Svg.Attributes.clipPath "url(#b)", d "M19 19h2v2h-2v-2zm0-2h2v-2h-2v2zM3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm0-4h2V3H3v2zm4 0h2V3H7v2zm8 16h2v-2h-2v2zm-4 0h2v-2h-2v2zm4 0h2v-2h-2v2zm-8 0h2v-2H7v2zm-4 0h2v-2H3v2zM21 8c0-2.76-2.24-5-5-5h-5v2h5c1.65 0 3 1.35 3 3v5h2V8z" ]
+        [ path
+            [ d "M19 19h2v2h-2v-2zm0-2h2v-2h-2v2zM3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm0-4h2V3H3v2zm4 0h2V3H7v2zm8 16h2v-2h-2v2zm-4 0h2v-2h-2v2zm4 0h2v-2h-2v2zm-8 0h2v-2H7v2zm-4 0h2v-2H3v2zM21 8c0-2.76-2.24-5-5-5h-5v2h5c1.65 0 3 1.35 3 3v5h2V8z" ]
             []
         ]
 
@@ -2901,20 +2721,8 @@ rowing : Int -> Coloring -> Svg msg
 rowing =
     icon
         [ viewBox "0 0 24 24" ]
-        [ defs
-            []
-            [ path
-                [ id "a", d "M24 24H0V0h24v24z" ]
-                []
-            ]
-        , Svg.clipPath
-            [ id "b" ]
-            [ use
-                [ xlinkHref "#a", overflow "visible" ]
-                []
-            ]
-        , path
-            [ Svg.Attributes.clipPath "url(#b)", d "M8.5 14.5L4 19l1.5 1.5L9 17h2l-2.5-2.5zM15 1c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm6 20.01L18 24l-2.99-3.01V19.5l-7.1-7.09c-.31.05-.61.07-.91.07v-2.16c1.66.03 3.61-.87 4.67-2.04l1.4-1.55c.19-.21.43-.38.69-.5.29-.14.62-.23.96-.23h.03C15.99 6.01 17 7.02 17 8.26v5.75c0 .84-.35 1.61-.92 2.16l-3.58-3.58v-2.27c-.63.52-1.43 1.02-2.29 1.39L16.5 18H18l3 3.01z" ]
+        [ path
+            [ d "M8.5 14.5L4 19l1.5 1.5L9 17h2l-2.5-2.5zM15 1c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm6 20.01L18 24l-2.99-3.01V19.5l-7.1-7.09c-.31.05-.61.07-.91.07v-2.16c1.66.03 3.61-.87 4.67-2.04l1.4-1.55c.19-.21.43-.38.69-.5.29-.14.62-.23.96-.23h.03C15.99 6.01 17 7.02 17 8.26v5.75c0 .84-.35 1.61-.92 2.16l-3.58-3.58v-2.27c-.63.52-1.43 1.02-2.29 1.39L16.5 18H18l3 3.01z" ]
             []
         ]
 
@@ -3571,20 +3379,8 @@ timeline : Int -> Coloring -> Svg msg
 timeline =
     icon
         [ viewBox "0 0 24 24" ]
-        [ defs
-            []
-            [ path
-                [ id "a", d "M0 0h24v24H0V0z" ]
-                []
-            ]
-        , Svg.clipPath
-            [ id "b" ]
-            [ use
-                [ xlinkHref "#a", overflow "visible" ]
-                []
-            ]
-        , path
-            [ Svg.Attributes.clipPath "url(#b)", d "M23 8c0 1.1-.9 2-2 2-.18 0-.35-.02-.51-.07l-3.56 3.55c.05.16.07.34.07.52 0 1.1-.9 2-2 2s-2-.9-2-2c0-.18.02-.36.07-.52l-2.55-2.55c-.16.05-.34.07-.52.07s-.36-.02-.52-.07l-4.55 4.56c.05.16.07.33.07.51 0 1.1-.9 2-2 2s-2-.9-2-2 .9-2 2-2c.18 0 .35.02.51.07l4.56-4.55C8.02 9.36 8 9.18 8 9c0-1.1.9-2 2-2s2 .9 2 2c0 .18-.02.36-.07.52l2.55 2.55c.16-.05.34-.07.52-.07s.36.02.52.07l3.55-3.56C19.02 8.35 19 8.18 19 8c0-1.1.9-2 2-2s2 .9 2 2z" ]
+        [ path
+            [ d "M23 8c0 1.1-.9 2-2 2-.18 0-.35-.02-.51-.07l-3.56 3.55c.05.16.07.34.07.52 0 1.1-.9 2-2 2s-2-.9-2-2c0-.18.02-.36.07-.52l-2.55-2.55c-.16.05-.34.07-.52.07s-.36-.02-.52-.07l-4.55 4.56c.05.16.07.33.07.51 0 1.1-.9 2-2 2s-2-.9-2-2 .9-2 2-2c.18 0 .35.02.51.07l4.56-4.55C8.02 9.36 8 9.18 8 9c0-1.1.9-2 2-2s2 .9 2 2c0 .18-.02.36-.07.52l2.55 2.55c.16-.05.34-.07.52-.07s.36.02.52.07l3.55-3.56C19.02 8.35 19 8.18 19 8c0-1.1.9-2 2-2s2 .9 2 2z" ]
             []
         ]
 
@@ -3639,20 +3435,8 @@ touch_app : Int -> Coloring -> Svg msg
 touch_app =
     icon
         [ viewBox "0 0 24 24" ]
-        [ defs
-            []
-            [ path
-                [ id "a", d "M0 0h24v24H0V0z" ]
-                []
-            ]
-        , Svg.clipPath
-            [ id "b" ]
-            [ use
-                [ xlinkHref "#a", overflow "visible" ]
-                []
-            ]
-        , path
-            [ d "M9 11.24V7.5C9 6.12 10.12 5 11.5 5S14 6.12 14 7.5v3.74c1.21-.81 2-2.18 2-3.74C16 5.01 13.99 3 11.5 3S7 5.01 7 7.5c0 1.56.79 2.93 2 3.74zm9.84 4.63l-4.54-2.26c-.17-.07-.35-.11-.54-.11H13v-6c0-.83-.67-1.5-1.5-1.5S10 6.67 10 7.5v10.74l-3.43-.72c-.08-.01-.15-.03-.24-.03-.31 0-.59.13-.79.33l-.79.8 4.94 4.94c.27.27.65.44 1.06.44h6.79c.75 0 1.33-.55 1.44-1.28l.75-5.27c.01-.07.02-.14.02-.2 0-.62-.38-1.16-.91-1.38z", Svg.Attributes.clipPath "url(#b)" ]
+        [ path
+            [ d "M9 11.24V7.5C9 6.12 10.12 5 11.5 5S14 6.12 14 7.5v3.74c1.21-.81 2-2.18 2-3.74C16 5.01 13.99 3 11.5 3S7 5.01 7 7.5c0 1.56.79 2.93 2 3.74zm9.84 4.63l-4.54-2.26c-.17-.07-.35-.11-.54-.11H13v-6c0-.83-.67-1.5-1.5-1.5S10 6.67 10 7.5v10.74l-3.43-.72c-.08-.01-.15-.03-.24-.03-.31 0-.59.13-.79.33l-.79.8 4.94 4.94c.27.27.65.44 1.06.44h6.79c.75 0 1.33-.55 1.44-1.28l.75-5.27c.01-.07.02-.14.02-.2 0-.62-.38-1.16-.91-1.38z" ]
             []
         ]
 
@@ -3760,20 +3544,8 @@ update : Int -> Coloring -> Svg msg
 update =
     icon
         [ viewBox "0 0 24 24" ]
-        [ defs
-            []
-            [ path
-                [ id "a", d "M0 0h24v24H0V0z" ]
-                []
-            ]
-        , Svg.clipPath
-            [ id "b" ]
-            [ use
-                [ xlinkHref "#a", overflow "visible" ]
-                []
-            ]
-        , path
-            [ Svg.Attributes.clipPath "url(#b)", d "M21 10.12h-6.78l2.74-2.82c-2.73-2.7-7.15-2.8-9.88-.1-2.73 2.71-2.73 7.08 0 9.79 2.73 2.71 7.15 2.71 9.88 0C18.32 15.65 19 14.08 19 12.1h2c0 1.98-.88 4.55-2.64 6.29-3.51 3.48-9.21 3.48-12.72 0-3.5-3.47-3.53-9.11-.02-12.58 3.51-3.47 9.14-3.47 12.65 0L21 3v7.12zM12.5 8v4.25l3.5 2.08-.72 1.21L11 13V8h1.5z" ]
+        [ path
+            [ d "M21 10.12h-6.78l2.74-2.82c-2.73-2.7-7.15-2.8-9.88-.1-2.73 2.71-2.73 7.08 0 9.79 2.73 2.71 7.15 2.71 9.88 0C18.32 15.65 19 14.08 19 12.1h2c0 1.98-.88 4.55-2.64 6.29-3.51 3.48-9.21 3.48-12.72 0-3.5-3.47-3.53-9.11-.02-12.58 3.51-3.47 9.14-3.47 12.65 0L21 3v7.12zM12.5 8v4.25l3.5 2.08-.72 1.21L11 13V8h1.5z" ]
             []
         ]
 
@@ -4007,20 +3779,8 @@ watch_later : Int -> Coloring -> Svg msg
 watch_later =
     icon
         [ viewBox "0 0 24 24" ]
-        [ defs
-            []
-            [ path
-                [ id "a", d "M0 0h24v24H0V0z" ]
-                []
-            ]
-        , Svg.clipPath
-            [ id "b" ]
-            [ use
-                [ xlinkHref "#a", overflow "visible" ]
-                []
-            ]
-        , path
-            [ Svg.Attributes.clipPath "url(#b)", d "M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm4.2 14.2L11 13V7h1.5v5.2l4.5 2.7-.8 1.3z" ]
+        [ path
+            [ d "M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm4.2 14.2L11 13V7h1.5v5.2l4.5 2.7-.8 1.3z" ]
             []
         ]
 

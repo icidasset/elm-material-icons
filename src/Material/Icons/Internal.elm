@@ -1,9 +1,9 @@
 module Material.Icons.Internal exposing (icon)
 
-import Color exposing (Color)
+import Color
 import Material.Icons exposing (Coloring(..))
 import Svg exposing (Svg, g, svg)
-import Svg.Attributes exposing (baseProfile, clipPath, fill, height, width)
+import Svg.Attributes exposing (fill, height, width)
 
 
 icon : List (Svg.Attribute msg) -> List (Svg msg) -> Int -> Coloring -> Svg msg

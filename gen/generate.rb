@@ -75,7 +75,11 @@ def icon_svg(icon)
   filename        = imageUrls ? imageUrls["baseline"] : "baseline-" + icon["id"] + "-24px.svg"
   filepath        = "#{SOT_DIR}/icons/#{filename}"
 
-  IO.read filepath
+  filepath
+    .yield_self { |a| IO.read(a) }
+    .yield_self { |a| a.gsub(/<defs.*<\/defs>/m, "") }
+    .yield_self { |a| a.gsub(/<clipPath.*<\/clipPath>/m, "") }
+    .yield_self { |a| a.gsub(/clip-path="[^"]*"/, "") }
 end
 
 
@@ -92,9 +96,7 @@ FileUtils.rm_rf OUT_DIR
 FileUtils.mkdir_p OUT_DIR
 
 # Download source of truth
-unless File.exist? "#{SOT_DIR}/icons.json"
-  %x`curl -o #{escape(SOT_DIR)}/icons.json https://material.io/tools/icons/static/data.json`
-end
+%x`curl -o #{escape(SOT_DIR)}/icons.json https://material.io/tools/icons/static/data.json`
 
 
 
@@ -138,7 +140,7 @@ iconList["categories"].each do |cat|
 
   import Material.Icons exposing (Coloring)
   import Material.Icons.Internal exposing (icon)
-  import Svg exposing (Svg, circle, defs, g, path, use, svg)
+  import Svg exposing (Svg, circle, g, path, use, svg)
   import Svg.Attributes exposing (baseProfile, clipRule, cx, cy, d, fill, fillOpacity, fillRule, id, opacity, overflow, r, viewBox, xlinkHref)
   HERE
 
