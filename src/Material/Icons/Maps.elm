@@ -1,6 +1,5 @@
 module Material.Icons.Maps exposing
     ( three_sixty
-    , add_location
     , atm
     , beenhere
     , category
@@ -17,7 +16,6 @@ module Material.Icons.Maps exposing
     , directions_transit
     , directions_walk
     , edit_attributes
-    , edit_location
     , ev_station
     , fastfood
     , flight
@@ -54,15 +52,13 @@ module Material.Icons.Maps exposing
     , local_shipping
     , local_taxi
     , map
+    , menu_book
     , money
+    , museum
     , my_location
     , navigation
     , near_me
-    , not_listed_location
     , person_pin
-    , person_pin_circle
-    , pin_drop
-    , place
     , rate_review
     , restaurant
     , restaurant_menu
@@ -86,7 +82,6 @@ module Material.Icons.Maps exposing
 # Icons
 
 @docs three_sixty
-@docs add_location
 @docs atm
 @docs beenhere
 @docs category
@@ -103,7 +98,6 @@ module Material.Icons.Maps exposing
 @docs directions_transit
 @docs directions_walk
 @docs edit_attributes
-@docs edit_location
 @docs ev_station
 @docs fastfood
 @docs flight
@@ -140,15 +134,13 @@ module Material.Icons.Maps exposing
 @docs local_shipping
 @docs local_taxi
 @docs map
+@docs menu_book
 @docs money
+@docs museum
 @docs my_location
 @docs navigation
 @docs near_me
-@docs not_listed_location
 @docs person_pin
-@docs person_pin_circle
-@docs pin_drop
-@docs place
 @docs rate_review
 @docs restaurant
 @docs restaurant_menu
@@ -169,8 +161,8 @@ module Material.Icons.Maps exposing
 
 import Material.Icons exposing (Coloring)
 import Material.Icons.Internal exposing (icon)
-import Svg exposing (Svg, circle, g, path, svg, use)
-import Svg.Attributes exposing (baseProfile, clipRule, cx, cy, d, fill, fillOpacity, fillRule, id, opacity, overflow, r, viewBox, xlinkHref)
+import Svg exposing (Svg, circle, g, path, polygon, rect, svg, use)
+import Svg.Attributes exposing (baseProfile, clipRule, cx, cy, d, enableBackground, fill, fillOpacity, fillRule, id, opacity, overflow, points, r, transform, viewBox, xlinkHref)
 
 
 {-| -}
@@ -183,20 +175,6 @@ three_sixty =
             []
         , path
             [ fill "none", d "M0 0h24v24H0z" ]
-            []
-        ]
-
-
-{-| -}
-add_location : Int -> Coloring -> Svg msg
-add_location =
-    icon
-        [ viewBox "0 0 24 24" ]
-        [ path
-            [ fill "none", d "M0 0h24v24H0V0z" ]
-            []
-        , path
-            [ d "M12 2C8.14 2 5 5.14 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.86-3.14-7-7-7zm4 8h-3v3h-2v-3H8V8h3V5h2v3h3v2z" ]
             []
         ]
 
@@ -430,20 +408,6 @@ edit_attributes =
             []
         , path
             [ d "M0 0h24v24H0z", fill "none" ]
-            []
-        ]
-
-
-{-| -}
-edit_location : Int -> Coloring -> Svg msg
-edit_location =
-    icon
-        [ viewBox "0 0 24 24" ]
-        [ path
-            [ d "M12 2C8.14 2 5 5.14 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.86-3.14-7-7-7zm-1.56 10H9v-1.44l3.35-3.34 1.43 1.43L10.44 12zm4.45-4.45l-.7.7-1.44-1.44.7-.7c.15-.15.39-.15.54 0l.9.9c.15.15.15.39 0 .54z" ]
-            []
-        , path
-            [ fill "none", d "M0 0h24v24H0z" ]
             []
         ]
 
@@ -956,6 +920,44 @@ map =
 
 
 {-| -}
+menu_book : Int -> Coloring -> Svg msg
+menu_book =
+    icon
+        [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
+        [ g
+            [ id "Bounding_Box" ]
+            [ rect
+                [ fill "none" ]
+                []
+            ]
+        , g
+            [ id "Flat" ]
+            [ g
+                [ id "ui_x5F_spec_x5F_header_copy_2" ]
+                []
+            , g
+                []
+                [ path
+                    [ d "M21,5c-1.11-0.35-2.33-0.5-3.5-0.5c-1.95,0-4.05,0.4-5.5,1.5c-1.45-1.1-3.55-1.5-5.5-1.5S2.45,4.9,1,6v14.65\n    \t\t\tc0,0.25,0.25,0.5,0.5,0.5c0.1,0,0.15-0.05,0.25-0.05C3.1,20.45,5.05,20,6.5,20c1.95,0,4.05,0.4,5.5,1.5c1.35-0.85,3.8-1.5,5.5-1.5\n    \t\t\tc1.65,0,3.35,0.3,4.75,1.05c0.1,0.05,0.15,0.05,0.25,0.05c0.25,0,0.5-0.25,0.5-0.5V6C22.4,5.55,21.75,5.25,21,5z M21,18.5\n    \t\t\tc-1.1-0.35-2.3-0.5-3.5-0.5c-1.7,0-4.15,0.65-5.5,1.5V8c1.35-0.85,3.8-1.5,5.5-1.5c1.2,0,2.4,0.15,3.5,0.5V18.5z" ]
+                    []
+                , g
+                    []
+                    [ path
+                        [ d "M17.5,10.5c0.88,0,1.73,0.09,2.5,0.26V9.24C19.21,9.09,18.36,9,17.5,9c-1.7,0-3.24,0.29-4.5,0.83v1.66\n    \t\t\t\tC14.13,10.85,15.7,10.5,17.5,10.5z" ]
+                        []
+                    , path
+                        [ d "M13,12.49v1.66c1.13-0.64,2.7-0.99,4.5-0.99c0.88,0,1.73,0.09,2.5,0.26V11.9c-0.79-0.15-1.64-0.24-2.5-0.24\n    \t\t\t\tC15.8,11.66,14.26,11.96,13,12.49z" ]
+                        []
+                    , path
+                        [ d "M17.5,14.33c-1.7,0-3.24,0.29-4.5,0.83v1.66c1.13-0.64,2.7-0.99,4.5-0.99c0.88,0,1.73,0.09,2.5,0.26v-1.52\n    \t\t\t\tC19.21,14.41,18.36,14.33,17.5,14.33z" ]
+                        []
+                    ]
+                ]
+            ]
+        ]
+
+
+{-| -}
 money : Int -> Coloring -> Svg msg
 money =
     icon
@@ -972,6 +974,26 @@ money =
         , path
             [ d "M2 4v16h20V4H2zm2 14V6h16v12H4z" ]
             []
+        ]
+
+
+{-| -}
+museum : Int -> Coloring -> Svg msg
+museum =
+    icon
+        [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
+        [ g
+            [ id "Bounding_Box" ]
+            [ rect
+                [ fill "none" ]
+                []
+            ]
+        , g
+            [ id "Master" ]
+            [ path
+                [ d "M22,11V9L12,2L2,9v2h2v9H2v2h20v-2h-2v-9H22z M16,18h-2v-4l-2,3l-2-3v4H8v-7h2l2,3l2-3h2V18z" ]
+                []
+            ]
         ]
 
 
@@ -1018,20 +1040,6 @@ near_me =
 
 
 {-| -}
-not_listed_location : Int -> Coloring -> Svg msg
-not_listed_location =
-    icon
-        [ viewBox "0 0 24 24" ]
-        [ path
-            [ fill "none", d "M0 0h24v24H0V0z" ]
-            []
-        , path
-            [ d "M12 2C8.14 2 5 5.14 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.86-3.14-7-7-7zm.88 13.75h-1.75V14h1.75v1.75zm0-2.87h-1.75c0-2.84 2.62-2.62 2.62-4.38 0-.96-.79-1.75-1.75-1.75s-1.75.79-1.75 1.75H8.5C8.5 6.57 10.07 5 12 5s3.5 1.57 3.5 3.5c0 2.19-2.62 2.41-2.62 4.38z" ]
-            []
-        ]
-
-
-{-| -}
 person_pin : Int -> Coloring -> Svg msg
 person_pin =
     icon
@@ -1041,45 +1049,6 @@ person_pin =
             []
         , path
             [ fill "none", d "M0 0h24v24H0z" ]
-            []
-        ]
-
-
-{-| -}
-person_pin_circle : Int -> Coloring -> Svg msg
-person_pin_circle =
-    icon
-        [ viewBox "0 0 24 24" ]
-        [ path
-            [ d "M12 2C8.14 2 5 5.14 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.86-3.14-7-7-7zm0 2c1.1 0 2 .9 2 2 0 1.11-.9 2-2 2s-2-.89-2-2c0-1.1.9-2 2-2zm0 10c-1.67 0-3.14-.85-4-2.15.02-1.32 2.67-2.05 4-2.05s3.98.73 4 2.05c-.86 1.3-2.33 2.15-4 2.15z" ]
-            []
-        ]
-
-
-{-| -}
-pin_drop : Int -> Coloring -> Svg msg
-pin_drop =
-    icon
-        [ viewBox "0 0 24 24" ]
-        [ path
-            [ d "M18 8c0-3.31-2.69-6-6-6S6 4.69 6 8c0 4.5 6 11 6 11s6-6.5 6-11zm-8 0c0-1.1.9-2 2-2s2 .9 2 2-.89 2-2 2c-1.1 0-2-.9-2-2zM5 20v2h14v-2H5z" ]
-            []
-        , path
-            [ d "M0 0h24v24H0z", fill "none" ]
-            []
-        ]
-
-
-{-| -}
-place : Int -> Coloring -> Svg msg
-place =
-    icon
-        [ viewBox "0 0 24 24" ]
-        [ path
-            [ d "M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" ]
-            []
-        , path
-            [ d "M0 0h24v24H0z", fill "none" ]
             []
         ]
 

@@ -1,5 +1,6 @@
 module Material.Icons.Notification exposing
-    ( adb
+    ( account_tree
+    , adb
     , airline_seat_flat
     , airline_seat_flat_angled
     , airline_seat_individual_suite
@@ -58,6 +59,7 @@ module Material.Icons.Notification exposing
 
 # Icons
 
+@docs account_tree
 @docs adb
 @docs airline_seat_flat
 @docs airline_seat_flat_angled
@@ -115,8 +117,22 @@ module Material.Icons.Notification exposing
 
 import Material.Icons exposing (Coloring)
 import Material.Icons.Internal exposing (icon)
-import Svg exposing (Svg, circle, g, path, svg, use)
-import Svg.Attributes exposing (baseProfile, clipRule, cx, cy, d, fill, fillOpacity, fillRule, id, opacity, overflow, r, viewBox, xlinkHref)
+import Svg exposing (Svg, circle, g, path, polygon, rect, svg, use)
+import Svg.Attributes exposing (baseProfile, clipRule, cx, cy, d, enableBackground, fill, fillOpacity, fillRule, id, opacity, overflow, points, r, transform, viewBox, xlinkHref)
+
+
+{-| -}
+account_tree : Int -> Coloring -> Svg msg
+account_tree =
+    icon
+        [ viewBox "0 0 24 24" ]
+        [ path
+            [ fill "none", d "M0 0h24v24H0z" ]
+            []
+        , path
+            [ d "M22 11V3h-7v3H9V3H2v8h7V8h2v10h4v3h7v-8h-7v3h-2V8h2v3z" ]
+            []
+        ]
 
 
 {-| -}

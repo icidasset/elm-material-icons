@@ -49,6 +49,7 @@ module Material.Icons.Image exposing
     , dehaze
     , details
     , edit
+    , euro
     , exposure
     , exposure_neg_1
     , exposure_neg_2
@@ -79,6 +80,8 @@ module Material.Icons.Image exposing
     , flash_off
     , flash_on
     , flip
+    , flip_camera_android
+    , flip_camera_ios
     , gradient
     , grain
     , grid_off
@@ -215,6 +218,7 @@ module Material.Icons.Image exposing
 @docs dehaze
 @docs details
 @docs edit
+@docs euro
 @docs exposure
 @docs exposure_neg_1
 @docs exposure_neg_2
@@ -245,6 +249,8 @@ module Material.Icons.Image exposing
 @docs flash_off
 @docs flash_on
 @docs flip
+@docs flip_camera_android
+@docs flip_camera_ios
 @docs gradient
 @docs grain
 @docs grid_off
@@ -329,8 +335,8 @@ module Material.Icons.Image exposing
 
 import Material.Icons exposing (Coloring)
 import Material.Icons.Internal exposing (icon)
-import Svg exposing (Svg, circle, g, path, svg, use)
-import Svg.Attributes exposing (baseProfile, clipRule, cx, cy, d, fill, fillOpacity, fillRule, id, opacity, overflow, r, viewBox, xlinkHref)
+import Svg exposing (Svg, circle, g, path, polygon, rect, svg, use)
+import Svg.Attributes exposing (baseProfile, clipRule, cx, cy, d, enableBackground, fill, fillOpacity, fillRule, id, opacity, overflow, points, r, transform, viewBox, xlinkHref)
 
 
 {-| -}
@@ -1043,6 +1049,29 @@ edit =
 
 
 {-| -}
+euro : Int -> Coloring -> Svg msg
+euro =
+    icon
+        [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
+        [ g
+            [ id "Bounding_Box" ]
+            [ rect
+                [ fill "none" ]
+                []
+            ]
+        , g
+            [ id "Master" ]
+            [ g
+                [ id "ui_x5F_spec_x5F_header_copy" ]
+                []
+            , path
+                [ d "M15,18.5c-2.51,0-4.68-1.42-5.76-3.5H15l1-2H8.58c-0.05-0.33-0.08-0.66-0.08-1s0.03-0.67,0.08-1H15l1-2H9.24\n    \t\tC10.32,6.92,12.5,5.5,15,5.5c1.61,0,3.09,0.59,4.23,1.57L21,5.3C19.41,3.87,17.3,3,15,3c-3.92,0-7.24,2.51-8.48,6H3l-1,2h4.06\n    \t\tC6.02,11.33,6,11.66,6,12s0.02,0.67,0.06,1H3l-1,2h4.52c1.24,3.49,4.56,6,8.48,6c2.31,0,4.41-0.87,6-2.3l-1.78-1.77\n    \t\tC18.09,17.91,16.62,18.5,15,18.5z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
 exposure : Int -> Coloring -> Svg msg
 exposure =
     icon
@@ -1459,6 +1488,58 @@ flip =
         , path
             [ d "M15 21h2v-2h-2v2zm4-12h2V7h-2v2zM3 5v14c0 1.1.9 2 2 2h4v-2H5V5h4V3H5c-1.1 0-2 .9-2 2zm16-2v2h2c0-1.1-.9-2-2-2zm-8 20h2V1h-2v22zm8-6h2v-2h-2v2zM15 5h2V3h-2v2zm4 8h2v-2h-2v2zm0 8c1.1 0 2-.9 2-2h-2v2z" ]
             []
+        ]
+
+
+{-| -}
+flip_camera_android : Int -> Coloring -> Svg msg
+flip_camera_android =
+    icon
+        [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
+        [ g
+            [ id "Bounding_Box" ]
+            [ rect
+                [ fill "none" ]
+                []
+            ]
+        , g
+            [ id "Master" ]
+            [ g
+                []
+                [ path
+                    [ d "M9,12c0,1.66,1.34,3,3,3s3-1.34,3-3s-1.34-3-3-3S9,10.34,9,12z" ]
+                    []
+                , path
+                    [ d "M8,10V8H5.09C6.47,5.61,9.05,4,12,4c3.72,0,6.85,2.56,7.74,6h2.06c-0.93-4.56-4.96-8-9.8-8C8.73,2,5.82,3.58,4,6.01V4H2v6\n    \t\t\tH8z" ]
+                    []
+                , path
+                    [ d "M16,14v2h2.91c-1.38,2.39-3.96,4-6.91,4c-3.72,0-6.85-2.56-7.74-6H2.2c0.93,4.56,4.96,8,9.8,8c3.27,0,6.18-1.58,8-4.01V20\n    \t\t\th2v-6H16z" ]
+                    []
+                ]
+            ]
+        ]
+
+
+{-| -}
+flip_camera_ios : Int -> Coloring -> Svg msg
+flip_camera_ios =
+    icon
+        [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
+        [ g
+            [ id "Bounding_Box" ]
+            [ rect
+                [ fill "none" ]
+                []
+            ]
+        , g
+            [ id "Master" ]
+            [ g
+                []
+                [ path
+                    [ d "M20,5h-3.17L15,3H9L7.17,5H4C2.9,5,2,5.9,2,7v12c0,1.1,0.9,2,2,2h16c1.1,0,2-0.9,2-2V7C22,5.9,21.1,5,20,5z M12,18\n    \t\t\tc-2.76,0-5-2.24-5-5H5l2.5-2.5L10,13H8c0,2.21,1.79,4,4,4c0.58,0,1.13-0.13,1.62-0.35l0.74,0.74C13.65,17.76,12.86,18,12,18z\n    \t\t\t M16.5,15.5L14,13h2c0-2.21-1.79-4-4-4c-0.58,0-1.13,0.13-1.62,0.35L9.64,8.62C10.35,8.24,11.14,8,12,8c2.76,0,5,2.24,5,5h2\n    \t\t\tL16.5,15.5z" ]
+                    []
+                ]
+            ]
         ]
 
 

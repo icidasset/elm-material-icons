@@ -38,6 +38,7 @@ module Material.Icons.Action exposing
     , calendar_today
     , calendar_view_day
     , camera_enhance
+    , cancel_schedule_send
     , card_giftcard
     , card_membership
     , card_travel
@@ -50,6 +51,7 @@ module Material.Icons.Action exposing
     , commute
     , compare_arrows
     , contact_support
+    , contactless
     , copyright
     , credit_card
     , dashboard
@@ -65,6 +67,7 @@ module Material.Icons.Action exposing
     , donut_large
     , donut_small
     , drag_indicator
+    , eco
     , eject
     , euro_symbol
     , event
@@ -161,7 +164,6 @@ module Material.Icons.Action exposing
     , rowing
     , schedule
     , search
-    , settings
     , settings_applications
     , settings_backup_restore
     , settings_bluetooth
@@ -185,7 +187,6 @@ module Material.Icons.Action exposing
     , speaker_notes
     , speaker_notes_off
     , spellcheck
-    , star_rate
     , stars
     , store
     , subject
@@ -195,10 +196,14 @@ module Material.Icons.Action exposing
     , swap_horizontal_circle
     , swap_vert
     , swap_vertical_circle
+    , sync_alt
+    , system_update_alt
     , tab
     , tab_unselected
     , text_rotate_up
     , text_rotate_vertical
+    , text_rotation_angledown
+    , text_rotation_angleup
     , text_rotation_down
     , text_rotation_none
     , theaters
@@ -287,6 +292,7 @@ module Material.Icons.Action exposing
 @docs calendar_today
 @docs calendar_view_day
 @docs camera_enhance
+@docs cancel_schedule_send
 @docs card_giftcard
 @docs card_membership
 @docs card_travel
@@ -299,6 +305,7 @@ module Material.Icons.Action exposing
 @docs commute
 @docs compare_arrows
 @docs contact_support
+@docs contactless
 @docs copyright
 @docs credit_card
 @docs dashboard
@@ -314,6 +321,7 @@ module Material.Icons.Action exposing
 @docs donut_large
 @docs donut_small
 @docs drag_indicator
+@docs eco
 @docs eject
 @docs euro_symbol
 @docs event
@@ -410,7 +418,6 @@ module Material.Icons.Action exposing
 @docs rowing
 @docs schedule
 @docs search
-@docs settings
 @docs settings_applications
 @docs settings_backup_restore
 @docs settings_bluetooth
@@ -434,7 +441,6 @@ module Material.Icons.Action exposing
 @docs speaker_notes
 @docs speaker_notes_off
 @docs spellcheck
-@docs star_rate
 @docs stars
 @docs store
 @docs subject
@@ -444,10 +450,14 @@ module Material.Icons.Action exposing
 @docs swap_horizontal_circle
 @docs swap_vert
 @docs swap_vertical_circle
+@docs sync_alt
+@docs system_update_alt
 @docs tab
 @docs tab_unselected
 @docs text_rotate_up
 @docs text_rotate_vertical
+@docs text_rotation_angledown
+@docs text_rotation_angleup
 @docs text_rotation_down
 @docs text_rotation_none
 @docs theaters
@@ -495,8 +505,8 @@ module Material.Icons.Action exposing
 
 import Material.Icons exposing (Coloring)
 import Material.Icons.Internal exposing (icon)
-import Svg exposing (Svg, circle, g, path, svg, use)
-import Svg.Attributes exposing (baseProfile, clipRule, cx, cy, d, fill, fillOpacity, fillRule, id, opacity, overflow, r, viewBox, xlinkHref)
+import Svg exposing (Svg, circle, g, path, polygon, rect, svg, use)
+import Svg.Attributes exposing (baseProfile, clipRule, cx, cy, d, enableBackground, fill, fillOpacity, fillRule, id, opacity, overflow, points, r, transform, viewBox, xlinkHref)
 
 
 {-| -}
@@ -1055,6 +1065,32 @@ camera_enhance =
 
 
 {-| -}
+cancel_schedule_send : Int -> Coloring -> Svg msg
+cancel_schedule_send =
+    icon
+        [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
+        [ g
+            [ id "Bounding_Box" ]
+            [ rect
+                [ fill "none" ]
+                []
+            ]
+        , g
+            [ id "Master" ]
+            [ g
+                []
+                [ path
+                    [ d "M16.5,9c-0.42,0-0.83,0.04-1.24,0.11L1.01,3L1,10l9,2l-9,2l0.01,7l8.07-3.46C9.59,21.19,12.71,24,16.5,24\n    \t\t\tc4.14,0,7.5-3.36,7.5-7.5S20.64,9,16.5,9z M16.5,22c-3.03,0-5.5-2.47-5.5-5.5s2.47-5.5,5.5-5.5s5.5,2.47,5.5,5.5S19.53,22,16.5,22\n    \t\t\tz" ]
+                    []
+                , polygon
+                    [ points "18.27,14.03 16.5,15.79 14.73,14.03 14.03,14.73 15.79,16.5 14.03,18.27 14.73,18.97 16.5,17.21 18.27,18.97 \n    \t\t\t18.97,18.27 17.21,16.5 18.97,14.73 \t\t" ]
+                    []
+                ]
+            ]
+        ]
+
+
+{-| -}
 card_giftcard : Int -> Coloring -> Svg msg
 card_giftcard =
     icon
@@ -1216,6 +1252,26 @@ contact_support =
         , path
             [ fill "none", d "M0 0h24v24H0z" ]
             []
+        ]
+
+
+{-| -}
+contactless : Int -> Coloring -> Svg msg
+contactless =
+    icon
+        [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
+        [ g
+            [ id "Bounding_Box" ]
+            [ rect
+                [ fill "none" ]
+                []
+            ]
+        , g
+            [ id "Master" ]
+            [ path
+                [ d "M12,2C6.48,2,2,6.48,2,12c0,5.52,4.48,10,10,10s10-4.48,10-10C22,6.48,17.52,2,12,2z M8.46,14.45L7.1,13.83\n    \t\tc0.28-0.61,0.41-1.24,0.4-1.86c-0.01-0.63-0.14-1.24-0.4-1.8l1.36-0.63c0.35,0.75,0.53,1.56,0.54,2.4\n    \t\tC9.01,12.8,8.83,13.64,8.46,14.45z M11.53,16.01l-1.3-0.74c0.52-0.92,0.78-1.98,0.78-3.15c0-1.19-0.27-2.33-0.8-3.4l1.34-0.67\n    \t\tc0.64,1.28,0.96,2.65,0.96,4.07C12.51,13.55,12.18,14.86,11.53,16.01z M14.67,17.33l-1.35-0.66c0.78-1.6,1.18-3.18,1.18-4.69\n    \t\tc0-1.51-0.4-3.07-1.18-4.64l1.34-0.67C15.56,8.45,16,10.23,16,11.98C16,13.72,15.56,15.52,14.67,17.33z" ]
+                []
+            ]
         ]
 
 
@@ -1423,6 +1479,29 @@ drag_indicator =
         , path
             [ d "M11 18c0 1.1-.9 2-2 2s-2-.9-2-2 .9-2 2-2 2 .9 2 2zm-2-8c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0-6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm6 4c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z" ]
             []
+        ]
+
+
+{-| -}
+eco : Int -> Coloring -> Svg msg
+eco =
+    icon
+        [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
+        [ g
+            [ id "Bounding_Box" ]
+            [ rect
+                [ fill "none" ]
+                []
+            ]
+        , g
+            [ id "Master" ]
+            [ g
+                []
+                [ path
+                    [ d "M6.05,8.05c-2.73,2.73-2.73,7.15-0.02,9.88c1.47-3.4,4.09-6.24,7.36-7.93c-2.77,2.34-4.71,5.61-5.39,9.32\n    \t\t\tc2.6,1.23,5.8,0.78,7.95-1.37C19.43,14.47,20,4,20,4S9.53,4.57,6.05,8.05z" ]
+                    []
+                ]
+            ]
         ]
 
 
@@ -2759,20 +2838,6 @@ search =
 
 
 {-| -}
-settings : Int -> Coloring -> Svg msg
-settings =
-    icon
-        [ viewBox "0 0 20 20" ]
-        [ path
-            [ fill "none", d "M0 0h20v20H0V0z" ]
-            []
-        , path
-            [ d "M15.95 10.78c.03-.25.05-.51.05-.78s-.02-.53-.06-.78l1.69-1.32c.15-.12.19-.34.1-.51l-1.6-2.77c-.1-.18-.31-.24-.49-.18l-1.99.8c-.42-.32-.86-.58-1.35-.78L12 2.34c-.03-.2-.2-.34-.4-.34H8.4c-.2 0-.36.14-.39.34l-.3 2.12c-.49.2-.94.47-1.35.78l-1.99-.8c-.18-.07-.39 0-.49.18l-1.6 2.77c-.1.18-.06.39.1.51l1.69 1.32c-.04.25-.07.52-.07.78s.02.53.06.78L2.37 12.1c-.15.12-.19.34-.1.51l1.6 2.77c.1.18.31.24.49.18l1.99-.8c.42.32.86.58 1.35.78l.3 2.12c.04.2.2.34.4.34h3.2c.2 0 .37-.14.39-.34l.3-2.12c.49-.2.94-.47 1.35-.78l1.99.8c.18.07.39 0 .49-.18l1.6-2.77c.1-.18.06-.39-.1-.51l-1.67-1.32zM10 13c-1.65 0-3-1.35-3-3s1.35-3 3-3 3 1.35 3 3-1.35 3-3 3z" ]
-            []
-        ]
-
-
-{-| -}
 settings_applications : Int -> Coloring -> Svg msg
 settings_applications =
     icon
@@ -3095,20 +3160,6 @@ spellcheck =
 
 
 {-| -}
-star_rate : Int -> Coloring -> Svg msg
-star_rate =
-    icon
-        [ viewBox "0 0 18 18" ]
-        [ path
-            [ d "M9 11.3l3.71 2.7-1.42-4.36L15 7h-4.55L9 2.5 7.55 7H3l3.71 2.64L5.29 14z" ]
-            []
-        , path
-            [ fill "none", d "M0 0h18v18H0z" ]
-            []
-        ]
-
-
-{-| -}
 stars : Int -> Coloring -> Svg msg
 stars =
     icon
@@ -3235,6 +3286,49 @@ swap_vertical_circle =
 
 
 {-| -}
+sync_alt : Int -> Coloring -> Svg msg
+sync_alt =
+    icon
+        [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
+        [ g
+            [ id "Bounding_Box" ]
+            [ rect
+                [ fill "none" ]
+                []
+            ]
+        , g
+            [ id "Master" ]
+            [ g
+                [ id "ui_x5F_spec_x5F_header_copy" ]
+                []
+            , g
+                []
+                [ path
+                    [ d "M22,8l-4-4v3H3v2h15v3L22,8z" ]
+                    []
+                , path
+                    [ d "M2,16l4,4v-3h15v-2H6v-3L2,16z" ]
+                    []
+                ]
+            ]
+        ]
+
+
+{-| -}
+system_update_alt : Int -> Coloring -> Svg msg
+system_update_alt =
+    icon
+        [ viewBox "0 0 24 24" ]
+        [ path
+            [ d "M0 .5h24v24H0z", fill "none" ]
+            []
+        , path
+            [ d "M12 16.5l4-4h-3v-9h-2v9H8l4 4zm9-13h-6v1.99h6v14.03H3V5.49h6V3.5H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2v-14c0-1.1-.9-2-2-2z" ]
+            []
+        ]
+
+
+{-| -}
 tab : Int -> Coloring -> Svg msg
 tab =
     icon
@@ -3283,6 +3377,34 @@ text_rotate_vertical =
         [ viewBox "0 0 24 24" ]
         [ path
             [ d "M15.75 5h-1.5L9.5 16h2.1l.9-2.2h5l.9 2.2h2.1L15.75 5zm-2.62 7L15 6.98 16.87 12h-3.74zM6 19.75l3-3H7V4.25H5v12.5H3l3 3z" ]
+            []
+        , path
+            [ fill "none", d "M0 0h24v24H0z" ]
+            []
+        ]
+
+
+{-| -}
+text_rotation_angledown : Int -> Coloring -> Svg msg
+text_rotation_angledown =
+    icon
+        [ viewBox "0 0 24 24" ]
+        [ path
+            [ d "M19.4 4.91l-1.06-1.06L7.2 8.27l1.48 1.48 2.19-.92 3.54 3.54-.92 2.19 1.48 1.48L19.4 4.91zm-6.81 3.1l4.87-2.23-2.23 4.87-2.64-2.64zM14.27 21v-4.24l-1.41 1.41-8.84-8.84-1.42 1.42 8.84 8.84L10.03 21h4.24z" ]
+            []
+        , path
+            [ fill "none", d "M0 0h24v24H0z" ]
+            []
+        ]
+
+
+{-| -}
+text_rotation_angleup : Int -> Coloring -> Svg msg
+text_rotation_angleup =
+    icon
+        [ viewBox "0 0 24 24" ]
+        [ path
+            [ d "M4.49 4.21L3.43 5.27 7.85 16.4l1.48-1.48-.92-2.19 3.54-3.54 2.19.92 1.48-1.48L4.49 4.21zm3.09 6.8L5.36 6.14l4.87 2.23-2.65 2.64zm12.99-1.68h-4.24l1.41 1.41-8.84 8.84L10.32 21l8.84-8.84 1.41 1.41V9.33z" ]
             []
         , path
             [ fill "none", d "M0 0h24v24H0z" ]

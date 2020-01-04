@@ -16,13 +16,16 @@ module Material.Icons.Navigation exposing
     , chevron_left
     , chevron_right
     , close
+    , double_arrow
     , expand_less
     , expand_more
     , first_page
     , fullscreen
     , fullscreen_exit
+    , home_work
     , last_page
     , menu
+    , menu_open
     , more_horiz
     , more_vert
     , refresh
@@ -54,13 +57,16 @@ module Material.Icons.Navigation exposing
 @docs chevron_left
 @docs chevron_right
 @docs close
+@docs double_arrow
 @docs expand_less
 @docs expand_more
 @docs first_page
 @docs fullscreen
 @docs fullscreen_exit
+@docs home_work
 @docs last_page
 @docs menu
+@docs menu_open
 @docs more_horiz
 @docs more_vert
 @docs refresh
@@ -73,8 +79,8 @@ module Material.Icons.Navigation exposing
 
 import Material.Icons exposing (Coloring)
 import Material.Icons.Internal exposing (icon)
-import Svg exposing (Svg, circle, g, path, svg, use)
-import Svg.Attributes exposing (baseProfile, clipRule, cx, cy, d, fill, fillOpacity, fillRule, id, opacity, overflow, r, viewBox, xlinkHref)
+import Svg exposing (Svg, circle, g, path, polygon, rect, svg, use)
+import Svg.Attributes exposing (baseProfile, clipRule, cx, cy, d, enableBackground, fill, fillOpacity, fillRule, id, opacity, overflow, points, r, transform, viewBox, xlinkHref)
 
 
 {-| -}
@@ -316,6 +322,32 @@ close =
 
 
 {-| -}
+double_arrow : Int -> Coloring -> Svg msg
+double_arrow =
+    icon
+        [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
+        [ g
+            [ id "Bounding_Box" ]
+            [ rect
+                [ fill "none" ]
+                []
+            ]
+        , g
+            [ id "Master" ]
+            [ g
+                []
+                [ polygon
+                    [ points "15.5,5 11,5 16,12 11,19 15.5,19 20.5,12 \t\t" ]
+                    []
+                , polygon
+                    [ points "8.5,5 4,5 9,12 4,19 8.5,19 13.5,12 \t\t" ]
+                    []
+                ]
+            ]
+        ]
+
+
+{-| -}
 expand_less : Int -> Coloring -> Svg msg
 expand_less =
     icon
@@ -386,6 +418,26 @@ fullscreen_exit =
 
 
 {-| -}
+home_work : Int -> Coloring -> Svg msg
+home_work =
+    icon
+        [ viewBox "0 0 24 24" ]
+        [ path
+            [ fill "none", d "M0 0h24v24H0z" ]
+            []
+        , path
+            [ d "M8.17 5.7L1 10.48V21h5v-8h4v8h5V10.25z" ]
+            []
+        , path
+            [ fill "none", d "M17 7h2v2h-2z" ]
+            []
+        , path
+            [ d "M10 3v1.51l2 1.33L13.73 7H15v.85l2 1.34V11h2v2h-2v2h2v2h-2v4h6V3H10zm9 6h-2V7h2v2z" ]
+            []
+        ]
+
+
+{-| -}
 last_page : Int -> Coloring -> Svg msg
 last_page =
     icon
@@ -409,6 +461,20 @@ menu =
             []
         , path
             [ d "M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" ]
+            []
+        ]
+
+
+{-| -}
+menu_open : Int -> Coloring -> Svg msg
+menu_open =
+    icon
+        [ viewBox "0 0 24 24" ]
+        [ path
+            [ fill "none", d "M0 0h24v24H0V0z" ]
+            []
+        , path
+            [ d "M3 18h13v-2H3v2zm0-5h10v-2H3v2zm0-7v2h13V6H3zm18 9.59L17.42 12 21 8.41 19.59 7l-5 5 5 5L21 15.59z" ]
             []
         ]
 

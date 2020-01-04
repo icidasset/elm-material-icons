@@ -6,7 +6,6 @@ module Material.Icons.Editor exposing
     , border_all
     , border_bottom
     , border_clear
-    , border_color
     , border_horizontal
     , border_inner
     , border_left
@@ -23,9 +22,7 @@ module Material.Icons.Editor exposing
     , format_align_right
     , format_bold
     , format_clear
-    , format_color_fill
     , format_color_reset
-    , format_color_text
     , format_indent_decrease
     , format_indent_increase
     , format_italic
@@ -42,6 +39,7 @@ module Material.Icons.Editor exposing
     , format_textdirection_r_to_l
     , format_underlined
     , functions
+    , height
     , highlight
     , insert_chart
     , insert_chart_outlined
@@ -59,6 +57,7 @@ module Material.Icons.Editor exposing
     , multiline_chart
     , notes
     , pie_chart
+    , post_add
     , publish
     , scatter_plot
     , score
@@ -87,7 +86,6 @@ module Material.Icons.Editor exposing
 @docs border_all
 @docs border_bottom
 @docs border_clear
-@docs border_color
 @docs border_horizontal
 @docs border_inner
 @docs border_left
@@ -104,9 +102,7 @@ module Material.Icons.Editor exposing
 @docs format_align_right
 @docs format_bold
 @docs format_clear
-@docs format_color_fill
 @docs format_color_reset
-@docs format_color_text
 @docs format_indent_decrease
 @docs format_indent_increase
 @docs format_italic
@@ -123,6 +119,7 @@ module Material.Icons.Editor exposing
 @docs format_textdirection_r_to_l
 @docs format_underlined
 @docs functions
+@docs height
 @docs highlight
 @docs insert_chart
 @docs insert_chart_outlined
@@ -140,6 +137,7 @@ module Material.Icons.Editor exposing
 @docs multiline_chart
 @docs notes
 @docs pie_chart
+@docs post_add
 @docs publish
 @docs scatter_plot
 @docs score
@@ -159,8 +157,8 @@ module Material.Icons.Editor exposing
 
 import Material.Icons exposing (Coloring)
 import Material.Icons.Internal exposing (icon)
-import Svg exposing (Svg, circle, g, path, svg, use)
-import Svg.Attributes exposing (baseProfile, clipRule, cx, cy, d, fill, fillOpacity, fillRule, id, opacity, overflow, r, viewBox, xlinkHref)
+import Svg exposing (Svg, circle, g, path, polygon, rect, svg, use)
+import Svg.Attributes exposing (baseProfile, clipRule, cx, cy, d, enableBackground, fill, fillOpacity, fillRule, id, opacity, overflow, points, r, transform, viewBox, xlinkHref)
 
 
 {-| -}
@@ -257,23 +255,6 @@ border_clear =
             []
         , path
             [ d "M0 0h24v24H0z", fill "none" ]
-            []
-        ]
-
-
-{-| -}
-border_color : Int -> Coloring -> Svg msg
-border_color =
-    icon
-        [ viewBox "0 0 24 24" ]
-        [ path
-            [ d "M17.75 7L14 3.25l-10 10V17h3.75l10-10zm2.96-2.96c.39-.39.39-1.02 0-1.41L18.37.29c-.39-.39-1.02-.39-1.41 0L15 2.25 18.75 6l1.96-1.96z" ]
-            []
-        , path
-            [ d "M0 0h24v24H0z", fill "none" ]
-            []
-        , path
-            [ fillOpacity ".36", d "M0 20h24v4H0z" ]
             []
         ]
 
@@ -506,23 +487,6 @@ format_clear =
 
 
 {-| -}
-format_color_fill : Int -> Coloring -> Svg msg
-format_color_fill =
-    icon
-        [ viewBox "0 0 24 24" ]
-        [ path
-            [ d "M0 0h24v24H0z", fill "none" ]
-            []
-        , path
-            [ d "M16.56 8.94L7.62 0 6.21 1.41l2.38 2.38-5.15 5.15c-.59.59-.59 1.54 0 2.12l5.5 5.5c.29.29.68.44 1.06.44s.77-.15 1.06-.44l5.5-5.5c.59-.58.59-1.53 0-2.12zM5.21 10L10 5.21 14.79 10H5.21zM19 11.5s-2 2.17-2 3.5c0 1.1.9 2 2 2s2-.9 2-2c0-1.33-2-3.5-2-3.5z" ]
-            []
-        , path
-            [ fillOpacity ".36", d "M0 20h24v4H0z" ]
-            []
-        ]
-
-
-{-| -}
 format_color_reset : Int -> Coloring -> Svg msg
 format_color_reset =
     icon
@@ -532,23 +496,6 @@ format_color_reset =
             []
         , path
             [ d "M18 14c0-4-6-10.8-6-10.8s-1.33 1.51-2.73 3.52l8.59 8.59c.09-.42.14-.86.14-1.31zm-.88 3.12L12.5 12.5 5.27 5.27 4 6.55l3.32 3.32C6.55 11.32 6 12.79 6 14c0 3.31 2.69 6 6 6 1.52 0 2.9-.57 3.96-1.5l2.63 2.63 1.27-1.27-2.74-2.74z" ]
-            []
-        ]
-
-
-{-| -}
-format_color_text : Int -> Coloring -> Svg msg
-format_color_text =
-    icon
-        [ viewBox "0 0 24 24" ]
-        [ path
-            [ d "M0 0h24v24H0z", fill "none" ]
-            []
-        , path
-            [ fillOpacity ".36", d "M0 20h24v4H0z" ]
-            []
-        , path
-            [ d "M11 3L5.5 17h2.25l1.12-3h6.25l1.12 3h2.25L13 3h-2zm-1.38 9L12 5.67 14.38 12H9.62z" ]
             []
         ]
 
@@ -774,6 +721,29 @@ functions =
         , path
             [ d "M18 4H6v2l6.5 6L6 18v2h12v-3h-7l5-5-5-5h7z" ]
             []
+        ]
+
+
+{-| -}
+height : Int -> Coloring -> Svg msg
+height =
+    icon
+        [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
+        [ g
+            [ id "Bounding_Box" ]
+            [ rect
+                [ fill "none" ]
+                []
+            ]
+        , g
+            [ id "Master" ]
+            [ g
+                [ id "ui_x5F_spec_x5F_header_copy" ]
+                []
+            , polygon
+                [ points "13,6.99 16,6.99 12,3 8,6.99 11,6.99 11,17.01 8,17.01 12,21 16,17.01 13,17.01 \t" ]
+                []
+            ]
         ]
 
 
@@ -1006,6 +976,44 @@ pie_chart =
         , path
             [ d "M11 2v20c-5.07-.5-9-4.79-9-10s3.93-9.5 9-10zm2.03 0v8.99H22c-.47-4.74-4.24-8.52-8.97-8.99zm0 11.01V22c4.74-.47 8.5-4.25 8.97-8.99h-8.97z" ]
             []
+        ]
+
+
+{-| -}
+post_add : Int -> Coloring -> Svg msg
+post_add =
+    icon
+        [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
+        [ g
+            [ id "Bounding_Box" ]
+            [ rect
+                [ fill "none" ]
+                []
+            ]
+        , g
+            [ id "Flat" ]
+            [ g
+                [ id "ui_x5F_spec_x5F_header_copy_2" ]
+                []
+            , g
+                []
+                [ path
+                    [ d "M17,19.22H5V7h7V5H5C3.9,5,3,5.9,3,7v12c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2v-7h-2V19.22z" ]
+                    []
+                , path
+                    [ d "M19,2h-2v3h-3c0.01,0.01,0,2,0,2h3v2.99c0.01,0.01,2,0,2,0V7h3V5h-3V2z" ]
+                    []
+                , rect
+                    []
+                    []
+                , polygon
+                    [ points "7,12 7,14 15,14 15,12 12,12 \t\t" ]
+                    []
+                , rect
+                    []
+                    []
+                ]
+            ]
         ]
 
 

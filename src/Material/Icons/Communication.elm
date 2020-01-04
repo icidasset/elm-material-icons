@@ -1,6 +1,5 @@
 module Material.Icons.Communication exposing
-    ( alternate_email
-    , business
+    ( business
     , call
     , call_end
     , call_made
@@ -10,7 +9,6 @@ module Material.Icons.Communication exposing
     , call_received
     , call_split
     , cancel_presentation
-    , cell_wifi
     , chat
     , chat_bubble
     , chat_bubble_outline
@@ -31,8 +29,6 @@ module Material.Icons.Communication exposing
     , invert_colors_off
     , list_alt
     , live_help
-    , location_off
-    , location_on
     , mail_outline
     , message
     , mobile_screen_share
@@ -40,6 +36,8 @@ module Material.Icons.Communication exposing
     , pause_presentation
     , person_add_disabled
     , phone
+    , phone_disabled
+    , phone_enabled
     , phonelink_erase
     , phonelink_lock
     , phonelink_ring
@@ -69,7 +67,6 @@ module Material.Icons.Communication exposing
 
 # Icons
 
-@docs alternate_email
 @docs business
 @docs call
 @docs call_end
@@ -80,7 +77,6 @@ module Material.Icons.Communication exposing
 @docs call_received
 @docs call_split
 @docs cancel_presentation
-@docs cell_wifi
 @docs chat
 @docs chat_bubble
 @docs chat_bubble_outline
@@ -101,8 +97,6 @@ module Material.Icons.Communication exposing
 @docs invert_colors_off
 @docs list_alt
 @docs live_help
-@docs location_off
-@docs location_on
 @docs mail_outline
 @docs message
 @docs mobile_screen_share
@@ -110,6 +104,8 @@ module Material.Icons.Communication exposing
 @docs pause_presentation
 @docs person_add_disabled
 @docs phone
+@docs phone_disabled
+@docs phone_enabled
 @docs phonelink_erase
 @docs phonelink_lock
 @docs phonelink_ring
@@ -137,22 +133,8 @@ module Material.Icons.Communication exposing
 
 import Material.Icons exposing (Coloring)
 import Material.Icons.Internal exposing (icon)
-import Svg exposing (Svg, circle, g, path, svg, use)
-import Svg.Attributes exposing (baseProfile, clipRule, cx, cy, d, fill, fillOpacity, fillRule, id, opacity, overflow, r, viewBox, xlinkHref)
-
-
-{-| -}
-alternate_email : Int -> Coloring -> Svg msg
-alternate_email =
-    icon
-        [ viewBox "0 0 24 24" ]
-        [ path
-            [ fillOpacity ".9", d "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10h5v-2h-5c-4.34 0-8-3.66-8-8s3.66-8 8-8 8 3.66 8 8v1.43c0 .79-.71 1.57-1.5 1.57s-1.5-.78-1.5-1.57V12c0-2.76-2.24-5-5-5s-5 2.24-5 5 2.24 5 5 5c1.38 0 2.64-.56 3.54-1.47.65.89 1.77 1.47 2.96 1.47 1.97 0 3.5-1.6 3.5-3.57V12c0-5.52-4.48-10-10-10zm0 13c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z" ]
-            []
-        , path
-            [ fill "none", d "M0 0h24v24H0z" ]
-            []
-        ]
+import Svg exposing (Svg, circle, g, path, polygon, rect, svg, use)
+import Svg.Attributes exposing (baseProfile, clipRule, cx, cy, d, enableBackground, fill, fillOpacity, fillRule, id, opacity, overflow, points, r, transform, viewBox, xlinkHref)
 
 
 {-| -}
@@ -294,23 +276,6 @@ cancel_presentation =
             []
         , path
             [ fill "none", d "M0 0h24v24H0z" ]
-            []
-        ]
-
-
-{-| -}
-cell_wifi : Int -> Coloring -> Svg msg
-cell_wifi =
-    icon
-        [ viewBox "0 0 24 24" ]
-        [ path
-            [ fillOpacity ".3", d "M6 22h16V6L6 22z" ]
-            []
-        , path
-            [ d "M18 10L6 22h12V10zM3.93 5.93l1.29 1.29c3.19-3.19 8.38-3.19 11.57 0l1.29-1.29c-3.91-3.91-10.25-3.91-14.15 0zm5.14 5.14L11 13l1.93-1.93c-1.07-1.06-2.79-1.06-3.86 0zM6.5 8.5l1.29 1.29c1.77-1.77 4.65-1.77 6.43 0L15.5 8.5c-2.48-2.48-6.52-2.48-9 0z" ]
-            []
-        , path
-            [ fill "none", d "M0 0h24v24H0V0z" ]
             []
         ]
 
@@ -596,34 +561,6 @@ live_help =
 
 
 {-| -}
-location_off : Int -> Coloring -> Svg msg
-location_off =
-    icon
-        [ viewBox "0 0 24 24" ]
-        [ path
-            [ d "M0 0h24v24H0zm11.75 11.47l-.11-.11z", fill "none" ]
-            []
-        , path
-            [ d "M12 6.5c1.38 0 2.5 1.12 2.5 2.5 0 .74-.33 1.39-.83 1.85l3.63 3.63c.98-1.86 1.7-3.8 1.7-5.48 0-3.87-3.13-7-7-7-1.98 0-3.76.83-5.04 2.15l3.19 3.19c.46-.52 1.11-.84 1.85-.84zm4.37 9.6l-4.63-4.63-.11-.11L3.27 3 2 4.27l3.18 3.18C5.07 7.95 5 8.47 5 9c0 5.25 7 13 7 13s1.67-1.85 3.38-4.35L18.73 21 20 19.73l-3.63-3.63z" ]
-            []
-        ]
-
-
-{-| -}
-location_on : Int -> Coloring -> Svg msg
-location_on =
-    icon
-        [ viewBox "0 0 24 24" ]
-        [ path
-            [ d "M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" ]
-            []
-        , path
-            [ d "M0 0h24v24H0z", fill "none" ]
-            []
-        ]
-
-
-{-| -}
 mail_outline : Int -> Coloring -> Svg msg
 mail_outline =
     icon
@@ -726,6 +663,34 @@ phone =
             []
         , path
             [ d "M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" ]
+            []
+        ]
+
+
+{-| -}
+phone_disabled : Int -> Coloring -> Svg msg
+phone_disabled =
+    icon
+        [ viewBox "0 0 24 24" ]
+        [ path
+            [ fill "none", d "M0 0h24v24H0z" ]
+            []
+        , path
+            [ d "M17.34 14.54l-1.43-1.43c.56-.73 1.05-1.5 1.47-2.32l-2.2-2.2c-.28-.28-.36-.67-.25-1.02.37-1.12.57-2.32.57-3.57 0-.55.45-1 1-1H20c.55 0 1 .45 1 1 0 3.98-1.37 7.64-3.66 10.54zm-2.82 2.81C11.63 19.64 7.97 21 4 21c-.55 0-1-.45-1-1v-3.49c0-.55.45-1 1-1 1.24 0 2.45-.2 3.57-.57.35-.12.75-.03 1.02.24l2.2 2.2c.81-.42 1.58-.9 2.3-1.46L1.39 4.22l1.42-1.41L21.19 21.2l-1.41 1.41-5.26-5.26z" ]
+            []
+        ]
+
+
+{-| -}
+phone_enabled : Int -> Coloring -> Svg msg
+phone_enabled =
+    icon
+        [ viewBox "0 0 24 24" ]
+        [ path
+            [ fill "none", d "M0 0h24v24H0z" ]
+            []
+        , path
+            [ d "M17.38 10.79l-2.2-2.2c-.28-.28-.36-.67-.25-1.02.37-1.12.57-2.32.57-3.57 0-.55.45-1 1-1H20c.55 0 1 .45 1 1 0 9.39-7.61 17-17 17-.55 0-1-.45-1-1v-3.49c0-.55.45-1 1-1 1.24 0 2.45-.2 3.57-.57.35-.12.75-.03 1.02.24l2.2 2.2c2.83-1.45 5.15-3.76 6.59-6.59z" ]
             []
         ]
 

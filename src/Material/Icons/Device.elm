@@ -6,19 +6,7 @@ module Material.Icons.Device exposing
     , add_to_home_screen
     , airplanemode_active
     , airplanemode_inactive
-    , battery_20
-    , battery_30
-    , battery_50
-    , battery_60
-    , battery_80
-    , battery_90
     , battery_alert
-    , battery_charging_20
-    , battery_charging_30
-    , battery_charging_50
-    , battery_charging_60
-    , battery_charging_80
-    , battery_charging_90
     , battery_charging_full
     , battery_full
     , battery_std
@@ -43,8 +31,6 @@ module Material.Icons.Device exposing
     , location_searching
     , mobile_friendly
     , mobile_off
-    , network_cell
-    , network_wifi
     , nfc
     , screen_lock_landscape
     , screen_lock_portrait
@@ -52,27 +38,12 @@ module Material.Icons.Device exposing
     , screen_rotation
     , sd_storage
     , settings_system_daydream
-    , signal_cellular_0_bar
-    , signal_cellular_1_bar
-    , signal_cellular_2_bar
-    , signal_cellular_3_bar
     , signal_cellular_4_bar
     , signal_cellular_alt
-    , signal_cellular_connected_no_internet_0_bar
-    , signal_cellular_connected_no_internet_1_bar
-    , signal_cellular_connected_no_internet_2_bar
-    , signal_cellular_connected_no_internet_3_bar
     , signal_cellular_connected_no_internet_4_bar
     , signal_cellular_no_sim
     , signal_cellular_null
     , signal_cellular_off
-    , signal_wifi_0_bar
-    , signal_wifi_1_bar
-    , signal_wifi_1_bar_lock
-    , signal_wifi_2_bar
-    , signal_wifi_2_bar_lock
-    , signal_wifi_3_bar
-    , signal_wifi_3_bar_lock
     , signal_wifi_4_bar
     , signal_wifi_4_bar_lock
     , signal_wifi_off
@@ -96,19 +67,7 @@ module Material.Icons.Device exposing
 @docs add_to_home_screen
 @docs airplanemode_active
 @docs airplanemode_inactive
-@docs battery_20
-@docs battery_30
-@docs battery_50
-@docs battery_60
-@docs battery_80
-@docs battery_90
 @docs battery_alert
-@docs battery_charging_20
-@docs battery_charging_30
-@docs battery_charging_50
-@docs battery_charging_60
-@docs battery_charging_80
-@docs battery_charging_90
 @docs battery_charging_full
 @docs battery_full
 @docs battery_std
@@ -133,8 +92,6 @@ module Material.Icons.Device exposing
 @docs location_searching
 @docs mobile_friendly
 @docs mobile_off
-@docs network_cell
-@docs network_wifi
 @docs nfc
 @docs screen_lock_landscape
 @docs screen_lock_portrait
@@ -142,27 +99,12 @@ module Material.Icons.Device exposing
 @docs screen_rotation
 @docs sd_storage
 @docs settings_system_daydream
-@docs signal_cellular_0_bar
-@docs signal_cellular_1_bar
-@docs signal_cellular_2_bar
-@docs signal_cellular_3_bar
 @docs signal_cellular_4_bar
 @docs signal_cellular_alt
-@docs signal_cellular_connected_no_internet_0_bar
-@docs signal_cellular_connected_no_internet_1_bar
-@docs signal_cellular_connected_no_internet_2_bar
-@docs signal_cellular_connected_no_internet_3_bar
 @docs signal_cellular_connected_no_internet_4_bar
 @docs signal_cellular_no_sim
 @docs signal_cellular_null
 @docs signal_cellular_off
-@docs signal_wifi_0_bar
-@docs signal_wifi_1_bar
-@docs signal_wifi_1_bar_lock
-@docs signal_wifi_2_bar
-@docs signal_wifi_2_bar_lock
-@docs signal_wifi_3_bar
-@docs signal_wifi_3_bar_lock
 @docs signal_wifi_4_bar
 @docs signal_wifi_4_bar_lock
 @docs signal_wifi_off
@@ -177,8 +119,8 @@ module Material.Icons.Device exposing
 
 import Material.Icons exposing (Coloring)
 import Material.Icons.Internal exposing (icon)
-import Svg exposing (Svg, circle, g, path, svg, use)
-import Svg.Attributes exposing (baseProfile, clipRule, cx, cy, d, fill, fillOpacity, fillRule, id, opacity, overflow, r, viewBox, xlinkHref)
+import Svg exposing (Svg, circle, g, path, polygon, rect, svg, use)
+import Svg.Attributes exposing (baseProfile, clipRule, cx, cy, d, enableBackground, fill, fillOpacity, fillRule, id, opacity, overflow, points, r, transform, viewBox, xlinkHref)
 
 
 {-| -}
@@ -289,108 +231,6 @@ airplanemode_inactive =
 
 
 {-| -}
-battery_20 : Int -> Coloring -> Svg msg
-battery_20 =
-    icon
-        [ viewBox "0 0 24 24" ]
-        [ path
-            [ d "M0 0h24v24H0z", fill "none" ]
-            []
-        , path
-            [ d "M7 17v3.67C7 21.4 7.6 22 8.33 22h7.33c.74 0 1.34-.6 1.34-1.33V17H7z" ]
-            []
-        , path
-            [ fillOpacity ".3", d "M17 5.33C17 4.6 16.4 4 15.67 4H14V2h-4v2H8.33C7.6 4 7 4.6 7 5.33V17h10V5.33z" ]
-            []
-        ]
-
-
-{-| -}
-battery_30 : Int -> Coloring -> Svg msg
-battery_30 =
-    icon
-        [ viewBox "0 0 24 24" ]
-        [ path
-            [ d "M0 0h24v24H0z", fill "none" ]
-            []
-        , path
-            [ fillOpacity ".3", d "M17 5.33C17 4.6 16.4 4 15.67 4H14V2h-4v2H8.33C7.6 4 7 4.6 7 5.33V15h10V5.33z" ]
-            []
-        , path
-            [ d "M7 15v5.67C7 21.4 7.6 22 8.33 22h7.33c.74 0 1.34-.6 1.34-1.33V15H7z" ]
-            []
-        ]
-
-
-{-| -}
-battery_50 : Int -> Coloring -> Svg msg
-battery_50 =
-    icon
-        [ viewBox "0 0 24 24" ]
-        [ path
-            [ d "M0 0h24v24H0z", fill "none" ]
-            []
-        , path
-            [ fillOpacity ".3", d "M17 5.33C17 4.6 16.4 4 15.67 4H14V2h-4v2H8.33C7.6 4 7 4.6 7 5.33V13h10V5.33z" ]
-            []
-        , path
-            [ d "M7 13v7.67C7 21.4 7.6 22 8.33 22h7.33c.74 0 1.34-.6 1.34-1.33V13H7z" ]
-            []
-        ]
-
-
-{-| -}
-battery_60 : Int -> Coloring -> Svg msg
-battery_60 =
-    icon
-        [ viewBox "0 0 24 24" ]
-        [ path
-            [ d "M0 0h24v24H0z", fill "none" ]
-            []
-        , path
-            [ fillOpacity ".3", d "M17 5.33C17 4.6 16.4 4 15.67 4H14V2h-4v2H8.33C7.6 4 7 4.6 7 5.33V11h10V5.33z" ]
-            []
-        , path
-            [ d "M7 11v9.67C7 21.4 7.6 22 8.33 22h7.33c.74 0 1.34-.6 1.34-1.33V11H7z" ]
-            []
-        ]
-
-
-{-| -}
-battery_80 : Int -> Coloring -> Svg msg
-battery_80 =
-    icon
-        [ viewBox "0 0 24 24" ]
-        [ path
-            [ d "M0 0h24v24H0z", fill "none" ]
-            []
-        , path
-            [ fillOpacity ".3", d "M17 5.33C17 4.6 16.4 4 15.67 4H14V2h-4v2H8.33C7.6 4 7 4.6 7 5.33V9h10V5.33z" ]
-            []
-        , path
-            [ d "M7 9v11.67C7 21.4 7.6 22 8.33 22h7.33c.74 0 1.34-.6 1.34-1.33V9H7z" ]
-            []
-        ]
-
-
-{-| -}
-battery_90 : Int -> Coloring -> Svg msg
-battery_90 =
-    icon
-        [ viewBox "0 0 24 24" ]
-        [ path
-            [ d "M0 0h24v24H0z", fill "none" ]
-            []
-        , path
-            [ fillOpacity ".3", d "M17 5.33C17 4.6 16.4 4 15.67 4H14V2h-4v2H8.33C7.6 4 7 4.6 7 5.33V8h10V5.33z" ]
-            []
-        , path
-            [ d "M7 8v12.67C7 21.4 7.6 22 8.33 22h7.33c.74 0 1.34-.6 1.34-1.33V8H7z" ]
-            []
-        ]
-
-
-{-| -}
 battery_alert : Int -> Coloring -> Svg msg
 battery_alert =
     icon
@@ -400,108 +240,6 @@ battery_alert =
             []
         , path
             [ d "M15.67 4H14V2h-4v2H8.33C7.6 4 7 4.6 7 5.33v15.33C7 21.4 7.6 22 8.33 22h7.33c.74 0 1.34-.6 1.34-1.33V5.33C17 4.6 16.4 4 15.67 4zM13 18h-2v-2h2v2zm0-4h-2V9h2v5z" ]
-            []
-        ]
-
-
-{-| -}
-battery_charging_20 : Int -> Coloring -> Svg msg
-battery_charging_20 =
-    icon
-        [ viewBox "0 0 24 24" ]
-        [ path
-            [ d "M11 20v-3H7v3.67C7 21.4 7.6 22 8.33 22h7.33c.74 0 1.34-.6 1.34-1.33V17h-4.4L11 20z" ]
-            []
-        , path
-            [ fillOpacity ".3", d "M15.67 4H14V2h-4v2H8.33C7.6 4 7 4.6 7 5.33V17h4v-2.5H9L13 7v5.5h2L12.6 17H17V5.33C17 4.6 16.4 4 15.67 4z" ]
-            []
-        , path
-            [ d "M0 0h24v24H0z", fill "none" ]
-            []
-        ]
-
-
-{-| -}
-battery_charging_30 : Int -> Coloring -> Svg msg
-battery_charging_30 =
-    icon
-        [ viewBox "0 0 24 24" ]
-        [ path
-            [ fillOpacity ".3", d "M15.67 4H14V2h-4v2H8.33C7.6 4 7 4.6 7 5.33v9.17h2L13 7v5.5h2l-1.07 2H17V5.33C17 4.6 16.4 4 15.67 4z" ]
-            []
-        , path
-            [ d "M11 20v-5.5H7v6.17C7 21.4 7.6 22 8.33 22h7.33c.74 0 1.34-.6 1.34-1.33V14.5h-3.07L11 20z" ]
-            []
-        , path
-            [ d "M0 0h24v24H0z", fill "none" ]
-            []
-        ]
-
-
-{-| -}
-battery_charging_50 : Int -> Coloring -> Svg msg
-battery_charging_50 =
-    icon
-        [ viewBox "0 0 24 24" ]
-        [ path
-            [ d "M0 0h24v24H0zm9 14.5h2V20l3.47-6.5H9.53zm4-2V7l-2.93 5.5-.54 1h4.94l.53-1z", fill "none" ]
-            []
-        , path
-            [ d "M14.47 13.5L11 20v-5.5H9l.53-1H7v7.17C7 21.4 7.6 22 8.33 22h7.33c.74 0 1.34-.6 1.34-1.33V13.5h-2.53z" ]
-            []
-        , path
-            [ fillOpacity ".3", d "M15.67 4H14V2h-4v2H8.33C7.6 4 7 4.6 7 5.33v8.17h2.53L13 7v5.5h2l-.53 1H17V5.33C17 4.6 16.4 4 15.67 4z" ]
-            []
-        ]
-
-
-{-| -}
-battery_charging_60 : Int -> Coloring -> Svg msg
-battery_charging_60 =
-    icon
-        [ viewBox "0 0 24 24" ]
-        [ path
-            [ fillOpacity ".3", d "M15.67 4H14V2h-4v2H8.33C7.6 4 7 4.6 7 5.33V11h3.87L13 7v4h4V5.33C17 4.6 16.4 4 15.67 4z" ]
-            []
-        , path
-            [ d "M13 12.5h2L11 20v-5.5H9l1.87-3.5H7v9.67C7 21.4 7.6 22 8.33 22h7.33c.74 0 1.34-.6 1.34-1.33V11h-4v1.5z" ]
-            []
-        , path
-            [ d "M0 0h24v24H0z", fill "none" ]
-            []
-        ]
-
-
-{-| -}
-battery_charging_80 : Int -> Coloring -> Svg msg
-battery_charging_80 =
-    icon
-        [ viewBox "0 0 24 24" ]
-        [ path
-            [ fillOpacity ".3", d "M15.67 4H14V2h-4v2H8.33C7.6 4 7 4.6 7 5.33V9h4.93L13 7v2h4V5.33C17 4.6 16.4 4 15.67 4z" ]
-            []
-        , path
-            [ d "M13 12.5h2L11 20v-5.5H9L11.93 9H7v11.67C7 21.4 7.6 22 8.33 22h7.33c.74 0 1.34-.6 1.34-1.33V9h-4v3.5z" ]
-            []
-        , path
-            [ d "M0 0h24v24H0z", fill "none" ]
-            []
-        ]
-
-
-{-| -}
-battery_charging_90 : Int -> Coloring -> Svg msg
-battery_charging_90 =
-    icon
-        [ viewBox "0 0 24 24" ]
-        [ path
-            [ fillOpacity ".3", d "M15.67 4H14V2h-4v2H8.33C7.6 4 7 4.6 7 5.33V8h5.47L13 7v1h4V5.33C17 4.6 16.4 4 15.67 4z" ]
-            []
-        , path
-            [ d "M13 12.5h2L11 20v-5.5H9L12.47 8H7v12.67C7 21.4 7.6 22 8.33 22h7.33c.74 0 1.34-.6 1.34-1.33V8h-4v4.5z" ]
-            []
-        , path
-            [ d "M0 0h24v24H0z", fill "none" ]
             []
         ]
 
@@ -843,40 +581,6 @@ mobile_off =
 
 
 {-| -}
-network_cell : Int -> Coloring -> Svg msg
-network_cell =
-    icon
-        [ viewBox "0 0 24 24" ]
-        [ path
-            [ fillOpacity ".3", d "M2 22h20V2z" ]
-            []
-        , path
-            [ d "M17 7L2 22h15z" ]
-            []
-        , path
-            [ d "M0 0h24v24H0z", fill "none" ]
-            []
-        ]
-
-
-{-| -}
-network_wifi : Int -> Coloring -> Svg msg
-network_wifi =
-    icon
-        [ viewBox "0 0 24 24" ]
-        [ path
-            [ fillOpacity ".3", d "M12.01 21.49L23.64 7c-.45-.34-4.93-4-11.64-4C5.28 3 .81 6.66.36 7l11.63 14.49.01.01.01-.01z" ]
-            []
-        , path
-            [ d "M0 0h24v24H0z", fill "none" ]
-            []
-        , path
-            [ d "M3.53 10.95l8.46 10.54.01.01.01-.01 8.46-10.54C20.04 10.62 16.81 8 12 8c-4.81 0-8.04 2.62-8.47 2.95z" ]
-            []
-        ]
-
-
-{-| -}
 nfc : Int -> Coloring -> Svg msg
 nfc =
     icon
@@ -978,71 +682,6 @@ settings_system_daydream =
 
 
 {-| -}
-signal_cellular_0_bar : Int -> Coloring -> Svg msg
-signal_cellular_0_bar =
-    icon
-        [ viewBox "0 0 24 24" ]
-        [ path
-            [ fillOpacity ".3", d "M2 22h20V2z" ]
-            []
-        , path
-            [ d "M0 0h24v24H0z", fill "none" ]
-            []
-        ]
-
-
-{-| -}
-signal_cellular_1_bar : Int -> Coloring -> Svg msg
-signal_cellular_1_bar =
-    icon
-        [ viewBox "0 0 24 24" ]
-        [ path
-            [ fillOpacity ".3", d "M2 22h20V2z" ]
-            []
-        , path
-            [ d "M12 12L2 22h10z" ]
-            []
-        , path
-            [ d "M0 0h24v24H0z", fill "none" ]
-            []
-        ]
-
-
-{-| -}
-signal_cellular_2_bar : Int -> Coloring -> Svg msg
-signal_cellular_2_bar =
-    icon
-        [ viewBox "0 0 24 24" ]
-        [ path
-            [ fillOpacity ".3", d "M2 22h20V2z" ]
-            []
-        , path
-            [ d "M14 10L2 22h12z" ]
-            []
-        , path
-            [ d "M0 0h24v24H0z", fill "none" ]
-            []
-        ]
-
-
-{-| -}
-signal_cellular_3_bar : Int -> Coloring -> Svg msg
-signal_cellular_3_bar =
-    icon
-        [ viewBox "0 0 24 24" ]
-        [ path
-            [ fillOpacity ".3", d "M2 22h20V2z" ]
-            []
-        , path
-            [ d "M17 7L2 22h15z" ]
-            []
-        , path
-            [ d "M0 0h24v24H0z", fill "none" ]
-            []
-        ]
-
-
-{-| -}
 signal_cellular_4_bar : Int -> Coloring -> Svg msg
 signal_cellular_4_bar =
     icon
@@ -1066,74 +705,6 @@ signal_cellular_alt =
             []
         , path
             [ d "M17 4h3v16h-3zM5 14h3v6H5zm6-5h3v11h-3z" ]
-            []
-        ]
-
-
-{-| -}
-signal_cellular_connected_no_internet_0_bar : Int -> Coloring -> Svg msg
-signal_cellular_connected_no_internet_0_bar =
-    icon
-        [ viewBox "0 0 24 24" ]
-        [ path
-            [ d "M0 0h24v24H0z", fill "none" ]
-            []
-        , path
-            [ fillOpacity ".3", d "M22 8V2L2 22h16V8z" ]
-            []
-        , path
-            [ d "M20 22h2v-2h-2v2zm0-12v8h2v-8h-2z" ]
-            []
-        ]
-
-
-{-| -}
-signal_cellular_connected_no_internet_1_bar : Int -> Coloring -> Svg msg
-signal_cellular_connected_no_internet_1_bar =
-    icon
-        [ viewBox "0 0 24 24" ]
-        [ path
-            [ d "M0 0h24v24H0z", fill "none" ]
-            []
-        , path
-            [ fillOpacity ".3", d "M22 8V2L2 22h16V8z" ]
-            []
-        , path
-            [ d "M20 10v8h2v-8h-2zm-8 12V12L2 22h10zm8 0h2v-2h-2v2z" ]
-            []
-        ]
-
-
-{-| -}
-signal_cellular_connected_no_internet_2_bar : Int -> Coloring -> Svg msg
-signal_cellular_connected_no_internet_2_bar =
-    icon
-        [ viewBox "0 0 24 24" ]
-        [ path
-            [ d "M0 0h24v24H0z", fill "none" ]
-            []
-        , path
-            [ fillOpacity ".3", d "M22 8V2L2 22h16V8z" ]
-            []
-        , path
-            [ d "M14 22V10L2 22h12zm6-12v8h2v-8h-2zm0 12h2v-2h-2v2z" ]
-            []
-        ]
-
-
-{-| -}
-signal_cellular_connected_no_internet_3_bar : Int -> Coloring -> Svg msg
-signal_cellular_connected_no_internet_3_bar =
-    icon
-        [ viewBox "0 0 24 24" ]
-        [ path
-            [ d "M0 0h24v24H0z", fill "none" ]
-            []
-        , path
-            [ fillOpacity ".3", d "M22 8V2L2 22h16V8z" ]
-            []
-        , path
-            [ d "M17 22V7L2 22h15zm3-12v8h2v-8h-2zm0 12h2v-2h-2v2z" ]
             []
         ]
 
@@ -1193,128 +764,6 @@ signal_cellular_off =
             []
         , path
             [ d "M0 0h24v24H0z", fill "none" ]
-            []
-        ]
-
-
-{-| -}
-signal_wifi_0_bar : Int -> Coloring -> Svg msg
-signal_wifi_0_bar =
-    icon
-        [ viewBox "0 0 24 24" ]
-        [ path
-            [ fillOpacity ".3", d "M12.01 21.49L23.64 7c-.45-.34-4.93-4-11.64-4C5.28 3 .81 6.66.36 7l11.63 14.49.01.01.01-.01z" ]
-            []
-        , path
-            [ d "M0 0h24v24H0z", fill "none" ]
-            []
-        ]
-
-
-{-| -}
-signal_wifi_1_bar : Int -> Coloring -> Svg msg
-signal_wifi_1_bar =
-    icon
-        [ viewBox "0 0 24 24" ]
-        [ path
-            [ fillOpacity ".3", d "M12.01 21.49L23.64 7c-.45-.34-4.93-4-11.64-4C5.28 3 .81 6.66.36 7l11.63 14.49.01.01.01-.01z" ]
-            []
-        , path
-            [ d "M0 0h24v24H0z", fill "none" ]
-            []
-        , path
-            [ d "M6.67 14.86L12 21.49v.01l.01-.01 5.33-6.63C17.06 14.65 15.03 13 12 13s-5.06 1.65-5.33 1.86z" ]
-            []
-        ]
-
-
-{-| -}
-signal_wifi_1_bar_lock : Int -> Coloring -> Svg msg
-signal_wifi_1_bar_lock =
-    icon
-        [ viewBox "0 0 24 24" ]
-        [ path
-            [ fill "none", d "M0 0h24v24H0V0z" ]
-            []
-        , path
-            [ d "M23 16v-1.5c0-1.4-1.1-2.5-2.5-2.5S18 13.1 18 14.5V16c-.5 0-1 .5-1 1v4c0 .5.5 1 1 1h5c.5 0 1-.5 1-1v-4c0-.5-.5-1-1-1zm-1 0h-3v-1.5c0-.8.7-1.5 1.5-1.5s1.5.7 1.5 1.5V16z" ]
-            []
-        , path
-            [ d "M15.5 14.5c0-2.8 2.2-5 5-5 .4 0 .7 0 1 .1L23.6 7c-.4-.3-4.9-4-11.6-4C5.3 3 .8 6.7.4 7L12 21.5l3.5-4.3v-2.7z", opacity ".3" ]
-            []
-        , path
-            [ d "M6.7 14.9l5.3 6.6 3.5-4.3v-2.6c0-.2 0-.5.1-.7-.9-.5-2.2-.9-3.6-.9-3 0-5.1 1.7-5.3 1.9z" ]
-            []
-        ]
-
-
-{-| -}
-signal_wifi_2_bar : Int -> Coloring -> Svg msg
-signal_wifi_2_bar =
-    icon
-        [ viewBox "0 0 24 24" ]
-        [ path
-            [ fillOpacity ".3", d "M12.01 21.49L23.64 7c-.45-.34-4.93-4-11.64-4C5.28 3 .81 6.66.36 7l11.63 14.49.01.01.01-.01z" ]
-            []
-        , path
-            [ d "M0 0h24v24H0z", fill "none" ]
-            []
-        , path
-            [ d "M4.79 12.52l7.2 8.98H12l.01-.01 7.2-8.98C18.85 12.24 16.1 10 12 10s-6.85 2.24-7.21 2.52z" ]
-            []
-        ]
-
-
-{-| -}
-signal_wifi_2_bar_lock : Int -> Coloring -> Svg msg
-signal_wifi_2_bar_lock =
-    icon
-        [ viewBox "0 0 24 24" ]
-        [ path
-            [ fill "none", d "M0 0h24v24H0V0z" ]
-            []
-        , path
-            [ d "M23 16v-1.5c0-1.4-1.1-2.5-2.5-2.5S18 13.1 18 14.5V16c-.5 0-1 .5-1 1v4c0 .5.5 1 1 1h5c.5 0 1-.5 1-1v-4c0-.5-.5-1-1-1zm-1 0h-3v-1.5c0-.8.7-1.5 1.5-1.5s1.5.7 1.5 1.5V16z" ]
-            []
-        , path
-            [ d "M15.5 14.5c0-2.8 2.2-5 5-5 .4 0 .7 0 1 .1L23.6 7c-.4-.3-4.9-4-11.6-4C5.3 3 .8 6.7.4 7L12 21.5l3.5-4.3v-2.7z", opacity ".3" ]
-            []
-        , path
-            [ d "M4.8 12.5l7.2 9 3.5-4.4v-2.6c0-1.3.5-2.5 1.4-3.4C15.6 10.5 14 10 12 10c-4.1 0-6.8 2.2-7.2 2.5z" ]
-            []
-        ]
-
-
-{-| -}
-signal_wifi_3_bar : Int -> Coloring -> Svg msg
-signal_wifi_3_bar =
-    icon
-        [ viewBox "0 0 24 24" ]
-        [ path
-            [ fillOpacity ".3", d "M12.01 21.49L23.64 7c-.45-.34-4.93-4-11.64-4C5.28 3 .81 6.66.36 7l11.63 14.49.01.01.01-.01z" ]
-            []
-        , path
-            [ d "M0 0h24v24H0z", fill "none" ]
-            []
-        , path
-            [ d "M3.53 10.95l8.46 10.54.01.01.01-.01 8.46-10.54C20.04 10.62 16.81 8 12 8c-4.81 0-8.04 2.62-8.47 2.95z" ]
-            []
-        ]
-
-
-{-| -}
-signal_wifi_3_bar_lock : Int -> Coloring -> Svg msg
-signal_wifi_3_bar_lock =
-    icon
-        [ viewBox "0 0 24 24" ]
-        [ path
-            [ opacity ".3", d "M12 3C5.3 3 .8 6.7.4 7l3.2 3.9L12 21.5l3.5-4.3v-2.6c0-2.2 1.4-4 3.3-4.7.3-.1.5-.2.8-.2.3-.1.6-.1.9-.1.4 0 .7 0 1 .1L23.6 7c-.4-.3-4.9-4-11.6-4z" ]
-            []
-        , path
-            [ fill "none", d "M0 0h24v24H0V0z" ]
-            []
-        , path
-            [ d "M23 16v-1.5c0-1.4-1.1-2.5-2.5-2.5S18 13.1 18 14.5V16c-.5 0-1 .5-1 1v4c0 .5.5 1 1 1h5c.5 0 1-.5 1-1v-4c0-.5-.5-1-1-1zm-1 0h-3v-1.5c0-.8.7-1.5 1.5-1.5s1.5.7 1.5 1.5V16zm-10 5.5l3.5-4.3v-2.6c0-2.2 1.4-4 3.3-4.7C17.3 9 14.9 8 12 8c-4.8 0-8 2.6-8.5 2.9" ]
             []
         ]
 

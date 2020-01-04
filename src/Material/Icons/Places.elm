@@ -2,6 +2,8 @@ module Material.Icons.Places exposing
     ( ac_unit
     , airport_shuttle
     , all_inclusive
+    , apartment
+    , bathtub
     , beach_access
     , business_center
     , casino
@@ -11,6 +13,7 @@ module Material.Icons.Places exposing
     , free_breakfast
     , golf_course
     , hot_tub
+    , house
     , kitchen
     , meeting_room
     , no_meeting_room
@@ -20,6 +23,7 @@ module Material.Icons.Places exposing
     , smoke_free
     , smoking_rooms
     , spa
+    , storefront
     )
 
 {-|
@@ -30,6 +34,8 @@ module Material.Icons.Places exposing
 @docs ac_unit
 @docs airport_shuttle
 @docs all_inclusive
+@docs apartment
+@docs bathtub
 @docs beach_access
 @docs business_center
 @docs casino
@@ -39,6 +45,7 @@ module Material.Icons.Places exposing
 @docs free_breakfast
 @docs golf_course
 @docs hot_tub
+@docs house
 @docs kitchen
 @docs meeting_room
 @docs no_meeting_room
@@ -48,13 +55,14 @@ module Material.Icons.Places exposing
 @docs smoke_free
 @docs smoking_rooms
 @docs spa
+@docs storefront
 
 -}
 
 import Material.Icons exposing (Coloring)
 import Material.Icons.Internal exposing (icon)
-import Svg exposing (Svg, circle, g, path, svg, use)
-import Svg.Attributes exposing (baseProfile, clipRule, cx, cy, d, fill, fillOpacity, fillRule, id, opacity, overflow, r, viewBox, xlinkHref)
+import Svg exposing (Svg, circle, g, path, polygon, rect, svg, use)
+import Svg.Attributes exposing (baseProfile, clipRule, cx, cy, d, enableBackground, fill, fillOpacity, fillRule, id, opacity, overflow, points, r, transform, viewBox, xlinkHref)
 
 
 {-| -}
@@ -96,6 +104,58 @@ all_inclusive =
         , path
             [ fill "none", d "M0 0h24v24H0V0z" ]
             []
+        ]
+
+
+{-| -}
+apartment : Int -> Coloring -> Svg msg
+apartment =
+    icon
+        [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
+        [ g
+            [ id "Bounding_Box" ]
+            [ rect
+                [ fill "none" ]
+                []
+            ]
+        , g
+            [ id "Master" ]
+            [ path
+                [ d "M17,11V3H7v4H3v14h8v-4h2v4h8V11H17z M7,19H5v-2h2V19z M7,15H5v-2h2V15z M7,11H5V9h2V11z M11,15H9v-2h2V15z M11,11H9V9h2\n    \t\tV11z M11,7H9V5h2V7z M15,15h-2v-2h2V15z M15,11h-2V9h2V11z M15,7h-2V5h2V7z M19,19h-2v-2h2V19z M19,15h-2v-2h2V15z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+bathtub : Int -> Coloring -> Svg msg
+bathtub =
+    icon
+        [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
+        [ g
+            [ id "Bounding_Box" ]
+            [ rect
+                [ fill "none" ]
+                []
+            ]
+        , g
+            [ id "Master" ]
+            [ g
+                []
+                [ g
+                    []
+                    [ circle
+                        [ cx "7", cy "7", r "2" ]
+                        []
+                    ]
+                , g
+                    []
+                    [ path
+                        [ d "M20,13V4.83C20,3.27,18.73,2,17.17,2c-0.75,0-1.47,0.3-2,0.83l-1.25,1.25C13.76,4.03,13.59,4,13.41,4\n    \t\t\t\tc-0.4,0-0.77,0.12-1.08,0.32l2.76,2.76c0.2-0.31,0.32-0.68,0.32-1.08c0-0.18-0.03-0.34-0.07-0.51l1.25-1.25\n    \t\t\t\tC16.74,4.09,16.95,4,17.17,4C17.63,4,18,4.37,18,4.83V13h-6.85c-0.3-0.21-0.57-0.45-0.82-0.72l-1.4-1.55\n    \t\t\t\tc-0.19-0.21-0.43-0.38-0.69-0.5C7.93,10.08,7.59,10,7.24,10C6,10.01,5,11.01,5,12.25V13H2v6c0,1.1,0.9,2,2,2c0,0.55,0.45,1,1,1\n    \t\t\t\th14c0.55,0,1-0.45,1-1c1.1,0,2-0.9,2-2v-6H20z" ]
+                        []
+                    ]
+                ]
+            ]
         ]
 
 
@@ -238,6 +298,26 @@ hot_tub =
 
 
 {-| -}
+house : Int -> Coloring -> Svg msg
+house =
+    icon
+        [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
+        [ g
+            [ id "Bounding_Box" ]
+            [ rect
+                [ fill "none" ]
+                []
+            ]
+        , g
+            [ id "Master" ]
+            [ path
+                [ d "M19,9.3V4h-3v2.6L12,3L2,12h3v8h5v-6h4v6h5v-8h3L19,9.3z M10,10c0-1.1,0.9-2,2-2s2,0.9,2,2H10z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
 kitchen : Int -> Coloring -> Svg msg
 kitchen =
     icon
@@ -363,4 +443,30 @@ spa =
         , path
             [ d "M15.49 9.63c-.18-2.79-1.31-5.51-3.43-7.63-2.14 2.14-3.32 4.86-3.55 7.63 1.28.68 2.46 1.56 3.49 2.63 1.03-1.06 2.21-1.94 3.49-2.63zm-6.5 2.65c-.14-.1-.3-.19-.45-.29.15.11.31.19.45.29zm6.42-.25c-.13.09-.27.16-.4.26.13-.1.27-.17.4-.26zM12 15.45C9.85 12.17 6.18 10 2 10c0 5.32 3.36 9.82 8.03 11.49.63.23 1.29.4 1.97.51.68-.12 1.33-.29 1.97-.51C18.64 19.82 22 15.32 22 10c-4.18 0-7.85 2.17-10 5.45z" ]
             []
+        ]
+
+
+{-| -}
+storefront : Int -> Coloring -> Svg msg
+storefront =
+    icon
+        [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
+        [ g
+            [ id "Bounding_Box" ]
+            [ rect
+                [ fill "none" ]
+                []
+            ]
+        , g
+            [ id "Flat" ]
+            [ g
+                [ id "ui_x5F_spec_x5F_header_copy_2" ]
+                []
+            , g
+                []
+                [ path
+                    [ d "M21.9,8.89l-1.05-4.37c-0.22-0.9-1-1.52-1.91-1.52H5.05C4.15,3,3.36,3.63,3.15,4.52L2.1,8.89\n    \t\t\tc-0.24,1.02-0.02,2.06,0.62,2.88C2.8,11.88,2.91,11.96,3,12.06V19c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2v-6.94\n    \t\t\tc0.09-0.09,0.2-0.18,0.28-0.28C21.92,10.96,22.15,9.91,21.9,8.89z M18.91,4.99l1.05,4.37c0.1,0.42,0.01,0.84-0.25,1.17\n    \t\t\tC19.57,10.71,19.27,11,18.77,11c-0.61,0-1.14-0.49-1.21-1.14L16.98,5L18.91,4.99z M13,5h1.96l0.54,4.52\n    \t\t\tc0.05,0.39-0.07,0.78-0.33,1.07C14.95,10.85,14.63,11,14.22,11C13.55,11,13,10.41,13,9.69V5z M8.49,9.52L9.04,5H11v4.69\n    \t\t\tC11,10.41,10.45,11,9.71,11c-0.34,0-0.65-0.15-0.89-0.41C8.57,10.3,8.45,9.91,8.49,9.52z M4.04,9.36L5.05,5h1.97L6.44,9.86\n    \t\t\tC6.36,10.51,5.84,11,5.23,11c-0.49,0-0.8-0.29-0.93-0.47C4.03,10.21,3.94,9.78,4.04,9.36z M5,19v-6.03C5.08,12.98,5.15,13,5.23,13\n    \t\t\tc0.87,0,1.66-0.36,2.24-0.95c0.6,0.6,1.4,0.95,2.31,0.95c0.87,0,1.65-0.36,2.23-0.93c0.59,0.57,1.39,0.93,2.29,0.93\n    \t\t\tc0.84,0,1.64-0.35,2.24-0.95c0.58,0.59,1.37,0.95,2.24,0.95c0.08,0,0.15-0.02,0.23-0.03V19H5z" ]
+                    []
+                ]
+            ]
         ]

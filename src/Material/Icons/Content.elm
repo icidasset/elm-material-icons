@@ -3,6 +3,7 @@ module Material.Icons.Content exposing
     , add_box
     , add_circle
     , add_circle_outline
+    , amp_stories
     , archive
     , backspace
     , ballot
@@ -11,6 +12,7 @@ module Material.Icons.Content exposing
     , create
     , delete_sweep
     , drafts
+    , dynamic_feed
     , file_copy
     , filter_list
     , flag
@@ -28,6 +30,7 @@ module Material.Icons.Content exposing
     , move_to_inbox
     , next_week
     , outlined_flag
+    , policy
     , redo
     , remove
     , remove_circle
@@ -41,11 +44,11 @@ module Material.Icons.Content exposing
     , select_all
     , send
     , sort
+    , square_foot
     , text_format
     , unarchive
     , undo
     , waves
-    , weekend
     , where_to_vote
     )
 
@@ -58,6 +61,7 @@ module Material.Icons.Content exposing
 @docs add_box
 @docs add_circle
 @docs add_circle_outline
+@docs amp_stories
 @docs archive
 @docs backspace
 @docs ballot
@@ -66,6 +70,7 @@ module Material.Icons.Content exposing
 @docs create
 @docs delete_sweep
 @docs drafts
+@docs dynamic_feed
 @docs file_copy
 @docs filter_list
 @docs flag
@@ -83,6 +88,7 @@ module Material.Icons.Content exposing
 @docs move_to_inbox
 @docs next_week
 @docs outlined_flag
+@docs policy
 @docs redo
 @docs remove
 @docs remove_circle
@@ -96,19 +102,19 @@ module Material.Icons.Content exposing
 @docs select_all
 @docs send
 @docs sort
+@docs square_foot
 @docs text_format
 @docs unarchive
 @docs undo
 @docs waves
-@docs weekend
 @docs where_to_vote
 
 -}
 
 import Material.Icons exposing (Coloring)
 import Material.Icons.Internal exposing (icon)
-import Svg exposing (Svg, circle, g, path, svg, use)
-import Svg.Attributes exposing (baseProfile, clipRule, cx, cy, d, fill, fillOpacity, fillRule, id, opacity, overflow, r, viewBox, xlinkHref)
+import Svg exposing (Svg, circle, g, path, polygon, rect, svg, use)
+import Svg.Attributes exposing (baseProfile, clipRule, cx, cy, d, enableBackground, fill, fillOpacity, fillRule, id, opacity, overflow, points, r, transform, viewBox, xlinkHref)
 
 
 {-| -}
@@ -164,6 +170,38 @@ add_circle_outline =
         , path
             [ d "M13 7h-2v4H7v2h4v4h2v-4h4v-2h-4V7zm-1-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z" ]
             []
+        ]
+
+
+{-| -}
+amp_stories : Int -> Coloring -> Svg msg
+amp_stories =
+    icon
+        [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
+        [ g
+            [ id "Bounding_Box" ]
+            [ rect
+                [ fill "none" ]
+                []
+            ]
+        , g
+            [ id "Flat" ]
+            [ g
+                [ id "ui_x5F_spec_x5F_header_copy_2" ]
+                []
+            , g
+                []
+                [ rect
+                    []
+                    []
+                , rect
+                    []
+                    []
+                , rect
+                    []
+                    []
+                ]
+            ]
         ]
 
 
@@ -273,6 +311,56 @@ drafts =
         , path
             [ d "M0 0h24v24H0z", fill "none" ]
             []
+        ]
+
+
+{-| -}
+dynamic_feed : Int -> Coloring -> Svg msg
+dynamic_feed =
+    icon
+        [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
+        [ g
+            [ id "Bounding_Box" ]
+            [ rect
+                [ fill "none" ]
+                []
+            ]
+        , g
+            [ id "Flat" ]
+            [ g
+                [ id "ui_x5F_spec_x5F_header_copy_3" ]
+                []
+            , g
+                []
+                [ path
+                    [ d "M8,8H6v7c0,1.1,0.9,2,2,2h9v-2H8V8z" ]
+                    []
+                , path
+                    [ d "M20,3h-8c-1.1,0-2,0.9-2,2v6c0,1.1,0.9,2,2,2h8c1.1,0,2-0.9,2-2V5C22,3.9,21.1,3,20,3z M20,11h-8V7h8V11z" ]
+                    []
+                , path
+                    [ d "M4,12H2v7c0,1.1,0.9,2,2,2h9v-2H4V12z" ]
+                    []
+                ]
+            ]
+        , g
+            [ id "Master" ]
+            [ g
+                [ id "ui_x5F_spec_x5F_header_copy_2" ]
+                []
+            , g
+                []
+                [ path
+                    [ d "M8,8H6v7c0,1.1,0.9,2,2,2h9v-2H8V8z" ]
+                    []
+                , path
+                    [ d "M20,3h-8c-1.1,0-2,0.9-2,2v6c0,1.1,0.9,2,2,2h8c1.1,0,2-0.9,2-2V5C22,3.9,21.1,3,20,3z M20,11h-8V7h8V11z" ]
+                    []
+                , path
+                    [ d "M4,12H2v7c0,1.1,0.9,2,2,2h9v-2H4V12z" ]
+                    []
+                ]
+            ]
         ]
 
 
@@ -521,6 +609,35 @@ outlined_flag =
 
 
 {-| -}
+policy : Int -> Coloring -> Svg msg
+policy =
+    icon
+        [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
+        [ g
+            [ id "Bounding_Box" ]
+            [ rect
+                [ fill "none" ]
+                []
+            ]
+        , g
+            [ id "Flat" ]
+            [ g
+                [ id "ui_x5F_spec_x5F_header_copy_2" ]
+                []
+            , g
+                []
+                [ path
+                    [ d "M21,5l-9-4L3,5v6c0,5.55,3.84,10.74,9,12c2.3-0.56,4.33-1.9,5.88-3.71l-3.12-3.12c-1.94,1.29-4.58,1.07-6.29-0.64\n    \t\t\tc-1.95-1.95-1.95-5.12,0-7.07c1.95-1.95,5.12-1.95,7.07,0c1.71,1.71,1.92,4.35,0.64,6.29l2.9,2.9C20.29,15.69,21,13.38,21,11V5z" ]
+                    []
+                , circle
+                    [ cx "12", cy "12", r "3" ]
+                    []
+                ]
+            ]
+        ]
+
+
+{-| -}
 redo : Int -> Coloring -> Svg msg
 redo =
     icon
@@ -703,6 +820,29 @@ sort =
 
 
 {-| -}
+square_foot : Int -> Coloring -> Svg msg
+square_foot =
+    icon
+        [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
+        [ g
+            [ id "Bounding_Box" ]
+            [ rect
+                [ fill "none" ]
+                []
+            ]
+        , g
+            [ id "Master" ]
+            [ g
+                []
+                [ path
+                    [ d "M17.66,17.66l-1.06,1.06l-0.71-0.71l1.06-1.06l-1.94-1.94l-1.06,1.06l-0.71-0.71l1.06-1.06l-1.94-1.94l-1.06,1.06\n    \t\t\tl-0.71-0.71l1.06-1.06L9.7,9.7l-1.06,1.06l-0.71-0.71l1.06-1.06L7.05,7.05L5.99,8.11L5.28,7.4l1.06-1.06L4,4v14c0,1.1,0.9,2,2,2\n    \t\t\th14L17.66,17.66z M7,17v-5.76L12.76,17H7z" ]
+                    []
+                ]
+            ]
+        ]
+
+
+{-| -}
 text_format : Int -> Coloring -> Svg msg
 text_format =
     icon
@@ -748,17 +888,6 @@ waves =
         [ viewBox "0 0 24 24" ]
         [ path
             [ d "M17 16.99c-1.35 0-2.2.42-2.95.8-.65.33-1.18.6-2.05.6-.9 0-1.4-.25-2.05-.6-.75-.38-1.57-.8-2.95-.8s-2.2.42-2.95.8c-.65.33-1.17.6-2.05.6v1.95c1.35 0 2.2-.42 2.95-.8.65-.33 1.17-.6 2.05-.6s1.4.25 2.05.6c.75.38 1.57.8 2.95.8s2.2-.42 2.95-.8c.65-.33 1.18-.6 2.05-.6.9 0 1.4.25 2.05.6.75.38 1.58.8 2.95.8v-1.95c-.9 0-1.4-.25-2.05-.6-.75-.38-1.6-.8-2.95-.8zm0-4.45c-1.35 0-2.2.43-2.95.8-.65.32-1.18.6-2.05.6-.9 0-1.4-.25-2.05-.6-.75-.38-1.57-.8-2.95-.8s-2.2.43-2.95.8c-.65.32-1.17.6-2.05.6v1.95c1.35 0 2.2-.43 2.95-.8.65-.35 1.15-.6 2.05-.6s1.4.25 2.05.6c.75.38 1.57.8 2.95.8s2.2-.43 2.95-.8c.65-.35 1.15-.6 2.05-.6s1.4.25 2.05.6c.75.38 1.58.8 2.95.8v-1.95c-.9 0-1.4-.25-2.05-.6-.75-.38-1.6-.8-2.95-.8zm2.95-8.08c-.75-.38-1.58-.8-2.95-.8s-2.2.42-2.95.8c-.65.32-1.18.6-2.05.6-.9 0-1.4-.25-2.05-.6-.75-.37-1.57-.8-2.95-.8s-2.2.42-2.95.8c-.65.33-1.17.6-2.05.6v1.93c1.35 0 2.2-.43 2.95-.8.65-.33 1.17-.6 2.05-.6s1.4.25 2.05.6c.75.38 1.57.8 2.95.8s2.2-.43 2.95-.8c.65-.32 1.18-.6 2.05-.6.9 0 1.4.25 2.05.6.75.38 1.58.8 2.95.8V5.04c-.9 0-1.4-.25-2.05-.58zM17 8.09c-1.35 0-2.2.43-2.95.8-.65.35-1.15.6-2.05.6s-1.4-.25-2.05-.6c-.75-.38-1.57-.8-2.95-.8s-2.2.43-2.95.8c-.65.35-1.15.6-2.05.6v1.95c1.35 0 2.2-.43 2.95-.8.65-.32 1.18-.6 2.05-.6s1.4.25 2.05.6c.75.38 1.57.8 2.95.8s2.2-.43 2.95-.8c.65-.32 1.18-.6 2.05-.6.9 0 1.4.25 2.05.6.75.38 1.58.8 2.95.8V9.49c-.9 0-1.4-.25-2.05-.6-.75-.38-1.6-.8-2.95-.8z" ]
-            []
-        ]
-
-
-{-| -}
-weekend : Int -> Coloring -> Svg msg
-weekend =
-    icon
-        [ viewBox "0 0 48 48" ]
-        [ path
-            [ d "M42 20c-2.21 0-4 1.79-4 4v6H10v-6c0-2.21-1.79-4-4-4s-4 1.79-4 4v10c0 2.2 1.8 4 4 4h36c2.2 0 4-1.8 4-4V24c0-2.21-1.79-4-4-4zm-6-10H12c-2.2 0-4 1.8-4 4v4.31c2.32.83 4 3.03 4 5.63V28h24v-4.06c0-2.6 1.68-4.8 4-5.63V14c0-2.2-1.8-4-4-4z" ]
             []
         ]
 

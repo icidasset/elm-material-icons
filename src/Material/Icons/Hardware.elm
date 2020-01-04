@@ -1,7 +1,6 @@
 module Material.Icons.Hardware exposing
     ( cast
     , cast_connected
-    , cast_for_education
     , computer
     , desktop_mac
     , desktop_windows
@@ -58,7 +57,6 @@ module Material.Icons.Hardware exposing
 
 @docs cast
 @docs cast_connected
-@docs cast_for_education
 @docs computer
 @docs desktop_mac
 @docs desktop_windows
@@ -111,8 +109,8 @@ module Material.Icons.Hardware exposing
 
 import Material.Icons exposing (Coloring)
 import Material.Icons.Internal exposing (icon)
-import Svg exposing (Svg, circle, g, path, svg, use)
-import Svg.Attributes exposing (baseProfile, clipRule, cx, cy, d, fill, fillOpacity, fillRule, id, opacity, overflow, r, viewBox, xlinkHref)
+import Svg exposing (Svg, circle, g, path, polygon, rect, svg, use)
+import Svg.Attributes exposing (baseProfile, clipRule, cx, cy, d, enableBackground, fill, fillOpacity, fillRule, id, opacity, overflow, points, r, transform, viewBox, xlinkHref)
 
 
 {-| -}
@@ -145,20 +143,6 @@ cast_connected =
             []
         , path
             [ d "M1 18v3h3c0-1.66-1.34-3-3-3zm0-4v2c2.76 0 5 2.24 5 5h2c0-3.87-3.13-7-7-7zm18-7H5v1.63c3.96 1.28 7.09 4.41 8.37 8.37H19V7zM1 10v2c4.97 0 9 4.03 9 9h2c0-6.08-4.93-11-11-11zm20-7H3c-1.1 0-2 .9-2 2v3h2V5h18v14h-7v2h7c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z" ]
-            []
-        ]
-
-
-{-| -}
-cast_for_education : Int -> Coloring -> Svg msg
-cast_for_education =
-    icon
-        [ viewBox "0 0 48 48" ]
-        [ path
-            [ d "M42 6H6c-2.2 0-4 1.8-4 4v6h4v-6h36v28H28v4h14c2.2 0 4-1.8 4-4V10c0-2.2-1.8-4-4-4zM2 36v6h6c0-3.32-2.68-6-6-6zm0-8v4c5.52 0 10 4.48 10 10h4c0-7.74-6.26-14-14-14zm0-8v4c9.94 0 18 8.06 18 18h4c0-12.16-9.86-22-22-22zm20 2.18v4L29 30l7-3.82v-4L29 26l-7-3.82zM29 12l-11 6 11 6 11-6-11-6z" ]
-            []
-        , path
-            [ fill "none", d "M0 0h48v48H0z" ]
             []
         ]
 

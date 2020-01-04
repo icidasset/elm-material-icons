@@ -45,7 +45,6 @@ module Material.Icons.Av exposing
     , pause_circle_outline
     , play_arrow
     , play_circle_filled
-    , play_circle_filled_white
     , play_circle_outline
     , playlist_add
     , playlist_add_check
@@ -68,6 +67,7 @@ module Material.Icons.Av exposing
     , slow_motion_video
     , snooze
     , sort_by_alpha
+    , speed
     , stop
     , subscriptions
     , subtitles
@@ -136,7 +136,6 @@ module Material.Icons.Av exposing
 @docs pause_circle_outline
 @docs play_arrow
 @docs play_circle_filled
-@docs play_circle_filled_white
 @docs play_circle_outline
 @docs playlist_add
 @docs playlist_add_check
@@ -159,6 +158,7 @@ module Material.Icons.Av exposing
 @docs slow_motion_video
 @docs snooze
 @docs sort_by_alpha
+@docs speed
 @docs stop
 @docs subscriptions
 @docs subtitles
@@ -179,8 +179,8 @@ module Material.Icons.Av exposing
 
 import Material.Icons exposing (Coloring)
 import Material.Icons.Internal exposing (icon)
-import Svg exposing (Svg, circle, g, path, svg, use)
-import Svg.Attributes exposing (baseProfile, clipRule, cx, cy, d, fill, fillOpacity, fillRule, id, opacity, overflow, r, viewBox, xlinkHref)
+import Svg exposing (Svg, circle, g, path, polygon, rect, svg, use)
+import Svg.Attributes exposing (baseProfile, clipRule, cx, cy, d, enableBackground, fill, fillOpacity, fillRule, id, opacity, overflow, points, r, transform, viewBox, xlinkHref)
 
 
 {-| -}
@@ -819,20 +819,6 @@ play_circle_filled =
 
 
 {-| -}
-play_circle_filled_white : Int -> Coloring -> Svg msg
-play_circle_filled_white =
-    icon
-        [ viewBox "0 0 48 48", fill "#fff" ]
-        [ path
-            [ d "M0 0h48v48H0z", fill "none" ]
-            []
-        , path
-            [ d "M24 4C12.95 4 4 12.95 4 24s8.95 20 20 20 20-8.95 20-20S35.05 4 24 4zm-4 29V15l12 9-12 9z" ]
-            []
-        ]
-
-
-{-| -}
 play_circle_outline : Int -> Coloring -> Svg msg
 play_circle_outline =
     icon
@@ -1118,6 +1104,20 @@ sort_by_alpha =
             []
         , path
             [ d "M14.94 4.66h-4.72l2.36-2.36zm-4.69 14.71h4.66l-2.33 2.33zM6.1 6.27L1.6 17.73h1.84l.92-2.45h5.11l.92 2.45h1.84L7.74 6.27H6.1zm-1.13 7.37l1.94-5.18 1.94 5.18H4.97zm10.76 2.5h6.12v1.59h-8.53v-1.29l5.92-8.56h-5.88v-1.6h8.3v1.26l-5.93 8.6z" ]
+            []
+        ]
+
+
+{-| -}
+speed : Int -> Coloring -> Svg msg
+speed =
+    icon
+        [ viewBox "0 0 24 24" ]
+        [ path
+            [ fill "none", d "M0 0h24v24H0z" ]
+            []
+        , path
+            [ d "M20.38 8.57l-1.23 1.85a8 8 0 0 1-.22 7.58H5.07A8 8 0 0 1 15.58 6.85l1.85-1.23A10 10 0 0 0 3.35 19a2 2 0 0 0 1.72 1h13.85a2 2 0 0 0 1.74-1 10 10 0 0 0-.27-10.44zm-9.79 6.84a2 2 0 0 0 2.83 0l5.66-8.49-8.49 5.66a2 2 0 0 0 0 2.83z" ]
             []
         ]
 
