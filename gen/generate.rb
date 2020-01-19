@@ -33,27 +33,28 @@ ATTRIBUTES_TO_REMOVE = %w(
 
 
 def append_to_file(path_to_file, content)
+  FileUtils.mkdir_p File.dirname(path_to_file)
   File.open(path_to_file, "a") { |f| f << content }
 end
 
 
-def confirm_icon(icon)
-  svg = icon_svg(icon)
+def confirm_icon(family, icon)
+  svg = icon_svg(family, icon)
 
   unless svg.start_with?("<svg") or svg.start_with?("<?xml")
     puts "Download failed for `#{icon["name"]}`, wait a bit whilst I reset."
     sleep 5
-    download_icon(icon, true)
+    download_icon(family, icon, true)
   end
 end
 
 
-def download_icon(icon, override = false)
-  filename = "#{icon["version"]}-#{icon["name"]}.svg"
-  filepath = "#{SOT_DIR}/icons/#{filename}"
+def download_icon(family, icon, override = false)
+  filepath = icon_file_path(family, icon)
 
   if !File.exist?(filepath) || override
-    IO.write filepath, %x`curl https://fonts.gstatic.com/s/i/materialicons/#{icon["name"]}/v1/24px.svg?download=true`
+    FileUtils.mkdir_p File.dirname(filepath)
+    IO.write filepath, %x`curl #{icon_url(family, icon)}`
   end
 end
 
@@ -65,6 +66,11 @@ end
 
 def escape_quotes(s)
   s.gsub('"', '\"')
+end
+
+
+def icon_file_path(family, icon)
+  "#{SOT_DIR}/icons/#{family}/v#{icon["version"]}-#{icon["name"]}.svg"
 end
 
 
@@ -83,9 +89,8 @@ def icon_function_name(name)
 end
 
 
-def icon_svg(icon)
-  filename = "#{icon["version"]}-#{icon["name"]}.svg"
-  filepath = "#{SOT_DIR}/icons/#{filename}"
+def icon_svg(family, icon)
+  filepath = icon_file_path(family, icon)
 
   filepath
     .yield_self { |a| IO.read(a) }
@@ -96,6 +101,15 @@ def icon_svg(icon)
     .yield_self { |a| ATTRIBUTES_TO_REMOVE.reduce(a) {
       |b, attr| b.gsub(/\ #{attr}="[^"]*"/, " ")
     }}
+end
+
+
+def icon_url(family_normal, icon)
+  family = family_normal.downcase.gsub(" ", "")
+  name = icon["name"]
+  version = icon["version"]
+
+  "https://fonts.gstatic.com/s/i/#{family}/#{name}/v#{version}/24px.svg?download=true"
 end
 
 
@@ -118,76 +132,94 @@ FileUtils.mkdir_p OUT_DIR
 # Generate
 # ========
 
-icons =
+INDEX =
   "#{SOT_DIR}/icons.json"
     .yield_self { |a| IO.read(a) }
     .yield_self { |a| a.delete_prefix(")]}'\n") }
     .yield_self { |a| JSON.parse(a) }
-    .yield_self { |a| a["icons"] }
 
+ICONS =
+  INDEX["icons"]
 
-categories = icons.reduce({}) do |memo, icon|
+CATEGORIES = ICONS.reduce({}) do |memo, icon|
   cat = icon["categories"][0] || ""
 
   memo[cat] ||= { "name" => cat, "icons" => [] }
   memo[cat]["icons"].push(icon)
 
   memo
-end
+end.sort_by { |key, _| key }
 
 
-categories
-  .sort_by { |key, _| key }
-  .each do |_, cat|
+def generate(family)
+  module_name = family
+    .gsub("Material Icons", "Material.Icons")
+    .sub(" ", ".")
+    .gsub(" ", "")
 
-  cat_name = cat["name"]
-  cat_module_name = cat_name.camelize
-  cat_out = "#{OUT_DIR}/#{cat_module_name}.elm"
-  cat_icons = cat["icons"].sort_by { |icon| icon["name"] }
+  dir_name = family
+    .gsub("Material Icons", "Material/Icons")
+    .sub(" ", "/")
+    .gsub(" ", "")
+
+  out_path = "#{OUT_DIR}/#{dir_name}.elm"
+  filtered_icons = ICONS.reject { |i| i["unsupported_families"].include?(family) }
+  filtered_icons_names = filtered_icons.map { |i| i["name"] }
 
   # {log}
-  puts "Processing #{cat_module_name}"
+  puts "Processing #{family}"
 
   # Header
-  exposed = cat_icons.map do |icon|
-    icon_function_name icon["name"]
+  exposed = filtered_icons_names.map do |icon_name|
+    icon_function_name icon_name
   end.join(", ")
 
-  append_to_file cat_out, <<~HERE
-  module Material.Icons.#{cat_module_name} exposing (#{exposed})
+  append_to_file out_path, <<~HERE
+  module #{module_name} exposing (#{exposed})
 
   {-|
-
-  # Icons
-
   HERE
 
   # Docs
-  cat_icons.each do |icon|
-    icon_fn_name = icon_function_name icon["name"]
-    append_to_file cat_out, "@docs #{icon_fn_name}\n"
+  CATEGORIES.each do |_, cat|
+    cat_name = cat["name"].humanize
+
+    append_to_file out_path, <<~HERE
+
+    # #{cat_name}
+
+    HERE
+
+    cat["icons"]
+      .sort_by { |icon| icon["name"] }
+      .each do |icon|
+        if filtered_icons_names.include?(icon["name"])
+          icon_fn_name = icon_function_name icon["name"]
+          append_to_file out_path, "@docs #{icon_fn_name}\n"
+        end
+      end
   end
 
   # Imports
-  append_to_file cat_out, <<~HERE
+  append_to_file out_path, <<~HERE
   -}
 
-  import Material.Icons exposing (Coloring)
+  import Material.Icons.Coloring exposing (Coloring)
   import Material.Icons.Internal exposing (icon)
-  import Svg exposing (Svg, circle, g, path, polygon, rect, use, svg)
-  import Svg.Attributes exposing (baseProfile, clipRule, cx, cy, d, enableBackground, fill, fillOpacity, fillRule, id, opacity, overflow, points, r, transform, viewBox, xlinkHref)
+  import Svg exposing (Svg, circle, g, path, polygon, polyline, rect, use, svg)
+  import Svg.Attributes exposing (baseProfile, clipRule, cx, cy, d, enableBackground, fill, fillOpacity, fillRule, id, overflow, points, r, viewBox, xlinkHref)
   HERE
 
   # Process each icon
-  cat_icons.each do |icon|
+  filtered_icons.each do |icon|
     icon_fn_name = icon_function_name icon["name"]
 
-    puts "Processing #{cat_module_name}/#{icon_fn_name}"
+    puts "Processing #{family}/#{icon_fn_name}"
 
-    download_icon icon
-    confirm_icon icon
+    download_icon(family, icon)
+    confirm_icon(family, icon)
 
-    svg             = icon_svg icon
+    svg             = icon_svg(family, icon)
     elm_icon_code   = %x`./node_modules/.bin/html-elm "#{escape_quotes(svg)}"`
                         .yield_self { |a| a.gsub(/^svg/, "icon") }
                         .yield_self { |a| a.gsub("baseprofile", "baseProfile") }
@@ -201,7 +233,7 @@ categories
                         .yield_self { |a| a.gsub(/\n/, "\n    ") }
                         .strip
 
-    append_to_file cat_out, <<~HERE
+    append_to_file out_path, <<~HERE
 
 
       {-|-}
@@ -214,12 +246,24 @@ categories
 end
 
 
+INDEX["families"].each do |family|
+  generate(family)
+end
+
+
 
 # Move
 # ====
 
-%x`mv #{escape(OUT_DIR)}/* #{escape(ROOT)}/src/Material/Icons`
+%x`mv #{escape(ROOT)}/src/Material/Icons/Coloring.elm #{escape(ROOT)}/src/Coloring.elm`
+%x`mv #{escape(ROOT)}/src/Material/Icons/Internal.elm #{escape(ROOT)}/src/Internal.elm`
+
+%x`rm -rf #{escape(ROOT)}/src/Material`
+%x`mv -f #{escape(OUT_DIR)}/* #{escape(ROOT)}/src`
 %x`rm -rf #{escape(OUT_DIR)}`
+
+%x`mv #{escape(ROOT)}/src/Coloring.elm #{escape(ROOT)}/src/Material/Icons/Coloring.elm`
+%x`mv #{escape(ROOT)}/src/Internal.elm #{escape(ROOT)}/src/Material/Icons/Internal.elm`
 
 
 

@@ -1,5 +1,10 @@
 # Changelog
 
+#### 3.0.0
+
+- __Now contains all the available themes from material.io__
+- Icons are no longer grouped by category, but instead by theme
+
 #### 2.0.0
 
 Major icons update.
