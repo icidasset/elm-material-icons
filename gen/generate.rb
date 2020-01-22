@@ -183,28 +183,32 @@ def generate(family)
   # Docs
   CATEGORIES.each do |_, cat|
     cat_name = cat["name"].humanize
+    functions_names = cat["icons"]
+      .sort_by { |icon| icon["name"] }
+      .map do |icon|
+        if filtered_icons_names.include? icon["name"]
+          icon_function_name icon["name"]
+        else
+          nil
+        end
+      end
+      .compact
+      .join ", "
 
     append_to_file out_path, <<~HERE
 
     # #{cat_name}
 
-    HERE
+    @docs #{functions_names}
 
-    cat["icons"]
-      .sort_by { |icon| icon["name"] }
-      .each do |icon|
-        if filtered_icons_names.include?(icon["name"])
-          icon_fn_name = icon_function_name icon["name"]
-          append_to_file out_path, "@docs #{icon_fn_name}\n"
-        end
-      end
+    HERE
   end
 
   # Imports
   append_to_file out_path, <<~HERE
   -}
 
-  import Material.Icons.Coloring exposing (Coloring)
+  import Material.Icons.Types exposing (Coloring, Icon)
   import Material.Icons.Internal exposing (icon)
   import Svg exposing (Svg, circle, g, path, polygon, polyline, rect, use, svg)
   import Svg.Attributes exposing (baseProfile, clipRule, cx, cy, d, enableBackground, fill, fillOpacity, fillRule, id, overflow, points, r, viewBox, xlinkHref)
@@ -237,7 +241,7 @@ def generate(family)
 
 
       {-|-}
-      #{icon_fn_name} : Int -> Coloring -> Svg msg
+      #{icon_fn_name} : Icon msg
       #{icon_fn_name} =
           #{elm_icon_code}
     HERE
@@ -255,14 +259,14 @@ end
 # Move
 # ====
 
-%x`mv #{escape(ROOT)}/src/Material/Icons/Coloring.elm #{escape(ROOT)}/src/Coloring.elm`
+%x`mv #{escape(ROOT)}/src/Material/Icons/Types.elm #{escape(ROOT)}/src/Types.elm`
 %x`mv #{escape(ROOT)}/src/Material/Icons/Internal.elm #{escape(ROOT)}/src/Internal.elm`
 
 %x`rm -rf #{escape(ROOT)}/src/Material`
 %x`mv -f #{escape(OUT_DIR)}/* #{escape(ROOT)}/src`
 %x`rm -rf #{escape(OUT_DIR)}`
 
-%x`mv #{escape(ROOT)}/src/Coloring.elm #{escape(ROOT)}/src/Material/Icons/Coloring.elm`
+%x`mv #{escape(ROOT)}/src/Types.elm #{escape(ROOT)}/src/Material/Icons/Types.elm`
 %x`mv #{escape(ROOT)}/src/Internal.elm #{escape(ROOT)}/src/Material/Icons/Internal.elm`
 
 

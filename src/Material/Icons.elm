@@ -1,1061 +1,20 @@
 module Material.Icons exposing
-    ( three_d_rotation
-    , accessibility
-    , accessibility_new
-    , accessible
-    , accessible_forward
-    , account_balance
-    , account_balance_wallet
-    , account_box
-    , account_circle
-    , add_shopping_cart
-    , alarm
-    , alarm_add
-    , alarm_off
-    , alarm_on
-    , all_inbox
-    , all_out
-    , android
-    , announcement
-    , arrow_right_alt
-    , aspect_ratio
-    , assessment
-    , assignment
-    , assignment_ind
-    , assignment_late
-    , assignment_return
-    , assignment_returned
-    , assignment_turned_in
-    , autorenew
-    , backup
-    , book
-    , bookmark
-    , bookmark_border
-    , bookmarks
-    , bug_report
-    , build
-    , cached
-    , calendar_today
-    , calendar_view_day
-    , camera_enhance
-    , cancel_schedule_send
-    , card_giftcard
-    , card_membership
-    , card_travel
-    , change_history
-    , check_circle
-    , check_circle_outline
-    , chrome_reader_mode
-    , class
-    , code
-    , commute
-    , compare_arrows
-    , contact_support
-    , contactless
-    , copyright
-    , credit_card
-    , dashboard
-    , date_range
-    , delete
-    , delete_forever
-    , delete_outline
-    , description
-    , dns
-    , done
-    , done_all
-    , done_outline
-    , donut_large
-    , donut_small
-    , drag_indicator
-    , eco
-    , eject
-    , euro_symbol
-    , event
-    , event_seat
-    , exit_to_app
-    , explore
-    , explore_off
-    , extension
-    , face
-    , favorite
-    , favorite_border
-    , feedback
-    , find_in_page
-    , find_replace
-    , fingerprint
-    , flight_land
-    , flight_takeoff
-    , flip_to_back
-    , flip_to_front
-    , g_translate
-    , gavel
-    , get_app
-    , gif
-    , grade
-    , group_work
-    , help
-    , help_outline
-    , highlight_off
-    , history
-    , home
-    , horizontal_split
-    , hourglass_empty
-    , hourglass_full
-    , http
-    , https
-    , important_devices
-    , info
-    , input
-    , invert_colors
-    , label
-    , label_important
-    , label_off
-    , language
-    , launch
-    , line_style
-    , line_weight
-    , list
-    , lock
-    , lock_open
-    , loyalty
-    , markunread_mailbox
-    , maximize
-    , minimize
-    , motorcycle
-    , note_add
-    , offline_bolt
-    , offline_pin
-    , opacity
-    , open_in_browser
-    , open_in_new
-    , open_with
-    , pageview
-    , pan_tool
-    , payment
-    , perm_camera_mic
-    , perm_contact_calendar
-    , perm_data_setting
-    , perm_device_information
-    , perm_identity
-    , perm_media
-    , perm_phone_msg
-    , perm_scan_wifi
-    , pets
-    , picture_in_picture
-    , picture_in_picture_alt
-    , play_for_work
-    , polymer
-    , power_settings_new
-    , pregnant_woman
-    , print
-    , query_builder
-    , question_answer
-    , receipt
-    , record_voice_over
-    , redeem
-    , remove_shopping_cart
-    , reorder
-    , report_problem
-    , restore
-    , restore_from_trash
-    , restore_page
-    , room
-    , rounded_corner
-    , rowing
-    , schedule
-    , search
-    , settings_applications
-    , settings_backup_restore
-    , settings_bluetooth
-    , settings_brightness
-    , settings_cell
-    , settings_ethernet
-    , settings_input_antenna
-    , settings_input_component
-    , settings_input_composite
-    , settings_input_hdmi
-    , settings_input_svideo
-    , settings_overscan
-    , settings_phone
-    , settings_power
-    , settings_remote
-    , settings_voice
-    , shop
-    , shop_two
-    , shopping_basket
-    , shopping_cart
-    , speaker_notes
-    , speaker_notes_off
-    , spellcheck
-    , stars
-    , store
-    , subject
-    , supervised_user_circle
-    , supervisor_account
-    , swap_horiz
-    , swap_horizontal_circle
-    , swap_vert
-    , swap_vertical_circle
-    , sync_alt
-    , system_update_alt
-    , tab
-    , tab_unselected
-    , text_rotate_up
-    , text_rotate_vertical
-    , text_rotation_angledown
-    , text_rotation_angleup
-    , text_rotation_down
-    , text_rotation_none
-    , theaters
-    , thumb_down
-    , thumb_up
-    , thumbs_up_down
-    , timeline
-    , toc
-    , today
-    , toll
-    , touch_app
-    , track_changes
-    , translate
-    , trending_down
-    , trending_flat
-    , trending_up
-    , turned_in
-    , turned_in_not
-    , update
-    , verified_user
-    , vertical_split
-    , view_agenda
-    , view_array
-    , view_carousel
-    , view_column
-    , view_day
-    , view_headline
-    , view_list
-    , view_module
-    , view_quilt
-    , view_stream
-    , view_week
-    , visibility
-    , visibility_off
-    , voice_over_off
-    , watch_later
-    , work
-    , work_off
-    , work_outline
-    , youtube_searched_for
-    , zoom_in
-    , zoom_out
-    , add_alert
-    , error
-    , error_outline
-    , notification_important
-    , warning
-    , four_k
-    , add_to_queue
-    , airplay
-    , album
-    , art_track
-    , av_timer
-    , branding_watermark
-    , call_to_action
-    , closed_caption
-    , control_camera
-    , equalizer
-    , explicit
-    , fast_forward
-    , fast_rewind
-    , featured_play_list
-    , featured_video
-    , fiber_dvr
-    , fiber_manual_record
-    , fiber_new
-    , fiber_pin
-    , fiber_smart_record
-    , forward_10
-    , forward_30
-    , forward_5
-    , games
-    , hd
-    , hearing
-    , high_quality
-    , library_add
-    , library_books
-    , library_music
-    , loop
-    , mic
-    , mic_none
-    , mic_off
-    , missed_video_call
-    , movie
-    , music_video
-    , new_releases
-    , not_interested
-    , note
-    , pause
-    , pause_circle_filled
-    , pause_circle_outline
-    , play_arrow
-    , play_circle_filled
-    , play_circle_outline
-    , playlist_add
-    , playlist_add_check
-    , playlist_play
-    , queue
-    , queue_music
-    , queue_play_next
-    , radio
-    , recent_actors
-    , remove_from_queue
-    , repeat
-    , repeat_one
-    , replay
-    , replay_10
-    , replay_30
-    , replay_5
-    , shuffle
-    , skip_next
-    , skip_previous
-    , slow_motion_video
-    , snooze
-    , sort_by_alpha
-    , speed
-    , stop
-    , subscriptions
-    , subtitles
-    , surround_sound
-    , video_call
-    , video_label
-    , video_library
-    , videocam
-    , videocam_off
-    , volume_down
-    , volume_mute
-    , volume_off
-    , volume_up
-    , web
-    , web_asset
-    , business
-    , call
-    , call_end
-    , call_made
-    , call_merge
-    , call_missed
-    , call_missed_outgoing
-    , call_received
-    , call_split
-    , cancel_presentation
-    , chat
-    , chat_bubble
-    , chat_bubble_outline
-    , clear_all
-    , comment
-    , contact_mail
-    , contact_phone
-    , contacts
-    , desktop_access_disabled
-    , dialer_sip
-    , dialpad
-    , domain_disabled
-    , duo
-    , email
-    , forum
-    , import_contacts
-    , import_export
-    , invert_colors_off
-    , list_alt
-    , live_help
-    , mail_outline
-    , message
-    , mobile_screen_share
-    , no_sim
-    , pause_presentation
-    , person_add_disabled
-    , phone
-    , phone_disabled
-    , phone_enabled
-    , phonelink_erase
-    , phonelink_lock
-    , phonelink_ring
-    , phonelink_setup
-    , portable_wifi_off
-    , present_to_all
-    , print_disabled
-    , ring_volume
-    , rss_feed
-    , screen_share
-    , sentiment_satisfied_alt
-    , speaker_phone
-    , stay_current_landscape
-    , stay_current_portrait
-    , stay_primary_landscape
-    , stay_primary_portrait
-    , stop_screen_share
-    , swap_calls
-    , textsms
-    , unsubscribe
-    , voicemail
-    , vpn_key
-    , add
-    , add_box
-    , add_circle
-    , add_circle_outline
-    , amp_stories
-    , archive
-    , backspace
-    , ballot
-    , block
-    , clear
-    , create
-    , delete_sweep
-    , drafts
-    , dynamic_feed
-    , file_copy
-    , filter_list
-    , flag
-    , font_download
-    , forward
-    , gesture
-    , how_to_reg
-    , how_to_vote
-    , inbox
-    , link
-    , link_off
-    , low_priority
-    , mail
-    , markunread
-    , move_to_inbox
-    , next_week
-    , outlined_flag
-    , policy
-    , redo
-    , remove
-    , remove_circle
-    , remove_circle_outline
-    , reply
-    , reply_all
-    , report
-    , report_off
-    , save
-    , save_alt
-    , select_all
-    , send
-    , sort
-    , square_foot
-    , text_format
-    , unarchive
-    , undo
-    , waves
-    , where_to_vote
-    , access_alarm
-    , access_alarms
-    , access_time
-    , add_alarm
-    , add_to_home_screen
-    , airplanemode_active
-    , airplanemode_inactive
-    , battery_alert
-    , battery_charging_full
-    , battery_full
-    , battery_std
-    , battery_unknown
-    , bluetooth
-    , bluetooth_connected
-    , bluetooth_disabled
-    , bluetooth_searching
-    , brightness_auto
-    , brightness_high
-    , brightness_low
-    , brightness_medium
-    , data_usage
-    , developer_mode
-    , devices
-    , dvr
-    , gps_fixed
-    , gps_not_fixed
-    , gps_off
-    , graphic_eq
-    , location_disabled
-    , location_searching
-    , mobile_friendly
-    , mobile_off
-    , nfc
-    , screen_lock_landscape
-    , screen_lock_portrait
-    , screen_lock_rotation
-    , screen_rotation
-    , sd_storage
-    , settings_system_daydream
-    , signal_cellular_4_bar
-    , signal_cellular_alt
-    , signal_cellular_connected_no_internet_4_bar
-    , signal_cellular_no_sim
-    , signal_cellular_null
-    , signal_cellular_off
-    , signal_wifi_4_bar
-    , signal_wifi_4_bar_lock
-    , signal_wifi_off
-    , storage
-    , usb
-    , wallpaper
-    , widgets
-    , wifi_lock
-    , wifi_tethering
-    , add_comment
-    , attach_file
-    , attach_money
-    , bar_chart
-    , border_all
-    , border_bottom
-    , border_clear
-    , border_horizontal
-    , border_inner
-    , border_left
-    , border_outer
-    , border_right
-    , border_style
-    , border_top
-    , border_vertical
-    , bubble_chart
-    , drag_handle
-    , format_align_center
-    , format_align_justify
-    , format_align_left
-    , format_align_right
-    , format_bold
-    , format_clear
-    , format_color_reset
-    , format_indent_decrease
-    , format_indent_increase
-    , format_italic
-    , format_line_spacing
-    , format_list_bulleted
-    , format_list_numbered
-    , format_list_numbered_rtl
-    , format_paint
-    , format_quote
-    , format_shapes
-    , format_size
-    , format_strikethrough
-    , format_textdirection_l_to_r
-    , format_textdirection_r_to_l
-    , format_underlined
-    , functions
-    , height
-    , highlight
-    , insert_chart
-    , insert_chart_outlined
-    , insert_comment
-    , insert_drive_file
-    , insert_emoticon
-    , insert_invitation
-    , insert_link
-    , insert_photo
-    , linear_scale
-    , merge_type
-    , mode_comment
-    , monetization_on
-    , money_off
-    , multiline_chart
-    , notes
-    , pie_chart
-    , post_add
-    , publish
-    , scatter_plot
-    , score
-    , short_text
-    , show_chart
-    , space_bar
-    , strikethrough_s
-    , table_chart
-    , text_fields
-    , title
-    , vertical_align_bottom
-    , vertical_align_center
-    , vertical_align_top
-    , wrap_text
-    , attachment
-    , cloud
-    , cloud_circle
-    , cloud_done
-    , cloud_download
-    , cloud_off
-    , cloud_queue
-    , cloud_upload
-    , create_new_folder
-    , folder
-    , folder_open
-    , folder_shared
-    , cast
-    , cast_connected
-    , computer
-    , desktop_mac
-    , desktop_windows
-    , developer_board
-    , device_hub
-    , device_unknown
-    , devices_other
-    , dock
-    , gamepad
-    , headset
-    , headset_mic
-    , keyboard
-    , keyboard_arrow_down
-    , keyboard_arrow_left
-    , keyboard_arrow_right
-    , keyboard_arrow_up
-    , keyboard_backspace
-    , keyboard_capslock
-    , keyboard_hide
-    , keyboard_return
-    , keyboard_tab
-    , keyboard_voice
-    , laptop
-    , laptop_chromebook
-    , laptop_mac
-    , laptop_windows
-    , memory
-    , mouse
-    , phone_android
-    , phone_iphone
-    , phonelink
-    , phonelink_off
-    , power_input
-    , router
-    , scanner
-    , security
-    , sim_card
-    , smartphone
-    , speaker
-    , speaker_group
-    , tablet
-    , tablet_android
-    , tablet_mac
-    , toys
-    , tv
-    , videogame_asset
-    , watch
-    , add_a_photo
-    , add_photo_alternate
-    , add_to_photos
-    , adjust
-    , assistant
-    , assistant_photo
-    , audiotrack
-    , blur_circular
-    , blur_linear
-    , blur_off
-    , blur_on
-    , brightness_1
-    , brightness_2
-    , brightness_3
-    , brightness_4
-    , brightness_5
-    , brightness_6
-    , brightness_7
-    , broken_image
-    , brush
-    , burst_mode
-    , camera
-    , camera_alt
-    , camera_front
-    , camera_rear
-    , camera_roll
-    , center_focus_strong
-    , center_focus_weak
-    , collections
-    , collections_bookmark
-    , color_lens
-    , colorize
-    , compare
-    , control_point
-    , control_point_duplicate
-    , crop
-    , crop_16_9
-    , crop_3_2
-    , crop_5_4
-    , crop_7_5
-    , crop_din
-    , crop_free
-    , crop_landscape
-    , crop_original
-    , crop_portrait
-    , crop_rotate
-    , crop_square
-    , dehaze
-    , details
-    , edit
-    , euro
-    , exposure
-    , exposure_neg_1
-    , exposure_neg_2
-    , exposure_plus_1
-    , exposure_plus_2
-    , exposure_zero
-    , filter
-    , filter_1
-    , filter_2
-    , filter_3
-    , filter_4
-    , filter_5
-    , filter_6
-    , filter_7
-    , filter_8
-    , filter_9
-    , filter_9_plus
-    , filter_b_and_w
-    , filter_center_focus
-    , filter_drama
-    , filter_frames
-    , filter_hdr
-    , filter_none
-    , filter_tilt_shift
-    , filter_vintage
-    , flare
-    , flash_auto
-    , flash_off
-    , flash_on
-    , flip
-    , flip_camera_android
-    , flip_camera_ios
-    , gradient
-    , grain
-    , grid_off
-    , grid_on
-    , hdr_off
-    , hdr_on
-    , hdr_strong
-    , hdr_weak
-    , healing
-    , image
-    , image_aspect_ratio
-    , image_search
-    , iso
-    , landscape
-    , leak_add
-    , leak_remove
-    , lens
-    , linked_camera
-    , looks
-    , looks_3
-    , looks_4
-    , looks_5
-    , looks_6
-    , looks_one
-    , looks_two
-    , loupe
-    , monochrome_photos
-    , movie_creation
-    , movie_filter
-    , music_note
-    , music_off
-    , nature
-    , nature_people
-    , navigate_before
-    , navigate_next
-    , palette
-    , panorama
-    , panorama_fish_eye
-    , panorama_horizontal
-    , panorama_vertical
-    , panorama_wide_angle
-    , photo
-    , photo_album
-    , photo_camera
-    , photo_filter
-    , photo_library
-    , photo_size_select_actual
-    , photo_size_select_large
-    , photo_size_select_small
-    , picture_as_pdf
-    , portrait
-    , remove_red_eye
-    , rotate_90_degrees_ccw
-    , rotate_left
-    , rotate_right
-    , shutter_speed
-    , slideshow
-    , straighten
-    , style
-    , switch_camera
-    , switch_video
-    , tag_faces
-    , texture
-    , timelapse
-    , timer
-    , timer_10
-    , timer_3
-    , timer_off
-    , tonality
-    , transform
-    , tune
-    , view_comfy
-    , view_compact
-    , vignette
-    , wb_auto
-    , wb_cloudy
-    , wb_incandescent
-    , wb_iridescent
-    , wb_sunny
-    , three_sixty
-    , atm
-    , beenhere
-    , category
-    , compass_calibration
-    , departure_board
-    , directions
-    , directions_bike
-    , directions_boat
-    , directions_bus
-    , directions_car
-    , directions_railway
-    , directions_run
-    , directions_subway
-    , directions_transit
-    , directions_walk
-    , edit_attributes
-    , ev_station
-    , fastfood
-    , flight
-    , hotel
-    , layers
-    , layers_clear
-    , local_activity
-    , local_airport
-    , local_atm
-    , local_bar
-    , local_cafe
-    , local_car_wash
-    , local_convenience_store
-    , local_dining
-    , local_drink
-    , local_florist
-    , local_gas_station
-    , local_grocery_store
-    , local_hospital
-    , local_hotel
-    , local_laundry_service
-    , local_library
-    , local_mall
-    , local_movies
-    , local_offer
-    , local_parking
-    , local_pharmacy
-    , local_phone
-    , local_pizza
-    , local_play
-    , local_post_office
-    , local_printshop
-    , local_see
-    , local_shipping
-    , local_taxi
-    , map
-    , menu_book
-    , money
-    , museum
-    , my_location
-    , navigation
-    , near_me
-    , person_pin
-    , rate_review
-    , restaurant
-    , restaurant_menu
-    , satellite
-    , store_mall_directory
-    , streetview
-    , subway
-    , terrain
-    , traffic
-    , train
-    , tram
-    , transfer_within_a_station
-    , transit_enterexit
-    , trip_origin
-    , zoom_out_map
-    , apps
-    , arrow_back
-    , arrow_back_ios
-    , arrow_downward
-    , arrow_drop_down
-    , arrow_drop_down_circle
-    , arrow_drop_up
-    , arrow_forward
-    , arrow_forward_ios
-    , arrow_left
-    , arrow_right
-    , arrow_upward
-    , cancel
-    , check
-    , chevron_left
-    , chevron_right
-    , close
-    , double_arrow
-    , expand_less
-    , expand_more
-    , first_page
-    , fullscreen
-    , fullscreen_exit
-    , home_work
-    , last_page
-    , menu
-    , menu_open
-    , more_horiz
-    , more_vert
-    , refresh
-    , subdirectory_arrow_left
-    , subdirectory_arrow_right
-    , unfold_less
-    , unfold_more
-    , account_tree
-    , adb
-    , airline_seat_flat
-    , airline_seat_flat_angled
-    , airline_seat_individual_suite
-    , airline_seat_legroom_extra
-    , airline_seat_legroom_normal
-    , airline_seat_legroom_reduced
-    , airline_seat_recline_extra
-    , airline_seat_recline_normal
-    , bluetooth_audio
-    , confirmation_number
-    , disc_full
-    , drive_eta
-    , enhanced_encryption
-    , event_available
-    , event_busy
-    , event_note
-    , folder_special
-    , live_tv
-    , mms
-    , more
-    , network_check
-    , network_locked
-    , no_encryption
-    , ondemand_video
-    , personal_video
-    , phone_bluetooth_speaker
-    , phone_callback
-    , phone_forwarded
-    , phone_in_talk
-    , phone_locked
-    , phone_missed
-    , phone_paused
-    , power
-    , power_off
-    , priority_high
-    , sd_card
-    , sms
-    , sms_failed
-    , sync
-    , sync_disabled
-    , sync_problem
-    , system_update
-    , tap_and_play
-    , time_to_leave
-    , tv_off
-    , vibration
-    , voice_chat
-    , vpn_lock
-    , wc
-    , wifi
-    , wifi_off
-    , ac_unit
-    , airport_shuttle
-    , all_inclusive
-    , apartment
-    , bathtub
-    , beach_access
-    , business_center
-    , casino
-    , child_care
-    , child_friendly
-    , fitness_center
-    , free_breakfast
-    , golf_course
-    , hot_tub
-    , house
-    , kitchen
-    , meeting_room
-    , no_meeting_room
-    , pool
-    , room_service
-    , rv_hookup
-    , smoke_free
-    , smoking_rooms
-    , spa
-    , storefront
-    , cake
-    , deck
-    , emoji_emotions
-    , emoji_events
-    , emoji_flags
-    , emoji_food_beverage
-    , emoji_nature
-    , emoji_objects
-    , emoji_people
-    , emoji_symbols
-    , emoji_transportation
-    , fireplace
-    , group
-    , group_add
-    , king_bed
-    , location_city
-    , mood
-    , mood_bad
-    , nights_stay
-    , notifications
-    , notifications_active
-    , notifications_none
-    , notifications_off
-    , notifications_paused
-    , outdoor_grill
-    , pages
-    , party_mode
-    , people
-    , people_alt
-    , people_outline
-    , person
-    , person_add
-    , person_outline
-    , plus_one
-    , poll
-    , public
-    , school
-    , sentiment_dissatisfied
-    , sentiment_satisfied
-    , sentiment_very_dissatisfied
-    , sentiment_very_satisfied
-    , share
-    , single_bed
-    , sports
-    , sports_baseball
-    , sports_basketball
-    , sports_cricket
-    , sports_esports
-    , sports_football
-    , sports_golf
-    , sports_handball
-    , sports_hockey
-    , sports_kabaddi
-    , sports_mma
-    , sports_motorsports
-    , sports_rugby
-    , sports_soccer
-    , sports_tennis
-    , sports_volleyball
-    , thumb_down_alt
-    , thumb_up_alt
-    , whatshot
-    , check_box
-    , check_box_outline_blank
-    , indeterminate_check_box
-    , radio_button_checked
-    , radio_button_unchecked
-    , star
-    , star_border
-    , star_half
-    , toggle_off
-    , toggle_on
+    ( three_d_rotation, accessibility, accessibility_new, accessible, accessible_forward, account_balance, account_balance_wallet, account_box, account_circle, add_shopping_cart, alarm, alarm_add, alarm_off, alarm_on, all_inbox, all_out, android, announcement, arrow_right_alt, aspect_ratio, assessment, assignment, assignment_ind, assignment_late, assignment_return, assignment_returned, assignment_turned_in, autorenew, backup, book, bookmark, bookmark_border, bookmarks, bug_report, build, cached, calendar_today, calendar_view_day, camera_enhance, cancel_schedule_send, card_giftcard, card_membership, card_travel, change_history, check_circle, check_circle_outline, chrome_reader_mode, class, code, commute, compare_arrows, contact_support, contactless, copyright, credit_card, dashboard, date_range, delete, delete_forever, delete_outline, description, dns, done, done_all, done_outline, donut_large, donut_small, drag_indicator, eco, eject, euro_symbol, event, event_seat, exit_to_app, explore, explore_off, extension, face, favorite, favorite_border, feedback, find_in_page, find_replace, fingerprint, flight_land, flight_takeoff, flip_to_back, flip_to_front, g_translate, gavel, get_app, gif, grade, group_work, help, help_outline, highlight_off, history, home, horizontal_split, hourglass_empty, hourglass_full, http, https, important_devices, info, input, invert_colors, label, label_important, label_off, language, launch, line_style, line_weight, list, lock, lock_open, loyalty, markunread_mailbox, maximize, minimize, motorcycle, note_add, offline_bolt, offline_pin, opacity, open_in_browser, open_in_new, open_with, pageview, pan_tool, payment, perm_camera_mic, perm_contact_calendar, perm_data_setting, perm_device_information, perm_identity, perm_media, perm_phone_msg, perm_scan_wifi, pets, picture_in_picture, picture_in_picture_alt, play_for_work, polymer, power_settings_new, pregnant_woman, print, query_builder, question_answer, receipt, record_voice_over, redeem, remove_shopping_cart, reorder, report_problem, restore, restore_from_trash, restore_page, room, rounded_corner, rowing, schedule, search, settings_applications, settings_backup_restore, settings_bluetooth, settings_brightness, settings_cell, settings_ethernet, settings_input_antenna, settings_input_component, settings_input_composite, settings_input_hdmi, settings_input_svideo, settings_overscan, settings_phone, settings_power, settings_remote, settings_voice, shop, shop_two, shopping_basket, shopping_cart, speaker_notes, speaker_notes_off, spellcheck, stars, store, subject, supervised_user_circle, supervisor_account, swap_horiz, swap_horizontal_circle, swap_vert, swap_vertical_circle, sync_alt, system_update_alt, tab, tab_unselected, text_rotate_up, text_rotate_vertical, text_rotation_angledown, text_rotation_angleup, text_rotation_down, text_rotation_none, theaters, thumb_down, thumb_up, thumbs_up_down, timeline, toc, today, toll, touch_app, track_changes, translate, trending_down, trending_flat, trending_up, turned_in, turned_in_not, update, verified_user, vertical_split, view_agenda, view_array, view_carousel, view_column, view_day, view_headline, view_list, view_module, view_quilt, view_stream, view_week, visibility, visibility_off, voice_over_off, watch_later, work, work_off, work_outline, youtube_searched_for, zoom_in, zoom_out
+    , add_alert, error, error_outline, notification_important, warning
+    , four_k, add_to_queue, airplay, album, art_track, av_timer, branding_watermark, call_to_action, closed_caption, control_camera, equalizer, explicit, fast_forward, fast_rewind, featured_play_list, featured_video, fiber_dvr, fiber_manual_record, fiber_new, fiber_pin, fiber_smart_record, forward_10, forward_30, forward_5, games, hd, hearing, high_quality, library_add, library_books, library_music, loop, mic, mic_none, mic_off, missed_video_call, movie, music_video, new_releases, not_interested, note, pause, pause_circle_filled, pause_circle_outline, play_arrow, play_circle_filled, play_circle_outline, playlist_add, playlist_add_check, playlist_play, queue, queue_music, queue_play_next, radio, recent_actors, remove_from_queue, repeat, repeat_one, replay, replay_10, replay_30, replay_5, shuffle, skip_next, skip_previous, slow_motion_video, snooze, sort_by_alpha, speed, stop, subscriptions, subtitles, surround_sound, video_call, video_label, video_library, videocam, videocam_off, volume_down, volume_mute, volume_off, volume_up, web, web_asset
+    , business, call, call_end, call_made, call_merge, call_missed, call_missed_outgoing, call_received, call_split, cancel_presentation, chat, chat_bubble, chat_bubble_outline, clear_all, comment, contact_mail, contact_phone, contacts, desktop_access_disabled, dialer_sip, dialpad, domain_disabled, duo, email, forum, import_contacts, import_export, invert_colors_off, list_alt, live_help, mail_outline, message, mobile_screen_share, no_sim, pause_presentation, person_add_disabled, phone, phone_disabled, phone_enabled, phonelink_erase, phonelink_lock, phonelink_ring, phonelink_setup, portable_wifi_off, present_to_all, print_disabled, ring_volume, rss_feed, screen_share, sentiment_satisfied_alt, speaker_phone, stay_current_landscape, stay_current_portrait, stay_primary_landscape, stay_primary_portrait, stop_screen_share, swap_calls, textsms, unsubscribe, voicemail, vpn_key
+    , add, add_box, add_circle, add_circle_outline, amp_stories, archive, backspace, ballot, block, clear, create, delete_sweep, drafts, dynamic_feed, file_copy, filter_list, flag, font_download, forward, gesture, how_to_reg, how_to_vote, inbox, link, link_off, low_priority, mail, markunread, move_to_inbox, next_week, outlined_flag, policy, redo, remove, remove_circle, remove_circle_outline, reply, reply_all, report, report_off, save, save_alt, select_all, send, sort, square_foot, text_format, unarchive, undo, waves, where_to_vote
+    , access_alarm, access_alarms, access_time, add_alarm, add_to_home_screen, airplanemode_active, airplanemode_inactive, battery_alert, battery_charging_full, battery_full, battery_std, battery_unknown, bluetooth, bluetooth_connected, bluetooth_disabled, bluetooth_searching, brightness_auto, brightness_high, brightness_low, brightness_medium, data_usage, developer_mode, devices, dvr, gps_fixed, gps_not_fixed, gps_off, graphic_eq, location_disabled, location_searching, mobile_friendly, mobile_off, nfc, screen_lock_landscape, screen_lock_portrait, screen_lock_rotation, screen_rotation, sd_storage, settings_system_daydream, signal_cellular_4_bar, signal_cellular_alt, signal_cellular_connected_no_internet_4_bar, signal_cellular_no_sim, signal_cellular_null, signal_cellular_off, signal_wifi_4_bar, signal_wifi_4_bar_lock, signal_wifi_off, storage, usb, wallpaper, widgets, wifi_lock, wifi_tethering
+    , add_comment, attach_file, attach_money, bar_chart, border_all, border_bottom, border_clear, border_horizontal, border_inner, border_left, border_outer, border_right, border_style, border_top, border_vertical, bubble_chart, drag_handle, format_align_center, format_align_justify, format_align_left, format_align_right, format_bold, format_clear, format_color_reset, format_indent_decrease, format_indent_increase, format_italic, format_line_spacing, format_list_bulleted, format_list_numbered, format_list_numbered_rtl, format_paint, format_quote, format_shapes, format_size, format_strikethrough, format_textdirection_l_to_r, format_textdirection_r_to_l, format_underlined, functions, height, highlight, insert_chart, insert_chart_outlined, insert_comment, insert_drive_file, insert_emoticon, insert_invitation, insert_link, insert_photo, linear_scale, merge_type, mode_comment, monetization_on, money_off, multiline_chart, notes, pie_chart, post_add, publish, scatter_plot, score, short_text, show_chart, space_bar, strikethrough_s, table_chart, text_fields, title, vertical_align_bottom, vertical_align_center, vertical_align_top, wrap_text
+    , attachment, cloud, cloud_circle, cloud_done, cloud_download, cloud_off, cloud_queue, cloud_upload, create_new_folder, folder, folder_open, folder_shared
+    , cast, cast_connected, computer, desktop_mac, desktop_windows, developer_board, device_hub, device_unknown, devices_other, dock, gamepad, headset, headset_mic, keyboard, keyboard_arrow_down, keyboard_arrow_left, keyboard_arrow_right, keyboard_arrow_up, keyboard_backspace, keyboard_capslock, keyboard_hide, keyboard_return, keyboard_tab, keyboard_voice, laptop, laptop_chromebook, laptop_mac, laptop_windows, memory, mouse, phone_android, phone_iphone, phonelink, phonelink_off, power_input, router, scanner, security, sim_card, smartphone, speaker, speaker_group, tablet, tablet_android, tablet_mac, toys, tv, videogame_asset, watch
+    , add_a_photo, add_photo_alternate, add_to_photos, adjust, assistant, assistant_photo, audiotrack, blur_circular, blur_linear, blur_off, blur_on, brightness_1, brightness_2, brightness_3, brightness_4, brightness_5, brightness_6, brightness_7, broken_image, brush, burst_mode, camera, camera_alt, camera_front, camera_rear, camera_roll, center_focus_strong, center_focus_weak, collections, collections_bookmark, color_lens, colorize, compare, control_point, control_point_duplicate, crop, crop_16_9, crop_3_2, crop_5_4, crop_7_5, crop_din, crop_free, crop_landscape, crop_original, crop_portrait, crop_rotate, crop_square, dehaze, details, edit, euro, exposure, exposure_neg_1, exposure_neg_2, exposure_plus_1, exposure_plus_2, exposure_zero, filter, filter_1, filter_2, filter_3, filter_4, filter_5, filter_6, filter_7, filter_8, filter_9, filter_9_plus, filter_b_and_w, filter_center_focus, filter_drama, filter_frames, filter_hdr, filter_none, filter_tilt_shift, filter_vintage, flare, flash_auto, flash_off, flash_on, flip, flip_camera_android, flip_camera_ios, gradient, grain, grid_off, grid_on, hdr_off, hdr_on, hdr_strong, hdr_weak, healing, image, image_aspect_ratio, image_search, iso, landscape, leak_add, leak_remove, lens, linked_camera, looks, looks_3, looks_4, looks_5, looks_6, looks_one, looks_two, loupe, monochrome_photos, movie_creation, movie_filter, music_note, music_off, nature, nature_people, navigate_before, navigate_next, palette, panorama, panorama_fish_eye, panorama_horizontal, panorama_vertical, panorama_wide_angle, photo, photo_album, photo_camera, photo_filter, photo_library, photo_size_select_actual, photo_size_select_large, photo_size_select_small, picture_as_pdf, portrait, remove_red_eye, rotate_90_degrees_ccw, rotate_left, rotate_right, shutter_speed, slideshow, straighten, style, switch_camera, switch_video, tag_faces, texture, timelapse, timer, timer_10, timer_3, timer_off, tonality, transform, tune, view_comfy, view_compact, vignette, wb_auto, wb_cloudy, wb_incandescent, wb_iridescent, wb_sunny
+    , three_sixty, atm, beenhere, category, compass_calibration, departure_board, directions, directions_bike, directions_boat, directions_bus, directions_car, directions_railway, directions_run, directions_subway, directions_transit, directions_walk, edit_attributes, ev_station, fastfood, flight, hotel, layers, layers_clear, local_activity, local_airport, local_atm, local_bar, local_cafe, local_car_wash, local_convenience_store, local_dining, local_drink, local_florist, local_gas_station, local_grocery_store, local_hospital, local_hotel, local_laundry_service, local_library, local_mall, local_movies, local_offer, local_parking, local_pharmacy, local_phone, local_pizza, local_play, local_post_office, local_printshop, local_see, local_shipping, local_taxi, map, menu_book, money, museum, my_location, navigation, near_me, person_pin, rate_review, restaurant, restaurant_menu, satellite, store_mall_directory, streetview, subway, terrain, traffic, train, tram, transfer_within_a_station, transit_enterexit, trip_origin, zoom_out_map
+    , apps, arrow_back, arrow_back_ios, arrow_downward, arrow_drop_down, arrow_drop_down_circle, arrow_drop_up, arrow_forward, arrow_forward_ios, arrow_left, arrow_right, arrow_upward, cancel, check, chevron_left, chevron_right, close, double_arrow, expand_less, expand_more, first_page, fullscreen, fullscreen_exit, home_work, last_page, menu, menu_open, more_horiz, more_vert, refresh, subdirectory_arrow_left, subdirectory_arrow_right, unfold_less, unfold_more
+    , account_tree, adb, airline_seat_flat, airline_seat_flat_angled, airline_seat_individual_suite, airline_seat_legroom_extra, airline_seat_legroom_normal, airline_seat_legroom_reduced, airline_seat_recline_extra, airline_seat_recline_normal, bluetooth_audio, confirmation_number, disc_full, drive_eta, enhanced_encryption, event_available, event_busy, event_note, folder_special, live_tv, mms, more, network_check, network_locked, no_encryption, ondemand_video, personal_video, phone_bluetooth_speaker, phone_callback, phone_forwarded, phone_in_talk, phone_locked, phone_missed, phone_paused, power, power_off, priority_high, sd_card, sms, sms_failed, sync, sync_disabled, sync_problem, system_update, tap_and_play, time_to_leave, tv_off, vibration, voice_chat, vpn_lock, wc, wifi, wifi_off
+    , ac_unit, airport_shuttle, all_inclusive, apartment, bathtub, beach_access, business_center, casino, child_care, child_friendly, fitness_center, free_breakfast, golf_course, hot_tub, house, kitchen, meeting_room, no_meeting_room, pool, room_service, rv_hookup, smoke_free, smoking_rooms, spa, storefront
+    , cake, deck, emoji_emotions, emoji_events, emoji_flags, emoji_food_beverage, emoji_nature, emoji_objects, emoji_people, emoji_symbols, emoji_transportation, fireplace, group, group_add, king_bed, location_city, mood, mood_bad, nights_stay, notifications, notifications_active, notifications_none, notifications_off, notifications_paused, outdoor_grill, pages, party_mode, people, people_alt, people_outline, person, person_add, person_outline, plus_one, poll, public, school, sentiment_dissatisfied, sentiment_satisfied, sentiment_very_dissatisfied, sentiment_very_satisfied, share, single_bed, sports, sports_baseball, sports_basketball, sports_cricket, sports_esports, sports_football, sports_golf, sports_handball, sports_hockey, sports_kabaddi, sports_mma, sports_motorsports, sports_rugby, sports_soccer, sports_tennis, sports_volleyball, thumb_down_alt, thumb_up_alt, whatshot
+    , check_box, check_box_outline_blank, indeterminate_check_box, radio_button_checked, radio_button_unchecked, star, star_border, star_half, toggle_off, toggle_on
     )
 
 {-|
@@ -1063,1134 +22,93 @@ module Material.Icons exposing
 
 # Action
 
-@docs three_d_rotation
-@docs accessibility
-@docs accessibility_new
-@docs accessible
-@docs accessible_forward
-@docs account_balance
-@docs account_balance_wallet
-@docs account_box
-@docs account_circle
-@docs add_shopping_cart
-@docs alarm
-@docs alarm_add
-@docs alarm_off
-@docs alarm_on
-@docs all_inbox
-@docs all_out
-@docs android
-@docs announcement
-@docs arrow_right_alt
-@docs aspect_ratio
-@docs assessment
-@docs assignment
-@docs assignment_ind
-@docs assignment_late
-@docs assignment_return
-@docs assignment_returned
-@docs assignment_turned_in
-@docs autorenew
-@docs backup
-@docs book
-@docs bookmark
-@docs bookmark_border
-@docs bookmarks
-@docs bug_report
-@docs build
-@docs cached
-@docs calendar_today
-@docs calendar_view_day
-@docs camera_enhance
-@docs cancel_schedule_send
-@docs card_giftcard
-@docs card_membership
-@docs card_travel
-@docs change_history
-@docs check_circle
-@docs check_circle_outline
-@docs chrome_reader_mode
-@docs class
-@docs code
-@docs commute
-@docs compare_arrows
-@docs contact_support
-@docs contactless
-@docs copyright
-@docs credit_card
-@docs dashboard
-@docs date_range
-@docs delete
-@docs delete_forever
-@docs delete_outline
-@docs description
-@docs dns
-@docs done
-@docs done_all
-@docs done_outline
-@docs donut_large
-@docs donut_small
-@docs drag_indicator
-@docs eco
-@docs eject
-@docs euro_symbol
-@docs event
-@docs event_seat
-@docs exit_to_app
-@docs explore
-@docs explore_off
-@docs extension
-@docs face
-@docs favorite
-@docs favorite_border
-@docs feedback
-@docs find_in_page
-@docs find_replace
-@docs fingerprint
-@docs flight_land
-@docs flight_takeoff
-@docs flip_to_back
-@docs flip_to_front
-@docs g_translate
-@docs gavel
-@docs get_app
-@docs gif
-@docs grade
-@docs group_work
-@docs help
-@docs help_outline
-@docs highlight_off
-@docs history
-@docs home
-@docs horizontal_split
-@docs hourglass_empty
-@docs hourglass_full
-@docs http
-@docs https
-@docs important_devices
-@docs info
-@docs input
-@docs invert_colors
-@docs label
-@docs label_important
-@docs label_off
-@docs language
-@docs launch
-@docs line_style
-@docs line_weight
-@docs list
-@docs lock
-@docs lock_open
-@docs loyalty
-@docs markunread_mailbox
-@docs maximize
-@docs minimize
-@docs motorcycle
-@docs note_add
-@docs offline_bolt
-@docs offline_pin
-@docs opacity
-@docs open_in_browser
-@docs open_in_new
-@docs open_with
-@docs pageview
-@docs pan_tool
-@docs payment
-@docs perm_camera_mic
-@docs perm_contact_calendar
-@docs perm_data_setting
-@docs perm_device_information
-@docs perm_identity
-@docs perm_media
-@docs perm_phone_msg
-@docs perm_scan_wifi
-@docs pets
-@docs picture_in_picture
-@docs picture_in_picture_alt
-@docs play_for_work
-@docs polymer
-@docs power_settings_new
-@docs pregnant_woman
-@docs print
-@docs query_builder
-@docs question_answer
-@docs receipt
-@docs record_voice_over
-@docs redeem
-@docs remove_shopping_cart
-@docs reorder
-@docs report_problem
-@docs restore
-@docs restore_from_trash
-@docs restore_page
-@docs room
-@docs rounded_corner
-@docs rowing
-@docs schedule
-@docs search
-@docs settings_applications
-@docs settings_backup_restore
-@docs settings_bluetooth
-@docs settings_brightness
-@docs settings_cell
-@docs settings_ethernet
-@docs settings_input_antenna
-@docs settings_input_component
-@docs settings_input_composite
-@docs settings_input_hdmi
-@docs settings_input_svideo
-@docs settings_overscan
-@docs settings_phone
-@docs settings_power
-@docs settings_remote
-@docs settings_voice
-@docs shop
-@docs shop_two
-@docs shopping_basket
-@docs shopping_cart
-@docs speaker_notes
-@docs speaker_notes_off
-@docs spellcheck
-@docs stars
-@docs store
-@docs subject
-@docs supervised_user_circle
-@docs supervisor_account
-@docs swap_horiz
-@docs swap_horizontal_circle
-@docs swap_vert
-@docs swap_vertical_circle
-@docs sync_alt
-@docs system_update_alt
-@docs tab
-@docs tab_unselected
-@docs text_rotate_up
-@docs text_rotate_vertical
-@docs text_rotation_angledown
-@docs text_rotation_angleup
-@docs text_rotation_down
-@docs text_rotation_none
-@docs theaters
-@docs thumb_down
-@docs thumb_up
-@docs thumbs_up_down
-@docs timeline
-@docs toc
-@docs today
-@docs toll
-@docs touch_app
-@docs track_changes
-@docs translate
-@docs trending_down
-@docs trending_flat
-@docs trending_up
-@docs turned_in
-@docs turned_in_not
-@docs update
-@docs verified_user
-@docs vertical_split
-@docs view_agenda
-@docs view_array
-@docs view_carousel
-@docs view_column
-@docs view_day
-@docs view_headline
-@docs view_list
-@docs view_module
-@docs view_quilt
-@docs view_stream
-@docs view_week
-@docs visibility
-@docs visibility_off
-@docs voice_over_off
-@docs watch_later
-@docs work
-@docs work_off
-@docs work_outline
-@docs youtube_searched_for
-@docs zoom_in
-@docs zoom_out
+@docs three_d_rotation, accessibility, accessibility_new, accessible, accessible_forward, account_balance, account_balance_wallet, account_box, account_circle, add_shopping_cart, alarm, alarm_add, alarm_off, alarm_on, all_inbox, all_out, android, announcement, arrow_right_alt, aspect_ratio, assessment, assignment, assignment_ind, assignment_late, assignment_return, assignment_returned, assignment_turned_in, autorenew, backup, book, bookmark, bookmark_border, bookmarks, bug_report, build, cached, calendar_today, calendar_view_day, camera_enhance, cancel_schedule_send, card_giftcard, card_membership, card_travel, change_history, check_circle, check_circle_outline, chrome_reader_mode, class, code, commute, compare_arrows, contact_support, contactless, copyright, credit_card, dashboard, date_range, delete, delete_forever, delete_outline, description, dns, done, done_all, done_outline, donut_large, donut_small, drag_indicator, eco, eject, euro_symbol, event, event_seat, exit_to_app, explore, explore_off, extension, face, favorite, favorite_border, feedback, find_in_page, find_replace, fingerprint, flight_land, flight_takeoff, flip_to_back, flip_to_front, g_translate, gavel, get_app, gif, grade, group_work, help, help_outline, highlight_off, history, home, horizontal_split, hourglass_empty, hourglass_full, http, https, important_devices, info, input, invert_colors, label, label_important, label_off, language, launch, line_style, line_weight, list, lock, lock_open, loyalty, markunread_mailbox, maximize, minimize, motorcycle, note_add, offline_bolt, offline_pin, opacity, open_in_browser, open_in_new, open_with, pageview, pan_tool, payment, perm_camera_mic, perm_contact_calendar, perm_data_setting, perm_device_information, perm_identity, perm_media, perm_phone_msg, perm_scan_wifi, pets, picture_in_picture, picture_in_picture_alt, play_for_work, polymer, power_settings_new, pregnant_woman, print, query_builder, question_answer, receipt, record_voice_over, redeem, remove_shopping_cart, reorder, report_problem, restore, restore_from_trash, restore_page, room, rounded_corner, rowing, schedule, search, settings_applications, settings_backup_restore, settings_bluetooth, settings_brightness, settings_cell, settings_ethernet, settings_input_antenna, settings_input_component, settings_input_composite, settings_input_hdmi, settings_input_svideo, settings_overscan, settings_phone, settings_power, settings_remote, settings_voice, shop, shop_two, shopping_basket, shopping_cart, speaker_notes, speaker_notes_off, spellcheck, stars, store, subject, supervised_user_circle, supervisor_account, swap_horiz, swap_horizontal_circle, swap_vert, swap_vertical_circle, sync_alt, system_update_alt, tab, tab_unselected, text_rotate_up, text_rotate_vertical, text_rotation_angledown, text_rotation_angleup, text_rotation_down, text_rotation_none, theaters, thumb_down, thumb_up, thumbs_up_down, timeline, toc, today, toll, touch_app, track_changes, translate, trending_down, trending_flat, trending_up, turned_in, turned_in_not, update, verified_user, vertical_split, view_agenda, view_array, view_carousel, view_column, view_day, view_headline, view_list, view_module, view_quilt, view_stream, view_week, visibility, visibility_off, voice_over_off, watch_later, work, work_off, work_outline, youtube_searched_for, zoom_in, zoom_out
 
 
 # Alert
 
-@docs add_alert
-@docs error
-@docs error_outline
-@docs notification_important
-@docs warning
+@docs add_alert, error, error_outline, notification_important, warning
 
 
 # Av
 
-@docs four_k
-@docs add_to_queue
-@docs airplay
-@docs album
-@docs art_track
-@docs av_timer
-@docs branding_watermark
-@docs call_to_action
-@docs closed_caption
-@docs control_camera
-@docs equalizer
-@docs explicit
-@docs fast_forward
-@docs fast_rewind
-@docs featured_play_list
-@docs featured_video
-@docs fiber_dvr
-@docs fiber_manual_record
-@docs fiber_new
-@docs fiber_pin
-@docs fiber_smart_record
-@docs forward_10
-@docs forward_30
-@docs forward_5
-@docs games
-@docs hd
-@docs hearing
-@docs high_quality
-@docs library_add
-@docs library_books
-@docs library_music
-@docs loop
-@docs mic
-@docs mic_none
-@docs mic_off
-@docs missed_video_call
-@docs movie
-@docs music_video
-@docs new_releases
-@docs not_interested
-@docs note
-@docs pause
-@docs pause_circle_filled
-@docs pause_circle_outline
-@docs play_arrow
-@docs play_circle_filled
-@docs play_circle_outline
-@docs playlist_add
-@docs playlist_add_check
-@docs playlist_play
-@docs queue
-@docs queue_music
-@docs queue_play_next
-@docs radio
-@docs recent_actors
-@docs remove_from_queue
-@docs repeat
-@docs repeat_one
-@docs replay
-@docs replay_10
-@docs replay_30
-@docs replay_5
-@docs shuffle
-@docs skip_next
-@docs skip_previous
-@docs slow_motion_video
-@docs snooze
-@docs sort_by_alpha
-@docs speed
-@docs stop
-@docs subscriptions
-@docs subtitles
-@docs surround_sound
-@docs video_call
-@docs video_label
-@docs video_library
-@docs videocam
-@docs videocam_off
-@docs volume_down
-@docs volume_mute
-@docs volume_off
-@docs volume_up
-@docs web
-@docs web_asset
+@docs four_k, add_to_queue, airplay, album, art_track, av_timer, branding_watermark, call_to_action, closed_caption, control_camera, equalizer, explicit, fast_forward, fast_rewind, featured_play_list, featured_video, fiber_dvr, fiber_manual_record, fiber_new, fiber_pin, fiber_smart_record, forward_10, forward_30, forward_5, games, hd, hearing, high_quality, library_add, library_books, library_music, loop, mic, mic_none, mic_off, missed_video_call, movie, music_video, new_releases, not_interested, note, pause, pause_circle_filled, pause_circle_outline, play_arrow, play_circle_filled, play_circle_outline, playlist_add, playlist_add_check, playlist_play, queue, queue_music, queue_play_next, radio, recent_actors, remove_from_queue, repeat, repeat_one, replay, replay_10, replay_30, replay_5, shuffle, skip_next, skip_previous, slow_motion_video, snooze, sort_by_alpha, speed, stop, subscriptions, subtitles, surround_sound, video_call, video_label, video_library, videocam, videocam_off, volume_down, volume_mute, volume_off, volume_up, web, web_asset
 
 
 # Communication
 
-@docs business
-@docs call
-@docs call_end
-@docs call_made
-@docs call_merge
-@docs call_missed
-@docs call_missed_outgoing
-@docs call_received
-@docs call_split
-@docs cancel_presentation
-@docs chat
-@docs chat_bubble
-@docs chat_bubble_outline
-@docs clear_all
-@docs comment
-@docs contact_mail
-@docs contact_phone
-@docs contacts
-@docs desktop_access_disabled
-@docs dialer_sip
-@docs dialpad
-@docs domain_disabled
-@docs duo
-@docs email
-@docs forum
-@docs import_contacts
-@docs import_export
-@docs invert_colors_off
-@docs list_alt
-@docs live_help
-@docs mail_outline
-@docs message
-@docs mobile_screen_share
-@docs no_sim
-@docs pause_presentation
-@docs person_add_disabled
-@docs phone
-@docs phone_disabled
-@docs phone_enabled
-@docs phonelink_erase
-@docs phonelink_lock
-@docs phonelink_ring
-@docs phonelink_setup
-@docs portable_wifi_off
-@docs present_to_all
-@docs print_disabled
-@docs ring_volume
-@docs rss_feed
-@docs screen_share
-@docs sentiment_satisfied_alt
-@docs speaker_phone
-@docs stay_current_landscape
-@docs stay_current_portrait
-@docs stay_primary_landscape
-@docs stay_primary_portrait
-@docs stop_screen_share
-@docs swap_calls
-@docs textsms
-@docs unsubscribe
-@docs voicemail
-@docs vpn_key
+@docs business, call, call_end, call_made, call_merge, call_missed, call_missed_outgoing, call_received, call_split, cancel_presentation, chat, chat_bubble, chat_bubble_outline, clear_all, comment, contact_mail, contact_phone, contacts, desktop_access_disabled, dialer_sip, dialpad, domain_disabled, duo, email, forum, import_contacts, import_export, invert_colors_off, list_alt, live_help, mail_outline, message, mobile_screen_share, no_sim, pause_presentation, person_add_disabled, phone, phone_disabled, phone_enabled, phonelink_erase, phonelink_lock, phonelink_ring, phonelink_setup, portable_wifi_off, present_to_all, print_disabled, ring_volume, rss_feed, screen_share, sentiment_satisfied_alt, speaker_phone, stay_current_landscape, stay_current_portrait, stay_primary_landscape, stay_primary_portrait, stop_screen_share, swap_calls, textsms, unsubscribe, voicemail, vpn_key
 
 
 # Content
 
-@docs add
-@docs add_box
-@docs add_circle
-@docs add_circle_outline
-@docs amp_stories
-@docs archive
-@docs backspace
-@docs ballot
-@docs block
-@docs clear
-@docs create
-@docs delete_sweep
-@docs drafts
-@docs dynamic_feed
-@docs file_copy
-@docs filter_list
-@docs flag
-@docs font_download
-@docs forward
-@docs gesture
-@docs how_to_reg
-@docs how_to_vote
-@docs inbox
-@docs link
-@docs link_off
-@docs low_priority
-@docs mail
-@docs markunread
-@docs move_to_inbox
-@docs next_week
-@docs outlined_flag
-@docs policy
-@docs redo
-@docs remove
-@docs remove_circle
-@docs remove_circle_outline
-@docs reply
-@docs reply_all
-@docs report
-@docs report_off
-@docs save
-@docs save_alt
-@docs select_all
-@docs send
-@docs sort
-@docs square_foot
-@docs text_format
-@docs unarchive
-@docs undo
-@docs waves
-@docs where_to_vote
+@docs add, add_box, add_circle, add_circle_outline, amp_stories, archive, backspace, ballot, block, clear, create, delete_sweep, drafts, dynamic_feed, file_copy, filter_list, flag, font_download, forward, gesture, how_to_reg, how_to_vote, inbox, link, link_off, low_priority, mail, markunread, move_to_inbox, next_week, outlined_flag, policy, redo, remove, remove_circle, remove_circle_outline, reply, reply_all, report, report_off, save, save_alt, select_all, send, sort, square_foot, text_format, unarchive, undo, waves, where_to_vote
 
 
 # Device
 
-@docs access_alarm
-@docs access_alarms
-@docs access_time
-@docs add_alarm
-@docs add_to_home_screen
-@docs airplanemode_active
-@docs airplanemode_inactive
-@docs battery_alert
-@docs battery_charging_full
-@docs battery_full
-@docs battery_std
-@docs battery_unknown
-@docs bluetooth
-@docs bluetooth_connected
-@docs bluetooth_disabled
-@docs bluetooth_searching
-@docs brightness_auto
-@docs brightness_high
-@docs brightness_low
-@docs brightness_medium
-@docs data_usage
-@docs developer_mode
-@docs devices
-@docs dvr
-@docs gps_fixed
-@docs gps_not_fixed
-@docs gps_off
-@docs graphic_eq
-@docs location_disabled
-@docs location_searching
-@docs mobile_friendly
-@docs mobile_off
-@docs nfc
-@docs screen_lock_landscape
-@docs screen_lock_portrait
-@docs screen_lock_rotation
-@docs screen_rotation
-@docs sd_storage
-@docs settings_system_daydream
-@docs signal_cellular_4_bar
-@docs signal_cellular_alt
-@docs signal_cellular_connected_no_internet_4_bar
-@docs signal_cellular_no_sim
-@docs signal_cellular_null
-@docs signal_cellular_off
-@docs signal_wifi_4_bar
-@docs signal_wifi_4_bar_lock
-@docs signal_wifi_off
-@docs storage
-@docs usb
-@docs wallpaper
-@docs widgets
-@docs wifi_lock
-@docs wifi_tethering
+@docs access_alarm, access_alarms, access_time, add_alarm, add_to_home_screen, airplanemode_active, airplanemode_inactive, battery_alert, battery_charging_full, battery_full, battery_std, battery_unknown, bluetooth, bluetooth_connected, bluetooth_disabled, bluetooth_searching, brightness_auto, brightness_high, brightness_low, brightness_medium, data_usage, developer_mode, devices, dvr, gps_fixed, gps_not_fixed, gps_off, graphic_eq, location_disabled, location_searching, mobile_friendly, mobile_off, nfc, screen_lock_landscape, screen_lock_portrait, screen_lock_rotation, screen_rotation, sd_storage, settings_system_daydream, signal_cellular_4_bar, signal_cellular_alt, signal_cellular_connected_no_internet_4_bar, signal_cellular_no_sim, signal_cellular_null, signal_cellular_off, signal_wifi_4_bar, signal_wifi_4_bar_lock, signal_wifi_off, storage, usb, wallpaper, widgets, wifi_lock, wifi_tethering
 
 
 # Editor
 
-@docs add_comment
-@docs attach_file
-@docs attach_money
-@docs bar_chart
-@docs border_all
-@docs border_bottom
-@docs border_clear
-@docs border_horizontal
-@docs border_inner
-@docs border_left
-@docs border_outer
-@docs border_right
-@docs border_style
-@docs border_top
-@docs border_vertical
-@docs bubble_chart
-@docs drag_handle
-@docs format_align_center
-@docs format_align_justify
-@docs format_align_left
-@docs format_align_right
-@docs format_bold
-@docs format_clear
-@docs format_color_reset
-@docs format_indent_decrease
-@docs format_indent_increase
-@docs format_italic
-@docs format_line_spacing
-@docs format_list_bulleted
-@docs format_list_numbered
-@docs format_list_numbered_rtl
-@docs format_paint
-@docs format_quote
-@docs format_shapes
-@docs format_size
-@docs format_strikethrough
-@docs format_textdirection_l_to_r
-@docs format_textdirection_r_to_l
-@docs format_underlined
-@docs functions
-@docs height
-@docs highlight
-@docs insert_chart
-@docs insert_chart_outlined
-@docs insert_comment
-@docs insert_drive_file
-@docs insert_emoticon
-@docs insert_invitation
-@docs insert_link
-@docs insert_photo
-@docs linear_scale
-@docs merge_type
-@docs mode_comment
-@docs monetization_on
-@docs money_off
-@docs multiline_chart
-@docs notes
-@docs pie_chart
-@docs post_add
-@docs publish
-@docs scatter_plot
-@docs score
-@docs short_text
-@docs show_chart
-@docs space_bar
-@docs strikethrough_s
-@docs table_chart
-@docs text_fields
-@docs title
-@docs vertical_align_bottom
-@docs vertical_align_center
-@docs vertical_align_top
-@docs wrap_text
+@docs add_comment, attach_file, attach_money, bar_chart, border_all, border_bottom, border_clear, border_horizontal, border_inner, border_left, border_outer, border_right, border_style, border_top, border_vertical, bubble_chart, drag_handle, format_align_center, format_align_justify, format_align_left, format_align_right, format_bold, format_clear, format_color_reset, format_indent_decrease, format_indent_increase, format_italic, format_line_spacing, format_list_bulleted, format_list_numbered, format_list_numbered_rtl, format_paint, format_quote, format_shapes, format_size, format_strikethrough, format_textdirection_l_to_r, format_textdirection_r_to_l, format_underlined, functions, height, highlight, insert_chart, insert_chart_outlined, insert_comment, insert_drive_file, insert_emoticon, insert_invitation, insert_link, insert_photo, linear_scale, merge_type, mode_comment, monetization_on, money_off, multiline_chart, notes, pie_chart, post_add, publish, scatter_plot, score, short_text, show_chart, space_bar, strikethrough_s, table_chart, text_fields, title, vertical_align_bottom, vertical_align_center, vertical_align_top, wrap_text
 
 
 # File
 
-@docs attachment
-@docs cloud
-@docs cloud_circle
-@docs cloud_done
-@docs cloud_download
-@docs cloud_off
-@docs cloud_queue
-@docs cloud_upload
-@docs create_new_folder
-@docs folder
-@docs folder_open
-@docs folder_shared
+@docs attachment, cloud, cloud_circle, cloud_done, cloud_download, cloud_off, cloud_queue, cloud_upload, create_new_folder, folder, folder_open, folder_shared
 
 
 # Hardware
 
-@docs cast
-@docs cast_connected
-@docs computer
-@docs desktop_mac
-@docs desktop_windows
-@docs developer_board
-@docs device_hub
-@docs device_unknown
-@docs devices_other
-@docs dock
-@docs gamepad
-@docs headset
-@docs headset_mic
-@docs keyboard
-@docs keyboard_arrow_down
-@docs keyboard_arrow_left
-@docs keyboard_arrow_right
-@docs keyboard_arrow_up
-@docs keyboard_backspace
-@docs keyboard_capslock
-@docs keyboard_hide
-@docs keyboard_return
-@docs keyboard_tab
-@docs keyboard_voice
-@docs laptop
-@docs laptop_chromebook
-@docs laptop_mac
-@docs laptop_windows
-@docs memory
-@docs mouse
-@docs phone_android
-@docs phone_iphone
-@docs phonelink
-@docs phonelink_off
-@docs power_input
-@docs router
-@docs scanner
-@docs security
-@docs sim_card
-@docs smartphone
-@docs speaker
-@docs speaker_group
-@docs tablet
-@docs tablet_android
-@docs tablet_mac
-@docs toys
-@docs tv
-@docs videogame_asset
-@docs watch
+@docs cast, cast_connected, computer, desktop_mac, desktop_windows, developer_board, device_hub, device_unknown, devices_other, dock, gamepad, headset, headset_mic, keyboard, keyboard_arrow_down, keyboard_arrow_left, keyboard_arrow_right, keyboard_arrow_up, keyboard_backspace, keyboard_capslock, keyboard_hide, keyboard_return, keyboard_tab, keyboard_voice, laptop, laptop_chromebook, laptop_mac, laptop_windows, memory, mouse, phone_android, phone_iphone, phonelink, phonelink_off, power_input, router, scanner, security, sim_card, smartphone, speaker, speaker_group, tablet, tablet_android, tablet_mac, toys, tv, videogame_asset, watch
 
 
 # Image
 
-@docs add_a_photo
-@docs add_photo_alternate
-@docs add_to_photos
-@docs adjust
-@docs assistant
-@docs assistant_photo
-@docs audiotrack
-@docs blur_circular
-@docs blur_linear
-@docs blur_off
-@docs blur_on
-@docs brightness_1
-@docs brightness_2
-@docs brightness_3
-@docs brightness_4
-@docs brightness_5
-@docs brightness_6
-@docs brightness_7
-@docs broken_image
-@docs brush
-@docs burst_mode
-@docs camera
-@docs camera_alt
-@docs camera_front
-@docs camera_rear
-@docs camera_roll
-@docs center_focus_strong
-@docs center_focus_weak
-@docs collections
-@docs collections_bookmark
-@docs color_lens
-@docs colorize
-@docs compare
-@docs control_point
-@docs control_point_duplicate
-@docs crop
-@docs crop_16_9
-@docs crop_3_2
-@docs crop_5_4
-@docs crop_7_5
-@docs crop_din
-@docs crop_free
-@docs crop_landscape
-@docs crop_original
-@docs crop_portrait
-@docs crop_rotate
-@docs crop_square
-@docs dehaze
-@docs details
-@docs edit
-@docs euro
-@docs exposure
-@docs exposure_neg_1
-@docs exposure_neg_2
-@docs exposure_plus_1
-@docs exposure_plus_2
-@docs exposure_zero
-@docs filter
-@docs filter_1
-@docs filter_2
-@docs filter_3
-@docs filter_4
-@docs filter_5
-@docs filter_6
-@docs filter_7
-@docs filter_8
-@docs filter_9
-@docs filter_9_plus
-@docs filter_b_and_w
-@docs filter_center_focus
-@docs filter_drama
-@docs filter_frames
-@docs filter_hdr
-@docs filter_none
-@docs filter_tilt_shift
-@docs filter_vintage
-@docs flare
-@docs flash_auto
-@docs flash_off
-@docs flash_on
-@docs flip
-@docs flip_camera_android
-@docs flip_camera_ios
-@docs gradient
-@docs grain
-@docs grid_off
-@docs grid_on
-@docs hdr_off
-@docs hdr_on
-@docs hdr_strong
-@docs hdr_weak
-@docs healing
-@docs image
-@docs image_aspect_ratio
-@docs image_search
-@docs iso
-@docs landscape
-@docs leak_add
-@docs leak_remove
-@docs lens
-@docs linked_camera
-@docs looks
-@docs looks_3
-@docs looks_4
-@docs looks_5
-@docs looks_6
-@docs looks_one
-@docs looks_two
-@docs loupe
-@docs monochrome_photos
-@docs movie_creation
-@docs movie_filter
-@docs music_note
-@docs music_off
-@docs nature
-@docs nature_people
-@docs navigate_before
-@docs navigate_next
-@docs palette
-@docs panorama
-@docs panorama_fish_eye
-@docs panorama_horizontal
-@docs panorama_vertical
-@docs panorama_wide_angle
-@docs photo
-@docs photo_album
-@docs photo_camera
-@docs photo_filter
-@docs photo_library
-@docs photo_size_select_actual
-@docs photo_size_select_large
-@docs photo_size_select_small
-@docs picture_as_pdf
-@docs portrait
-@docs remove_red_eye
-@docs rotate_90_degrees_ccw
-@docs rotate_left
-@docs rotate_right
-@docs shutter_speed
-@docs slideshow
-@docs straighten
-@docs style
-@docs switch_camera
-@docs switch_video
-@docs tag_faces
-@docs texture
-@docs timelapse
-@docs timer
-@docs timer_10
-@docs timer_3
-@docs timer_off
-@docs tonality
-@docs transform
-@docs tune
-@docs view_comfy
-@docs view_compact
-@docs vignette
-@docs wb_auto
-@docs wb_cloudy
-@docs wb_incandescent
-@docs wb_iridescent
-@docs wb_sunny
+@docs add_a_photo, add_photo_alternate, add_to_photos, adjust, assistant, assistant_photo, audiotrack, blur_circular, blur_linear, blur_off, blur_on, brightness_1, brightness_2, brightness_3, brightness_4, brightness_5, brightness_6, brightness_7, broken_image, brush, burst_mode, camera, camera_alt, camera_front, camera_rear, camera_roll, center_focus_strong, center_focus_weak, collections, collections_bookmark, color_lens, colorize, compare, control_point, control_point_duplicate, crop, crop_16_9, crop_3_2, crop_5_4, crop_7_5, crop_din, crop_free, crop_landscape, crop_original, crop_portrait, crop_rotate, crop_square, dehaze, details, edit, euro, exposure, exposure_neg_1, exposure_neg_2, exposure_plus_1, exposure_plus_2, exposure_zero, filter, filter_1, filter_2, filter_3, filter_4, filter_5, filter_6, filter_7, filter_8, filter_9, filter_9_plus, filter_b_and_w, filter_center_focus, filter_drama, filter_frames, filter_hdr, filter_none, filter_tilt_shift, filter_vintage, flare, flash_auto, flash_off, flash_on, flip, flip_camera_android, flip_camera_ios, gradient, grain, grid_off, grid_on, hdr_off, hdr_on, hdr_strong, hdr_weak, healing, image, image_aspect_ratio, image_search, iso, landscape, leak_add, leak_remove, lens, linked_camera, looks, looks_3, looks_4, looks_5, looks_6, looks_one, looks_two, loupe, monochrome_photos, movie_creation, movie_filter, music_note, music_off, nature, nature_people, navigate_before, navigate_next, palette, panorama, panorama_fish_eye, panorama_horizontal, panorama_vertical, panorama_wide_angle, photo, photo_album, photo_camera, photo_filter, photo_library, photo_size_select_actual, photo_size_select_large, photo_size_select_small, picture_as_pdf, portrait, remove_red_eye, rotate_90_degrees_ccw, rotate_left, rotate_right, shutter_speed, slideshow, straighten, style, switch_camera, switch_video, tag_faces, texture, timelapse, timer, timer_10, timer_3, timer_off, tonality, transform, tune, view_comfy, view_compact, vignette, wb_auto, wb_cloudy, wb_incandescent, wb_iridescent, wb_sunny
 
 
 # Maps
 
-@docs three_sixty
-@docs atm
-@docs beenhere
-@docs category
-@docs compass_calibration
-@docs departure_board
-@docs directions
-@docs directions_bike
-@docs directions_boat
-@docs directions_bus
-@docs directions_car
-@docs directions_railway
-@docs directions_run
-@docs directions_subway
-@docs directions_transit
-@docs directions_walk
-@docs edit_attributes
-@docs ev_station
-@docs fastfood
-@docs flight
-@docs hotel
-@docs layers
-@docs layers_clear
-@docs local_activity
-@docs local_airport
-@docs local_atm
-@docs local_bar
-@docs local_cafe
-@docs local_car_wash
-@docs local_convenience_store
-@docs local_dining
-@docs local_drink
-@docs local_florist
-@docs local_gas_station
-@docs local_grocery_store
-@docs local_hospital
-@docs local_hotel
-@docs local_laundry_service
-@docs local_library
-@docs local_mall
-@docs local_movies
-@docs local_offer
-@docs local_parking
-@docs local_pharmacy
-@docs local_phone
-@docs local_pizza
-@docs local_play
-@docs local_post_office
-@docs local_printshop
-@docs local_see
-@docs local_shipping
-@docs local_taxi
-@docs map
-@docs menu_book
-@docs money
-@docs museum
-@docs my_location
-@docs navigation
-@docs near_me
-@docs person_pin
-@docs rate_review
-@docs restaurant
-@docs restaurant_menu
-@docs satellite
-@docs store_mall_directory
-@docs streetview
-@docs subway
-@docs terrain
-@docs traffic
-@docs train
-@docs tram
-@docs transfer_within_a_station
-@docs transit_enterexit
-@docs trip_origin
-@docs zoom_out_map
+@docs three_sixty, atm, beenhere, category, compass_calibration, departure_board, directions, directions_bike, directions_boat, directions_bus, directions_car, directions_railway, directions_run, directions_subway, directions_transit, directions_walk, edit_attributes, ev_station, fastfood, flight, hotel, layers, layers_clear, local_activity, local_airport, local_atm, local_bar, local_cafe, local_car_wash, local_convenience_store, local_dining, local_drink, local_florist, local_gas_station, local_grocery_store, local_hospital, local_hotel, local_laundry_service, local_library, local_mall, local_movies, local_offer, local_parking, local_pharmacy, local_phone, local_pizza, local_play, local_post_office, local_printshop, local_see, local_shipping, local_taxi, map, menu_book, money, museum, my_location, navigation, near_me, person_pin, rate_review, restaurant, restaurant_menu, satellite, store_mall_directory, streetview, subway, terrain, traffic, train, tram, transfer_within_a_station, transit_enterexit, trip_origin, zoom_out_map
 
 
 # Navigation
 
-@docs apps
-@docs arrow_back
-@docs arrow_back_ios
-@docs arrow_downward
-@docs arrow_drop_down
-@docs arrow_drop_down_circle
-@docs arrow_drop_up
-@docs arrow_forward
-@docs arrow_forward_ios
-@docs arrow_left
-@docs arrow_right
-@docs arrow_upward
-@docs cancel
-@docs check
-@docs chevron_left
-@docs chevron_right
-@docs close
-@docs double_arrow
-@docs expand_less
-@docs expand_more
-@docs first_page
-@docs fullscreen
-@docs fullscreen_exit
-@docs home_work
-@docs last_page
-@docs menu
-@docs menu_open
-@docs more_horiz
-@docs more_vert
-@docs refresh
-@docs subdirectory_arrow_left
-@docs subdirectory_arrow_right
-@docs unfold_less
-@docs unfold_more
+@docs apps, arrow_back, arrow_back_ios, arrow_downward, arrow_drop_down, arrow_drop_down_circle, arrow_drop_up, arrow_forward, arrow_forward_ios, arrow_left, arrow_right, arrow_upward, cancel, check, chevron_left, chevron_right, close, double_arrow, expand_less, expand_more, first_page, fullscreen, fullscreen_exit, home_work, last_page, menu, menu_open, more_horiz, more_vert, refresh, subdirectory_arrow_left, subdirectory_arrow_right, unfold_less, unfold_more
 
 
 # Notification
 
-@docs account_tree
-@docs adb
-@docs airline_seat_flat
-@docs airline_seat_flat_angled
-@docs airline_seat_individual_suite
-@docs airline_seat_legroom_extra
-@docs airline_seat_legroom_normal
-@docs airline_seat_legroom_reduced
-@docs airline_seat_recline_extra
-@docs airline_seat_recline_normal
-@docs bluetooth_audio
-@docs confirmation_number
-@docs disc_full
-@docs drive_eta
-@docs enhanced_encryption
-@docs event_available
-@docs event_busy
-@docs event_note
-@docs folder_special
-@docs live_tv
-@docs mms
-@docs more
-@docs network_check
-@docs network_locked
-@docs no_encryption
-@docs ondemand_video
-@docs personal_video
-@docs phone_bluetooth_speaker
-@docs phone_callback
-@docs phone_forwarded
-@docs phone_in_talk
-@docs phone_locked
-@docs phone_missed
-@docs phone_paused
-@docs power
-@docs power_off
-@docs priority_high
-@docs sd_card
-@docs sms
-@docs sms_failed
-@docs sync
-@docs sync_disabled
-@docs sync_problem
-@docs system_update
-@docs tap_and_play
-@docs time_to_leave
-@docs tv_off
-@docs vibration
-@docs voice_chat
-@docs vpn_lock
-@docs wc
-@docs wifi
-@docs wifi_off
+@docs account_tree, adb, airline_seat_flat, airline_seat_flat_angled, airline_seat_individual_suite, airline_seat_legroom_extra, airline_seat_legroom_normal, airline_seat_legroom_reduced, airline_seat_recline_extra, airline_seat_recline_normal, bluetooth_audio, confirmation_number, disc_full, drive_eta, enhanced_encryption, event_available, event_busy, event_note, folder_special, live_tv, mms, more, network_check, network_locked, no_encryption, ondemand_video, personal_video, phone_bluetooth_speaker, phone_callback, phone_forwarded, phone_in_talk, phone_locked, phone_missed, phone_paused, power, power_off, priority_high, sd_card, sms, sms_failed, sync, sync_disabled, sync_problem, system_update, tap_and_play, time_to_leave, tv_off, vibration, voice_chat, vpn_lock, wc, wifi, wifi_off
 
 
 # Places
 
-@docs ac_unit
-@docs airport_shuttle
-@docs all_inclusive
-@docs apartment
-@docs bathtub
-@docs beach_access
-@docs business_center
-@docs casino
-@docs child_care
-@docs child_friendly
-@docs fitness_center
-@docs free_breakfast
-@docs golf_course
-@docs hot_tub
-@docs house
-@docs kitchen
-@docs meeting_room
-@docs no_meeting_room
-@docs pool
-@docs room_service
-@docs rv_hookup
-@docs smoke_free
-@docs smoking_rooms
-@docs spa
-@docs storefront
+@docs ac_unit, airport_shuttle, all_inclusive, apartment, bathtub, beach_access, business_center, casino, child_care, child_friendly, fitness_center, free_breakfast, golf_course, hot_tub, house, kitchen, meeting_room, no_meeting_room, pool, room_service, rv_hookup, smoke_free, smoking_rooms, spa, storefront
 
 
 # Social
 
-@docs cake
-@docs deck
-@docs emoji_emotions
-@docs emoji_events
-@docs emoji_flags
-@docs emoji_food_beverage
-@docs emoji_nature
-@docs emoji_objects
-@docs emoji_people
-@docs emoji_symbols
-@docs emoji_transportation
-@docs fireplace
-@docs group
-@docs group_add
-@docs king_bed
-@docs location_city
-@docs mood
-@docs mood_bad
-@docs nights_stay
-@docs notifications
-@docs notifications_active
-@docs notifications_none
-@docs notifications_off
-@docs notifications_paused
-@docs outdoor_grill
-@docs pages
-@docs party_mode
-@docs people
-@docs people_alt
-@docs people_outline
-@docs person
-@docs person_add
-@docs person_outline
-@docs plus_one
-@docs poll
-@docs public
-@docs school
-@docs sentiment_dissatisfied
-@docs sentiment_satisfied
-@docs sentiment_very_dissatisfied
-@docs sentiment_very_satisfied
-@docs share
-@docs single_bed
-@docs sports
-@docs sports_baseball
-@docs sports_basketball
-@docs sports_cricket
-@docs sports_esports
-@docs sports_football
-@docs sports_golf
-@docs sports_handball
-@docs sports_hockey
-@docs sports_kabaddi
-@docs sports_mma
-@docs sports_motorsports
-@docs sports_rugby
-@docs sports_soccer
-@docs sports_tennis
-@docs sports_volleyball
-@docs thumb_down_alt
-@docs thumb_up_alt
-@docs whatshot
+@docs cake, deck, emoji_emotions, emoji_events, emoji_flags, emoji_food_beverage, emoji_nature, emoji_objects, emoji_people, emoji_symbols, emoji_transportation, fireplace, group, group_add, king_bed, location_city, mood, mood_bad, nights_stay, notifications, notifications_active, notifications_none, notifications_off, notifications_paused, outdoor_grill, pages, party_mode, people, people_alt, people_outline, person, person_add, person_outline, plus_one, poll, public, school, sentiment_dissatisfied, sentiment_satisfied, sentiment_very_dissatisfied, sentiment_very_satisfied, share, single_bed, sports, sports_baseball, sports_basketball, sports_cricket, sports_esports, sports_football, sports_golf, sports_handball, sports_hockey, sports_kabaddi, sports_mma, sports_motorsports, sports_rugby, sports_soccer, sports_tennis, sports_volleyball, thumb_down_alt, thumb_up_alt, whatshot
 
 
 # Toggle
 
-@docs check_box
-@docs check_box_outline_blank
-@docs indeterminate_check_box
-@docs radio_button_checked
-@docs radio_button_unchecked
-@docs star
-@docs star_border
-@docs star_half
-@docs toggle_off
-@docs toggle_on
+@docs check_box, check_box_outline_blank, indeterminate_check_box, radio_button_checked, radio_button_unchecked, star, star_border, star_half, toggle_off, toggle_on
 
 -}
 
-import Material.Icons.Coloring exposing (Coloring)
 import Material.Icons.Internal exposing (icon)
-import Svg exposing (Svg, circle, g, path, polygon, rect, svg, use)
+import Material.Icons.Types exposing (Coloring, Icon)
+import Svg exposing (Svg, circle, g, path, polygon, polyline, rect, svg, use)
 import Svg.Attributes exposing (baseProfile, clipRule, cx, cy, d, enableBackground, fill, fillOpacity, fillRule, id, overflow, points, r, viewBox, xlinkHref)
 
 
 {-| -}
-three_sixty : Int -> Coloring -> Svg msg
+three_sixty : Icon msg
 three_sixty =
     icon
         [ viewBox "0 0 24 24" ]
@@ -2204,7 +122,7 @@ three_sixty =
 
 
 {-| -}
-three_d_rotation : Int -> Coloring -> Svg msg
+three_d_rotation : Icon msg
 three_d_rotation =
     icon
         [ viewBox "0 0 24 24" ]
@@ -2218,7 +136,7 @@ three_d_rotation =
 
 
 {-| -}
-four_k : Int -> Coloring -> Svg msg
+four_k : Icon msg
 four_k =
     icon
         [ viewBox "0 0 24 24" ]
@@ -2232,7 +150,7 @@ four_k =
 
 
 {-| -}
-ac_unit : Int -> Coloring -> Svg msg
+ac_unit : Icon msg
 ac_unit =
     icon
         [ viewBox "0 0 24 24" ]
@@ -2246,7 +164,7 @@ ac_unit =
 
 
 {-| -}
-access_alarm : Int -> Coloring -> Svg msg
+access_alarm : Icon msg
 access_alarm =
     icon
         [ viewBox "0 0 24 24" ]
@@ -2260,7 +178,7 @@ access_alarm =
 
 
 {-| -}
-access_alarms : Int -> Coloring -> Svg msg
+access_alarms : Icon msg
 access_alarms =
     icon
         [ viewBox "0 0 24 24" ]
@@ -2274,7 +192,7 @@ access_alarms =
 
 
 {-| -}
-access_time : Int -> Coloring -> Svg msg
+access_time : Icon msg
 access_time =
     icon
         [ viewBox "0 0 24 24" ]
@@ -2291,7 +209,7 @@ access_time =
 
 
 {-| -}
-accessibility : Int -> Coloring -> Svg msg
+accessibility : Icon msg
 accessibility =
     icon
         [ viewBox "0 0 24 24" ]
@@ -2305,7 +223,7 @@ accessibility =
 
 
 {-| -}
-accessibility_new : Int -> Coloring -> Svg msg
+accessibility_new : Icon msg
 accessibility_new =
     icon
         [ viewBox "0 0 24 24" ]
@@ -2319,7 +237,7 @@ accessibility_new =
 
 
 {-| -}
-accessible : Int -> Coloring -> Svg msg
+accessible : Icon msg
 accessible =
     icon
         [ viewBox "0 0 24 24" ]
@@ -2336,7 +254,7 @@ accessible =
 
 
 {-| -}
-accessible_forward : Int -> Coloring -> Svg msg
+accessible_forward : Icon msg
 accessible_forward =
     icon
         [ viewBox "0 0 24 24" ]
@@ -2353,7 +271,7 @@ accessible_forward =
 
 
 {-| -}
-account_balance : Int -> Coloring -> Svg msg
+account_balance : Icon msg
 account_balance =
     icon
         [ viewBox "0 0 24 24" ]
@@ -2367,7 +285,7 @@ account_balance =
 
 
 {-| -}
-account_balance_wallet : Int -> Coloring -> Svg msg
+account_balance_wallet : Icon msg
 account_balance_wallet =
     icon
         [ viewBox "0 0 24 24" ]
@@ -2381,7 +299,7 @@ account_balance_wallet =
 
 
 {-| -}
-account_box : Int -> Coloring -> Svg msg
+account_box : Icon msg
 account_box =
     icon
         [ viewBox "0 0 24 24" ]
@@ -2395,7 +313,7 @@ account_box =
 
 
 {-| -}
-account_circle : Int -> Coloring -> Svg msg
+account_circle : Icon msg
 account_circle =
     icon
         [ viewBox "0 0 24 24" ]
@@ -2409,7 +327,7 @@ account_circle =
 
 
 {-| -}
-account_tree : Int -> Coloring -> Svg msg
+account_tree : Icon msg
 account_tree =
     icon
         [ viewBox "0 0 24 24" ]
@@ -2423,7 +341,7 @@ account_tree =
 
 
 {-| -}
-adb : Int -> Coloring -> Svg msg
+adb : Icon msg
 adb =
     icon
         [ viewBox "0 0 24 24" ]
@@ -2437,7 +355,7 @@ adb =
 
 
 {-| -}
-add : Int -> Coloring -> Svg msg
+add : Icon msg
 add =
     icon
         [ viewBox "0 0 24 24" ]
@@ -2451,7 +369,7 @@ add =
 
 
 {-| -}
-add_a_photo : Int -> Coloring -> Svg msg
+add_a_photo : Icon msg
 add_a_photo =
     icon
         [ viewBox "0 0 24 24" ]
@@ -2462,7 +380,7 @@ add_a_photo =
 
 
 {-| -}
-add_alarm : Int -> Coloring -> Svg msg
+add_alarm : Icon msg
 add_alarm =
     icon
         [ viewBox "0 0 24 24" ]
@@ -2476,7 +394,7 @@ add_alarm =
 
 
 {-| -}
-add_alert : Int -> Coloring -> Svg msg
+add_alert : Icon msg
 add_alert =
     icon
         [ viewBox "0 0 24 24" ]
@@ -2490,7 +408,7 @@ add_alert =
 
 
 {-| -}
-add_box : Int -> Coloring -> Svg msg
+add_box : Icon msg
 add_box =
     icon
         [ viewBox "0 0 24 24" ]
@@ -2504,7 +422,7 @@ add_box =
 
 
 {-| -}
-add_circle : Int -> Coloring -> Svg msg
+add_circle : Icon msg
 add_circle =
     icon
         [ viewBox "0 0 24 24" ]
@@ -2518,7 +436,7 @@ add_circle =
 
 
 {-| -}
-add_circle_outline : Int -> Coloring -> Svg msg
+add_circle_outline : Icon msg
 add_circle_outline =
     icon
         [ viewBox "0 0 24 24" ]
@@ -2532,7 +450,7 @@ add_circle_outline =
 
 
 {-| -}
-add_comment : Int -> Coloring -> Svg msg
+add_comment : Icon msg
 add_comment =
     icon
         [ viewBox "0 0 24 24" ]
@@ -2546,7 +464,7 @@ add_comment =
 
 
 {-| -}
-add_photo_alternate : Int -> Coloring -> Svg msg
+add_photo_alternate : Icon msg
 add_photo_alternate =
     icon
         [ viewBox "0 0 24 24" ]
@@ -2560,7 +478,7 @@ add_photo_alternate =
 
 
 {-| -}
-add_shopping_cart : Int -> Coloring -> Svg msg
+add_shopping_cart : Icon msg
 add_shopping_cart =
     icon
         [ viewBox "0 0 24 24" ]
@@ -2574,7 +492,7 @@ add_shopping_cart =
 
 
 {-| -}
-add_to_home_screen : Int -> Coloring -> Svg msg
+add_to_home_screen : Icon msg
 add_to_home_screen =
     icon
         [ viewBox "0 0 24 24" ]
@@ -2591,7 +509,7 @@ add_to_home_screen =
 
 
 {-| -}
-add_to_photos : Int -> Coloring -> Svg msg
+add_to_photos : Icon msg
 add_to_photos =
     icon
         [ viewBox "0 0 24 24" ]
@@ -2605,7 +523,7 @@ add_to_photos =
 
 
 {-| -}
-add_to_queue : Int -> Coloring -> Svg msg
+add_to_queue : Icon msg
 add_to_queue =
     icon
         [ viewBox "0 0 24 24" ]
@@ -2619,7 +537,7 @@ add_to_queue =
 
 
 {-| -}
-adjust : Int -> Coloring -> Svg msg
+adjust : Icon msg
 adjust =
     icon
         [ viewBox "0 0 24 24" ]
@@ -2633,7 +551,7 @@ adjust =
 
 
 {-| -}
-airline_seat_flat : Int -> Coloring -> Svg msg
+airline_seat_flat : Icon msg
 airline_seat_flat =
     icon
         [ viewBox "0 0 24 24" ]
@@ -2647,7 +565,7 @@ airline_seat_flat =
 
 
 {-| -}
-airline_seat_flat_angled : Int -> Coloring -> Svg msg
+airline_seat_flat_angled : Icon msg
 airline_seat_flat_angled =
     icon
         [ viewBox "0 0 24 24" ]
@@ -2661,7 +579,7 @@ airline_seat_flat_angled =
 
 
 {-| -}
-airline_seat_individual_suite : Int -> Coloring -> Svg msg
+airline_seat_individual_suite : Icon msg
 airline_seat_individual_suite =
     icon
         [ viewBox "0 0 24 24" ]
@@ -2675,7 +593,7 @@ airline_seat_individual_suite =
 
 
 {-| -}
-airline_seat_legroom_extra : Int -> Coloring -> Svg msg
+airline_seat_legroom_extra : Icon msg
 airline_seat_legroom_extra =
     icon
         [ viewBox "0 0 24 24" ]
@@ -2689,7 +607,7 @@ airline_seat_legroom_extra =
 
 
 {-| -}
-airline_seat_legroom_normal : Int -> Coloring -> Svg msg
+airline_seat_legroom_normal : Icon msg
 airline_seat_legroom_normal =
     icon
         [ viewBox "0 0 24 24" ]
@@ -2703,7 +621,7 @@ airline_seat_legroom_normal =
 
 
 {-| -}
-airline_seat_legroom_reduced : Int -> Coloring -> Svg msg
+airline_seat_legroom_reduced : Icon msg
 airline_seat_legroom_reduced =
     icon
         [ viewBox "0 0 24 24" ]
@@ -2717,7 +635,7 @@ airline_seat_legroom_reduced =
 
 
 {-| -}
-airline_seat_recline_extra : Int -> Coloring -> Svg msg
+airline_seat_recline_extra : Icon msg
 airline_seat_recline_extra =
     icon
         [ viewBox "0 0 24 24" ]
@@ -2731,7 +649,7 @@ airline_seat_recline_extra =
 
 
 {-| -}
-airline_seat_recline_normal : Int -> Coloring -> Svg msg
+airline_seat_recline_normal : Icon msg
 airline_seat_recline_normal =
     icon
         [ viewBox "0 0 24 24" ]
@@ -2745,7 +663,7 @@ airline_seat_recline_normal =
 
 
 {-| -}
-airplanemode_active : Int -> Coloring -> Svg msg
+airplanemode_active : Icon msg
 airplanemode_active =
     icon
         [ viewBox "0 0 24 24" ]
@@ -2762,7 +680,7 @@ airplanemode_active =
 
 
 {-| -}
-airplanemode_inactive : Int -> Coloring -> Svg msg
+airplanemode_inactive : Icon msg
 airplanemode_inactive =
     icon
         [ viewBox "0 0 24 24" ]
@@ -2776,7 +694,7 @@ airplanemode_inactive =
 
 
 {-| -}
-airplay : Int -> Coloring -> Svg msg
+airplay : Icon msg
 airplay =
     icon
         [ id "Layer_1", viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -2796,7 +714,7 @@ airplay =
 
 
 {-| -}
-airport_shuttle : Int -> Coloring -> Svg msg
+airport_shuttle : Icon msg
 airport_shuttle =
     icon
         [ viewBox "0 0 24 24" ]
@@ -2810,7 +728,7 @@ airport_shuttle =
 
 
 {-| -}
-alarm : Int -> Coloring -> Svg msg
+alarm : Icon msg
 alarm =
     icon
         [ viewBox "0 0 24 24" ]
@@ -2824,7 +742,7 @@ alarm =
 
 
 {-| -}
-alarm_add : Int -> Coloring -> Svg msg
+alarm_add : Icon msg
 alarm_add =
     icon
         [ viewBox "0 0 24 24" ]
@@ -2838,7 +756,7 @@ alarm_add =
 
 
 {-| -}
-alarm_off : Int -> Coloring -> Svg msg
+alarm_off : Icon msg
 alarm_off =
     icon
         [ viewBox "0 0 24 24" ]
@@ -2852,7 +770,7 @@ alarm_off =
 
 
 {-| -}
-alarm_on : Int -> Coloring -> Svg msg
+alarm_on : Icon msg
 alarm_on =
     icon
         [ viewBox "0 0 24 24" ]
@@ -2866,7 +784,7 @@ alarm_on =
 
 
 {-| -}
-album : Int -> Coloring -> Svg msg
+album : Icon msg
 album =
     icon
         [ viewBox "0 0 24 24" ]
@@ -2880,7 +798,7 @@ album =
 
 
 {-| -}
-all_inbox : Int -> Coloring -> Svg msg
+all_inbox : Icon msg
 all_inbox =
     icon
         [ viewBox "0 0 24 24" ]
@@ -2894,7 +812,7 @@ all_inbox =
 
 
 {-| -}
-all_inclusive : Int -> Coloring -> Svg msg
+all_inclusive : Icon msg
 all_inclusive =
     icon
         [ viewBox "0 0 24 24" ]
@@ -2908,7 +826,7 @@ all_inclusive =
 
 
 {-| -}
-all_out : Int -> Coloring -> Svg msg
+all_out : Icon msg
 all_out =
     icon
         [ viewBox "0 0 24 24" ]
@@ -2922,7 +840,7 @@ all_out =
 
 
 {-| -}
-amp_stories : Int -> Coloring -> Svg msg
+amp_stories : Icon msg
 amp_stories =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -2954,7 +872,7 @@ amp_stories =
 
 
 {-| -}
-android : Int -> Coloring -> Svg msg
+android : Icon msg
 android =
     icon
         [ viewBox "0 0 24 24" ]
@@ -2968,7 +886,7 @@ android =
 
 
 {-| -}
-announcement : Int -> Coloring -> Svg msg
+announcement : Icon msg
 announcement =
     icon
         [ viewBox "0 0 24 24" ]
@@ -2982,7 +900,7 @@ announcement =
 
 
 {-| -}
-apartment : Int -> Coloring -> Svg msg
+apartment : Icon msg
 apartment =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -3002,7 +920,7 @@ apartment =
 
 
 {-| -}
-apps : Int -> Coloring -> Svg msg
+apps : Icon msg
 apps =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3016,7 +934,7 @@ apps =
 
 
 {-| -}
-archive : Int -> Coloring -> Svg msg
+archive : Icon msg
 archive =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3030,7 +948,7 @@ archive =
 
 
 {-| -}
-arrow_back : Int -> Coloring -> Svg msg
+arrow_back : Icon msg
 arrow_back =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3044,7 +962,7 @@ arrow_back =
 
 
 {-| -}
-arrow_back_ios : Int -> Coloring -> Svg msg
+arrow_back_ios : Icon msg
 arrow_back_ios =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3058,7 +976,7 @@ arrow_back_ios =
 
 
 {-| -}
-arrow_downward : Int -> Coloring -> Svg msg
+arrow_downward : Icon msg
 arrow_downward =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3072,7 +990,7 @@ arrow_downward =
 
 
 {-| -}
-arrow_drop_down : Int -> Coloring -> Svg msg
+arrow_drop_down : Icon msg
 arrow_drop_down =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3086,7 +1004,7 @@ arrow_drop_down =
 
 
 {-| -}
-arrow_drop_down_circle : Int -> Coloring -> Svg msg
+arrow_drop_down_circle : Icon msg
 arrow_drop_down_circle =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3100,7 +1018,7 @@ arrow_drop_down_circle =
 
 
 {-| -}
-arrow_drop_up : Int -> Coloring -> Svg msg
+arrow_drop_up : Icon msg
 arrow_drop_up =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3114,7 +1032,7 @@ arrow_drop_up =
 
 
 {-| -}
-arrow_forward : Int -> Coloring -> Svg msg
+arrow_forward : Icon msg
 arrow_forward =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3128,7 +1046,7 @@ arrow_forward =
 
 
 {-| -}
-arrow_forward_ios : Int -> Coloring -> Svg msg
+arrow_forward_ios : Icon msg
 arrow_forward_ios =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3142,7 +1060,7 @@ arrow_forward_ios =
 
 
 {-| -}
-arrow_left : Int -> Coloring -> Svg msg
+arrow_left : Icon msg
 arrow_left =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3156,7 +1074,7 @@ arrow_left =
 
 
 {-| -}
-arrow_right : Int -> Coloring -> Svg msg
+arrow_right : Icon msg
 arrow_right =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3170,7 +1088,7 @@ arrow_right =
 
 
 {-| -}
-arrow_right_alt : Int -> Coloring -> Svg msg
+arrow_right_alt : Icon msg
 arrow_right_alt =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3184,7 +1102,7 @@ arrow_right_alt =
 
 
 {-| -}
-arrow_upward : Int -> Coloring -> Svg msg
+arrow_upward : Icon msg
 arrow_upward =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3198,7 +1116,7 @@ arrow_upward =
 
 
 {-| -}
-art_track : Int -> Coloring -> Svg msg
+art_track : Icon msg
 art_track =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3212,7 +1130,7 @@ art_track =
 
 
 {-| -}
-aspect_ratio : Int -> Coloring -> Svg msg
+aspect_ratio : Icon msg
 aspect_ratio =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3226,7 +1144,7 @@ aspect_ratio =
 
 
 {-| -}
-assessment : Int -> Coloring -> Svg msg
+assessment : Icon msg
 assessment =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3240,7 +1158,7 @@ assessment =
 
 
 {-| -}
-assignment : Int -> Coloring -> Svg msg
+assignment : Icon msg
 assignment =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3254,7 +1172,7 @@ assignment =
 
 
 {-| -}
-assignment_ind : Int -> Coloring -> Svg msg
+assignment_ind : Icon msg
 assignment_ind =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3268,7 +1186,7 @@ assignment_ind =
 
 
 {-| -}
-assignment_late : Int -> Coloring -> Svg msg
+assignment_late : Icon msg
 assignment_late =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3282,7 +1200,7 @@ assignment_late =
 
 
 {-| -}
-assignment_return : Int -> Coloring -> Svg msg
+assignment_return : Icon msg
 assignment_return =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3296,7 +1214,7 @@ assignment_return =
 
 
 {-| -}
-assignment_returned : Int -> Coloring -> Svg msg
+assignment_returned : Icon msg
 assignment_returned =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3310,7 +1228,7 @@ assignment_returned =
 
 
 {-| -}
-assignment_turned_in : Int -> Coloring -> Svg msg
+assignment_turned_in : Icon msg
 assignment_turned_in =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3324,7 +1242,7 @@ assignment_turned_in =
 
 
 {-| -}
-assistant : Int -> Coloring -> Svg msg
+assistant : Icon msg
 assistant =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3338,7 +1256,7 @@ assistant =
 
 
 {-| -}
-assistant_photo : Int -> Coloring -> Svg msg
+assistant_photo : Icon msg
 assistant_photo =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3352,7 +1270,7 @@ assistant_photo =
 
 
 {-| -}
-atm : Int -> Coloring -> Svg msg
+atm : Icon msg
 atm =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3366,7 +1284,7 @@ atm =
 
 
 {-| -}
-attach_file : Int -> Coloring -> Svg msg
+attach_file : Icon msg
 attach_file =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3380,7 +1298,7 @@ attach_file =
 
 
 {-| -}
-attach_money : Int -> Coloring -> Svg msg
+attach_money : Icon msg
 attach_money =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3394,7 +1312,7 @@ attach_money =
 
 
 {-| -}
-attachment : Int -> Coloring -> Svg msg
+attachment : Icon msg
 attachment =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3408,7 +1326,7 @@ attachment =
 
 
 {-| -}
-audiotrack : Int -> Coloring -> Svg msg
+audiotrack : Icon msg
 audiotrack =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3422,7 +1340,7 @@ audiotrack =
 
 
 {-| -}
-autorenew : Int -> Coloring -> Svg msg
+autorenew : Icon msg
 autorenew =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3436,7 +1354,7 @@ autorenew =
 
 
 {-| -}
-av_timer : Int -> Coloring -> Svg msg
+av_timer : Icon msg
 av_timer =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3450,7 +1368,7 @@ av_timer =
 
 
 {-| -}
-backspace : Int -> Coloring -> Svg msg
+backspace : Icon msg
 backspace =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3464,7 +1382,7 @@ backspace =
 
 
 {-| -}
-backup : Int -> Coloring -> Svg msg
+backup : Icon msg
 backup =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3478,7 +1396,7 @@ backup =
 
 
 {-| -}
-ballot : Int -> Coloring -> Svg msg
+ballot : Icon msg
 ballot =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3489,7 +1407,7 @@ ballot =
 
 
 {-| -}
-bar_chart : Int -> Coloring -> Svg msg
+bar_chart : Icon msg
 bar_chart =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3503,7 +1421,7 @@ bar_chart =
 
 
 {-| -}
-bathtub : Int -> Coloring -> Svg msg
+bathtub : Icon msg
 bathtub =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -3535,7 +1453,7 @@ bathtub =
 
 
 {-| -}
-battery_alert : Int -> Coloring -> Svg msg
+battery_alert : Icon msg
 battery_alert =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3549,7 +1467,7 @@ battery_alert =
 
 
 {-| -}
-battery_charging_full : Int -> Coloring -> Svg msg
+battery_charging_full : Icon msg
 battery_charging_full =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3563,7 +1481,7 @@ battery_charging_full =
 
 
 {-| -}
-battery_full : Int -> Coloring -> Svg msg
+battery_full : Icon msg
 battery_full =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3577,7 +1495,7 @@ battery_full =
 
 
 {-| -}
-battery_std : Int -> Coloring -> Svg msg
+battery_std : Icon msg
 battery_std =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3591,7 +1509,7 @@ battery_std =
 
 
 {-| -}
-battery_unknown : Int -> Coloring -> Svg msg
+battery_unknown : Icon msg
 battery_unknown =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3605,7 +1523,7 @@ battery_unknown =
 
 
 {-| -}
-beach_access : Int -> Coloring -> Svg msg
+beach_access : Icon msg
 beach_access =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3619,7 +1537,7 @@ beach_access =
 
 
 {-| -}
-beenhere : Int -> Coloring -> Svg msg
+beenhere : Icon msg
 beenhere =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3633,7 +1551,7 @@ beenhere =
 
 
 {-| -}
-block : Int -> Coloring -> Svg msg
+block : Icon msg
 block =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3647,7 +1565,7 @@ block =
 
 
 {-| -}
-bluetooth : Int -> Coloring -> Svg msg
+bluetooth : Icon msg
 bluetooth =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3661,7 +1579,7 @@ bluetooth =
 
 
 {-| -}
-bluetooth_audio : Int -> Coloring -> Svg msg
+bluetooth_audio : Icon msg
 bluetooth_audio =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3675,7 +1593,7 @@ bluetooth_audio =
 
 
 {-| -}
-bluetooth_connected : Int -> Coloring -> Svg msg
+bluetooth_connected : Icon msg
 bluetooth_connected =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3689,7 +1607,7 @@ bluetooth_connected =
 
 
 {-| -}
-bluetooth_disabled : Int -> Coloring -> Svg msg
+bluetooth_disabled : Icon msg
 bluetooth_disabled =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3703,7 +1621,7 @@ bluetooth_disabled =
 
 
 {-| -}
-bluetooth_searching : Int -> Coloring -> Svg msg
+bluetooth_searching : Icon msg
 bluetooth_searching =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3717,7 +1635,7 @@ bluetooth_searching =
 
 
 {-| -}
-blur_circular : Int -> Coloring -> Svg msg
+blur_circular : Icon msg
 blur_circular =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3731,7 +1649,7 @@ blur_circular =
 
 
 {-| -}
-blur_linear : Int -> Coloring -> Svg msg
+blur_linear : Icon msg
 blur_linear =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3745,7 +1663,7 @@ blur_linear =
 
 
 {-| -}
-blur_off : Int -> Coloring -> Svg msg
+blur_off : Icon msg
 blur_off =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3759,7 +1677,7 @@ blur_off =
 
 
 {-| -}
-blur_on : Int -> Coloring -> Svg msg
+blur_on : Icon msg
 blur_on =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3773,7 +1691,7 @@ blur_on =
 
 
 {-| -}
-book : Int -> Coloring -> Svg msg
+book : Icon msg
 book =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3787,7 +1705,7 @@ book =
 
 
 {-| -}
-bookmark : Int -> Coloring -> Svg msg
+bookmark : Icon msg
 bookmark =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3801,7 +1719,7 @@ bookmark =
 
 
 {-| -}
-bookmark_border : Int -> Coloring -> Svg msg
+bookmark_border : Icon msg
 bookmark_border =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3815,7 +1733,7 @@ bookmark_border =
 
 
 {-| -}
-bookmarks : Int -> Coloring -> Svg msg
+bookmarks : Icon msg
 bookmarks =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3829,7 +1747,7 @@ bookmarks =
 
 
 {-| -}
-border_all : Int -> Coloring -> Svg msg
+border_all : Icon msg
 border_all =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3843,7 +1761,7 @@ border_all =
 
 
 {-| -}
-border_bottom : Int -> Coloring -> Svg msg
+border_bottom : Icon msg
 border_bottom =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3857,7 +1775,7 @@ border_bottom =
 
 
 {-| -}
-border_clear : Int -> Coloring -> Svg msg
+border_clear : Icon msg
 border_clear =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3871,7 +1789,7 @@ border_clear =
 
 
 {-| -}
-border_horizontal : Int -> Coloring -> Svg msg
+border_horizontal : Icon msg
 border_horizontal =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3885,7 +1803,7 @@ border_horizontal =
 
 
 {-| -}
-border_inner : Int -> Coloring -> Svg msg
+border_inner : Icon msg
 border_inner =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3899,7 +1817,7 @@ border_inner =
 
 
 {-| -}
-border_left : Int -> Coloring -> Svg msg
+border_left : Icon msg
 border_left =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3913,7 +1831,7 @@ border_left =
 
 
 {-| -}
-border_outer : Int -> Coloring -> Svg msg
+border_outer : Icon msg
 border_outer =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3927,7 +1845,7 @@ border_outer =
 
 
 {-| -}
-border_right : Int -> Coloring -> Svg msg
+border_right : Icon msg
 border_right =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3941,7 +1859,7 @@ border_right =
 
 
 {-| -}
-border_style : Int -> Coloring -> Svg msg
+border_style : Icon msg
 border_style =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3955,7 +1873,7 @@ border_style =
 
 
 {-| -}
-border_top : Int -> Coloring -> Svg msg
+border_top : Icon msg
 border_top =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3969,7 +1887,7 @@ border_top =
 
 
 {-| -}
-border_vertical : Int -> Coloring -> Svg msg
+border_vertical : Icon msg
 border_vertical =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3983,7 +1901,7 @@ border_vertical =
 
 
 {-| -}
-branding_watermark : Int -> Coloring -> Svg msg
+branding_watermark : Icon msg
 branding_watermark =
     icon
         [ viewBox "0 0 24 24" ]
@@ -3997,7 +1915,7 @@ branding_watermark =
 
 
 {-| -}
-brightness_1 : Int -> Coloring -> Svg msg
+brightness_1 : Icon msg
 brightness_1 =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4011,7 +1929,7 @@ brightness_1 =
 
 
 {-| -}
-brightness_2 : Int -> Coloring -> Svg msg
+brightness_2 : Icon msg
 brightness_2 =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4025,7 +1943,7 @@ brightness_2 =
 
 
 {-| -}
-brightness_3 : Int -> Coloring -> Svg msg
+brightness_3 : Icon msg
 brightness_3 =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4039,7 +1957,7 @@ brightness_3 =
 
 
 {-| -}
-brightness_4 : Int -> Coloring -> Svg msg
+brightness_4 : Icon msg
 brightness_4 =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4053,7 +1971,7 @@ brightness_4 =
 
 
 {-| -}
-brightness_5 : Int -> Coloring -> Svg msg
+brightness_5 : Icon msg
 brightness_5 =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4067,7 +1985,7 @@ brightness_5 =
 
 
 {-| -}
-brightness_6 : Int -> Coloring -> Svg msg
+brightness_6 : Icon msg
 brightness_6 =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4081,7 +1999,7 @@ brightness_6 =
 
 
 {-| -}
-brightness_7 : Int -> Coloring -> Svg msg
+brightness_7 : Icon msg
 brightness_7 =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4095,7 +2013,7 @@ brightness_7 =
 
 
 {-| -}
-brightness_auto : Int -> Coloring -> Svg msg
+brightness_auto : Icon msg
 brightness_auto =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4109,7 +2027,7 @@ brightness_auto =
 
 
 {-| -}
-brightness_high : Int -> Coloring -> Svg msg
+brightness_high : Icon msg
 brightness_high =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4123,7 +2041,7 @@ brightness_high =
 
 
 {-| -}
-brightness_low : Int -> Coloring -> Svg msg
+brightness_low : Icon msg
 brightness_low =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4137,7 +2055,7 @@ brightness_low =
 
 
 {-| -}
-brightness_medium : Int -> Coloring -> Svg msg
+brightness_medium : Icon msg
 brightness_medium =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4151,7 +2069,7 @@ brightness_medium =
 
 
 {-| -}
-broken_image : Int -> Coloring -> Svg msg
+broken_image : Icon msg
 broken_image =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4168,7 +2086,7 @@ broken_image =
 
 
 {-| -}
-brush : Int -> Coloring -> Svg msg
+brush : Icon msg
 brush =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4182,7 +2100,7 @@ brush =
 
 
 {-| -}
-bubble_chart : Int -> Coloring -> Svg msg
+bubble_chart : Icon msg
 bubble_chart =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4202,7 +2120,7 @@ bubble_chart =
 
 
 {-| -}
-bug_report : Int -> Coloring -> Svg msg
+bug_report : Icon msg
 bug_report =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4216,7 +2134,7 @@ bug_report =
 
 
 {-| -}
-build : Int -> Coloring -> Svg msg
+build : Icon msg
 build =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4230,7 +2148,7 @@ build =
 
 
 {-| -}
-burst_mode : Int -> Coloring -> Svg msg
+burst_mode : Icon msg
 burst_mode =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4244,7 +2162,7 @@ burst_mode =
 
 
 {-| -}
-business : Int -> Coloring -> Svg msg
+business : Icon msg
 business =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4258,7 +2176,7 @@ business =
 
 
 {-| -}
-business_center : Int -> Coloring -> Svg msg
+business_center : Icon msg
 business_center =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4272,7 +2190,7 @@ business_center =
 
 
 {-| -}
-cached : Int -> Coloring -> Svg msg
+cached : Icon msg
 cached =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4286,7 +2204,7 @@ cached =
 
 
 {-| -}
-cake : Int -> Coloring -> Svg msg
+cake : Icon msg
 cake =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4300,7 +2218,7 @@ cake =
 
 
 {-| -}
-calendar_today : Int -> Coloring -> Svg msg
+calendar_today : Icon msg
 calendar_today =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4314,7 +2232,7 @@ calendar_today =
 
 
 {-| -}
-calendar_view_day : Int -> Coloring -> Svg msg
+calendar_view_day : Icon msg
 calendar_view_day =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4328,7 +2246,7 @@ calendar_view_day =
 
 
 {-| -}
-call : Int -> Coloring -> Svg msg
+call : Icon msg
 call =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4342,7 +2260,7 @@ call =
 
 
 {-| -}
-call_end : Int -> Coloring -> Svg msg
+call_end : Icon msg
 call_end =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4356,7 +2274,7 @@ call_end =
 
 
 {-| -}
-call_made : Int -> Coloring -> Svg msg
+call_made : Icon msg
 call_made =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4370,7 +2288,7 @@ call_made =
 
 
 {-| -}
-call_merge : Int -> Coloring -> Svg msg
+call_merge : Icon msg
 call_merge =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4384,7 +2302,7 @@ call_merge =
 
 
 {-| -}
-call_missed : Int -> Coloring -> Svg msg
+call_missed : Icon msg
 call_missed =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4398,7 +2316,7 @@ call_missed =
 
 
 {-| -}
-call_missed_outgoing : Int -> Coloring -> Svg msg
+call_missed_outgoing : Icon msg
 call_missed_outgoing =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4409,7 +2327,7 @@ call_missed_outgoing =
 
 
 {-| -}
-call_received : Int -> Coloring -> Svg msg
+call_received : Icon msg
 call_received =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4423,7 +2341,7 @@ call_received =
 
 
 {-| -}
-call_split : Int -> Coloring -> Svg msg
+call_split : Icon msg
 call_split =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4437,7 +2355,7 @@ call_split =
 
 
 {-| -}
-call_to_action : Int -> Coloring -> Svg msg
+call_to_action : Icon msg
 call_to_action =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4451,7 +2369,7 @@ call_to_action =
 
 
 {-| -}
-camera : Int -> Coloring -> Svg msg
+camera : Icon msg
 camera =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4465,7 +2383,7 @@ camera =
 
 
 {-| -}
-camera_alt : Int -> Coloring -> Svg msg
+camera_alt : Icon msg
 camera_alt =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4482,7 +2400,7 @@ camera_alt =
 
 
 {-| -}
-camera_enhance : Int -> Coloring -> Svg msg
+camera_enhance : Icon msg
 camera_enhance =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4499,7 +2417,7 @@ camera_enhance =
 
 
 {-| -}
-camera_front : Int -> Coloring -> Svg msg
+camera_front : Icon msg
 camera_front =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4513,7 +2431,7 @@ camera_front =
 
 
 {-| -}
-camera_rear : Int -> Coloring -> Svg msg
+camera_rear : Icon msg
 camera_rear =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4527,7 +2445,7 @@ camera_rear =
 
 
 {-| -}
-camera_roll : Int -> Coloring -> Svg msg
+camera_roll : Icon msg
 camera_roll =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4541,7 +2459,7 @@ camera_roll =
 
 
 {-| -}
-cancel : Int -> Coloring -> Svg msg
+cancel : Icon msg
 cancel =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4555,7 +2473,7 @@ cancel =
 
 
 {-| -}
-cancel_presentation : Int -> Coloring -> Svg msg
+cancel_presentation : Icon msg
 cancel_presentation =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4575,7 +2493,7 @@ cancel_presentation =
 
 
 {-| -}
-cancel_schedule_send : Int -> Coloring -> Svg msg
+cancel_schedule_send : Icon msg
 cancel_schedule_send =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -4601,7 +2519,7 @@ cancel_schedule_send =
 
 
 {-| -}
-card_giftcard : Int -> Coloring -> Svg msg
+card_giftcard : Icon msg
 card_giftcard =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4615,7 +2533,7 @@ card_giftcard =
 
 
 {-| -}
-card_membership : Int -> Coloring -> Svg msg
+card_membership : Icon msg
 card_membership =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4629,7 +2547,7 @@ card_membership =
 
 
 {-| -}
-card_travel : Int -> Coloring -> Svg msg
+card_travel : Icon msg
 card_travel =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4643,7 +2561,7 @@ card_travel =
 
 
 {-| -}
-casino : Int -> Coloring -> Svg msg
+casino : Icon msg
 casino =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4657,7 +2575,7 @@ casino =
 
 
 {-| -}
-cast : Int -> Coloring -> Svg msg
+cast : Icon msg
 cast =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4674,7 +2592,7 @@ cast =
 
 
 {-| -}
-cast_connected : Int -> Coloring -> Svg msg
+cast_connected : Icon msg
 cast_connected =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4691,7 +2609,7 @@ cast_connected =
 
 
 {-| -}
-category : Int -> Coloring -> Svg msg
+category : Icon msg
 category =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4711,7 +2629,7 @@ category =
 
 
 {-| -}
-center_focus_strong : Int -> Coloring -> Svg msg
+center_focus_strong : Icon msg
 center_focus_strong =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4725,7 +2643,7 @@ center_focus_strong =
 
 
 {-| -}
-center_focus_weak : Int -> Coloring -> Svg msg
+center_focus_weak : Icon msg
 center_focus_weak =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4739,7 +2657,7 @@ center_focus_weak =
 
 
 {-| -}
-change_history : Int -> Coloring -> Svg msg
+change_history : Icon msg
 change_history =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4753,7 +2671,7 @@ change_history =
 
 
 {-| -}
-chat : Int -> Coloring -> Svg msg
+chat : Icon msg
 chat =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4767,7 +2685,7 @@ chat =
 
 
 {-| -}
-chat_bubble : Int -> Coloring -> Svg msg
+chat_bubble : Icon msg
 chat_bubble =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4781,7 +2699,7 @@ chat_bubble =
 
 
 {-| -}
-chat_bubble_outline : Int -> Coloring -> Svg msg
+chat_bubble_outline : Icon msg
 chat_bubble_outline =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4795,7 +2713,7 @@ chat_bubble_outline =
 
 
 {-| -}
-check : Int -> Coloring -> Svg msg
+check : Icon msg
 check =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4809,7 +2727,7 @@ check =
 
 
 {-| -}
-check_box : Int -> Coloring -> Svg msg
+check_box : Icon msg
 check_box =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4823,7 +2741,7 @@ check_box =
 
 
 {-| -}
-check_box_outline_blank : Int -> Coloring -> Svg msg
+check_box_outline_blank : Icon msg
 check_box_outline_blank =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4837,7 +2755,7 @@ check_box_outline_blank =
 
 
 {-| -}
-check_circle : Int -> Coloring -> Svg msg
+check_circle : Icon msg
 check_circle =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4851,7 +2769,7 @@ check_circle =
 
 
 {-| -}
-check_circle_outline : Int -> Coloring -> Svg msg
+check_circle_outline : Icon msg
 check_circle_outline =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4865,7 +2783,7 @@ check_circle_outline =
 
 
 {-| -}
-chevron_left : Int -> Coloring -> Svg msg
+chevron_left : Icon msg
 chevron_left =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4879,7 +2797,7 @@ chevron_left =
 
 
 {-| -}
-chevron_right : Int -> Coloring -> Svg msg
+chevron_right : Icon msg
 chevron_right =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4893,7 +2811,7 @@ chevron_right =
 
 
 {-| -}
-child_care : Int -> Coloring -> Svg msg
+child_care : Icon msg
 child_care =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4913,7 +2831,7 @@ child_care =
 
 
 {-| -}
-child_friendly : Int -> Coloring -> Svg msg
+child_friendly : Icon msg
 child_friendly =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4927,7 +2845,7 @@ child_friendly =
 
 
 {-| -}
-chrome_reader_mode : Int -> Coloring -> Svg msg
+chrome_reader_mode : Icon msg
 chrome_reader_mode =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4941,7 +2859,7 @@ chrome_reader_mode =
 
 
 {-| -}
-class : Int -> Coloring -> Svg msg
+class : Icon msg
 class =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4955,7 +2873,7 @@ class =
 
 
 {-| -}
-clear : Int -> Coloring -> Svg msg
+clear : Icon msg
 clear =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4969,7 +2887,7 @@ clear =
 
 
 {-| -}
-clear_all : Int -> Coloring -> Svg msg
+clear_all : Icon msg
 clear_all =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4983,7 +2901,7 @@ clear_all =
 
 
 {-| -}
-close : Int -> Coloring -> Svg msg
+close : Icon msg
 close =
     icon
         [ viewBox "0 0 24 24" ]
@@ -4997,7 +2915,7 @@ close =
 
 
 {-| -}
-closed_caption : Int -> Coloring -> Svg msg
+closed_caption : Icon msg
 closed_caption =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5011,7 +2929,7 @@ closed_caption =
 
 
 {-| -}
-cloud : Int -> Coloring -> Svg msg
+cloud : Icon msg
 cloud =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5025,7 +2943,7 @@ cloud =
 
 
 {-| -}
-cloud_circle : Int -> Coloring -> Svg msg
+cloud_circle : Icon msg
 cloud_circle =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5039,7 +2957,7 @@ cloud_circle =
 
 
 {-| -}
-cloud_done : Int -> Coloring -> Svg msg
+cloud_done : Icon msg
 cloud_done =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5053,7 +2971,7 @@ cloud_done =
 
 
 {-| -}
-cloud_download : Int -> Coloring -> Svg msg
+cloud_download : Icon msg
 cloud_download =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5067,7 +2985,7 @@ cloud_download =
 
 
 {-| -}
-cloud_off : Int -> Coloring -> Svg msg
+cloud_off : Icon msg
 cloud_off =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5081,7 +2999,7 @@ cloud_off =
 
 
 {-| -}
-cloud_queue : Int -> Coloring -> Svg msg
+cloud_queue : Icon msg
 cloud_queue =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5095,7 +3013,7 @@ cloud_queue =
 
 
 {-| -}
-cloud_upload : Int -> Coloring -> Svg msg
+cloud_upload : Icon msg
 cloud_upload =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5109,7 +3027,7 @@ cloud_upload =
 
 
 {-| -}
-code : Int -> Coloring -> Svg msg
+code : Icon msg
 code =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5123,7 +3041,7 @@ code =
 
 
 {-| -}
-collections : Int -> Coloring -> Svg msg
+collections : Icon msg
 collections =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5137,7 +3055,7 @@ collections =
 
 
 {-| -}
-collections_bookmark : Int -> Coloring -> Svg msg
+collections_bookmark : Icon msg
 collections_bookmark =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5157,7 +3075,7 @@ collections_bookmark =
 
 
 {-| -}
-color_lens : Int -> Coloring -> Svg msg
+color_lens : Icon msg
 color_lens =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5171,7 +3089,7 @@ color_lens =
 
 
 {-| -}
-colorize : Int -> Coloring -> Svg msg
+colorize : Icon msg
 colorize =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5185,7 +3103,7 @@ colorize =
 
 
 {-| -}
-comment : Int -> Coloring -> Svg msg
+comment : Icon msg
 comment =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5199,7 +3117,7 @@ comment =
 
 
 {-| -}
-commute : Int -> Coloring -> Svg msg
+commute : Icon msg
 commute =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5213,7 +3131,7 @@ commute =
 
 
 {-| -}
-compare : Int -> Coloring -> Svg msg
+compare : Icon msg
 compare =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5227,7 +3145,7 @@ compare =
 
 
 {-| -}
-compare_arrows : Int -> Coloring -> Svg msg
+compare_arrows : Icon msg
 compare_arrows =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5238,7 +3156,7 @@ compare_arrows =
 
 
 {-| -}
-compass_calibration : Int -> Coloring -> Svg msg
+compass_calibration : Icon msg
 compass_calibration =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5255,7 +3173,7 @@ compass_calibration =
 
 
 {-| -}
-computer : Int -> Coloring -> Svg msg
+computer : Icon msg
 computer =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5269,7 +3187,7 @@ computer =
 
 
 {-| -}
-confirmation_number : Int -> Coloring -> Svg msg
+confirmation_number : Icon msg
 confirmation_number =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5280,7 +3198,7 @@ confirmation_number =
 
 
 {-| -}
-contact_mail : Int -> Coloring -> Svg msg
+contact_mail : Icon msg
 contact_mail =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5297,7 +3215,7 @@ contact_mail =
 
 
 {-| -}
-contact_phone : Int -> Coloring -> Svg msg
+contact_phone : Icon msg
 contact_phone =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5311,7 +3229,7 @@ contact_phone =
 
 
 {-| -}
-contact_support : Int -> Coloring -> Svg msg
+contact_support : Icon msg
 contact_support =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5325,7 +3243,7 @@ contact_support =
 
 
 {-| -}
-contactless : Int -> Coloring -> Svg msg
+contactless : Icon msg
 contactless =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -5345,7 +3263,7 @@ contactless =
 
 
 {-| -}
-contacts : Int -> Coloring -> Svg msg
+contacts : Icon msg
 contacts =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5359,7 +3277,7 @@ contacts =
 
 
 {-| -}
-control_camera : Int -> Coloring -> Svg msg
+control_camera : Icon msg
 control_camera =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5376,7 +3294,7 @@ control_camera =
 
 
 {-| -}
-control_point : Int -> Coloring -> Svg msg
+control_point : Icon msg
 control_point =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5390,7 +3308,7 @@ control_point =
 
 
 {-| -}
-control_point_duplicate : Int -> Coloring -> Svg msg
+control_point_duplicate : Icon msg
 control_point_duplicate =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5404,7 +3322,7 @@ control_point_duplicate =
 
 
 {-| -}
-copyright : Int -> Coloring -> Svg msg
+copyright : Icon msg
 copyright =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5415,7 +3333,7 @@ copyright =
 
 
 {-| -}
-create : Int -> Coloring -> Svg msg
+create : Icon msg
 create =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5429,7 +3347,7 @@ create =
 
 
 {-| -}
-create_new_folder : Int -> Coloring -> Svg msg
+create_new_folder : Icon msg
 create_new_folder =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5443,7 +3361,7 @@ create_new_folder =
 
 
 {-| -}
-credit_card : Int -> Coloring -> Svg msg
+credit_card : Icon msg
 credit_card =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5457,7 +3375,7 @@ credit_card =
 
 
 {-| -}
-crop : Int -> Coloring -> Svg msg
+crop : Icon msg
 crop =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5471,7 +3389,7 @@ crop =
 
 
 {-| -}
-crop_16_9 : Int -> Coloring -> Svg msg
+crop_16_9 : Icon msg
 crop_16_9 =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5485,7 +3403,7 @@ crop_16_9 =
 
 
 {-| -}
-crop_3_2 : Int -> Coloring -> Svg msg
+crop_3_2 : Icon msg
 crop_3_2 =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5499,7 +3417,7 @@ crop_3_2 =
 
 
 {-| -}
-crop_5_4 : Int -> Coloring -> Svg msg
+crop_5_4 : Icon msg
 crop_5_4 =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5513,7 +3431,7 @@ crop_5_4 =
 
 
 {-| -}
-crop_7_5 : Int -> Coloring -> Svg msg
+crop_7_5 : Icon msg
 crop_7_5 =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5527,7 +3445,7 @@ crop_7_5 =
 
 
 {-| -}
-crop_din : Int -> Coloring -> Svg msg
+crop_din : Icon msg
 crop_din =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5541,7 +3459,7 @@ crop_din =
 
 
 {-| -}
-crop_free : Int -> Coloring -> Svg msg
+crop_free : Icon msg
 crop_free =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5555,7 +3473,7 @@ crop_free =
 
 
 {-| -}
-crop_landscape : Int -> Coloring -> Svg msg
+crop_landscape : Icon msg
 crop_landscape =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5569,7 +3487,7 @@ crop_landscape =
 
 
 {-| -}
-crop_original : Int -> Coloring -> Svg msg
+crop_original : Icon msg
 crop_original =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5583,7 +3501,7 @@ crop_original =
 
 
 {-| -}
-crop_portrait : Int -> Coloring -> Svg msg
+crop_portrait : Icon msg
 crop_portrait =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5597,7 +3515,7 @@ crop_portrait =
 
 
 {-| -}
-crop_rotate : Int -> Coloring -> Svg msg
+crop_rotate : Icon msg
 crop_rotate =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5611,7 +3529,7 @@ crop_rotate =
 
 
 {-| -}
-crop_square : Int -> Coloring -> Svg msg
+crop_square : Icon msg
 crop_square =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5625,7 +3543,7 @@ crop_square =
 
 
 {-| -}
-dashboard : Int -> Coloring -> Svg msg
+dashboard : Icon msg
 dashboard =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5639,7 +3557,7 @@ dashboard =
 
 
 {-| -}
-data_usage : Int -> Coloring -> Svg msg
+data_usage : Icon msg
 data_usage =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5653,7 +3571,7 @@ data_usage =
 
 
 {-| -}
-date_range : Int -> Coloring -> Svg msg
+date_range : Icon msg
 date_range =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5667,7 +3585,7 @@ date_range =
 
 
 {-| -}
-deck : Int -> Coloring -> Svg msg
+deck : Icon msg
 deck =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -5696,7 +3614,7 @@ deck =
 
 
 {-| -}
-dehaze : Int -> Coloring -> Svg msg
+dehaze : Icon msg
 dehaze =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5710,7 +3628,7 @@ dehaze =
 
 
 {-| -}
-delete : Int -> Coloring -> Svg msg
+delete : Icon msg
 delete =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5724,7 +3642,7 @@ delete =
 
 
 {-| -}
-delete_forever : Int -> Coloring -> Svg msg
+delete_forever : Icon msg
 delete_forever =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5741,7 +3659,7 @@ delete_forever =
 
 
 {-| -}
-delete_outline : Int -> Coloring -> Svg msg
+delete_outline : Icon msg
 delete_outline =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5755,7 +3673,7 @@ delete_outline =
 
 
 {-| -}
-delete_sweep : Int -> Coloring -> Svg msg
+delete_sweep : Icon msg
 delete_sweep =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5769,7 +3687,7 @@ delete_sweep =
 
 
 {-| -}
-departure_board : Int -> Coloring -> Svg msg
+departure_board : Icon msg
 departure_board =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5783,7 +3701,7 @@ departure_board =
 
 
 {-| -}
-description : Int -> Coloring -> Svg msg
+description : Icon msg
 description =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5797,7 +3715,7 @@ description =
 
 
 {-| -}
-desktop_access_disabled : Int -> Coloring -> Svg msg
+desktop_access_disabled : Icon msg
 desktop_access_disabled =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5811,7 +3729,7 @@ desktop_access_disabled =
 
 
 {-| -}
-desktop_mac : Int -> Coloring -> Svg msg
+desktop_mac : Icon msg
 desktop_mac =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5825,7 +3743,7 @@ desktop_mac =
 
 
 {-| -}
-desktop_windows : Int -> Coloring -> Svg msg
+desktop_windows : Icon msg
 desktop_windows =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5839,7 +3757,7 @@ desktop_windows =
 
 
 {-| -}
-details : Int -> Coloring -> Svg msg
+details : Icon msg
 details =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5853,7 +3771,7 @@ details =
 
 
 {-| -}
-developer_board : Int -> Coloring -> Svg msg
+developer_board : Icon msg
 developer_board =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5867,7 +3785,7 @@ developer_board =
 
 
 {-| -}
-developer_mode : Int -> Coloring -> Svg msg
+developer_mode : Icon msg
 developer_mode =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5881,7 +3799,7 @@ developer_mode =
 
 
 {-| -}
-device_hub : Int -> Coloring -> Svg msg
+device_hub : Icon msg
 device_hub =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5898,7 +3816,7 @@ device_hub =
 
 
 {-| -}
-device_unknown : Int -> Coloring -> Svg msg
+device_unknown : Icon msg
 device_unknown =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5912,7 +3830,7 @@ device_unknown =
 
 
 {-| -}
-devices : Int -> Coloring -> Svg msg
+devices : Icon msg
 devices =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5926,7 +3844,7 @@ devices =
 
 
 {-| -}
-devices_other : Int -> Coloring -> Svg msg
+devices_other : Icon msg
 devices_other =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5940,7 +3858,7 @@ devices_other =
 
 
 {-| -}
-dialer_sip : Int -> Coloring -> Svg msg
+dialer_sip : Icon msg
 dialer_sip =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5954,7 +3872,7 @@ dialer_sip =
 
 
 {-| -}
-dialpad : Int -> Coloring -> Svg msg
+dialpad : Icon msg
 dialpad =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5968,7 +3886,7 @@ dialpad =
 
 
 {-| -}
-directions : Int -> Coloring -> Svg msg
+directions : Icon msg
 directions =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5982,7 +3900,7 @@ directions =
 
 
 {-| -}
-directions_bike : Int -> Coloring -> Svg msg
+directions_bike : Icon msg
 directions_bike =
     icon
         [ viewBox "0 0 24 24" ]
@@ -5996,7 +3914,7 @@ directions_bike =
 
 
 {-| -}
-directions_boat : Int -> Coloring -> Svg msg
+directions_boat : Icon msg
 directions_boat =
     icon
         [ viewBox "0 0 24 24" ]
@@ -6010,7 +3928,7 @@ directions_boat =
 
 
 {-| -}
-directions_bus : Int -> Coloring -> Svg msg
+directions_bus : Icon msg
 directions_bus =
     icon
         [ viewBox "0 0 24 24" ]
@@ -6024,7 +3942,7 @@ directions_bus =
 
 
 {-| -}
-directions_car : Int -> Coloring -> Svg msg
+directions_car : Icon msg
 directions_car =
     icon
         [ viewBox "0 0 24 24" ]
@@ -6038,7 +3956,7 @@ directions_car =
 
 
 {-| -}
-directions_railway : Int -> Coloring -> Svg msg
+directions_railway : Icon msg
 directions_railway =
     icon
         [ viewBox "0 0 24 24" ]
@@ -6052,7 +3970,7 @@ directions_railway =
 
 
 {-| -}
-directions_run : Int -> Coloring -> Svg msg
+directions_run : Icon msg
 directions_run =
     icon
         [ viewBox "0 0 24 24" ]
@@ -6066,7 +3984,7 @@ directions_run =
 
 
 {-| -}
-directions_subway : Int -> Coloring -> Svg msg
+directions_subway : Icon msg
 directions_subway =
     icon
         [ viewBox "0 0 24 24" ]
@@ -6080,7 +3998,7 @@ directions_subway =
 
 
 {-| -}
-directions_transit : Int -> Coloring -> Svg msg
+directions_transit : Icon msg
 directions_transit =
     icon
         [ viewBox "0 0 24 24" ]
@@ -6094,7 +4012,7 @@ directions_transit =
 
 
 {-| -}
-directions_walk : Int -> Coloring -> Svg msg
+directions_walk : Icon msg
 directions_walk =
     icon
         [ viewBox "0 0 24 24" ]
@@ -6108,7 +4026,7 @@ directions_walk =
 
 
 {-| -}
-disc_full : Int -> Coloring -> Svg msg
+disc_full : Icon msg
 disc_full =
     icon
         [ viewBox "0 0 24 24" ]
@@ -6122,7 +4040,7 @@ disc_full =
 
 
 {-| -}
-dns : Int -> Coloring -> Svg msg
+dns : Icon msg
 dns =
     icon
         [ viewBox "0 0 24 24" ]
@@ -6136,7 +4054,7 @@ dns =
 
 
 {-| -}
-dock : Int -> Coloring -> Svg msg
+dock : Icon msg
 dock =
     icon
         [ viewBox "0 0 24 24" ]
@@ -6150,7 +4068,7 @@ dock =
 
 
 {-| -}
-domain_disabled : Int -> Coloring -> Svg msg
+domain_disabled : Icon msg
 domain_disabled =
     icon
         [ viewBox "0 0 24 24" ]
@@ -6164,7 +4082,7 @@ domain_disabled =
 
 
 {-| -}
-done : Int -> Coloring -> Svg msg
+done : Icon msg
 done =
     icon
         [ viewBox "0 0 24 24" ]
@@ -6178,7 +4096,7 @@ done =
 
 
 {-| -}
-done_all : Int -> Coloring -> Svg msg
+done_all : Icon msg
 done_all =
     icon
         [ viewBox "0 0 24 24" ]
@@ -6192,7 +4110,7 @@ done_all =
 
 
 {-| -}
-done_outline : Int -> Coloring -> Svg msg
+done_outline : Icon msg
 done_outline =
     icon
         [ viewBox "0 0 24 24" ]
@@ -6206,7 +4124,7 @@ done_outline =
 
 
 {-| -}
-donut_large : Int -> Coloring -> Svg msg
+donut_large : Icon msg
 donut_large =
     icon
         [ viewBox "0 0 24 24" ]
@@ -6217,7 +4135,7 @@ donut_large =
 
 
 {-| -}
-donut_small : Int -> Coloring -> Svg msg
+donut_small : Icon msg
 donut_small =
     icon
         [ viewBox "0 0 24 24" ]
@@ -6231,7 +4149,7 @@ donut_small =
 
 
 {-| -}
-double_arrow : Int -> Coloring -> Svg msg
+double_arrow : Icon msg
 double_arrow =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -6257,7 +4175,7 @@ double_arrow =
 
 
 {-| -}
-drafts : Int -> Coloring -> Svg msg
+drafts : Icon msg
 drafts =
     icon
         [ viewBox "0 0 24 24" ]
@@ -6271,7 +4189,7 @@ drafts =
 
 
 {-| -}
-drag_handle : Int -> Coloring -> Svg msg
+drag_handle : Icon msg
 drag_handle =
     icon
         [ viewBox "0 0 24 24" ]
@@ -6282,7 +4200,7 @@ drag_handle =
 
 
 {-| -}
-drag_indicator : Int -> Coloring -> Svg msg
+drag_indicator : Icon msg
 drag_indicator =
     icon
         [ viewBox "0 0 24 24" ]
@@ -6296,7 +4214,7 @@ drag_indicator =
 
 
 {-| -}
-drive_eta : Int -> Coloring -> Svg msg
+drive_eta : Icon msg
 drive_eta =
     icon
         [ viewBox "0 0 24 24" ]
@@ -6310,7 +4228,7 @@ drive_eta =
 
 
 {-| -}
-duo : Int -> Coloring -> Svg msg
+duo : Icon msg
 duo =
     icon
         [ viewBox "0 0 24 24" ]
@@ -6324,7 +4242,7 @@ duo =
 
 
 {-| -}
-dvr : Int -> Coloring -> Svg msg
+dvr : Icon msg
 dvr =
     icon
         [ viewBox "0 0 24 24" ]
@@ -6338,7 +4256,7 @@ dvr =
 
 
 {-| -}
-dynamic_feed : Int -> Coloring -> Svg msg
+dynamic_feed : Icon msg
 dynamic_feed =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -6388,7 +4306,7 @@ dynamic_feed =
 
 
 {-| -}
-eco : Int -> Coloring -> Svg msg
+eco : Icon msg
 eco =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -6411,7 +4329,7 @@ eco =
 
 
 {-| -}
-edit : Int -> Coloring -> Svg msg
+edit : Icon msg
 edit =
     icon
         [ viewBox "0 0 24 24" ]
@@ -6425,7 +4343,7 @@ edit =
 
 
 {-| -}
-edit_attributes : Int -> Coloring -> Svg msg
+edit_attributes : Icon msg
 edit_attributes =
     icon
         [ viewBox "0 0 24 24" ]
@@ -6439,7 +4357,7 @@ edit_attributes =
 
 
 {-| -}
-eject : Int -> Coloring -> Svg msg
+eject : Icon msg
 eject =
     icon
         [ viewBox "0 0 24 24" ]
@@ -6453,7 +4371,7 @@ eject =
 
 
 {-| -}
-email : Int -> Coloring -> Svg msg
+email : Icon msg
 email =
     icon
         [ viewBox "0 0 24 24" ]
@@ -6467,7 +4385,7 @@ email =
 
 
 {-| -}
-emoji_emotions : Int -> Coloring -> Svg msg
+emoji_emotions : Icon msg
 emoji_emotions =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -6490,7 +4408,7 @@ emoji_emotions =
 
 
 {-| -}
-emoji_events : Int -> Coloring -> Svg msg
+emoji_events : Icon msg
 emoji_events =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -6513,7 +4431,7 @@ emoji_events =
 
 
 {-| -}
-emoji_flags : Int -> Coloring -> Svg msg
+emoji_flags : Icon msg
 emoji_flags =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -6536,7 +4454,7 @@ emoji_flags =
 
 
 {-| -}
-emoji_food_beverage : Int -> Coloring -> Svg msg
+emoji_food_beverage : Icon msg
 emoji_food_beverage =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -6565,7 +4483,7 @@ emoji_food_beverage =
 
 
 {-| -}
-emoji_nature : Int -> Coloring -> Svg msg
+emoji_nature : Icon msg
 emoji_nature =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -6594,7 +4512,7 @@ emoji_nature =
 
 
 {-| -}
-emoji_objects : Int -> Coloring -> Svg msg
+emoji_objects : Icon msg
 emoji_objects =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -6617,7 +4535,7 @@ emoji_objects =
 
 
 {-| -}
-emoji_people : Int -> Coloring -> Svg msg
+emoji_people : Icon msg
 emoji_people =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -6646,7 +4564,7 @@ emoji_people =
 
 
 {-| -}
-emoji_symbols : Int -> Coloring -> Svg msg
+emoji_symbols : Icon msg
 emoji_symbols =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -6690,7 +4608,7 @@ emoji_symbols =
 
 
 {-| -}
-emoji_transportation : Int -> Coloring -> Svg msg
+emoji_transportation : Icon msg
 emoji_transportation =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -6731,7 +4649,7 @@ emoji_transportation =
 
 
 {-| -}
-enhanced_encryption : Int -> Coloring -> Svg msg
+enhanced_encryption : Icon msg
 enhanced_encryption =
     icon
         [ viewBox "0 0 24 24" ]
@@ -6748,7 +4666,7 @@ enhanced_encryption =
 
 
 {-| -}
-equalizer : Int -> Coloring -> Svg msg
+equalizer : Icon msg
 equalizer =
     icon
         [ viewBox "0 0 24 24" ]
@@ -6762,7 +4680,7 @@ equalizer =
 
 
 {-| -}
-error : Int -> Coloring -> Svg msg
+error : Icon msg
 error =
     icon
         [ viewBox "0 0 24 24" ]
@@ -6776,7 +4694,7 @@ error =
 
 
 {-| -}
-error_outline : Int -> Coloring -> Svg msg
+error_outline : Icon msg
 error_outline =
     icon
         [ viewBox "0 0 24 24" ]
@@ -6790,7 +4708,7 @@ error_outline =
 
 
 {-| -}
-euro : Int -> Coloring -> Svg msg
+euro : Icon msg
 euro =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -6813,7 +4731,7 @@ euro =
 
 
 {-| -}
-euro_symbol : Int -> Coloring -> Svg msg
+euro_symbol : Icon msg
 euro_symbol =
     icon
         [ viewBox "0 0 24 24" ]
@@ -6827,7 +4745,7 @@ euro_symbol =
 
 
 {-| -}
-ev_station : Int -> Coloring -> Svg msg
+ev_station : Icon msg
 ev_station =
     icon
         [ viewBox "0 0 24 24" ]
@@ -6841,7 +4759,7 @@ ev_station =
 
 
 {-| -}
-event : Int -> Coloring -> Svg msg
+event : Icon msg
 event =
     icon
         [ viewBox "0 0 24 24" ]
@@ -6855,7 +4773,7 @@ event =
 
 
 {-| -}
-event_available : Int -> Coloring -> Svg msg
+event_available : Icon msg
 event_available =
     icon
         [ viewBox "0 0 24 24" ]
@@ -6869,7 +4787,7 @@ event_available =
 
 
 {-| -}
-event_busy : Int -> Coloring -> Svg msg
+event_busy : Icon msg
 event_busy =
     icon
         [ viewBox "0 0 24 24" ]
@@ -6883,7 +4801,7 @@ event_busy =
 
 
 {-| -}
-event_note : Int -> Coloring -> Svg msg
+event_note : Icon msg
 event_note =
     icon
         [ viewBox "0 0 24 24" ]
@@ -6897,7 +4815,7 @@ event_note =
 
 
 {-| -}
-event_seat : Int -> Coloring -> Svg msg
+event_seat : Icon msg
 event_seat =
     icon
         [ viewBox "0 0 24 24" ]
@@ -6908,7 +4826,7 @@ event_seat =
 
 
 {-| -}
-exit_to_app : Int -> Coloring -> Svg msg
+exit_to_app : Icon msg
 exit_to_app =
     icon
         [ viewBox "0 0 24 24" ]
@@ -6922,7 +4840,7 @@ exit_to_app =
 
 
 {-| -}
-expand_less : Int -> Coloring -> Svg msg
+expand_less : Icon msg
 expand_less =
     icon
         [ viewBox "0 0 24 24" ]
@@ -6936,7 +4854,7 @@ expand_less =
 
 
 {-| -}
-expand_more : Int -> Coloring -> Svg msg
+expand_more : Icon msg
 expand_more =
     icon
         [ viewBox "0 0 24 24" ]
@@ -6950,7 +4868,7 @@ expand_more =
 
 
 {-| -}
-explicit : Int -> Coloring -> Svg msg
+explicit : Icon msg
 explicit =
     icon
         [ viewBox "0 0 24 24" ]
@@ -6964,7 +4882,7 @@ explicit =
 
 
 {-| -}
-explore : Int -> Coloring -> Svg msg
+explore : Icon msg
 explore =
     icon
         [ viewBox "0 0 24 24" ]
@@ -6978,7 +4896,7 @@ explore =
 
 
 {-| -}
-explore_off : Int -> Coloring -> Svg msg
+explore_off : Icon msg
 explore_off =
     icon
         [ viewBox "0 0 24 24" ]
@@ -6992,7 +4910,7 @@ explore_off =
 
 
 {-| -}
-exposure : Int -> Coloring -> Svg msg
+exposure : Icon msg
 exposure =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7006,7 +4924,7 @@ exposure =
 
 
 {-| -}
-exposure_neg_1 : Int -> Coloring -> Svg msg
+exposure_neg_1 : Icon msg
 exposure_neg_1 =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7020,7 +4938,7 @@ exposure_neg_1 =
 
 
 {-| -}
-exposure_neg_2 : Int -> Coloring -> Svg msg
+exposure_neg_2 : Icon msg
 exposure_neg_2 =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7034,7 +4952,7 @@ exposure_neg_2 =
 
 
 {-| -}
-exposure_plus_1 : Int -> Coloring -> Svg msg
+exposure_plus_1 : Icon msg
 exposure_plus_1 =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7048,7 +4966,7 @@ exposure_plus_1 =
 
 
 {-| -}
-exposure_plus_2 : Int -> Coloring -> Svg msg
+exposure_plus_2 : Icon msg
 exposure_plus_2 =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7062,7 +4980,7 @@ exposure_plus_2 =
 
 
 {-| -}
-exposure_zero : Int -> Coloring -> Svg msg
+exposure_zero : Icon msg
 exposure_zero =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7076,7 +4994,7 @@ exposure_zero =
 
 
 {-| -}
-extension : Int -> Coloring -> Svg msg
+extension : Icon msg
 extension =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7090,7 +5008,7 @@ extension =
 
 
 {-| -}
-face : Int -> Coloring -> Svg msg
+face : Icon msg
 face =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7104,7 +5022,7 @@ face =
 
 
 {-| -}
-fast_forward : Int -> Coloring -> Svg msg
+fast_forward : Icon msg
 fast_forward =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7118,7 +5036,7 @@ fast_forward =
 
 
 {-| -}
-fast_rewind : Int -> Coloring -> Svg msg
+fast_rewind : Icon msg
 fast_rewind =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7132,7 +5050,7 @@ fast_rewind =
 
 
 {-| -}
-fastfood : Int -> Coloring -> Svg msg
+fastfood : Icon msg
 fastfood =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7146,7 +5064,7 @@ fastfood =
 
 
 {-| -}
-favorite : Int -> Coloring -> Svg msg
+favorite : Icon msg
 favorite =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7160,7 +5078,7 @@ favorite =
 
 
 {-| -}
-favorite_border : Int -> Coloring -> Svg msg
+favorite_border : Icon msg
 favorite_border =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7174,7 +5092,7 @@ favorite_border =
 
 
 {-| -}
-featured_play_list : Int -> Coloring -> Svg msg
+featured_play_list : Icon msg
 featured_play_list =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7188,7 +5106,7 @@ featured_play_list =
 
 
 {-| -}
-featured_video : Int -> Coloring -> Svg msg
+featured_video : Icon msg
 featured_video =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7202,7 +5120,7 @@ featured_video =
 
 
 {-| -}
-feedback : Int -> Coloring -> Svg msg
+feedback : Icon msg
 feedback =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7216,7 +5134,7 @@ feedback =
 
 
 {-| -}
-fiber_dvr : Int -> Coloring -> Svg msg
+fiber_dvr : Icon msg
 fiber_dvr =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7227,7 +5145,7 @@ fiber_dvr =
 
 
 {-| -}
-fiber_manual_record : Int -> Coloring -> Svg msg
+fiber_manual_record : Icon msg
 fiber_manual_record =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7241,7 +5159,7 @@ fiber_manual_record =
 
 
 {-| -}
-fiber_new : Int -> Coloring -> Svg msg
+fiber_new : Icon msg
 fiber_new =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7252,7 +5170,7 @@ fiber_new =
 
 
 {-| -}
-fiber_pin : Int -> Coloring -> Svg msg
+fiber_pin : Icon msg
 fiber_pin =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7266,7 +5184,7 @@ fiber_pin =
 
 
 {-| -}
-fiber_smart_record : Int -> Coloring -> Svg msg
+fiber_smart_record : Icon msg
 fiber_smart_record =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7286,7 +5204,7 @@ fiber_smart_record =
 
 
 {-| -}
-file_copy : Int -> Coloring -> Svg msg
+file_copy : Icon msg
 file_copy =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7300,7 +5218,7 @@ file_copy =
 
 
 {-| -}
-filter : Int -> Coloring -> Svg msg
+filter : Icon msg
 filter =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7314,7 +5232,7 @@ filter =
 
 
 {-| -}
-filter_1 : Int -> Coloring -> Svg msg
+filter_1 : Icon msg
 filter_1 =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7328,7 +5246,7 @@ filter_1 =
 
 
 {-| -}
-filter_2 : Int -> Coloring -> Svg msg
+filter_2 : Icon msg
 filter_2 =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7342,7 +5260,7 @@ filter_2 =
 
 
 {-| -}
-filter_3 : Int -> Coloring -> Svg msg
+filter_3 : Icon msg
 filter_3 =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7356,7 +5274,7 @@ filter_3 =
 
 
 {-| -}
-filter_4 : Int -> Coloring -> Svg msg
+filter_4 : Icon msg
 filter_4 =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7370,7 +5288,7 @@ filter_4 =
 
 
 {-| -}
-filter_5 : Int -> Coloring -> Svg msg
+filter_5 : Icon msg
 filter_5 =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7384,7 +5302,7 @@ filter_5 =
 
 
 {-| -}
-filter_6 : Int -> Coloring -> Svg msg
+filter_6 : Icon msg
 filter_6 =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7398,7 +5316,7 @@ filter_6 =
 
 
 {-| -}
-filter_7 : Int -> Coloring -> Svg msg
+filter_7 : Icon msg
 filter_7 =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7412,7 +5330,7 @@ filter_7 =
 
 
 {-| -}
-filter_8 : Int -> Coloring -> Svg msg
+filter_8 : Icon msg
 filter_8 =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7426,7 +5344,7 @@ filter_8 =
 
 
 {-| -}
-filter_9 : Int -> Coloring -> Svg msg
+filter_9 : Icon msg
 filter_9 =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7440,7 +5358,7 @@ filter_9 =
 
 
 {-| -}
-filter_9_plus : Int -> Coloring -> Svg msg
+filter_9_plus : Icon msg
 filter_9_plus =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7454,7 +5372,7 @@ filter_9_plus =
 
 
 {-| -}
-filter_b_and_w : Int -> Coloring -> Svg msg
+filter_b_and_w : Icon msg
 filter_b_and_w =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7468,7 +5386,7 @@ filter_b_and_w =
 
 
 {-| -}
-filter_center_focus : Int -> Coloring -> Svg msg
+filter_center_focus : Icon msg
 filter_center_focus =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7482,7 +5400,7 @@ filter_center_focus =
 
 
 {-| -}
-filter_drama : Int -> Coloring -> Svg msg
+filter_drama : Icon msg
 filter_drama =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7496,7 +5414,7 @@ filter_drama =
 
 
 {-| -}
-filter_frames : Int -> Coloring -> Svg msg
+filter_frames : Icon msg
 filter_frames =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7510,7 +5428,7 @@ filter_frames =
 
 
 {-| -}
-filter_hdr : Int -> Coloring -> Svg msg
+filter_hdr : Icon msg
 filter_hdr =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7524,7 +5442,7 @@ filter_hdr =
 
 
 {-| -}
-filter_list : Int -> Coloring -> Svg msg
+filter_list : Icon msg
 filter_list =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7538,7 +5456,7 @@ filter_list =
 
 
 {-| -}
-filter_none : Int -> Coloring -> Svg msg
+filter_none : Icon msg
 filter_none =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7552,7 +5470,7 @@ filter_none =
 
 
 {-| -}
-filter_tilt_shift : Int -> Coloring -> Svg msg
+filter_tilt_shift : Icon msg
 filter_tilt_shift =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7566,7 +5484,7 @@ filter_tilt_shift =
 
 
 {-| -}
-filter_vintage : Int -> Coloring -> Svg msg
+filter_vintage : Icon msg
 filter_vintage =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7580,7 +5498,7 @@ filter_vintage =
 
 
 {-| -}
-find_in_page : Int -> Coloring -> Svg msg
+find_in_page : Icon msg
 find_in_page =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7594,7 +5512,7 @@ find_in_page =
 
 
 {-| -}
-find_replace : Int -> Coloring -> Svg msg
+find_replace : Icon msg
 find_replace =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7608,7 +5526,7 @@ find_replace =
 
 
 {-| -}
-fingerprint : Int -> Coloring -> Svg msg
+fingerprint : Icon msg
 fingerprint =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7622,7 +5540,7 @@ fingerprint =
 
 
 {-| -}
-fireplace : Int -> Coloring -> Svg msg
+fireplace : Icon msg
 fireplace =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -7642,7 +5560,7 @@ fireplace =
 
 
 {-| -}
-first_page : Int -> Coloring -> Svg msg
+first_page : Icon msg
 first_page =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7656,7 +5574,7 @@ first_page =
 
 
 {-| -}
-fitness_center : Int -> Coloring -> Svg msg
+fitness_center : Icon msg
 fitness_center =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7670,7 +5588,7 @@ fitness_center =
 
 
 {-| -}
-flag : Int -> Coloring -> Svg msg
+flag : Icon msg
 flag =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7684,7 +5602,7 @@ flag =
 
 
 {-| -}
-flare : Int -> Coloring -> Svg msg
+flare : Icon msg
 flare =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7698,7 +5616,7 @@ flare =
 
 
 {-| -}
-flash_auto : Int -> Coloring -> Svg msg
+flash_auto : Icon msg
 flash_auto =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7712,7 +5630,7 @@ flash_auto =
 
 
 {-| -}
-flash_off : Int -> Coloring -> Svg msg
+flash_off : Icon msg
 flash_off =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7726,7 +5644,7 @@ flash_off =
 
 
 {-| -}
-flash_on : Int -> Coloring -> Svg msg
+flash_on : Icon msg
 flash_on =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7740,7 +5658,7 @@ flash_on =
 
 
 {-| -}
-flight : Int -> Coloring -> Svg msg
+flight : Icon msg
 flight =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7754,7 +5672,7 @@ flight =
 
 
 {-| -}
-flight_land : Int -> Coloring -> Svg msg
+flight_land : Icon msg
 flight_land =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -7780,7 +5698,7 @@ flight_land =
 
 
 {-| -}
-flight_takeoff : Int -> Coloring -> Svg msg
+flight_takeoff : Icon msg
 flight_takeoff =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7794,7 +5712,7 @@ flight_takeoff =
 
 
 {-| -}
-flip : Int -> Coloring -> Svg msg
+flip : Icon msg
 flip =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7808,7 +5726,7 @@ flip =
 
 
 {-| -}
-flip_camera_android : Int -> Coloring -> Svg msg
+flip_camera_android : Icon msg
 flip_camera_android =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -7837,7 +5755,7 @@ flip_camera_android =
 
 
 {-| -}
-flip_camera_ios : Int -> Coloring -> Svg msg
+flip_camera_ios : Icon msg
 flip_camera_ios =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -7860,7 +5778,7 @@ flip_camera_ios =
 
 
 {-| -}
-flip_to_back : Int -> Coloring -> Svg msg
+flip_to_back : Icon msg
 flip_to_back =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7874,7 +5792,7 @@ flip_to_back =
 
 
 {-| -}
-flip_to_front : Int -> Coloring -> Svg msg
+flip_to_front : Icon msg
 flip_to_front =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7888,7 +5806,7 @@ flip_to_front =
 
 
 {-| -}
-folder : Int -> Coloring -> Svg msg
+folder : Icon msg
 folder =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7902,7 +5820,7 @@ folder =
 
 
 {-| -}
-folder_open : Int -> Coloring -> Svg msg
+folder_open : Icon msg
 folder_open =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7916,7 +5834,7 @@ folder_open =
 
 
 {-| -}
-folder_shared : Int -> Coloring -> Svg msg
+folder_shared : Icon msg
 folder_shared =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7930,7 +5848,7 @@ folder_shared =
 
 
 {-| -}
-folder_special : Int -> Coloring -> Svg msg
+folder_special : Icon msg
 folder_special =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7944,7 +5862,7 @@ folder_special =
 
 
 {-| -}
-font_download : Int -> Coloring -> Svg msg
+font_download : Icon msg
 font_download =
     icon
         [ baseProfile "tiny", viewBox "0 0 24 24" ]
@@ -7958,7 +5876,7 @@ font_download =
 
 
 {-| -}
-format_align_center : Int -> Coloring -> Svg msg
+format_align_center : Icon msg
 format_align_center =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7972,7 +5890,7 @@ format_align_center =
 
 
 {-| -}
-format_align_justify : Int -> Coloring -> Svg msg
+format_align_justify : Icon msg
 format_align_justify =
     icon
         [ viewBox "0 0 24 24" ]
@@ -7986,7 +5904,7 @@ format_align_justify =
 
 
 {-| -}
-format_align_left : Int -> Coloring -> Svg msg
+format_align_left : Icon msg
 format_align_left =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8000,7 +5918,7 @@ format_align_left =
 
 
 {-| -}
-format_align_right : Int -> Coloring -> Svg msg
+format_align_right : Icon msg
 format_align_right =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8014,7 +5932,7 @@ format_align_right =
 
 
 {-| -}
-format_bold : Int -> Coloring -> Svg msg
+format_bold : Icon msg
 format_bold =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8028,7 +5946,7 @@ format_bold =
 
 
 {-| -}
-format_clear : Int -> Coloring -> Svg msg
+format_clear : Icon msg
 format_clear =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8042,7 +5960,7 @@ format_clear =
 
 
 {-| -}
-format_color_reset : Int -> Coloring -> Svg msg
+format_color_reset : Icon msg
 format_color_reset =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8056,7 +5974,7 @@ format_color_reset =
 
 
 {-| -}
-format_indent_decrease : Int -> Coloring -> Svg msg
+format_indent_decrease : Icon msg
 format_indent_decrease =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8070,7 +5988,7 @@ format_indent_decrease =
 
 
 {-| -}
-format_indent_increase : Int -> Coloring -> Svg msg
+format_indent_increase : Icon msg
 format_indent_increase =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8084,7 +6002,7 @@ format_indent_increase =
 
 
 {-| -}
-format_italic : Int -> Coloring -> Svg msg
+format_italic : Icon msg
 format_italic =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8098,7 +6016,7 @@ format_italic =
 
 
 {-| -}
-format_line_spacing : Int -> Coloring -> Svg msg
+format_line_spacing : Icon msg
 format_line_spacing =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8112,7 +6030,7 @@ format_line_spacing =
 
 
 {-| -}
-format_list_bulleted : Int -> Coloring -> Svg msg
+format_list_bulleted : Icon msg
 format_list_bulleted =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8126,7 +6044,7 @@ format_list_bulleted =
 
 
 {-| -}
-format_list_numbered : Int -> Coloring -> Svg msg
+format_list_numbered : Icon msg
 format_list_numbered =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8140,7 +6058,7 @@ format_list_numbered =
 
 
 {-| -}
-format_list_numbered_rtl : Int -> Coloring -> Svg msg
+format_list_numbered_rtl : Icon msg
 format_list_numbered_rtl =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8154,7 +6072,7 @@ format_list_numbered_rtl =
 
 
 {-| -}
-format_paint : Int -> Coloring -> Svg msg
+format_paint : Icon msg
 format_paint =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8168,7 +6086,7 @@ format_paint =
 
 
 {-| -}
-format_quote : Int -> Coloring -> Svg msg
+format_quote : Icon msg
 format_quote =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8182,7 +6100,7 @@ format_quote =
 
 
 {-| -}
-format_shapes : Int -> Coloring -> Svg msg
+format_shapes : Icon msg
 format_shapes =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8196,7 +6114,7 @@ format_shapes =
 
 
 {-| -}
-format_size : Int -> Coloring -> Svg msg
+format_size : Icon msg
 format_size =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8210,7 +6128,7 @@ format_size =
 
 
 {-| -}
-format_strikethrough : Int -> Coloring -> Svg msg
+format_strikethrough : Icon msg
 format_strikethrough =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8224,7 +6142,7 @@ format_strikethrough =
 
 
 {-| -}
-format_textdirection_l_to_r : Int -> Coloring -> Svg msg
+format_textdirection_l_to_r : Icon msg
 format_textdirection_l_to_r =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8238,7 +6156,7 @@ format_textdirection_l_to_r =
 
 
 {-| -}
-format_textdirection_r_to_l : Int -> Coloring -> Svg msg
+format_textdirection_r_to_l : Icon msg
 format_textdirection_r_to_l =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8252,7 +6170,7 @@ format_textdirection_r_to_l =
 
 
 {-| -}
-format_underlined : Int -> Coloring -> Svg msg
+format_underlined : Icon msg
 format_underlined =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8266,7 +6184,7 @@ format_underlined =
 
 
 {-| -}
-forum : Int -> Coloring -> Svg msg
+forum : Icon msg
 forum =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8280,7 +6198,7 @@ forum =
 
 
 {-| -}
-forward : Int -> Coloring -> Svg msg
+forward : Icon msg
 forward =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8294,7 +6212,7 @@ forward =
 
 
 {-| -}
-forward_10 : Int -> Coloring -> Svg msg
+forward_10 : Icon msg
 forward_10 =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -8323,7 +6241,7 @@ forward_10 =
 
 
 {-| -}
-forward_30 : Int -> Coloring -> Svg msg
+forward_30 : Icon msg
 forward_30 =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8334,7 +6252,7 @@ forward_30 =
 
 
 {-| -}
-forward_5 : Int -> Coloring -> Svg msg
+forward_5 : Icon msg
 forward_5 =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8345,7 +6263,7 @@ forward_5 =
 
 
 {-| -}
-free_breakfast : Int -> Coloring -> Svg msg
+free_breakfast : Icon msg
 free_breakfast =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8359,7 +6277,7 @@ free_breakfast =
 
 
 {-| -}
-fullscreen : Int -> Coloring -> Svg msg
+fullscreen : Icon msg
 fullscreen =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8373,7 +6291,7 @@ fullscreen =
 
 
 {-| -}
-fullscreen_exit : Int -> Coloring -> Svg msg
+fullscreen_exit : Icon msg
 fullscreen_exit =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8387,7 +6305,7 @@ fullscreen_exit =
 
 
 {-| -}
-functions : Int -> Coloring -> Svg msg
+functions : Icon msg
 functions =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8401,7 +6319,7 @@ functions =
 
 
 {-| -}
-g_translate : Int -> Coloring -> Svg msg
+g_translate : Icon msg
 g_translate =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8415,7 +6333,7 @@ g_translate =
 
 
 {-| -}
-gamepad : Int -> Coloring -> Svg msg
+gamepad : Icon msg
 gamepad =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8429,7 +6347,7 @@ gamepad =
 
 
 {-| -}
-games : Int -> Coloring -> Svg msg
+games : Icon msg
 games =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8443,7 +6361,7 @@ games =
 
 
 {-| -}
-gavel : Int -> Coloring -> Svg msg
+gavel : Icon msg
 gavel =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8454,7 +6372,7 @@ gavel =
 
 
 {-| -}
-gesture : Int -> Coloring -> Svg msg
+gesture : Icon msg
 gesture =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8468,7 +6386,7 @@ gesture =
 
 
 {-| -}
-get_app : Int -> Coloring -> Svg msg
+get_app : Icon msg
 get_app =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8482,7 +6400,7 @@ get_app =
 
 
 {-| -}
-gif : Int -> Coloring -> Svg msg
+gif : Icon msg
 gif =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8493,7 +6411,7 @@ gif =
 
 
 {-| -}
-golf_course : Int -> Coloring -> Svg msg
+golf_course : Icon msg
 golf_course =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8510,7 +6428,7 @@ golf_course =
 
 
 {-| -}
-gps_fixed : Int -> Coloring -> Svg msg
+gps_fixed : Icon msg
 gps_fixed =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8524,7 +6442,7 @@ gps_fixed =
 
 
 {-| -}
-gps_not_fixed : Int -> Coloring -> Svg msg
+gps_not_fixed : Icon msg
 gps_not_fixed =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8538,7 +6456,7 @@ gps_not_fixed =
 
 
 {-| -}
-gps_off : Int -> Coloring -> Svg msg
+gps_off : Icon msg
 gps_off =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8552,7 +6470,7 @@ gps_off =
 
 
 {-| -}
-grade : Int -> Coloring -> Svg msg
+grade : Icon msg
 grade =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8566,7 +6484,7 @@ grade =
 
 
 {-| -}
-gradient : Int -> Coloring -> Svg msg
+gradient : Icon msg
 gradient =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8580,7 +6498,7 @@ gradient =
 
 
 {-| -}
-grain : Int -> Coloring -> Svg msg
+grain : Icon msg
 grain =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8594,7 +6512,7 @@ grain =
 
 
 {-| -}
-graphic_eq : Int -> Coloring -> Svg msg
+graphic_eq : Icon msg
 graphic_eq =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8608,7 +6526,7 @@ graphic_eq =
 
 
 {-| -}
-grid_off : Int -> Coloring -> Svg msg
+grid_off : Icon msg
 grid_off =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8622,7 +6540,7 @@ grid_off =
 
 
 {-| -}
-grid_on : Int -> Coloring -> Svg msg
+grid_on : Icon msg
 grid_on =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8636,7 +6554,7 @@ grid_on =
 
 
 {-| -}
-group : Int -> Coloring -> Svg msg
+group : Icon msg
 group =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8650,7 +6568,7 @@ group =
 
 
 {-| -}
-group_add : Int -> Coloring -> Svg msg
+group_add : Icon msg
 group_add =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8664,7 +6582,7 @@ group_add =
 
 
 {-| -}
-group_work : Int -> Coloring -> Svg msg
+group_work : Icon msg
 group_work =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8678,7 +6596,7 @@ group_work =
 
 
 {-| -}
-hd : Int -> Coloring -> Svg msg
+hd : Icon msg
 hd =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8692,7 +6610,7 @@ hd =
 
 
 {-| -}
-hdr_off : Int -> Coloring -> Svg msg
+hdr_off : Icon msg
 hdr_off =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8703,7 +6621,7 @@ hdr_off =
 
 
 {-| -}
-hdr_on : Int -> Coloring -> Svg msg
+hdr_on : Icon msg
 hdr_on =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8717,7 +6635,7 @@ hdr_on =
 
 
 {-| -}
-hdr_strong : Int -> Coloring -> Svg msg
+hdr_strong : Icon msg
 hdr_strong =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8731,7 +6649,7 @@ hdr_strong =
 
 
 {-| -}
-hdr_weak : Int -> Coloring -> Svg msg
+hdr_weak : Icon msg
 hdr_weak =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8745,7 +6663,7 @@ hdr_weak =
 
 
 {-| -}
-headset : Int -> Coloring -> Svg msg
+headset : Icon msg
 headset =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8759,7 +6677,7 @@ headset =
 
 
 {-| -}
-headset_mic : Int -> Coloring -> Svg msg
+headset_mic : Icon msg
 headset_mic =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8773,7 +6691,7 @@ headset_mic =
 
 
 {-| -}
-healing : Int -> Coloring -> Svg msg
+healing : Icon msg
 healing =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8787,7 +6705,7 @@ healing =
 
 
 {-| -}
-hearing : Int -> Coloring -> Svg msg
+hearing : Icon msg
 hearing =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8801,7 +6719,7 @@ hearing =
 
 
 {-| -}
-height : Int -> Coloring -> Svg msg
+height : Icon msg
 height =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -8824,7 +6742,7 @@ height =
 
 
 {-| -}
-help : Int -> Coloring -> Svg msg
+help : Icon msg
 help =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8838,7 +6756,7 @@ help =
 
 
 {-| -}
-help_outline : Int -> Coloring -> Svg msg
+help_outline : Icon msg
 help_outline =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8852,7 +6770,7 @@ help_outline =
 
 
 {-| -}
-high_quality : Int -> Coloring -> Svg msg
+high_quality : Icon msg
 high_quality =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8866,7 +6784,7 @@ high_quality =
 
 
 {-| -}
-highlight : Int -> Coloring -> Svg msg
+highlight : Icon msg
 highlight =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8877,7 +6795,7 @@ highlight =
 
 
 {-| -}
-highlight_off : Int -> Coloring -> Svg msg
+highlight_off : Icon msg
 highlight_off =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8891,7 +6809,7 @@ highlight_off =
 
 
 {-| -}
-history : Int -> Coloring -> Svg msg
+history : Icon msg
 history =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8905,7 +6823,7 @@ history =
 
 
 {-| -}
-home : Int -> Coloring -> Svg msg
+home : Icon msg
 home =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8919,7 +6837,7 @@ home =
 
 
 {-| -}
-home_work : Int -> Coloring -> Svg msg
+home_work : Icon msg
 home_work =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8939,7 +6857,7 @@ home_work =
 
 
 {-| -}
-horizontal_split : Int -> Coloring -> Svg msg
+horizontal_split : Icon msg
 horizontal_split =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8953,7 +6871,7 @@ horizontal_split =
 
 
 {-| -}
-hot_tub : Int -> Coloring -> Svg msg
+hot_tub : Icon msg
 hot_tub =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8970,7 +6888,7 @@ hot_tub =
 
 
 {-| -}
-hotel : Int -> Coloring -> Svg msg
+hotel : Icon msg
 hotel =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8984,7 +6902,7 @@ hotel =
 
 
 {-| -}
-hourglass_empty : Int -> Coloring -> Svg msg
+hourglass_empty : Icon msg
 hourglass_empty =
     icon
         [ viewBox "0 0 24 24" ]
@@ -8998,7 +6916,7 @@ hourglass_empty =
 
 
 {-| -}
-hourglass_full : Int -> Coloring -> Svg msg
+hourglass_full : Icon msg
 hourglass_full =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9012,7 +6930,7 @@ hourglass_full =
 
 
 {-| -}
-house : Int -> Coloring -> Svg msg
+house : Icon msg
 house =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -9032,7 +6950,7 @@ house =
 
 
 {-| -}
-how_to_reg : Int -> Coloring -> Svg msg
+how_to_reg : Icon msg
 how_to_reg =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9052,7 +6970,7 @@ how_to_reg =
 
 
 {-| -}
-how_to_vote : Int -> Coloring -> Svg msg
+how_to_vote : Icon msg
 how_to_vote =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9066,7 +6984,7 @@ how_to_vote =
 
 
 {-| -}
-http : Int -> Coloring -> Svg msg
+http : Icon msg
 http =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9080,7 +6998,7 @@ http =
 
 
 {-| -}
-https : Int -> Coloring -> Svg msg
+https : Icon msg
 https =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9094,7 +7012,7 @@ https =
 
 
 {-| -}
-image : Int -> Coloring -> Svg msg
+image : Icon msg
 image =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9108,7 +7026,7 @@ image =
 
 
 {-| -}
-image_aspect_ratio : Int -> Coloring -> Svg msg
+image_aspect_ratio : Icon msg
 image_aspect_ratio =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9122,7 +7040,7 @@ image_aspect_ratio =
 
 
 {-| -}
-image_search : Int -> Coloring -> Svg msg
+image_search : Icon msg
 image_search =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9139,7 +7057,7 @@ image_search =
 
 
 {-| -}
-import_contacts : Int -> Coloring -> Svg msg
+import_contacts : Icon msg
 import_contacts =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9150,7 +7068,7 @@ import_contacts =
 
 
 {-| -}
-import_export : Int -> Coloring -> Svg msg
+import_export : Icon msg
 import_export =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9164,7 +7082,7 @@ import_export =
 
 
 {-| -}
-important_devices : Int -> Coloring -> Svg msg
+important_devices : Icon msg
 important_devices =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9178,7 +7096,7 @@ important_devices =
 
 
 {-| -}
-inbox : Int -> Coloring -> Svg msg
+inbox : Icon msg
 inbox =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9192,7 +7110,7 @@ inbox =
 
 
 {-| -}
-indeterminate_check_box : Int -> Coloring -> Svg msg
+indeterminate_check_box : Icon msg
 indeterminate_check_box =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9203,7 +7121,7 @@ indeterminate_check_box =
 
 
 {-| -}
-info : Int -> Coloring -> Svg msg
+info : Icon msg
 info =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9217,7 +7135,7 @@ info =
 
 
 {-| -}
-input : Int -> Coloring -> Svg msg
+input : Icon msg
 input =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9231,7 +7149,7 @@ input =
 
 
 {-| -}
-insert_chart : Int -> Coloring -> Svg msg
+insert_chart : Icon msg
 insert_chart =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9245,7 +7163,7 @@ insert_chart =
 
 
 {-| -}
-insert_chart_outlined : Int -> Coloring -> Svg msg
+insert_chart_outlined : Icon msg
 insert_chart_outlined =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9259,7 +7177,7 @@ insert_chart_outlined =
 
 
 {-| -}
-insert_comment : Int -> Coloring -> Svg msg
+insert_comment : Icon msg
 insert_comment =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9273,7 +7191,7 @@ insert_comment =
 
 
 {-| -}
-insert_drive_file : Int -> Coloring -> Svg msg
+insert_drive_file : Icon msg
 insert_drive_file =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9287,7 +7205,7 @@ insert_drive_file =
 
 
 {-| -}
-insert_emoticon : Int -> Coloring -> Svg msg
+insert_emoticon : Icon msg
 insert_emoticon =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9301,7 +7219,7 @@ insert_emoticon =
 
 
 {-| -}
-insert_invitation : Int -> Coloring -> Svg msg
+insert_invitation : Icon msg
 insert_invitation =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9315,7 +7233,7 @@ insert_invitation =
 
 
 {-| -}
-insert_link : Int -> Coloring -> Svg msg
+insert_link : Icon msg
 insert_link =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9329,7 +7247,7 @@ insert_link =
 
 
 {-| -}
-insert_photo : Int -> Coloring -> Svg msg
+insert_photo : Icon msg
 insert_photo =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9343,7 +7261,7 @@ insert_photo =
 
 
 {-| -}
-invert_colors : Int -> Coloring -> Svg msg
+invert_colors : Icon msg
 invert_colors =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9357,7 +7275,7 @@ invert_colors =
 
 
 {-| -}
-invert_colors_off : Int -> Coloring -> Svg msg
+invert_colors_off : Icon msg
 invert_colors_off =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9371,7 +7289,7 @@ invert_colors_off =
 
 
 {-| -}
-iso : Int -> Coloring -> Svg msg
+iso : Icon msg
 iso =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9385,7 +7303,7 @@ iso =
 
 
 {-| -}
-keyboard : Int -> Coloring -> Svg msg
+keyboard : Icon msg
 keyboard =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9399,7 +7317,7 @@ keyboard =
 
 
 {-| -}
-keyboard_arrow_down : Int -> Coloring -> Svg msg
+keyboard_arrow_down : Icon msg
 keyboard_arrow_down =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9413,7 +7331,7 @@ keyboard_arrow_down =
 
 
 {-| -}
-keyboard_arrow_left : Int -> Coloring -> Svg msg
+keyboard_arrow_left : Icon msg
 keyboard_arrow_left =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9427,7 +7345,7 @@ keyboard_arrow_left =
 
 
 {-| -}
-keyboard_arrow_right : Int -> Coloring -> Svg msg
+keyboard_arrow_right : Icon msg
 keyboard_arrow_right =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9441,7 +7359,7 @@ keyboard_arrow_right =
 
 
 {-| -}
-keyboard_arrow_up : Int -> Coloring -> Svg msg
+keyboard_arrow_up : Icon msg
 keyboard_arrow_up =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9455,7 +7373,7 @@ keyboard_arrow_up =
 
 
 {-| -}
-keyboard_backspace : Int -> Coloring -> Svg msg
+keyboard_backspace : Icon msg
 keyboard_backspace =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9469,7 +7387,7 @@ keyboard_backspace =
 
 
 {-| -}
-keyboard_capslock : Int -> Coloring -> Svg msg
+keyboard_capslock : Icon msg
 keyboard_capslock =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9483,7 +7401,7 @@ keyboard_capslock =
 
 
 {-| -}
-keyboard_hide : Int -> Coloring -> Svg msg
+keyboard_hide : Icon msg
 keyboard_hide =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9497,7 +7415,7 @@ keyboard_hide =
 
 
 {-| -}
-keyboard_return : Int -> Coloring -> Svg msg
+keyboard_return : Icon msg
 keyboard_return =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9511,7 +7429,7 @@ keyboard_return =
 
 
 {-| -}
-keyboard_tab : Int -> Coloring -> Svg msg
+keyboard_tab : Icon msg
 keyboard_tab =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9525,7 +7443,7 @@ keyboard_tab =
 
 
 {-| -}
-keyboard_voice : Int -> Coloring -> Svg msg
+keyboard_voice : Icon msg
 keyboard_voice =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9539,7 +7457,7 @@ keyboard_voice =
 
 
 {-| -}
-king_bed : Int -> Coloring -> Svg msg
+king_bed : Icon msg
 king_bed =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -9568,7 +7486,7 @@ king_bed =
 
 
 {-| -}
-kitchen : Int -> Coloring -> Svg msg
+kitchen : Icon msg
 kitchen =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9582,7 +7500,7 @@ kitchen =
 
 
 {-| -}
-label : Int -> Coloring -> Svg msg
+label : Icon msg
 label =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9596,7 +7514,7 @@ label =
 
 
 {-| -}
-label_important : Int -> Coloring -> Svg msg
+label_important : Icon msg
 label_important =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9610,7 +7528,7 @@ label_important =
 
 
 {-| -}
-label_off : Int -> Coloring -> Svg msg
+label_off : Icon msg
 label_off =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9624,7 +7542,7 @@ label_off =
 
 
 {-| -}
-landscape : Int -> Coloring -> Svg msg
+landscape : Icon msg
 landscape =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9638,7 +7556,7 @@ landscape =
 
 
 {-| -}
-language : Int -> Coloring -> Svg msg
+language : Icon msg
 language =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9652,7 +7570,7 @@ language =
 
 
 {-| -}
-laptop : Int -> Coloring -> Svg msg
+laptop : Icon msg
 laptop =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9663,7 +7581,7 @@ laptop =
 
 
 {-| -}
-laptop_chromebook : Int -> Coloring -> Svg msg
+laptop_chromebook : Icon msg
 laptop_chromebook =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9677,7 +7595,7 @@ laptop_chromebook =
 
 
 {-| -}
-laptop_mac : Int -> Coloring -> Svg msg
+laptop_mac : Icon msg
 laptop_mac =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9691,7 +7609,7 @@ laptop_mac =
 
 
 {-| -}
-laptop_windows : Int -> Coloring -> Svg msg
+laptop_windows : Icon msg
 laptop_windows =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9705,7 +7623,7 @@ laptop_windows =
 
 
 {-| -}
-last_page : Int -> Coloring -> Svg msg
+last_page : Icon msg
 last_page =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9719,7 +7637,7 @@ last_page =
 
 
 {-| -}
-launch : Int -> Coloring -> Svg msg
+launch : Icon msg
 launch =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9733,7 +7651,7 @@ launch =
 
 
 {-| -}
-layers : Int -> Coloring -> Svg msg
+layers : Icon msg
 layers =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9747,7 +7665,7 @@ layers =
 
 
 {-| -}
-layers_clear : Int -> Coloring -> Svg msg
+layers_clear : Icon msg
 layers_clear =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9761,7 +7679,7 @@ layers_clear =
 
 
 {-| -}
-leak_add : Int -> Coloring -> Svg msg
+leak_add : Icon msg
 leak_add =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9775,7 +7693,7 @@ leak_add =
 
 
 {-| -}
-leak_remove : Int -> Coloring -> Svg msg
+leak_remove : Icon msg
 leak_remove =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9789,7 +7707,7 @@ leak_remove =
 
 
 {-| -}
-lens : Int -> Coloring -> Svg msg
+lens : Icon msg
 lens =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9803,7 +7721,7 @@ lens =
 
 
 {-| -}
-library_add : Int -> Coloring -> Svg msg
+library_add : Icon msg
 library_add =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9817,7 +7735,7 @@ library_add =
 
 
 {-| -}
-library_books : Int -> Coloring -> Svg msg
+library_books : Icon msg
 library_books =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9831,7 +7749,7 @@ library_books =
 
 
 {-| -}
-library_music : Int -> Coloring -> Svg msg
+library_music : Icon msg
 library_music =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9845,7 +7763,7 @@ library_music =
 
 
 {-| -}
-line_style : Int -> Coloring -> Svg msg
+line_style : Icon msg
 line_style =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9856,7 +7774,7 @@ line_style =
 
 
 {-| -}
-line_weight : Int -> Coloring -> Svg msg
+line_weight : Icon msg
 line_weight =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9867,7 +7785,7 @@ line_weight =
 
 
 {-| -}
-linear_scale : Int -> Coloring -> Svg msg
+linear_scale : Icon msg
 linear_scale =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9878,7 +7796,7 @@ linear_scale =
 
 
 {-| -}
-link : Int -> Coloring -> Svg msg
+link : Icon msg
 link =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9892,7 +7810,7 @@ link =
 
 
 {-| -}
-link_off : Int -> Coloring -> Svg msg
+link_off : Icon msg
 link_off =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9909,7 +7827,7 @@ link_off =
 
 
 {-| -}
-linked_camera : Int -> Coloring -> Svg msg
+linked_camera : Icon msg
 linked_camera =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9932,7 +7850,7 @@ linked_camera =
 
 
 {-| -}
-list : Int -> Coloring -> Svg msg
+list : Icon msg
 list =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9946,7 +7864,7 @@ list =
 
 
 {-| -}
-list_alt : Int -> Coloring -> Svg msg
+list_alt : Icon msg
 list_alt =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9960,7 +7878,7 @@ list_alt =
 
 
 {-| -}
-live_help : Int -> Coloring -> Svg msg
+live_help : Icon msg
 live_help =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9974,7 +7892,7 @@ live_help =
 
 
 {-| -}
-live_tv : Int -> Coloring -> Svg msg
+live_tv : Icon msg
 live_tv =
     icon
         [ viewBox "0 0 24 24" ]
@@ -9988,7 +7906,7 @@ live_tv =
 
 
 {-| -}
-local_activity : Int -> Coloring -> Svg msg
+local_activity : Icon msg
 local_activity =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10002,7 +7920,7 @@ local_activity =
 
 
 {-| -}
-local_airport : Int -> Coloring -> Svg msg
+local_airport : Icon msg
 local_airport =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10016,7 +7934,7 @@ local_airport =
 
 
 {-| -}
-local_atm : Int -> Coloring -> Svg msg
+local_atm : Icon msg
 local_atm =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10030,7 +7948,7 @@ local_atm =
 
 
 {-| -}
-local_bar : Int -> Coloring -> Svg msg
+local_bar : Icon msg
 local_bar =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10044,7 +7962,7 @@ local_bar =
 
 
 {-| -}
-local_cafe : Int -> Coloring -> Svg msg
+local_cafe : Icon msg
 local_cafe =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10058,7 +7976,7 @@ local_cafe =
 
 
 {-| -}
-local_car_wash : Int -> Coloring -> Svg msg
+local_car_wash : Icon msg
 local_car_wash =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10072,7 +7990,7 @@ local_car_wash =
 
 
 {-| -}
-local_convenience_store : Int -> Coloring -> Svg msg
+local_convenience_store : Icon msg
 local_convenience_store =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10086,7 +8004,7 @@ local_convenience_store =
 
 
 {-| -}
-local_dining : Int -> Coloring -> Svg msg
+local_dining : Icon msg
 local_dining =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10100,7 +8018,7 @@ local_dining =
 
 
 {-| -}
-local_drink : Int -> Coloring -> Svg msg
+local_drink : Icon msg
 local_drink =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10114,7 +8032,7 @@ local_drink =
 
 
 {-| -}
-local_florist : Int -> Coloring -> Svg msg
+local_florist : Icon msg
 local_florist =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10128,7 +8046,7 @@ local_florist =
 
 
 {-| -}
-local_gas_station : Int -> Coloring -> Svg msg
+local_gas_station : Icon msg
 local_gas_station =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10142,7 +8060,7 @@ local_gas_station =
 
 
 {-| -}
-local_grocery_store : Int -> Coloring -> Svg msg
+local_grocery_store : Icon msg
 local_grocery_store =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10156,7 +8074,7 @@ local_grocery_store =
 
 
 {-| -}
-local_hospital : Int -> Coloring -> Svg msg
+local_hospital : Icon msg
 local_hospital =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10170,7 +8088,7 @@ local_hospital =
 
 
 {-| -}
-local_hotel : Int -> Coloring -> Svg msg
+local_hotel : Icon msg
 local_hotel =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10184,7 +8102,7 @@ local_hotel =
 
 
 {-| -}
-local_laundry_service : Int -> Coloring -> Svg msg
+local_laundry_service : Icon msg
 local_laundry_service =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10198,7 +8116,7 @@ local_laundry_service =
 
 
 {-| -}
-local_library : Int -> Coloring -> Svg msg
+local_library : Icon msg
 local_library =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10212,7 +8130,7 @@ local_library =
 
 
 {-| -}
-local_mall : Int -> Coloring -> Svg msg
+local_mall : Icon msg
 local_mall =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10226,7 +8144,7 @@ local_mall =
 
 
 {-| -}
-local_movies : Int -> Coloring -> Svg msg
+local_movies : Icon msg
 local_movies =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10240,7 +8158,7 @@ local_movies =
 
 
 {-| -}
-local_offer : Int -> Coloring -> Svg msg
+local_offer : Icon msg
 local_offer =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10254,7 +8172,7 @@ local_offer =
 
 
 {-| -}
-local_parking : Int -> Coloring -> Svg msg
+local_parking : Icon msg
 local_parking =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10268,7 +8186,7 @@ local_parking =
 
 
 {-| -}
-local_pharmacy : Int -> Coloring -> Svg msg
+local_pharmacy : Icon msg
 local_pharmacy =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10282,7 +8200,7 @@ local_pharmacy =
 
 
 {-| -}
-local_phone : Int -> Coloring -> Svg msg
+local_phone : Icon msg
 local_phone =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10296,7 +8214,7 @@ local_phone =
 
 
 {-| -}
-local_pizza : Int -> Coloring -> Svg msg
+local_pizza : Icon msg
 local_pizza =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10310,7 +8228,7 @@ local_pizza =
 
 
 {-| -}
-local_play : Int -> Coloring -> Svg msg
+local_play : Icon msg
 local_play =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10324,7 +8242,7 @@ local_play =
 
 
 {-| -}
-local_post_office : Int -> Coloring -> Svg msg
+local_post_office : Icon msg
 local_post_office =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10338,7 +8256,7 @@ local_post_office =
 
 
 {-| -}
-local_printshop : Int -> Coloring -> Svg msg
+local_printshop : Icon msg
 local_printshop =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10352,7 +8270,7 @@ local_printshop =
 
 
 {-| -}
-local_see : Int -> Coloring -> Svg msg
+local_see : Icon msg
 local_see =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10369,7 +8287,7 @@ local_see =
 
 
 {-| -}
-local_shipping : Int -> Coloring -> Svg msg
+local_shipping : Icon msg
 local_shipping =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10383,7 +8301,7 @@ local_shipping =
 
 
 {-| -}
-local_taxi : Int -> Coloring -> Svg msg
+local_taxi : Icon msg
 local_taxi =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10397,7 +8315,7 @@ local_taxi =
 
 
 {-| -}
-location_city : Int -> Coloring -> Svg msg
+location_city : Icon msg
 location_city =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10411,7 +8329,7 @@ location_city =
 
 
 {-| -}
-location_disabled : Int -> Coloring -> Svg msg
+location_disabled : Icon msg
 location_disabled =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10425,7 +8343,7 @@ location_disabled =
 
 
 {-| -}
-location_searching : Int -> Coloring -> Svg msg
+location_searching : Icon msg
 location_searching =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10439,7 +8357,7 @@ location_searching =
 
 
 {-| -}
-lock : Int -> Coloring -> Svg msg
+lock : Icon msg
 lock =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10453,7 +8371,7 @@ lock =
 
 
 {-| -}
-lock_open : Int -> Coloring -> Svg msg
+lock_open : Icon msg
 lock_open =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10467,7 +8385,7 @@ lock_open =
 
 
 {-| -}
-looks : Int -> Coloring -> Svg msg
+looks : Icon msg
 looks =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10481,7 +8399,7 @@ looks =
 
 
 {-| -}
-looks_3 : Int -> Coloring -> Svg msg
+looks_3 : Icon msg
 looks_3 =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10495,7 +8413,7 @@ looks_3 =
 
 
 {-| -}
-looks_4 : Int -> Coloring -> Svg msg
+looks_4 : Icon msg
 looks_4 =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10509,7 +8427,7 @@ looks_4 =
 
 
 {-| -}
-looks_5 : Int -> Coloring -> Svg msg
+looks_5 : Icon msg
 looks_5 =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10523,7 +8441,7 @@ looks_5 =
 
 
 {-| -}
-looks_6 : Int -> Coloring -> Svg msg
+looks_6 : Icon msg
 looks_6 =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10537,7 +8455,7 @@ looks_6 =
 
 
 {-| -}
-looks_one : Int -> Coloring -> Svg msg
+looks_one : Icon msg
 looks_one =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10551,7 +8469,7 @@ looks_one =
 
 
 {-| -}
-looks_two : Int -> Coloring -> Svg msg
+looks_two : Icon msg
 looks_two =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10565,7 +8483,7 @@ looks_two =
 
 
 {-| -}
-loop : Int -> Coloring -> Svg msg
+loop : Icon msg
 loop =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10579,7 +8497,7 @@ loop =
 
 
 {-| -}
-loupe : Int -> Coloring -> Svg msg
+loupe : Icon msg
 loupe =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10593,7 +8511,7 @@ loupe =
 
 
 {-| -}
-low_priority : Int -> Coloring -> Svg msg
+low_priority : Icon msg
 low_priority =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10607,7 +8525,7 @@ low_priority =
 
 
 {-| -}
-loyalty : Int -> Coloring -> Svg msg
+loyalty : Icon msg
 loyalty =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10621,7 +8539,7 @@ loyalty =
 
 
 {-| -}
-mail : Int -> Coloring -> Svg msg
+mail : Icon msg
 mail =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10635,7 +8553,7 @@ mail =
 
 
 {-| -}
-mail_outline : Int -> Coloring -> Svg msg
+mail_outline : Icon msg
 mail_outline =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10649,7 +8567,7 @@ mail_outline =
 
 
 {-| -}
-map : Int -> Coloring -> Svg msg
+map : Icon msg
 map =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10663,7 +8581,7 @@ map =
 
 
 {-| -}
-markunread : Int -> Coloring -> Svg msg
+markunread : Icon msg
 markunread =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10677,7 +8595,7 @@ markunread =
 
 
 {-| -}
-markunread_mailbox : Int -> Coloring -> Svg msg
+markunread_mailbox : Icon msg
 markunread_mailbox =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10691,7 +8609,7 @@ markunread_mailbox =
 
 
 {-| -}
-maximize : Int -> Coloring -> Svg msg
+maximize : Icon msg
 maximize =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10705,7 +8623,7 @@ maximize =
 
 
 {-| -}
-meeting_room : Int -> Coloring -> Svg msg
+meeting_room : Icon msg
 meeting_room =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10716,7 +8634,7 @@ meeting_room =
 
 
 {-| -}
-memory : Int -> Coloring -> Svg msg
+memory : Icon msg
 memory =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10730,7 +8648,7 @@ memory =
 
 
 {-| -}
-menu : Int -> Coloring -> Svg msg
+menu : Icon msg
 menu =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10744,7 +8662,7 @@ menu =
 
 
 {-| -}
-menu_book : Int -> Coloring -> Svg msg
+menu_book : Icon msg
 menu_book =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -10782,7 +8700,7 @@ menu_book =
 
 
 {-| -}
-menu_open : Int -> Coloring -> Svg msg
+menu_open : Icon msg
 menu_open =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10796,7 +8714,7 @@ menu_open =
 
 
 {-| -}
-merge_type : Int -> Coloring -> Svg msg
+merge_type : Icon msg
 merge_type =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10810,7 +8728,7 @@ merge_type =
 
 
 {-| -}
-message : Int -> Coloring -> Svg msg
+message : Icon msg
 message =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10824,7 +8742,7 @@ message =
 
 
 {-| -}
-mic : Int -> Coloring -> Svg msg
+mic : Icon msg
 mic =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10838,7 +8756,7 @@ mic =
 
 
 {-| -}
-mic_none : Int -> Coloring -> Svg msg
+mic_none : Icon msg
 mic_none =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10852,7 +8770,7 @@ mic_none =
 
 
 {-| -}
-mic_off : Int -> Coloring -> Svg msg
+mic_off : Icon msg
 mic_off =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10866,7 +8784,7 @@ mic_off =
 
 
 {-| -}
-minimize : Int -> Coloring -> Svg msg
+minimize : Icon msg
 minimize =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10880,7 +8798,7 @@ minimize =
 
 
 {-| -}
-missed_video_call : Int -> Coloring -> Svg msg
+missed_video_call : Icon msg
 missed_video_call =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10894,7 +8812,7 @@ missed_video_call =
 
 
 {-| -}
-mms : Int -> Coloring -> Svg msg
+mms : Icon msg
 mms =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10908,7 +8826,7 @@ mms =
 
 
 {-| -}
-mobile_friendly : Int -> Coloring -> Svg msg
+mobile_friendly : Icon msg
 mobile_friendly =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10922,7 +8840,7 @@ mobile_friendly =
 
 
 {-| -}
-mobile_off : Int -> Coloring -> Svg msg
+mobile_off : Icon msg
 mobile_off =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10936,7 +8854,7 @@ mobile_off =
 
 
 {-| -}
-mobile_screen_share : Int -> Coloring -> Svg msg
+mobile_screen_share : Icon msg
 mobile_screen_share =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10950,7 +8868,7 @@ mobile_screen_share =
 
 
 {-| -}
-mode_comment : Int -> Coloring -> Svg msg
+mode_comment : Icon msg
 mode_comment =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10964,7 +8882,7 @@ mode_comment =
 
 
 {-| -}
-monetization_on : Int -> Coloring -> Svg msg
+monetization_on : Icon msg
 monetization_on =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10978,7 +8896,7 @@ monetization_on =
 
 
 {-| -}
-money : Int -> Coloring -> Svg msg
+money : Icon msg
 money =
     icon
         [ viewBox "0 0 24 24" ]
@@ -10998,7 +8916,7 @@ money =
 
 
 {-| -}
-money_off : Int -> Coloring -> Svg msg
+money_off : Icon msg
 money_off =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11012,7 +8930,7 @@ money_off =
 
 
 {-| -}
-monochrome_photos : Int -> Coloring -> Svg msg
+monochrome_photos : Icon msg
 monochrome_photos =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11029,7 +8947,7 @@ monochrome_photos =
 
 
 {-| -}
-mood : Int -> Coloring -> Svg msg
+mood : Icon msg
 mood =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11043,7 +8961,7 @@ mood =
 
 
 {-| -}
-mood_bad : Int -> Coloring -> Svg msg
+mood_bad : Icon msg
 mood_bad =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11057,7 +8975,7 @@ mood_bad =
 
 
 {-| -}
-more : Int -> Coloring -> Svg msg
+more : Icon msg
 more =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11071,7 +8989,7 @@ more =
 
 
 {-| -}
-more_horiz : Int -> Coloring -> Svg msg
+more_horiz : Icon msg
 more_horiz =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11085,7 +9003,7 @@ more_horiz =
 
 
 {-| -}
-more_vert : Int -> Coloring -> Svg msg
+more_vert : Icon msg
 more_vert =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11099,7 +9017,7 @@ more_vert =
 
 
 {-| -}
-motorcycle : Int -> Coloring -> Svg msg
+motorcycle : Icon msg
 motorcycle =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11113,7 +9031,7 @@ motorcycle =
 
 
 {-| -}
-mouse : Int -> Coloring -> Svg msg
+mouse : Icon msg
 mouse =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11127,7 +9045,7 @@ mouse =
 
 
 {-| -}
-move_to_inbox : Int -> Coloring -> Svg msg
+move_to_inbox : Icon msg
 move_to_inbox =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11141,7 +9059,7 @@ move_to_inbox =
 
 
 {-| -}
-movie : Int -> Coloring -> Svg msg
+movie : Icon msg
 movie =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11155,7 +9073,7 @@ movie =
 
 
 {-| -}
-movie_creation : Int -> Coloring -> Svg msg
+movie_creation : Icon msg
 movie_creation =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11169,7 +9087,7 @@ movie_creation =
 
 
 {-| -}
-movie_filter : Int -> Coloring -> Svg msg
+movie_filter : Icon msg
 movie_filter =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11183,7 +9101,7 @@ movie_filter =
 
 
 {-| -}
-multiline_chart : Int -> Coloring -> Svg msg
+multiline_chart : Icon msg
 multiline_chart =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11197,7 +9115,7 @@ multiline_chart =
 
 
 {-| -}
-museum : Int -> Coloring -> Svg msg
+museum : Icon msg
 museum =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -11217,7 +9135,7 @@ museum =
 
 
 {-| -}
-music_note : Int -> Coloring -> Svg msg
+music_note : Icon msg
 music_note =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11231,7 +9149,7 @@ music_note =
 
 
 {-| -}
-music_off : Int -> Coloring -> Svg msg
+music_off : Icon msg
 music_off =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11245,7 +9163,7 @@ music_off =
 
 
 {-| -}
-music_video : Int -> Coloring -> Svg msg
+music_video : Icon msg
 music_video =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11259,7 +9177,7 @@ music_video =
 
 
 {-| -}
-my_location : Int -> Coloring -> Svg msg
+my_location : Icon msg
 my_location =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11273,7 +9191,7 @@ my_location =
 
 
 {-| -}
-nature : Int -> Coloring -> Svg msg
+nature : Icon msg
 nature =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11287,7 +9205,7 @@ nature =
 
 
 {-| -}
-nature_people : Int -> Coloring -> Svg msg
+nature_people : Icon msg
 nature_people =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11301,7 +9219,7 @@ nature_people =
 
 
 {-| -}
-navigate_before : Int -> Coloring -> Svg msg
+navigate_before : Icon msg
 navigate_before =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11315,7 +9233,7 @@ navigate_before =
 
 
 {-| -}
-navigate_next : Int -> Coloring -> Svg msg
+navigate_next : Icon msg
 navigate_next =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11329,7 +9247,7 @@ navigate_next =
 
 
 {-| -}
-navigation : Int -> Coloring -> Svg msg
+navigation : Icon msg
 navigation =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11343,7 +9261,7 @@ navigation =
 
 
 {-| -}
-near_me : Int -> Coloring -> Svg msg
+near_me : Icon msg
 near_me =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11357,7 +9275,7 @@ near_me =
 
 
 {-| -}
-network_check : Int -> Coloring -> Svg msg
+network_check : Icon msg
 network_check =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11371,7 +9289,7 @@ network_check =
 
 
 {-| -}
-network_locked : Int -> Coloring -> Svg msg
+network_locked : Icon msg
 network_locked =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11385,7 +9303,7 @@ network_locked =
 
 
 {-| -}
-new_releases : Int -> Coloring -> Svg msg
+new_releases : Icon msg
 new_releases =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11399,7 +9317,7 @@ new_releases =
 
 
 {-| -}
-next_week : Int -> Coloring -> Svg msg
+next_week : Icon msg
 next_week =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11410,7 +9328,7 @@ next_week =
 
 
 {-| -}
-nfc : Int -> Coloring -> Svg msg
+nfc : Icon msg
 nfc =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11427,7 +9345,7 @@ nfc =
 
 
 {-| -}
-nights_stay : Int -> Coloring -> Svg msg
+nights_stay : Icon msg
 nights_stay =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -11456,7 +9374,7 @@ nights_stay =
 
 
 {-| -}
-no_encryption : Int -> Coloring -> Svg msg
+no_encryption : Icon msg
 no_encryption =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11470,7 +9388,7 @@ no_encryption =
 
 
 {-| -}
-no_meeting_room : Int -> Coloring -> Svg msg
+no_meeting_room : Icon msg
 no_meeting_room =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11481,7 +9399,7 @@ no_meeting_room =
 
 
 {-| -}
-no_sim : Int -> Coloring -> Svg msg
+no_sim : Icon msg
 no_sim =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11495,7 +9413,7 @@ no_sim =
 
 
 {-| -}
-not_interested : Int -> Coloring -> Svg msg
+not_interested : Icon msg
 not_interested =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11509,7 +9427,7 @@ not_interested =
 
 
 {-| -}
-note : Int -> Coloring -> Svg msg
+note : Icon msg
 note =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11523,7 +9441,7 @@ note =
 
 
 {-| -}
-note_add : Int -> Coloring -> Svg msg
+note_add : Icon msg
 note_add =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11537,7 +9455,7 @@ note_add =
 
 
 {-| -}
-notes : Int -> Coloring -> Svg msg
+notes : Icon msg
 notes =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11551,7 +9469,7 @@ notes =
 
 
 {-| -}
-notification_important : Int -> Coloring -> Svg msg
+notification_important : Icon msg
 notification_important =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11565,7 +9483,7 @@ notification_important =
 
 
 {-| -}
-notifications : Int -> Coloring -> Svg msg
+notifications : Icon msg
 notifications =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11576,7 +9494,7 @@ notifications =
 
 
 {-| -}
-notifications_active : Int -> Coloring -> Svg msg
+notifications_active : Icon msg
 notifications_active =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11590,7 +9508,7 @@ notifications_active =
 
 
 {-| -}
-notifications_none : Int -> Coloring -> Svg msg
+notifications_none : Icon msg
 notifications_none =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11604,7 +9522,7 @@ notifications_none =
 
 
 {-| -}
-notifications_off : Int -> Coloring -> Svg msg
+notifications_off : Icon msg
 notifications_off =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11618,7 +9536,7 @@ notifications_off =
 
 
 {-| -}
-notifications_paused : Int -> Coloring -> Svg msg
+notifications_paused : Icon msg
 notifications_paused =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11632,7 +9550,7 @@ notifications_paused =
 
 
 {-| -}
-offline_bolt : Int -> Coloring -> Svg msg
+offline_bolt : Icon msg
 offline_bolt =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11646,7 +9564,7 @@ offline_bolt =
 
 
 {-| -}
-offline_pin : Int -> Coloring -> Svg msg
+offline_pin : Icon msg
 offline_pin =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11657,7 +9575,7 @@ offline_pin =
 
 
 {-| -}
-ondemand_video : Int -> Coloring -> Svg msg
+ondemand_video : Icon msg
 ondemand_video =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11671,7 +9589,7 @@ ondemand_video =
 
 
 {-| -}
-opacity : Int -> Coloring -> Svg msg
+opacity : Icon msg
 opacity =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11685,7 +9603,7 @@ opacity =
 
 
 {-| -}
-open_in_browser : Int -> Coloring -> Svg msg
+open_in_browser : Icon msg
 open_in_browser =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11699,7 +9617,7 @@ open_in_browser =
 
 
 {-| -}
-open_in_new : Int -> Coloring -> Svg msg
+open_in_new : Icon msg
 open_in_new =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11713,7 +9631,7 @@ open_in_new =
 
 
 {-| -}
-open_with : Int -> Coloring -> Svg msg
+open_with : Icon msg
 open_with =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11727,7 +9645,7 @@ open_with =
 
 
 {-| -}
-outdoor_grill : Int -> Coloring -> Svg msg
+outdoor_grill : Icon msg
 outdoor_grill =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -11759,7 +9677,7 @@ outdoor_grill =
 
 
 {-| -}
-outlined_flag : Int -> Coloring -> Svg msg
+outlined_flag : Icon msg
 outlined_flag =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11773,7 +9691,7 @@ outlined_flag =
 
 
 {-| -}
-pages : Int -> Coloring -> Svg msg
+pages : Icon msg
 pages =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11787,7 +9705,7 @@ pages =
 
 
 {-| -}
-pageview : Int -> Coloring -> Svg msg
+pageview : Icon msg
 pageview =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11801,7 +9719,7 @@ pageview =
 
 
 {-| -}
-palette : Int -> Coloring -> Svg msg
+palette : Icon msg
 palette =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11815,7 +9733,7 @@ palette =
 
 
 {-| -}
-pan_tool : Int -> Coloring -> Svg msg
+pan_tool : Icon msg
 pan_tool =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11826,7 +9744,7 @@ pan_tool =
 
 
 {-| -}
-panorama : Int -> Coloring -> Svg msg
+panorama : Icon msg
 panorama =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11840,7 +9758,7 @@ panorama =
 
 
 {-| -}
-panorama_fish_eye : Int -> Coloring -> Svg msg
+panorama_fish_eye : Icon msg
 panorama_fish_eye =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11854,7 +9772,7 @@ panorama_fish_eye =
 
 
 {-| -}
-panorama_horizontal : Int -> Coloring -> Svg msg
+panorama_horizontal : Icon msg
 panorama_horizontal =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11868,7 +9786,7 @@ panorama_horizontal =
 
 
 {-| -}
-panorama_vertical : Int -> Coloring -> Svg msg
+panorama_vertical : Icon msg
 panorama_vertical =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11882,7 +9800,7 @@ panorama_vertical =
 
 
 {-| -}
-panorama_wide_angle : Int -> Coloring -> Svg msg
+panorama_wide_angle : Icon msg
 panorama_wide_angle =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11896,7 +9814,7 @@ panorama_wide_angle =
 
 
 {-| -}
-party_mode : Int -> Coloring -> Svg msg
+party_mode : Icon msg
 party_mode =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11910,7 +9828,7 @@ party_mode =
 
 
 {-| -}
-pause : Int -> Coloring -> Svg msg
+pause : Icon msg
 pause =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11924,7 +9842,7 @@ pause =
 
 
 {-| -}
-pause_circle_filled : Int -> Coloring -> Svg msg
+pause_circle_filled : Icon msg
 pause_circle_filled =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11938,7 +9856,7 @@ pause_circle_filled =
 
 
 {-| -}
-pause_circle_outline : Int -> Coloring -> Svg msg
+pause_circle_outline : Icon msg
 pause_circle_outline =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11952,7 +9870,7 @@ pause_circle_outline =
 
 
 {-| -}
-pause_presentation : Int -> Coloring -> Svg msg
+pause_presentation : Icon msg
 pause_presentation =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11972,7 +9890,7 @@ pause_presentation =
 
 
 {-| -}
-payment : Int -> Coloring -> Svg msg
+payment : Icon msg
 payment =
     icon
         [ viewBox "0 0 24 24" ]
@@ -11986,7 +9904,7 @@ payment =
 
 
 {-| -}
-people : Int -> Coloring -> Svg msg
+people : Icon msg
 people =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12000,7 +9918,7 @@ people =
 
 
 {-| -}
-people_alt : Int -> Coloring -> Svg msg
+people_alt : Icon msg
 people_alt =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -12047,7 +9965,7 @@ people_alt =
 
 
 {-| -}
-people_outline : Int -> Coloring -> Svg msg
+people_outline : Icon msg
 people_outline =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12061,7 +9979,7 @@ people_outline =
 
 
 {-| -}
-perm_camera_mic : Int -> Coloring -> Svg msg
+perm_camera_mic : Icon msg
 perm_camera_mic =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12075,7 +9993,7 @@ perm_camera_mic =
 
 
 {-| -}
-perm_contact_calendar : Int -> Coloring -> Svg msg
+perm_contact_calendar : Icon msg
 perm_contact_calendar =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12089,7 +10007,7 @@ perm_contact_calendar =
 
 
 {-| -}
-perm_data_setting : Int -> Coloring -> Svg msg
+perm_data_setting : Icon msg
 perm_data_setting =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12103,7 +10021,7 @@ perm_data_setting =
 
 
 {-| -}
-perm_device_information : Int -> Coloring -> Svg msg
+perm_device_information : Icon msg
 perm_device_information =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12117,7 +10035,7 @@ perm_device_information =
 
 
 {-| -}
-perm_identity : Int -> Coloring -> Svg msg
+perm_identity : Icon msg
 perm_identity =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12131,7 +10049,7 @@ perm_identity =
 
 
 {-| -}
-perm_media : Int -> Coloring -> Svg msg
+perm_media : Icon msg
 perm_media =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12145,7 +10063,7 @@ perm_media =
 
 
 {-| -}
-perm_phone_msg : Int -> Coloring -> Svg msg
+perm_phone_msg : Icon msg
 perm_phone_msg =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12159,7 +10077,7 @@ perm_phone_msg =
 
 
 {-| -}
-perm_scan_wifi : Int -> Coloring -> Svg msg
+perm_scan_wifi : Icon msg
 perm_scan_wifi =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12173,7 +10091,7 @@ perm_scan_wifi =
 
 
 {-| -}
-person : Int -> Coloring -> Svg msg
+person : Icon msg
 person =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12187,7 +10105,7 @@ person =
 
 
 {-| -}
-person_add : Int -> Coloring -> Svg msg
+person_add : Icon msg
 person_add =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12201,7 +10119,7 @@ person_add =
 
 
 {-| -}
-person_add_disabled : Int -> Coloring -> Svg msg
+person_add_disabled : Icon msg
 person_add_disabled =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12218,7 +10136,7 @@ person_add_disabled =
 
 
 {-| -}
-person_outline : Int -> Coloring -> Svg msg
+person_outline : Icon msg
 person_outline =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12232,7 +10150,7 @@ person_outline =
 
 
 {-| -}
-person_pin : Int -> Coloring -> Svg msg
+person_pin : Icon msg
 person_pin =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12246,7 +10164,7 @@ person_pin =
 
 
 {-| -}
-personal_video : Int -> Coloring -> Svg msg
+personal_video : Icon msg
 personal_video =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12260,7 +10178,7 @@ personal_video =
 
 
 {-| -}
-pets : Int -> Coloring -> Svg msg
+pets : Icon msg
 pets =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12286,7 +10204,7 @@ pets =
 
 
 {-| -}
-phone : Int -> Coloring -> Svg msg
+phone : Icon msg
 phone =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12300,7 +10218,7 @@ phone =
 
 
 {-| -}
-phone_android : Int -> Coloring -> Svg msg
+phone_android : Icon msg
 phone_android =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12314,7 +10232,7 @@ phone_android =
 
 
 {-| -}
-phone_bluetooth_speaker : Int -> Coloring -> Svg msg
+phone_bluetooth_speaker : Icon msg
 phone_bluetooth_speaker =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12328,7 +10246,7 @@ phone_bluetooth_speaker =
 
 
 {-| -}
-phone_callback : Int -> Coloring -> Svg msg
+phone_callback : Icon msg
 phone_callback =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12342,7 +10260,7 @@ phone_callback =
 
 
 {-| -}
-phone_disabled : Int -> Coloring -> Svg msg
+phone_disabled : Icon msg
 phone_disabled =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12356,7 +10274,7 @@ phone_disabled =
 
 
 {-| -}
-phone_enabled : Int -> Coloring -> Svg msg
+phone_enabled : Icon msg
 phone_enabled =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12370,7 +10288,7 @@ phone_enabled =
 
 
 {-| -}
-phone_forwarded : Int -> Coloring -> Svg msg
+phone_forwarded : Icon msg
 phone_forwarded =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12384,7 +10302,7 @@ phone_forwarded =
 
 
 {-| -}
-phone_in_talk : Int -> Coloring -> Svg msg
+phone_in_talk : Icon msg
 phone_in_talk =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12398,7 +10316,7 @@ phone_in_talk =
 
 
 {-| -}
-phone_iphone : Int -> Coloring -> Svg msg
+phone_iphone : Icon msg
 phone_iphone =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12412,7 +10330,7 @@ phone_iphone =
 
 
 {-| -}
-phone_locked : Int -> Coloring -> Svg msg
+phone_locked : Icon msg
 phone_locked =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12426,7 +10344,7 @@ phone_locked =
 
 
 {-| -}
-phone_missed : Int -> Coloring -> Svg msg
+phone_missed : Icon msg
 phone_missed =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12440,7 +10358,7 @@ phone_missed =
 
 
 {-| -}
-phone_paused : Int -> Coloring -> Svg msg
+phone_paused : Icon msg
 phone_paused =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12454,7 +10372,7 @@ phone_paused =
 
 
 {-| -}
-phonelink : Int -> Coloring -> Svg msg
+phonelink : Icon msg
 phonelink =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12468,7 +10386,7 @@ phonelink =
 
 
 {-| -}
-phonelink_erase : Int -> Coloring -> Svg msg
+phonelink_erase : Icon msg
 phonelink_erase =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12482,7 +10400,7 @@ phonelink_erase =
 
 
 {-| -}
-phonelink_lock : Int -> Coloring -> Svg msg
+phonelink_lock : Icon msg
 phonelink_lock =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12496,7 +10414,7 @@ phonelink_lock =
 
 
 {-| -}
-phonelink_off : Int -> Coloring -> Svg msg
+phonelink_off : Icon msg
 phonelink_off =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12510,7 +10428,7 @@ phonelink_off =
 
 
 {-| -}
-phonelink_ring : Int -> Coloring -> Svg msg
+phonelink_ring : Icon msg
 phonelink_ring =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12524,7 +10442,7 @@ phonelink_ring =
 
 
 {-| -}
-phonelink_setup : Int -> Coloring -> Svg msg
+phonelink_setup : Icon msg
 phonelink_setup =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12538,7 +10456,7 @@ phonelink_setup =
 
 
 {-| -}
-photo : Int -> Coloring -> Svg msg
+photo : Icon msg
 photo =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12552,7 +10470,7 @@ photo =
 
 
 {-| -}
-photo_album : Int -> Coloring -> Svg msg
+photo_album : Icon msg
 photo_album =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12566,7 +10484,7 @@ photo_album =
 
 
 {-| -}
-photo_camera : Int -> Coloring -> Svg msg
+photo_camera : Icon msg
 photo_camera =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12583,7 +10501,7 @@ photo_camera =
 
 
 {-| -}
-photo_filter : Int -> Coloring -> Svg msg
+photo_filter : Icon msg
 photo_filter =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12597,7 +10515,7 @@ photo_filter =
 
 
 {-| -}
-photo_library : Int -> Coloring -> Svg msg
+photo_library : Icon msg
 photo_library =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12611,7 +10529,7 @@ photo_library =
 
 
 {-| -}
-photo_size_select_actual : Int -> Coloring -> Svg msg
+photo_size_select_actual : Icon msg
 photo_size_select_actual =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12625,7 +10543,7 @@ photo_size_select_actual =
 
 
 {-| -}
-photo_size_select_large : Int -> Coloring -> Svg msg
+photo_size_select_large : Icon msg
 photo_size_select_large =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12639,7 +10557,7 @@ photo_size_select_large =
 
 
 {-| -}
-photo_size_select_small : Int -> Coloring -> Svg msg
+photo_size_select_small : Icon msg
 photo_size_select_small =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12653,7 +10571,7 @@ photo_size_select_small =
 
 
 {-| -}
-picture_as_pdf : Int -> Coloring -> Svg msg
+picture_as_pdf : Icon msg
 picture_as_pdf =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12667,7 +10585,7 @@ picture_as_pdf =
 
 
 {-| -}
-picture_in_picture : Int -> Coloring -> Svg msg
+picture_in_picture : Icon msg
 picture_in_picture =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12681,7 +10599,7 @@ picture_in_picture =
 
 
 {-| -}
-picture_in_picture_alt : Int -> Coloring -> Svg msg
+picture_in_picture_alt : Icon msg
 picture_in_picture_alt =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12695,7 +10613,7 @@ picture_in_picture_alt =
 
 
 {-| -}
-pie_chart : Int -> Coloring -> Svg msg
+pie_chart : Icon msg
 pie_chart =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12709,7 +10627,7 @@ pie_chart =
 
 
 {-| -}
-play_arrow : Int -> Coloring -> Svg msg
+play_arrow : Icon msg
 play_arrow =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12723,7 +10641,7 @@ play_arrow =
 
 
 {-| -}
-play_circle_filled : Int -> Coloring -> Svg msg
+play_circle_filled : Icon msg
 play_circle_filled =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12737,7 +10655,7 @@ play_circle_filled =
 
 
 {-| -}
-play_circle_outline : Int -> Coloring -> Svg msg
+play_circle_outline : Icon msg
 play_circle_outline =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12751,7 +10669,7 @@ play_circle_outline =
 
 
 {-| -}
-play_for_work : Int -> Coloring -> Svg msg
+play_for_work : Icon msg
 play_for_work =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12765,7 +10683,7 @@ play_for_work =
 
 
 {-| -}
-playlist_add : Int -> Coloring -> Svg msg
+playlist_add : Icon msg
 playlist_add =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12779,7 +10697,7 @@ playlist_add =
 
 
 {-| -}
-playlist_add_check : Int -> Coloring -> Svg msg
+playlist_add_check : Icon msg
 playlist_add_check =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12790,7 +10708,7 @@ playlist_add_check =
 
 
 {-| -}
-playlist_play : Int -> Coloring -> Svg msg
+playlist_play : Icon msg
 playlist_play =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12804,7 +10722,7 @@ playlist_play =
 
 
 {-| -}
-plus_one : Int -> Coloring -> Svg msg
+plus_one : Icon msg
 plus_one =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12818,7 +10736,7 @@ plus_one =
 
 
 {-| -}
-policy : Int -> Coloring -> Svg msg
+policy : Icon msg
 policy =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -12847,7 +10765,7 @@ policy =
 
 
 {-| -}
-poll : Int -> Coloring -> Svg msg
+poll : Icon msg
 poll =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12861,7 +10779,7 @@ poll =
 
 
 {-| -}
-polymer : Int -> Coloring -> Svg msg
+polymer : Icon msg
 polymer =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12875,7 +10793,7 @@ polymer =
 
 
 {-| -}
-pool : Int -> Coloring -> Svg msg
+pool : Icon msg
 pool =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12892,7 +10810,7 @@ pool =
 
 
 {-| -}
-portable_wifi_off : Int -> Coloring -> Svg msg
+portable_wifi_off : Icon msg
 portable_wifi_off =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12906,7 +10824,7 @@ portable_wifi_off =
 
 
 {-| -}
-portrait : Int -> Coloring -> Svg msg
+portrait : Icon msg
 portrait =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12920,7 +10838,7 @@ portrait =
 
 
 {-| -}
-post_add : Int -> Coloring -> Svg msg
+post_add : Icon msg
 post_add =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -12958,7 +10876,7 @@ post_add =
 
 
 {-| -}
-power : Int -> Coloring -> Svg msg
+power : Icon msg
 power =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12972,7 +10890,7 @@ power =
 
 
 {-| -}
-power_input : Int -> Coloring -> Svg msg
+power_input : Icon msg
 power_input =
     icon
         [ viewBox "0 0 24 24" ]
@@ -12986,7 +10904,7 @@ power_input =
 
 
 {-| -}
-power_off : Int -> Coloring -> Svg msg
+power_off : Icon msg
 power_off =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13000,7 +10918,7 @@ power_off =
 
 
 {-| -}
-power_settings_new : Int -> Coloring -> Svg msg
+power_settings_new : Icon msg
 power_settings_new =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13014,7 +10932,7 @@ power_settings_new =
 
 
 {-| -}
-pregnant_woman : Int -> Coloring -> Svg msg
+pregnant_woman : Icon msg
 pregnant_woman =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13025,7 +10943,7 @@ pregnant_woman =
 
 
 {-| -}
-present_to_all : Int -> Coloring -> Svg msg
+present_to_all : Icon msg
 present_to_all =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13039,7 +10957,7 @@ present_to_all =
 
 
 {-| -}
-print : Int -> Coloring -> Svg msg
+print : Icon msg
 print =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13053,7 +10971,7 @@ print =
 
 
 {-| -}
-print_disabled : Int -> Coloring -> Svg msg
+print_disabled : Icon msg
 print_disabled =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13067,7 +10985,7 @@ print_disabled =
 
 
 {-| -}
-priority_high : Int -> Coloring -> Svg msg
+priority_high : Icon msg
 priority_high =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13084,7 +11002,7 @@ priority_high =
 
 
 {-| -}
-public : Int -> Coloring -> Svg msg
+public : Icon msg
 public =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13098,7 +11016,7 @@ public =
 
 
 {-| -}
-publish : Int -> Coloring -> Svg msg
+publish : Icon msg
 publish =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13112,7 +11030,7 @@ publish =
 
 
 {-| -}
-query_builder : Int -> Coloring -> Svg msg
+query_builder : Icon msg
 query_builder =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13129,7 +11047,7 @@ query_builder =
 
 
 {-| -}
-question_answer : Int -> Coloring -> Svg msg
+question_answer : Icon msg
 question_answer =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13143,7 +11061,7 @@ question_answer =
 
 
 {-| -}
-queue : Int -> Coloring -> Svg msg
+queue : Icon msg
 queue =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13157,7 +11075,7 @@ queue =
 
 
 {-| -}
-queue_music : Int -> Coloring -> Svg msg
+queue_music : Icon msg
 queue_music =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13171,7 +11089,7 @@ queue_music =
 
 
 {-| -}
-queue_play_next : Int -> Coloring -> Svg msg
+queue_play_next : Icon msg
 queue_play_next =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13182,7 +11100,7 @@ queue_play_next =
 
 
 {-| -}
-radio : Int -> Coloring -> Svg msg
+radio : Icon msg
 radio =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13196,7 +11114,7 @@ radio =
 
 
 {-| -}
-radio_button_checked : Int -> Coloring -> Svg msg
+radio_button_checked : Icon msg
 radio_button_checked =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13210,7 +11128,7 @@ radio_button_checked =
 
 
 {-| -}
-radio_button_unchecked : Int -> Coloring -> Svg msg
+radio_button_unchecked : Icon msg
 radio_button_unchecked =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13224,7 +11142,7 @@ radio_button_unchecked =
 
 
 {-| -}
-rate_review : Int -> Coloring -> Svg msg
+rate_review : Icon msg
 rate_review =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13238,7 +11156,7 @@ rate_review =
 
 
 {-| -}
-receipt : Int -> Coloring -> Svg msg
+receipt : Icon msg
 receipt =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13252,7 +11170,7 @@ receipt =
 
 
 {-| -}
-recent_actors : Int -> Coloring -> Svg msg
+recent_actors : Icon msg
 recent_actors =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13266,7 +11184,7 @@ recent_actors =
 
 
 {-| -}
-record_voice_over : Int -> Coloring -> Svg msg
+record_voice_over : Icon msg
 record_voice_over =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13283,7 +11201,7 @@ record_voice_over =
 
 
 {-| -}
-redeem : Int -> Coloring -> Svg msg
+redeem : Icon msg
 redeem =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13297,7 +11215,7 @@ redeem =
 
 
 {-| -}
-redo : Int -> Coloring -> Svg msg
+redo : Icon msg
 redo =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13311,7 +11229,7 @@ redo =
 
 
 {-| -}
-refresh : Int -> Coloring -> Svg msg
+refresh : Icon msg
 refresh =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13325,7 +11243,7 @@ refresh =
 
 
 {-| -}
-remove : Int -> Coloring -> Svg msg
+remove : Icon msg
 remove =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13339,7 +11257,7 @@ remove =
 
 
 {-| -}
-remove_circle : Int -> Coloring -> Svg msg
+remove_circle : Icon msg
 remove_circle =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13353,7 +11271,7 @@ remove_circle =
 
 
 {-| -}
-remove_circle_outline : Int -> Coloring -> Svg msg
+remove_circle_outline : Icon msg
 remove_circle_outline =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13367,7 +11285,7 @@ remove_circle_outline =
 
 
 {-| -}
-remove_from_queue : Int -> Coloring -> Svg msg
+remove_from_queue : Icon msg
 remove_from_queue =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13378,7 +11296,7 @@ remove_from_queue =
 
 
 {-| -}
-remove_red_eye : Int -> Coloring -> Svg msg
+remove_red_eye : Icon msg
 remove_red_eye =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13392,7 +11310,7 @@ remove_red_eye =
 
 
 {-| -}
-remove_shopping_cart : Int -> Coloring -> Svg msg
+remove_shopping_cart : Icon msg
 remove_shopping_cart =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13406,7 +11324,7 @@ remove_shopping_cart =
 
 
 {-| -}
-reorder : Int -> Coloring -> Svg msg
+reorder : Icon msg
 reorder =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13420,7 +11338,7 @@ reorder =
 
 
 {-| -}
-repeat : Int -> Coloring -> Svg msg
+repeat : Icon msg
 repeat =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13434,7 +11352,7 @@ repeat =
 
 
 {-| -}
-repeat_one : Int -> Coloring -> Svg msg
+repeat_one : Icon msg
 repeat_one =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13448,7 +11366,7 @@ repeat_one =
 
 
 {-| -}
-replay : Int -> Coloring -> Svg msg
+replay : Icon msg
 replay =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13462,7 +11380,7 @@ replay =
 
 
 {-| -}
-replay_10 : Int -> Coloring -> Svg msg
+replay_10 : Icon msg
 replay_10 =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13473,7 +11391,7 @@ replay_10 =
 
 
 {-| -}
-replay_30 : Int -> Coloring -> Svg msg
+replay_30 : Icon msg
 replay_30 =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13484,7 +11402,7 @@ replay_30 =
 
 
 {-| -}
-replay_5 : Int -> Coloring -> Svg msg
+replay_5 : Icon msg
 replay_5 =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13495,7 +11413,7 @@ replay_5 =
 
 
 {-| -}
-reply : Int -> Coloring -> Svg msg
+reply : Icon msg
 reply =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13509,7 +11427,7 @@ reply =
 
 
 {-| -}
-reply_all : Int -> Coloring -> Svg msg
+reply_all : Icon msg
 reply_all =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13523,7 +11441,7 @@ reply_all =
 
 
 {-| -}
-report : Int -> Coloring -> Svg msg
+report : Icon msg
 report =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13537,7 +11455,7 @@ report =
 
 
 {-| -}
-report_off : Int -> Coloring -> Svg msg
+report_off : Icon msg
 report_off =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13551,7 +11469,7 @@ report_off =
 
 
 {-| -}
-report_problem : Int -> Coloring -> Svg msg
+report_problem : Icon msg
 report_problem =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13565,7 +11483,7 @@ report_problem =
 
 
 {-| -}
-restaurant : Int -> Coloring -> Svg msg
+restaurant : Icon msg
 restaurant =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13579,7 +11497,7 @@ restaurant =
 
 
 {-| -}
-restaurant_menu : Int -> Coloring -> Svg msg
+restaurant_menu : Icon msg
 restaurant_menu =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13593,7 +11511,7 @@ restaurant_menu =
 
 
 {-| -}
-restore : Int -> Coloring -> Svg msg
+restore : Icon msg
 restore =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13607,7 +11525,7 @@ restore =
 
 
 {-| -}
-restore_from_trash : Int -> Coloring -> Svg msg
+restore_from_trash : Icon msg
 restore_from_trash =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13621,7 +11539,7 @@ restore_from_trash =
 
 
 {-| -}
-restore_page : Int -> Coloring -> Svg msg
+restore_page : Icon msg
 restore_page =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13635,7 +11553,7 @@ restore_page =
 
 
 {-| -}
-ring_volume : Int -> Coloring -> Svg msg
+ring_volume : Icon msg
 ring_volume =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13649,7 +11567,7 @@ ring_volume =
 
 
 {-| -}
-room : Int -> Coloring -> Svg msg
+room : Icon msg
 room =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13663,7 +11581,7 @@ room =
 
 
 {-| -}
-room_service : Int -> Coloring -> Svg msg
+room_service : Icon msg
 room_service =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13677,7 +11595,7 @@ room_service =
 
 
 {-| -}
-rotate_90_degrees_ccw : Int -> Coloring -> Svg msg
+rotate_90_degrees_ccw : Icon msg
 rotate_90_degrees_ccw =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13691,7 +11609,7 @@ rotate_90_degrees_ccw =
 
 
 {-| -}
-rotate_left : Int -> Coloring -> Svg msg
+rotate_left : Icon msg
 rotate_left =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13705,7 +11623,7 @@ rotate_left =
 
 
 {-| -}
-rotate_right : Int -> Coloring -> Svg msg
+rotate_right : Icon msg
 rotate_right =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13719,7 +11637,7 @@ rotate_right =
 
 
 {-| -}
-rounded_corner : Int -> Coloring -> Svg msg
+rounded_corner : Icon msg
 rounded_corner =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13730,7 +11648,7 @@ rounded_corner =
 
 
 {-| -}
-router : Int -> Coloring -> Svg msg
+router : Icon msg
 router =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13744,7 +11662,7 @@ router =
 
 
 {-| -}
-rowing : Int -> Coloring -> Svg msg
+rowing : Icon msg
 rowing =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13755,7 +11673,7 @@ rowing =
 
 
 {-| -}
-rss_feed : Int -> Coloring -> Svg msg
+rss_feed : Icon msg
 rss_feed =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13772,7 +11690,7 @@ rss_feed =
 
 
 {-| -}
-rv_hookup : Int -> Coloring -> Svg msg
+rv_hookup : Icon msg
 rv_hookup =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13789,7 +11707,7 @@ rv_hookup =
 
 
 {-| -}
-satellite : Int -> Coloring -> Svg msg
+satellite : Icon msg
 satellite =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13803,7 +11721,7 @@ satellite =
 
 
 {-| -}
-save : Int -> Coloring -> Svg msg
+save : Icon msg
 save =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13817,7 +11735,7 @@ save =
 
 
 {-| -}
-save_alt : Int -> Coloring -> Svg msg
+save_alt : Icon msg
 save_alt =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13831,7 +11749,7 @@ save_alt =
 
 
 {-| -}
-scanner : Int -> Coloring -> Svg msg
+scanner : Icon msg
 scanner =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13845,7 +11763,7 @@ scanner =
 
 
 {-| -}
-scatter_plot : Int -> Coloring -> Svg msg
+scatter_plot : Icon msg
 scatter_plot =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13868,7 +11786,7 @@ scatter_plot =
 
 
 {-| -}
-schedule : Int -> Coloring -> Svg msg
+schedule : Icon msg
 schedule =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13885,7 +11803,7 @@ schedule =
 
 
 {-| -}
-school : Int -> Coloring -> Svg msg
+school : Icon msg
 school =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13899,7 +11817,7 @@ school =
 
 
 {-| -}
-score : Int -> Coloring -> Svg msg
+score : Icon msg
 score =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13913,7 +11831,7 @@ score =
 
 
 {-| -}
-screen_lock_landscape : Int -> Coloring -> Svg msg
+screen_lock_landscape : Icon msg
 screen_lock_landscape =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13927,7 +11845,7 @@ screen_lock_landscape =
 
 
 {-| -}
-screen_lock_portrait : Int -> Coloring -> Svg msg
+screen_lock_portrait : Icon msg
 screen_lock_portrait =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13941,7 +11859,7 @@ screen_lock_portrait =
 
 
 {-| -}
-screen_lock_rotation : Int -> Coloring -> Svg msg
+screen_lock_rotation : Icon msg
 screen_lock_rotation =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13955,7 +11873,7 @@ screen_lock_rotation =
 
 
 {-| -}
-screen_rotation : Int -> Coloring -> Svg msg
+screen_rotation : Icon msg
 screen_rotation =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13969,7 +11887,7 @@ screen_rotation =
 
 
 {-| -}
-screen_share : Int -> Coloring -> Svg msg
+screen_share : Icon msg
 screen_share =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13983,7 +11901,7 @@ screen_share =
 
 
 {-| -}
-sd_card : Int -> Coloring -> Svg msg
+sd_card : Icon msg
 sd_card =
     icon
         [ viewBox "0 0 24 24" ]
@@ -13997,7 +11915,7 @@ sd_card =
 
 
 {-| -}
-sd_storage : Int -> Coloring -> Svg msg
+sd_storage : Icon msg
 sd_storage =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14011,7 +11929,7 @@ sd_storage =
 
 
 {-| -}
-search : Int -> Coloring -> Svg msg
+search : Icon msg
 search =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14025,7 +11943,7 @@ search =
 
 
 {-| -}
-security : Int -> Coloring -> Svg msg
+security : Icon msg
 security =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14039,7 +11957,7 @@ security =
 
 
 {-| -}
-select_all : Int -> Coloring -> Svg msg
+select_all : Icon msg
 select_all =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14053,7 +11971,7 @@ select_all =
 
 
 {-| -}
-send : Int -> Coloring -> Svg msg
+send : Icon msg
 send =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14067,7 +11985,7 @@ send =
 
 
 {-| -}
-sentiment_dissatisfied : Int -> Coloring -> Svg msg
+sentiment_dissatisfied : Icon msg
 sentiment_dissatisfied =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14087,7 +12005,7 @@ sentiment_dissatisfied =
 
 
 {-| -}
-sentiment_satisfied : Int -> Coloring -> Svg msg
+sentiment_satisfied : Icon msg
 sentiment_satisfied =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14107,7 +12025,7 @@ sentiment_satisfied =
 
 
 {-| -}
-sentiment_satisfied_alt : Int -> Coloring -> Svg msg
+sentiment_satisfied_alt : Icon msg
 sentiment_satisfied_alt =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14136,7 +12054,7 @@ sentiment_satisfied_alt =
 
 
 {-| -}
-sentiment_very_dissatisfied : Int -> Coloring -> Svg msg
+sentiment_very_dissatisfied : Icon msg
 sentiment_very_dissatisfied =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14156,7 +12074,7 @@ sentiment_very_dissatisfied =
 
 
 {-| -}
-sentiment_very_satisfied : Int -> Coloring -> Svg msg
+sentiment_very_satisfied : Icon msg
 sentiment_very_satisfied =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14176,7 +12094,7 @@ sentiment_very_satisfied =
 
 
 {-| -}
-settings_applications : Int -> Coloring -> Svg msg
+settings_applications : Icon msg
 settings_applications =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14190,7 +12108,7 @@ settings_applications =
 
 
 {-| -}
-settings_backup_restore : Int -> Coloring -> Svg msg
+settings_backup_restore : Icon msg
 settings_backup_restore =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14204,7 +12122,7 @@ settings_backup_restore =
 
 
 {-| -}
-settings_bluetooth : Int -> Coloring -> Svg msg
+settings_bluetooth : Icon msg
 settings_bluetooth =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14218,7 +12136,7 @@ settings_bluetooth =
 
 
 {-| -}
-settings_brightness : Int -> Coloring -> Svg msg
+settings_brightness : Icon msg
 settings_brightness =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14232,7 +12150,7 @@ settings_brightness =
 
 
 {-| -}
-settings_cell : Int -> Coloring -> Svg msg
+settings_cell : Icon msg
 settings_cell =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14246,7 +12164,7 @@ settings_cell =
 
 
 {-| -}
-settings_ethernet : Int -> Coloring -> Svg msg
+settings_ethernet : Icon msg
 settings_ethernet =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14260,7 +12178,7 @@ settings_ethernet =
 
 
 {-| -}
-settings_input_antenna : Int -> Coloring -> Svg msg
+settings_input_antenna : Icon msg
 settings_input_antenna =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14274,7 +12192,7 @@ settings_input_antenna =
 
 
 {-| -}
-settings_input_component : Int -> Coloring -> Svg msg
+settings_input_component : Icon msg
 settings_input_component =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14288,7 +12206,7 @@ settings_input_component =
 
 
 {-| -}
-settings_input_composite : Int -> Coloring -> Svg msg
+settings_input_composite : Icon msg
 settings_input_composite =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14302,7 +12220,7 @@ settings_input_composite =
 
 
 {-| -}
-settings_input_hdmi : Int -> Coloring -> Svg msg
+settings_input_hdmi : Icon msg
 settings_input_hdmi =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14316,7 +12234,7 @@ settings_input_hdmi =
 
 
 {-| -}
-settings_input_svideo : Int -> Coloring -> Svg msg
+settings_input_svideo : Icon msg
 settings_input_svideo =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14330,7 +12248,7 @@ settings_input_svideo =
 
 
 {-| -}
-settings_overscan : Int -> Coloring -> Svg msg
+settings_overscan : Icon msg
 settings_overscan =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14344,7 +12262,7 @@ settings_overscan =
 
 
 {-| -}
-settings_phone : Int -> Coloring -> Svg msg
+settings_phone : Icon msg
 settings_phone =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14358,7 +12276,7 @@ settings_phone =
 
 
 {-| -}
-settings_power : Int -> Coloring -> Svg msg
+settings_power : Icon msg
 settings_power =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14372,7 +12290,7 @@ settings_power =
 
 
 {-| -}
-settings_remote : Int -> Coloring -> Svg msg
+settings_remote : Icon msg
 settings_remote =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14386,7 +12304,7 @@ settings_remote =
 
 
 {-| -}
-settings_system_daydream : Int -> Coloring -> Svg msg
+settings_system_daydream : Icon msg
 settings_system_daydream =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14400,7 +12318,7 @@ settings_system_daydream =
 
 
 {-| -}
-settings_voice : Int -> Coloring -> Svg msg
+settings_voice : Icon msg
 settings_voice =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14414,7 +12332,7 @@ settings_voice =
 
 
 {-| -}
-share : Int -> Coloring -> Svg msg
+share : Icon msg
 share =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14428,7 +12346,7 @@ share =
 
 
 {-| -}
-shop : Int -> Coloring -> Svg msg
+shop : Icon msg
 shop =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14442,7 +12360,7 @@ shop =
 
 
 {-| -}
-shop_two : Int -> Coloring -> Svg msg
+shop_two : Icon msg
 shop_two =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14456,7 +12374,7 @@ shop_two =
 
 
 {-| -}
-shopping_basket : Int -> Coloring -> Svg msg
+shopping_basket : Icon msg
 shopping_basket =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14470,7 +12388,7 @@ shopping_basket =
 
 
 {-| -}
-shopping_cart : Int -> Coloring -> Svg msg
+shopping_cart : Icon msg
 shopping_cart =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14484,7 +12402,7 @@ shopping_cart =
 
 
 {-| -}
-short_text : Int -> Coloring -> Svg msg
+short_text : Icon msg
 short_text =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14495,7 +12413,7 @@ short_text =
 
 
 {-| -}
-show_chart : Int -> Coloring -> Svg msg
+show_chart : Icon msg
 show_chart =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14509,7 +12427,7 @@ show_chart =
 
 
 {-| -}
-shuffle : Int -> Coloring -> Svg msg
+shuffle : Icon msg
 shuffle =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14523,7 +12441,7 @@ shuffle =
 
 
 {-| -}
-shutter_speed : Int -> Coloring -> Svg msg
+shutter_speed : Icon msg
 shutter_speed =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14537,7 +12455,7 @@ shutter_speed =
 
 
 {-| -}
-signal_cellular_4_bar : Int -> Coloring -> Svg msg
+signal_cellular_4_bar : Icon msg
 signal_cellular_4_bar =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14551,7 +12469,7 @@ signal_cellular_4_bar =
 
 
 {-| -}
-signal_cellular_alt : Int -> Coloring -> Svg msg
+signal_cellular_alt : Icon msg
 signal_cellular_alt =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14565,7 +12483,7 @@ signal_cellular_alt =
 
 
 {-| -}
-signal_cellular_connected_no_internet_4_bar : Int -> Coloring -> Svg msg
+signal_cellular_connected_no_internet_4_bar : Icon msg
 signal_cellular_connected_no_internet_4_bar =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14579,7 +12497,7 @@ signal_cellular_connected_no_internet_4_bar =
 
 
 {-| -}
-signal_cellular_no_sim : Int -> Coloring -> Svg msg
+signal_cellular_no_sim : Icon msg
 signal_cellular_no_sim =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14596,7 +12514,7 @@ signal_cellular_no_sim =
 
 
 {-| -}
-signal_cellular_null : Int -> Coloring -> Svg msg
+signal_cellular_null : Icon msg
 signal_cellular_null =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14610,7 +12528,7 @@ signal_cellular_null =
 
 
 {-| -}
-signal_cellular_off : Int -> Coloring -> Svg msg
+signal_cellular_off : Icon msg
 signal_cellular_off =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14624,7 +12542,7 @@ signal_cellular_off =
 
 
 {-| -}
-signal_wifi_4_bar : Int -> Coloring -> Svg msg
+signal_wifi_4_bar : Icon msg
 signal_wifi_4_bar =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14638,7 +12556,7 @@ signal_wifi_4_bar =
 
 
 {-| -}
-signal_wifi_4_bar_lock : Int -> Coloring -> Svg msg
+signal_wifi_4_bar_lock : Icon msg
 signal_wifi_4_bar_lock =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14652,7 +12570,7 @@ signal_wifi_4_bar_lock =
 
 
 {-| -}
-signal_wifi_off : Int -> Coloring -> Svg msg
+signal_wifi_off : Icon msg
 signal_wifi_off =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14666,7 +12584,7 @@ signal_wifi_off =
 
 
 {-| -}
-sim_card : Int -> Coloring -> Svg msg
+sim_card : Icon msg
 sim_card =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14680,7 +12598,7 @@ sim_card =
 
 
 {-| -}
-single_bed : Int -> Coloring -> Svg msg
+single_bed : Icon msg
 single_bed =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -14700,7 +12618,7 @@ single_bed =
 
 
 {-| -}
-skip_next : Int -> Coloring -> Svg msg
+skip_next : Icon msg
 skip_next =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14714,7 +12632,7 @@ skip_next =
 
 
 {-| -}
-skip_previous : Int -> Coloring -> Svg msg
+skip_previous : Icon msg
 skip_previous =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14728,7 +12646,7 @@ skip_previous =
 
 
 {-| -}
-slideshow : Int -> Coloring -> Svg msg
+slideshow : Icon msg
 slideshow =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14742,7 +12660,7 @@ slideshow =
 
 
 {-| -}
-slow_motion_video : Int -> Coloring -> Svg msg
+slow_motion_video : Icon msg
 slow_motion_video =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14756,7 +12674,7 @@ slow_motion_video =
 
 
 {-| -}
-smartphone : Int -> Coloring -> Svg msg
+smartphone : Icon msg
 smartphone =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14770,7 +12688,7 @@ smartphone =
 
 
 {-| -}
-smoke_free : Int -> Coloring -> Svg msg
+smoke_free : Icon msg
 smoke_free =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14784,7 +12702,7 @@ smoke_free =
 
 
 {-| -}
-smoking_rooms : Int -> Coloring -> Svg msg
+smoking_rooms : Icon msg
 smoking_rooms =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14798,7 +12716,7 @@ smoking_rooms =
 
 
 {-| -}
-sms : Int -> Coloring -> Svg msg
+sms : Icon msg
 sms =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14812,7 +12730,7 @@ sms =
 
 
 {-| -}
-sms_failed : Int -> Coloring -> Svg msg
+sms_failed : Icon msg
 sms_failed =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14826,7 +12744,7 @@ sms_failed =
 
 
 {-| -}
-snooze : Int -> Coloring -> Svg msg
+snooze : Icon msg
 snooze =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14840,7 +12758,7 @@ snooze =
 
 
 {-| -}
-sort : Int -> Coloring -> Svg msg
+sort : Icon msg
 sort =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14854,7 +12772,7 @@ sort =
 
 
 {-| -}
-sort_by_alpha : Int -> Coloring -> Svg msg
+sort_by_alpha : Icon msg
 sort_by_alpha =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14868,7 +12786,7 @@ sort_by_alpha =
 
 
 {-| -}
-spa : Int -> Coloring -> Svg msg
+spa : Icon msg
 spa =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14885,7 +12803,7 @@ spa =
 
 
 {-| -}
-space_bar : Int -> Coloring -> Svg msg
+space_bar : Icon msg
 space_bar =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14899,7 +12817,7 @@ space_bar =
 
 
 {-| -}
-speaker : Int -> Coloring -> Svg msg
+speaker : Icon msg
 speaker =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14913,7 +12831,7 @@ speaker =
 
 
 {-| -}
-speaker_group : Int -> Coloring -> Svg msg
+speaker_group : Icon msg
 speaker_group =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14933,7 +12851,7 @@ speaker_group =
 
 
 {-| -}
-speaker_notes : Int -> Coloring -> Svg msg
+speaker_notes : Icon msg
 speaker_notes =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14947,7 +12865,7 @@ speaker_notes =
 
 
 {-| -}
-speaker_notes_off : Int -> Coloring -> Svg msg
+speaker_notes_off : Icon msg
 speaker_notes_off =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14961,7 +12879,7 @@ speaker_notes_off =
 
 
 {-| -}
-speaker_phone : Int -> Coloring -> Svg msg
+speaker_phone : Icon msg
 speaker_phone =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14975,7 +12893,7 @@ speaker_phone =
 
 
 {-| -}
-speed : Int -> Coloring -> Svg msg
+speed : Icon msg
 speed =
     icon
         [ viewBox "0 0 24 24" ]
@@ -14989,7 +12907,7 @@ speed =
 
 
 {-| -}
-spellcheck : Int -> Coloring -> Svg msg
+spellcheck : Icon msg
 spellcheck =
     icon
         [ viewBox "0 0 24 24" ]
@@ -15003,7 +12921,7 @@ spellcheck =
 
 
 {-| -}
-sports : Int -> Coloring -> Svg msg
+sports : Icon msg
 sports =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -15035,7 +12953,7 @@ sports =
 
 
 {-| -}
-sports_baseball : Int -> Coloring -> Svg msg
+sports_baseball : Icon msg
 sports_baseball =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -15073,7 +12991,7 @@ sports_baseball =
 
 
 {-| -}
-sports_basketball : Int -> Coloring -> Svg msg
+sports_basketball : Icon msg
 sports_basketball =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -15141,7 +13059,7 @@ sports_basketball =
 
 
 {-| -}
-sports_cricket : Int -> Coloring -> Svg msg
+sports_cricket : Icon msg
 sports_cricket =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -15173,7 +13091,7 @@ sports_cricket =
 
 
 {-| -}
-sports_esports : Int -> Coloring -> Svg msg
+sports_esports : Icon msg
 sports_esports =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -15196,7 +13114,7 @@ sports_esports =
 
 
 {-| -}
-sports_football : Int -> Coloring -> Svg msg
+sports_football : Icon msg
 sports_football =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -15225,7 +13143,7 @@ sports_football =
 
 
 {-| -}
-sports_golf : Int -> Coloring -> Svg msg
+sports_golf : Icon msg
 sports_golf =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -15260,7 +13178,7 @@ sports_golf =
 
 
 {-| -}
-sports_handball : Int -> Coloring -> Svg msg
+sports_handball : Icon msg
 sports_handball =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -15289,7 +13207,7 @@ sports_handball =
 
 
 {-| -}
-sports_hockey : Int -> Coloring -> Svg msg
+sports_hockey : Icon msg
 sports_hockey =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -15324,7 +13242,7 @@ sports_hockey =
 
 
 {-| -}
-sports_kabaddi : Int -> Coloring -> Svg msg
+sports_kabaddi : Icon msg
 sports_kabaddi =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -15356,7 +13274,7 @@ sports_kabaddi =
 
 
 {-| -}
-sports_mma : Int -> Coloring -> Svg msg
+sports_mma : Icon msg
 sports_mma =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -15382,7 +13300,7 @@ sports_mma =
 
 
 {-| -}
-sports_motorsports : Int -> Coloring -> Svg msg
+sports_motorsports : Icon msg
 sports_motorsports =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -15408,7 +13326,7 @@ sports_motorsports =
 
 
 {-| -}
-sports_rugby : Int -> Coloring -> Svg msg
+sports_rugby : Icon msg
 sports_rugby =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -15431,7 +13349,7 @@ sports_rugby =
 
 
 {-| -}
-sports_soccer : Int -> Coloring -> Svg msg
+sports_soccer : Icon msg
 sports_soccer =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -15454,7 +13372,7 @@ sports_soccer =
 
 
 {-| -}
-sports_tennis : Int -> Coloring -> Svg msg
+sports_tennis : Icon msg
 sports_tennis =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -15477,7 +13395,7 @@ sports_tennis =
 
 
 {-| -}
-sports_volleyball : Int -> Coloring -> Svg msg
+sports_volleyball : Icon msg
 sports_volleyball =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -15515,7 +13433,7 @@ sports_volleyball =
 
 
 {-| -}
-square_foot : Int -> Coloring -> Svg msg
+square_foot : Icon msg
 square_foot =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -15538,7 +13456,7 @@ square_foot =
 
 
 {-| -}
-star : Int -> Coloring -> Svg msg
+star : Icon msg
 star =
     icon
         [ viewBox "0 0 24 24" ]
@@ -15555,7 +13473,7 @@ star =
 
 
 {-| -}
-star_border : Int -> Coloring -> Svg msg
+star_border : Icon msg
 star_border =
     icon
         [ viewBox "0 0 24 24" ]
@@ -15569,7 +13487,7 @@ star_border =
 
 
 {-| -}
-star_half : Int -> Coloring -> Svg msg
+star_half : Icon msg
 star_half =
     icon
         [ viewBox "0 0 24 24" ]
@@ -15580,7 +13498,7 @@ star_half =
 
 
 {-| -}
-stars : Int -> Coloring -> Svg msg
+stars : Icon msg
 stars =
     icon
         [ viewBox "0 0 24 24" ]
@@ -15594,7 +13512,7 @@ stars =
 
 
 {-| -}
-stay_current_landscape : Int -> Coloring -> Svg msg
+stay_current_landscape : Icon msg
 stay_current_landscape =
     icon
         [ viewBox "0 0 24 24" ]
@@ -15608,7 +13526,7 @@ stay_current_landscape =
 
 
 {-| -}
-stay_current_portrait : Int -> Coloring -> Svg msg
+stay_current_portrait : Icon msg
 stay_current_portrait =
     icon
         [ viewBox "0 0 24 24" ]
@@ -15622,7 +13540,7 @@ stay_current_portrait =
 
 
 {-| -}
-stay_primary_landscape : Int -> Coloring -> Svg msg
+stay_primary_landscape : Icon msg
 stay_primary_landscape =
     icon
         [ viewBox "0 0 24 24" ]
@@ -15636,7 +13554,7 @@ stay_primary_landscape =
 
 
 {-| -}
-stay_primary_portrait : Int -> Coloring -> Svg msg
+stay_primary_portrait : Icon msg
 stay_primary_portrait =
     icon
         [ viewBox "0 0 24 24" ]
@@ -15650,7 +13568,7 @@ stay_primary_portrait =
 
 
 {-| -}
-stop : Int -> Coloring -> Svg msg
+stop : Icon msg
 stop =
     icon
         [ viewBox "0 0 24 24" ]
@@ -15664,7 +13582,7 @@ stop =
 
 
 {-| -}
-stop_screen_share : Int -> Coloring -> Svg msg
+stop_screen_share : Icon msg
 stop_screen_share =
     icon
         [ viewBox "0 0 24 24" ]
@@ -15678,7 +13596,7 @@ stop_screen_share =
 
 
 {-| -}
-storage : Int -> Coloring -> Svg msg
+storage : Icon msg
 storage =
     icon
         [ viewBox "0 0 24 24" ]
@@ -15692,7 +13610,7 @@ storage =
 
 
 {-| -}
-store : Int -> Coloring -> Svg msg
+store : Icon msg
 store =
     icon
         [ viewBox "0 0 24 24" ]
@@ -15706,7 +13624,7 @@ store =
 
 
 {-| -}
-store_mall_directory : Int -> Coloring -> Svg msg
+store_mall_directory : Icon msg
 store_mall_directory =
     icon
         [ viewBox "0 0 24 24" ]
@@ -15720,7 +13638,7 @@ store_mall_directory =
 
 
 {-| -}
-storefront : Int -> Coloring -> Svg msg
+storefront : Icon msg
 storefront =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -15746,7 +13664,7 @@ storefront =
 
 
 {-| -}
-straighten : Int -> Coloring -> Svg msg
+straighten : Icon msg
 straighten =
     icon
         [ viewBox "0 0 24 24" ]
@@ -15760,7 +13678,7 @@ straighten =
 
 
 {-| -}
-streetview : Int -> Coloring -> Svg msg
+streetview : Icon msg
 streetview =
     icon
         [ viewBox "0 0 24 24" ]
@@ -15780,7 +13698,7 @@ streetview =
 
 
 {-| -}
-strikethrough_s : Int -> Coloring -> Svg msg
+strikethrough_s : Icon msg
 strikethrough_s =
     icon
         [ viewBox "0 0 24 24" ]
@@ -15791,7 +13709,7 @@ strikethrough_s =
 
 
 {-| -}
-style : Int -> Coloring -> Svg msg
+style : Icon msg
 style =
     icon
         [ viewBox "0 0 24 24" ]
@@ -15805,7 +13723,7 @@ style =
 
 
 {-| -}
-subdirectory_arrow_left : Int -> Coloring -> Svg msg
+subdirectory_arrow_left : Icon msg
 subdirectory_arrow_left =
     icon
         [ viewBox "0 0 24 24" ]
@@ -15819,7 +13737,7 @@ subdirectory_arrow_left =
 
 
 {-| -}
-subdirectory_arrow_right : Int -> Coloring -> Svg msg
+subdirectory_arrow_right : Icon msg
 subdirectory_arrow_right =
     icon
         [ viewBox "0 0 24 24" ]
@@ -15833,7 +13751,7 @@ subdirectory_arrow_right =
 
 
 {-| -}
-subject : Int -> Coloring -> Svg msg
+subject : Icon msg
 subject =
     icon
         [ viewBox "0 0 24 24" ]
@@ -15847,7 +13765,7 @@ subject =
 
 
 {-| -}
-subscriptions : Int -> Coloring -> Svg msg
+subscriptions : Icon msg
 subscriptions =
     icon
         [ viewBox "0 0 24 24" ]
@@ -15861,7 +13779,7 @@ subscriptions =
 
 
 {-| -}
-subtitles : Int -> Coloring -> Svg msg
+subtitles : Icon msg
 subtitles =
     icon
         [ viewBox "0 0 24 24" ]
@@ -15875,7 +13793,7 @@ subtitles =
 
 
 {-| -}
-subway : Int -> Coloring -> Svg msg
+subway : Icon msg
 subway =
     icon
         [ viewBox "0 0 24 24" ]
@@ -15895,7 +13813,7 @@ subway =
 
 
 {-| -}
-supervised_user_circle : Int -> Coloring -> Svg msg
+supervised_user_circle : Icon msg
 supervised_user_circle =
     icon
         [ viewBox "0 0 24 24" ]
@@ -15909,7 +13827,7 @@ supervised_user_circle =
 
 
 {-| -}
-supervisor_account : Int -> Coloring -> Svg msg
+supervisor_account : Icon msg
 supervisor_account =
     icon
         [ viewBox "0 0 24 24" ]
@@ -15923,7 +13841,7 @@ supervisor_account =
 
 
 {-| -}
-surround_sound : Int -> Coloring -> Svg msg
+surround_sound : Icon msg
 surround_sound =
     icon
         [ viewBox "0 0 24 24" ]
@@ -15937,7 +13855,7 @@ surround_sound =
 
 
 {-| -}
-swap_calls : Int -> Coloring -> Svg msg
+swap_calls : Icon msg
 swap_calls =
     icon
         [ viewBox "0 0 24 24" ]
@@ -15951,7 +13869,7 @@ swap_calls =
 
 
 {-| -}
-swap_horiz : Int -> Coloring -> Svg msg
+swap_horiz : Icon msg
 swap_horiz =
     icon
         [ viewBox "0 0 24 24" ]
@@ -15965,7 +13883,7 @@ swap_horiz =
 
 
 {-| -}
-swap_horizontal_circle : Int -> Coloring -> Svg msg
+swap_horizontal_circle : Icon msg
 swap_horizontal_circle =
     icon
         [ viewBox "0 0 24 24" ]
@@ -15979,7 +13897,7 @@ swap_horizontal_circle =
 
 
 {-| -}
-swap_vert : Int -> Coloring -> Svg msg
+swap_vert : Icon msg
 swap_vert =
     icon
         [ viewBox "0 0 24 24" ]
@@ -15993,7 +13911,7 @@ swap_vert =
 
 
 {-| -}
-swap_vertical_circle : Int -> Coloring -> Svg msg
+swap_vertical_circle : Icon msg
 swap_vertical_circle =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16007,7 +13925,7 @@ swap_vertical_circle =
 
 
 {-| -}
-switch_camera : Int -> Coloring -> Svg msg
+switch_camera : Icon msg
 switch_camera =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16021,7 +13939,7 @@ switch_camera =
 
 
 {-| -}
-switch_video : Int -> Coloring -> Svg msg
+switch_video : Icon msg
 switch_video =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16035,7 +13953,7 @@ switch_video =
 
 
 {-| -}
-sync : Int -> Coloring -> Svg msg
+sync : Icon msg
 sync =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16049,7 +13967,7 @@ sync =
 
 
 {-| -}
-sync_alt : Int -> Coloring -> Svg msg
+sync_alt : Icon msg
 sync_alt =
     icon
         [ viewBox "0 0 24 24", enableBackground "new 0 0 24 24" ]
@@ -16078,7 +13996,7 @@ sync_alt =
 
 
 {-| -}
-sync_disabled : Int -> Coloring -> Svg msg
+sync_disabled : Icon msg
 sync_disabled =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16092,7 +14010,7 @@ sync_disabled =
 
 
 {-| -}
-sync_problem : Int -> Coloring -> Svg msg
+sync_problem : Icon msg
 sync_problem =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16106,7 +14024,7 @@ sync_problem =
 
 
 {-| -}
-system_update : Int -> Coloring -> Svg msg
+system_update : Icon msg
 system_update =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16120,7 +14038,7 @@ system_update =
 
 
 {-| -}
-system_update_alt : Int -> Coloring -> Svg msg
+system_update_alt : Icon msg
 system_update_alt =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16134,7 +14052,7 @@ system_update_alt =
 
 
 {-| -}
-tab : Int -> Coloring -> Svg msg
+tab : Icon msg
 tab =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16148,7 +14066,7 @@ tab =
 
 
 {-| -}
-tab_unselected : Int -> Coloring -> Svg msg
+tab_unselected : Icon msg
 tab_unselected =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16162,7 +14080,7 @@ tab_unselected =
 
 
 {-| -}
-table_chart : Int -> Coloring -> Svg msg
+table_chart : Icon msg
 table_chart =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16176,7 +14094,7 @@ table_chart =
 
 
 {-| -}
-tablet : Int -> Coloring -> Svg msg
+tablet : Icon msg
 tablet =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16190,7 +14108,7 @@ tablet =
 
 
 {-| -}
-tablet_android : Int -> Coloring -> Svg msg
+tablet_android : Icon msg
 tablet_android =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16201,7 +14119,7 @@ tablet_android =
 
 
 {-| -}
-tablet_mac : Int -> Coloring -> Svg msg
+tablet_mac : Icon msg
 tablet_mac =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16212,7 +14130,7 @@ tablet_mac =
 
 
 {-| -}
-tag_faces : Int -> Coloring -> Svg msg
+tag_faces : Icon msg
 tag_faces =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16226,7 +14144,7 @@ tag_faces =
 
 
 {-| -}
-tap_and_play : Int -> Coloring -> Svg msg
+tap_and_play : Icon msg
 tap_and_play =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16240,7 +14158,7 @@ tap_and_play =
 
 
 {-| -}
-terrain : Int -> Coloring -> Svg msg
+terrain : Icon msg
 terrain =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16254,7 +14172,7 @@ terrain =
 
 
 {-| -}
-text_fields : Int -> Coloring -> Svg msg
+text_fields : Icon msg
 text_fields =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16265,7 +14183,7 @@ text_fields =
 
 
 {-| -}
-text_format : Int -> Coloring -> Svg msg
+text_format : Icon msg
 text_format =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16279,7 +14197,7 @@ text_format =
 
 
 {-| -}
-text_rotate_up : Int -> Coloring -> Svg msg
+text_rotate_up : Icon msg
 text_rotate_up =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16293,7 +14211,7 @@ text_rotate_up =
 
 
 {-| -}
-text_rotate_vertical : Int -> Coloring -> Svg msg
+text_rotate_vertical : Icon msg
 text_rotate_vertical =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16307,7 +14225,7 @@ text_rotate_vertical =
 
 
 {-| -}
-text_rotation_angledown : Int -> Coloring -> Svg msg
+text_rotation_angledown : Icon msg
 text_rotation_angledown =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16321,7 +14239,7 @@ text_rotation_angledown =
 
 
 {-| -}
-text_rotation_angleup : Int -> Coloring -> Svg msg
+text_rotation_angleup : Icon msg
 text_rotation_angleup =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16335,7 +14253,7 @@ text_rotation_angleup =
 
 
 {-| -}
-text_rotation_down : Int -> Coloring -> Svg msg
+text_rotation_down : Icon msg
 text_rotation_down =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16349,7 +14267,7 @@ text_rotation_down =
 
 
 {-| -}
-text_rotation_none : Int -> Coloring -> Svg msg
+text_rotation_none : Icon msg
 text_rotation_none =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16363,7 +14281,7 @@ text_rotation_none =
 
 
 {-| -}
-textsms : Int -> Coloring -> Svg msg
+textsms : Icon msg
 textsms =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16377,7 +14295,7 @@ textsms =
 
 
 {-| -}
-texture : Int -> Coloring -> Svg msg
+texture : Icon msg
 texture =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16391,7 +14309,7 @@ texture =
 
 
 {-| -}
-theaters : Int -> Coloring -> Svg msg
+theaters : Icon msg
 theaters =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16405,7 +14323,7 @@ theaters =
 
 
 {-| -}
-thumb_down : Int -> Coloring -> Svg msg
+thumb_down : Icon msg
 thumb_down =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16419,7 +14337,7 @@ thumb_down =
 
 
 {-| -}
-thumb_down_alt : Int -> Coloring -> Svg msg
+thumb_down_alt : Icon msg
 thumb_down_alt =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16433,7 +14351,7 @@ thumb_down_alt =
 
 
 {-| -}
-thumb_up : Int -> Coloring -> Svg msg
+thumb_up : Icon msg
 thumb_up =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16447,7 +14365,7 @@ thumb_up =
 
 
 {-| -}
-thumb_up_alt : Int -> Coloring -> Svg msg
+thumb_up_alt : Icon msg
 thumb_up_alt =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16461,7 +14379,7 @@ thumb_up_alt =
 
 
 {-| -}
-thumbs_up_down : Int -> Coloring -> Svg msg
+thumbs_up_down : Icon msg
 thumbs_up_down =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16475,7 +14393,7 @@ thumbs_up_down =
 
 
 {-| -}
-time_to_leave : Int -> Coloring -> Svg msg
+time_to_leave : Icon msg
 time_to_leave =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16489,7 +14407,7 @@ time_to_leave =
 
 
 {-| -}
-timelapse : Int -> Coloring -> Svg msg
+timelapse : Icon msg
 timelapse =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16503,7 +14421,7 @@ timelapse =
 
 
 {-| -}
-timeline : Int -> Coloring -> Svg msg
+timeline : Icon msg
 timeline =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16514,7 +14432,7 @@ timeline =
 
 
 {-| -}
-timer : Int -> Coloring -> Svg msg
+timer : Icon msg
 timer =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16528,7 +14446,7 @@ timer =
 
 
 {-| -}
-timer_10 : Int -> Coloring -> Svg msg
+timer_10 : Icon msg
 timer_10 =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16542,7 +14460,7 @@ timer_10 =
 
 
 {-| -}
-timer_3 : Int -> Coloring -> Svg msg
+timer_3 : Icon msg
 timer_3 =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16556,7 +14474,7 @@ timer_3 =
 
 
 {-| -}
-timer_off : Int -> Coloring -> Svg msg
+timer_off : Icon msg
 timer_off =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16570,7 +14488,7 @@ timer_off =
 
 
 {-| -}
-title : Int -> Coloring -> Svg msg
+title : Icon msg
 title =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16584,7 +14502,7 @@ title =
 
 
 {-| -}
-toc : Int -> Coloring -> Svg msg
+toc : Icon msg
 toc =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16598,7 +14516,7 @@ toc =
 
 
 {-| -}
-today : Int -> Coloring -> Svg msg
+today : Icon msg
 today =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16612,7 +14530,7 @@ today =
 
 
 {-| -}
-toggle_off : Int -> Coloring -> Svg msg
+toggle_off : Icon msg
 toggle_off =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16626,7 +14544,7 @@ toggle_off =
 
 
 {-| -}
-toggle_on : Int -> Coloring -> Svg msg
+toggle_on : Icon msg
 toggle_on =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16640,7 +14558,7 @@ toggle_on =
 
 
 {-| -}
-toll : Int -> Coloring -> Svg msg
+toll : Icon msg
 toll =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16657,7 +14575,7 @@ toll =
 
 
 {-| -}
-tonality : Int -> Coloring -> Svg msg
+tonality : Icon msg
 tonality =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16671,7 +14589,7 @@ tonality =
 
 
 {-| -}
-touch_app : Int -> Coloring -> Svg msg
+touch_app : Icon msg
 touch_app =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16682,7 +14600,7 @@ touch_app =
 
 
 {-| -}
-toys : Int -> Coloring -> Svg msg
+toys : Icon msg
 toys =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16696,7 +14614,7 @@ toys =
 
 
 {-| -}
-track_changes : Int -> Coloring -> Svg msg
+track_changes : Icon msg
 track_changes =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16710,7 +14628,7 @@ track_changes =
 
 
 {-| -}
-traffic : Int -> Coloring -> Svg msg
+traffic : Icon msg
 traffic =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16724,7 +14642,7 @@ traffic =
 
 
 {-| -}
-train : Int -> Coloring -> Svg msg
+train : Icon msg
 train =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16738,7 +14656,7 @@ train =
 
 
 {-| -}
-tram : Int -> Coloring -> Svg msg
+tram : Icon msg
 tram =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16752,7 +14670,7 @@ tram =
 
 
 {-| -}
-transfer_within_a_station : Int -> Coloring -> Svg msg
+transfer_within_a_station : Icon msg
 transfer_within_a_station =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16766,7 +14684,7 @@ transfer_within_a_station =
 
 
 {-| -}
-transform : Int -> Coloring -> Svg msg
+transform : Icon msg
 transform =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16780,7 +14698,7 @@ transform =
 
 
 {-| -}
-transit_enterexit : Int -> Coloring -> Svg msg
+transit_enterexit : Icon msg
 transit_enterexit =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16794,7 +14712,7 @@ transit_enterexit =
 
 
 {-| -}
-translate : Int -> Coloring -> Svg msg
+translate : Icon msg
 translate =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16808,7 +14726,7 @@ translate =
 
 
 {-| -}
-trending_down : Int -> Coloring -> Svg msg
+trending_down : Icon msg
 trending_down =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16822,7 +14740,7 @@ trending_down =
 
 
 {-| -}
-trending_flat : Int -> Coloring -> Svg msg
+trending_flat : Icon msg
 trending_flat =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16836,7 +14754,7 @@ trending_flat =
 
 
 {-| -}
-trending_up : Int -> Coloring -> Svg msg
+trending_up : Icon msg
 trending_up =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16850,7 +14768,7 @@ trending_up =
 
 
 {-| -}
-trip_origin : Int -> Coloring -> Svg msg
+trip_origin : Icon msg
 trip_origin =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16867,7 +14785,7 @@ trip_origin =
 
 
 {-| -}
-tune : Int -> Coloring -> Svg msg
+tune : Icon msg
 tune =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16881,7 +14799,7 @@ tune =
 
 
 {-| -}
-turned_in : Int -> Coloring -> Svg msg
+turned_in : Icon msg
 turned_in =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16895,7 +14813,7 @@ turned_in =
 
 
 {-| -}
-turned_in_not : Int -> Coloring -> Svg msg
+turned_in_not : Icon msg
 turned_in_not =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16909,7 +14827,7 @@ turned_in_not =
 
 
 {-| -}
-tv : Int -> Coloring -> Svg msg
+tv : Icon msg
 tv =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16923,7 +14841,7 @@ tv =
 
 
 {-| -}
-tv_off : Int -> Coloring -> Svg msg
+tv_off : Icon msg
 tv_off =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16937,7 +14855,7 @@ tv_off =
 
 
 {-| -}
-unarchive : Int -> Coloring -> Svg msg
+unarchive : Icon msg
 unarchive =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16948,7 +14866,7 @@ unarchive =
 
 
 {-| -}
-undo : Int -> Coloring -> Svg msg
+undo : Icon msg
 undo =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16962,7 +14880,7 @@ undo =
 
 
 {-| -}
-unfold_less : Int -> Coloring -> Svg msg
+unfold_less : Icon msg
 unfold_less =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16976,7 +14894,7 @@ unfold_less =
 
 
 {-| -}
-unfold_more : Int -> Coloring -> Svg msg
+unfold_more : Icon msg
 unfold_more =
     icon
         [ viewBox "0 0 24 24" ]
@@ -16990,7 +14908,7 @@ unfold_more =
 
 
 {-| -}
-unsubscribe : Int -> Coloring -> Svg msg
+unsubscribe : Icon msg
 unsubscribe =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17001,7 +14919,7 @@ unsubscribe =
 
 
 {-| -}
-update : Int -> Coloring -> Svg msg
+update : Icon msg
 update =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17012,7 +14930,7 @@ update =
 
 
 {-| -}
-usb : Int -> Coloring -> Svg msg
+usb : Icon msg
 usb =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17026,7 +14944,7 @@ usb =
 
 
 {-| -}
-verified_user : Int -> Coloring -> Svg msg
+verified_user : Icon msg
 verified_user =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17040,7 +14958,7 @@ verified_user =
 
 
 {-| -}
-vertical_align_bottom : Int -> Coloring -> Svg msg
+vertical_align_bottom : Icon msg
 vertical_align_bottom =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17054,7 +14972,7 @@ vertical_align_bottom =
 
 
 {-| -}
-vertical_align_center : Int -> Coloring -> Svg msg
+vertical_align_center : Icon msg
 vertical_align_center =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17068,7 +14986,7 @@ vertical_align_center =
 
 
 {-| -}
-vertical_align_top : Int -> Coloring -> Svg msg
+vertical_align_top : Icon msg
 vertical_align_top =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17082,7 +15000,7 @@ vertical_align_top =
 
 
 {-| -}
-vertical_split : Int -> Coloring -> Svg msg
+vertical_split : Icon msg
 vertical_split =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17096,7 +15014,7 @@ vertical_split =
 
 
 {-| -}
-vibration : Int -> Coloring -> Svg msg
+vibration : Icon msg
 vibration =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17110,7 +15028,7 @@ vibration =
 
 
 {-| -}
-video_call : Int -> Coloring -> Svg msg
+video_call : Icon msg
 video_call =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17124,7 +15042,7 @@ video_call =
 
 
 {-| -}
-video_label : Int -> Coloring -> Svg msg
+video_label : Icon msg
 video_label =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17138,7 +15056,7 @@ video_label =
 
 
 {-| -}
-video_library : Int -> Coloring -> Svg msg
+video_library : Icon msg
 video_library =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17152,7 +15070,7 @@ video_library =
 
 
 {-| -}
-videocam : Int -> Coloring -> Svg msg
+videocam : Icon msg
 videocam =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17166,7 +15084,7 @@ videocam =
 
 
 {-| -}
-videocam_off : Int -> Coloring -> Svg msg
+videocam_off : Icon msg
 videocam_off =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17180,7 +15098,7 @@ videocam_off =
 
 
 {-| -}
-videogame_asset : Int -> Coloring -> Svg msg
+videogame_asset : Icon msg
 videogame_asset =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17194,7 +15112,7 @@ videogame_asset =
 
 
 {-| -}
-view_agenda : Int -> Coloring -> Svg msg
+view_agenda : Icon msg
 view_agenda =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17208,7 +15126,7 @@ view_agenda =
 
 
 {-| -}
-view_array : Int -> Coloring -> Svg msg
+view_array : Icon msg
 view_array =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17222,7 +15140,7 @@ view_array =
 
 
 {-| -}
-view_carousel : Int -> Coloring -> Svg msg
+view_carousel : Icon msg
 view_carousel =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17236,7 +15154,7 @@ view_carousel =
 
 
 {-| -}
-view_column : Int -> Coloring -> Svg msg
+view_column : Icon msg
 view_column =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17250,7 +15168,7 @@ view_column =
 
 
 {-| -}
-view_comfy : Int -> Coloring -> Svg msg
+view_comfy : Icon msg
 view_comfy =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17264,7 +15182,7 @@ view_comfy =
 
 
 {-| -}
-view_compact : Int -> Coloring -> Svg msg
+view_compact : Icon msg
 view_compact =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17278,7 +15196,7 @@ view_compact =
 
 
 {-| -}
-view_day : Int -> Coloring -> Svg msg
+view_day : Icon msg
 view_day =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17292,7 +15210,7 @@ view_day =
 
 
 {-| -}
-view_headline : Int -> Coloring -> Svg msg
+view_headline : Icon msg
 view_headline =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17306,7 +15224,7 @@ view_headline =
 
 
 {-| -}
-view_list : Int -> Coloring -> Svg msg
+view_list : Icon msg
 view_list =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17320,7 +15238,7 @@ view_list =
 
 
 {-| -}
-view_module : Int -> Coloring -> Svg msg
+view_module : Icon msg
 view_module =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17334,7 +15252,7 @@ view_module =
 
 
 {-| -}
-view_quilt : Int -> Coloring -> Svg msg
+view_quilt : Icon msg
 view_quilt =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17348,7 +15266,7 @@ view_quilt =
 
 
 {-| -}
-view_stream : Int -> Coloring -> Svg msg
+view_stream : Icon msg
 view_stream =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17362,7 +15280,7 @@ view_stream =
 
 
 {-| -}
-view_week : Int -> Coloring -> Svg msg
+view_week : Icon msg
 view_week =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17376,7 +15294,7 @@ view_week =
 
 
 {-| -}
-vignette : Int -> Coloring -> Svg msg
+vignette : Icon msg
 vignette =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17390,7 +15308,7 @@ vignette =
 
 
 {-| -}
-visibility : Int -> Coloring -> Svg msg
+visibility : Icon msg
 visibility =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17404,7 +15322,7 @@ visibility =
 
 
 {-| -}
-visibility_off : Int -> Coloring -> Svg msg
+visibility_off : Icon msg
 visibility_off =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17418,7 +15336,7 @@ visibility_off =
 
 
 {-| -}
-voice_chat : Int -> Coloring -> Svg msg
+voice_chat : Icon msg
 voice_chat =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17432,7 +15350,7 @@ voice_chat =
 
 
 {-| -}
-voice_over_off : Int -> Coloring -> Svg msg
+voice_over_off : Icon msg
 voice_over_off =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17446,7 +15364,7 @@ voice_over_off =
 
 
 {-| -}
-voicemail : Int -> Coloring -> Svg msg
+voicemail : Icon msg
 voicemail =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17460,7 +15378,7 @@ voicemail =
 
 
 {-| -}
-volume_down : Int -> Coloring -> Svg msg
+volume_down : Icon msg
 volume_down =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17474,7 +15392,7 @@ volume_down =
 
 
 {-| -}
-volume_mute : Int -> Coloring -> Svg msg
+volume_mute : Icon msg
 volume_mute =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17488,7 +15406,7 @@ volume_mute =
 
 
 {-| -}
-volume_off : Int -> Coloring -> Svg msg
+volume_off : Icon msg
 volume_off =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17502,7 +15420,7 @@ volume_off =
 
 
 {-| -}
-volume_up : Int -> Coloring -> Svg msg
+volume_up : Icon msg
 volume_up =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17516,7 +15434,7 @@ volume_up =
 
 
 {-| -}
-vpn_key : Int -> Coloring -> Svg msg
+vpn_key : Icon msg
 vpn_key =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17530,7 +15448,7 @@ vpn_key =
 
 
 {-| -}
-vpn_lock : Int -> Coloring -> Svg msg
+vpn_lock : Icon msg
 vpn_lock =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17544,7 +15462,7 @@ vpn_lock =
 
 
 {-| -}
-wallpaper : Int -> Coloring -> Svg msg
+wallpaper : Icon msg
 wallpaper =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17558,7 +15476,7 @@ wallpaper =
 
 
 {-| -}
-warning : Int -> Coloring -> Svg msg
+warning : Icon msg
 warning =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17572,7 +15490,7 @@ warning =
 
 
 {-| -}
-watch : Int -> Coloring -> Svg msg
+watch : Icon msg
 watch =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17586,7 +15504,7 @@ watch =
 
 
 {-| -}
-watch_later : Int -> Coloring -> Svg msg
+watch_later : Icon msg
 watch_later =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17597,7 +15515,7 @@ watch_later =
 
 
 {-| -}
-waves : Int -> Coloring -> Svg msg
+waves : Icon msg
 waves =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17608,7 +15526,7 @@ waves =
 
 
 {-| -}
-wb_auto : Int -> Coloring -> Svg msg
+wb_auto : Icon msg
 wb_auto =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17622,7 +15540,7 @@ wb_auto =
 
 
 {-| -}
-wb_cloudy : Int -> Coloring -> Svg msg
+wb_cloudy : Icon msg
 wb_cloudy =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17636,7 +15554,7 @@ wb_cloudy =
 
 
 {-| -}
-wb_incandescent : Int -> Coloring -> Svg msg
+wb_incandescent : Icon msg
 wb_incandescent =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17650,7 +15568,7 @@ wb_incandescent =
 
 
 {-| -}
-wb_iridescent : Int -> Coloring -> Svg msg
+wb_iridescent : Icon msg
 wb_iridescent =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17664,7 +15582,7 @@ wb_iridescent =
 
 
 {-| -}
-wb_sunny : Int -> Coloring -> Svg msg
+wb_sunny : Icon msg
 wb_sunny =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17678,7 +15596,7 @@ wb_sunny =
 
 
 {-| -}
-wc : Int -> Coloring -> Svg msg
+wc : Icon msg
 wc =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17692,7 +15610,7 @@ wc =
 
 
 {-| -}
-web : Int -> Coloring -> Svg msg
+web : Icon msg
 web =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17706,7 +15624,7 @@ web =
 
 
 {-| -}
-web_asset : Int -> Coloring -> Svg msg
+web_asset : Icon msg
 web_asset =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17720,7 +15638,7 @@ web_asset =
 
 
 {-| -}
-whatshot : Int -> Coloring -> Svg msg
+whatshot : Icon msg
 whatshot =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17734,7 +15652,7 @@ whatshot =
 
 
 {-| -}
-where_to_vote : Int -> Coloring -> Svg msg
+where_to_vote : Icon msg
 where_to_vote =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17748,7 +15666,7 @@ where_to_vote =
 
 
 {-| -}
-widgets : Int -> Coloring -> Svg msg
+widgets : Icon msg
 widgets =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17762,7 +15680,7 @@ widgets =
 
 
 {-| -}
-wifi : Int -> Coloring -> Svg msg
+wifi : Icon msg
 wifi =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17776,7 +15694,7 @@ wifi =
 
 
 {-| -}
-wifi_lock : Int -> Coloring -> Svg msg
+wifi_lock : Icon msg
 wifi_lock =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17790,7 +15708,7 @@ wifi_lock =
 
 
 {-| -}
-wifi_off : Int -> Coloring -> Svg msg
+wifi_off : Icon msg
 wifi_off =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17804,7 +15722,7 @@ wifi_off =
 
 
 {-| -}
-wifi_tethering : Int -> Coloring -> Svg msg
+wifi_tethering : Icon msg
 wifi_tethering =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17818,7 +15736,7 @@ wifi_tethering =
 
 
 {-| -}
-work : Int -> Coloring -> Svg msg
+work : Icon msg
 work =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17832,7 +15750,7 @@ work =
 
 
 {-| -}
-work_off : Int -> Coloring -> Svg msg
+work_off : Icon msg
 work_off =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17846,7 +15764,7 @@ work_off =
 
 
 {-| -}
-work_outline : Int -> Coloring -> Svg msg
+work_outline : Icon msg
 work_outline =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17860,7 +15778,7 @@ work_outline =
 
 
 {-| -}
-wrap_text : Int -> Coloring -> Svg msg
+wrap_text : Icon msg
 wrap_text =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17874,7 +15792,7 @@ wrap_text =
 
 
 {-| -}
-youtube_searched_for : Int -> Coloring -> Svg msg
+youtube_searched_for : Icon msg
 youtube_searched_for =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17888,7 +15806,7 @@ youtube_searched_for =
 
 
 {-| -}
-zoom_in : Int -> Coloring -> Svg msg
+zoom_in : Icon msg
 zoom_in =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17905,7 +15823,7 @@ zoom_in =
 
 
 {-| -}
-zoom_out : Int -> Coloring -> Svg msg
+zoom_out : Icon msg
 zoom_out =
     icon
         [ viewBox "0 0 24 24" ]
@@ -17919,7 +15837,7 @@ zoom_out =
 
 
 {-| -}
-zoom_out_map : Int -> Coloring -> Svg msg
+zoom_out_map : Icon msg
 zoom_out_map =
     icon
         [ viewBox "0 0 24 24" ]

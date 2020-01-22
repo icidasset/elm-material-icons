@@ -1,12 +1,13 @@
-module Material.Icons.Coloring exposing (Coloring(..))
+module Material.Icons.Types exposing (Coloring(..), Icon)
 
 {-|
 
-@docs Coloring
+@docs Coloring, Icon
 
 -}
 
 import Color exposing (Color)
+import Svg exposing (Svg)
 
 
 
@@ -18,3 +19,9 @@ import Color exposing (Color)
 type Coloring
     = Color Color
     | Inherit
+
+
+{-| Type alias for our icons.
+-}
+type alias Icon msg =
+    Int -> Coloring -> Svg msg

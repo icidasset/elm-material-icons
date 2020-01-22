@@ -4,9 +4,9 @@ This package includes all the [Material icons](https://material.io/tools/icons/)
 
 ```elm
 import Color
-import Material.Icons.Coloring exposing (Coloring(..))
 import Material.Icons as Filled exposing (offline_bolt)
 import Material.Icons.Outlined as Outlined exposing (offline_bolt)
+import Material.Icons.Types exposing (Coloring(..))
 
 -- icon size coloring
 Filled.offline_bolt 16 (Color <| Color.rgb 96 181 204)
