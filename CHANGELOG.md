@@ -1,5 +1,9 @@
 # Changelog
 
+#### 3.1.0
+
+- Synced icons with material.io
+
 #### 3.0.0
 
 - __Now contains all the available themes from material.io__

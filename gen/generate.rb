@@ -118,7 +118,7 @@ end
 # =====
 
 # Clean up directories
-# FileUtils.rm_rf SOT_DIR
+FileUtils.rm_rf SOT_DIR
 FileUtils.mkdir_p "#{SOT_DIR}/icons"
 
 FileUtils.rm_rf OUT_DIR
