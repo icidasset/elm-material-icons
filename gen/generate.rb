@@ -79,6 +79,8 @@ def icon_function_name(name)
   when "360" ; "three_sixty"
   when "3d_rotation" ; "three_d_rotation"
   when "4k" ; "four_k"
+  when "5g" ; "five_g"
+  when "6_ft_apart" ; "six_ft_apart"
   else
     if name[0] =~ /\d/
       raise "An icon can't have a number as the first character (icon: `#{name}`)"
@@ -211,7 +213,14 @@ def generate(family)
   import Material.Icons.Types exposing (Coloring, Icon)
   import Material.Icons.Internal exposing (icon)
   import Svg exposing (Svg, circle, g, path, polygon, polyline, rect, use, svg)
-  import Svg.Attributes exposing (baseProfile, clipRule, cx, cy, d, enableBackground, fill, fillOpacity, fillRule, id, overflow, points, r, viewBox, xlinkHref)
+  import Svg.Attributes as A exposing (baseProfile, clipRule, cx, cy, d, enableBackground, fill, fillOpacity, fillRule, id, overflow, points, r, viewBox, x1, x2, xlinkHref, y1, y2)
+
+
+  o : String -> Svg.Attribute msg
+  o = A.opacity
+
+  t : String -> Svg.Attribute msg
+  t = A.transform
   HERE
 
   # Process each icon
@@ -232,6 +241,8 @@ def generate(family)
                         .yield_self { |a| a.gsub("enable-background", "enableBackground") }
                         .yield_self { |a| a.gsub("fill-opacity", "fillOpacity") }
                         .yield_self { |a| a.gsub("fill-rule", "fillRule") }
+                        .yield_self { |a| a.gsub("opacity \"", "o \"") }
+                        .yield_self { |a| a.gsub("transform \"", "t \"") }
                         .yield_self { |a| a.gsub("viewbox", "viewBox") }
                         .yield_self { |a| a.gsub("xlink:href", "xlinkHref") }
                         .yield_self { |a| a.gsub(/\n/, "\n    ") }
