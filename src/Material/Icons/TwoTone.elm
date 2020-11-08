@@ -1,11 +1,11 @@
 module Material.Icons.TwoTone exposing
-    ( three_d_rotation, accessibility, accessibility_new, accessible, accessible_forward, account_balance, account_balance_wallet, account_box, account_circle, add_shopping_cart, add_task, addchart, admin_panel_settings, alarm, alarm_add, alarm_off, alarm_on, all_inbox, all_out, analytics, anchor, android, announcement, api, app_blocking, arrow_circle_down, arrow_circle_up, arrow_right_alt, article, aspect_ratio, assessment, assignment, assignment_ind, assignment_late, assignment_return, assignment_returned, assignment_turned_in, autorenew, backup, backup_table, batch_prediction, book, book_online, bookmark, bookmark_border, bookmarks, bug_report, build, build_circle, cached, calendar_today, calendar_view_day, camera_enhance, cancel_schedule_send, card_giftcard, card_membership, card_travel, change_history, check_circle, check_circle_outline, chrome_reader_mode, class, close_fullscreen, code, comment_bank, commute, compare_arrows, contact_page, contact_support, contactless, copyright, credit_card, dashboard, date_range, delete, delete_forever, delete_outline, description, disabled_by_default, dns, done, done_all, done_outline, donut_large, donut_small, drag_indicator, dynamic_form, eco, eject, euro_symbol, event, event_seat, exit_to_app, explore, explore_off, extension, face, fact_check, favorite, favorite_border, feedback, filter_alt, find_in_page, find_replace, fingerprint, flaky, flight_land, flight_takeoff, flip_to_back, flip_to_front, g_translate, gavel, get_app, gif, grade, grading, group_work, help, help_center, help_outline, highlight_alt, highlight_off, history, history_toggle_off, home, horizontal_split, hourglass_disabled, hourglass_empty, hourglass_full, http, https, important_devices, info, input, integration_instructions, invert_colors, label, label_important, label_off, language, launch, leaderboard, line_style, line_weight, list, lock, lock_open, login, loyalty, markunread_mailbox, maximize, mediation, minimize, model_training, next_plan, not_accessible, not_started, note_add, offline_bolt, offline_pin, online_prediction, opacity, open_in_browser, open_in_full, open_in_new, open_with, outbond, outlet, pageview, pan_tool, payment, pending, pending_actions, perm_camera_mic, perm_contact_calendar, perm_data_setting, perm_device_information, perm_identity, perm_media, perm_phone_msg, perm_scan_wifi, pets, picture_in_picture, picture_in_picture_alt, plagiarism, play_for_work, polymer, power_settings_new, pregnant_woman, preview, print, privacy_tip, published_with_changes, query_builder, question_answer, quickreply, receipt, record_voice_over, redeem, remove_shopping_cart, reorder, report_problem, request_page, restore, restore_from_trash, restore_page, room, rounded_corner, rowing, rule, schedule, search, search_off, settings, settings_applications, settings_backup_restore, settings_bluetooth, settings_brightness, settings_cell, settings_ethernet, settings_input_antenna, settings_input_component, settings_input_composite, settings_input_hdmi, settings_input_svideo, settings_overscan, settings_phone, settings_power, settings_remote, settings_voice, shop, shop_two, shopping_bag, shopping_basket, shopping_cart, smart_button, source, speaker_notes, speaker_notes_off, spellcheck, star_rate, stars, sticky_note_2, store, subject, subtitles_off, supervised_user_circle, supervisor_account, support, swap_horiz, swap_horizontal_circle, swap_vert, swap_vertical_circle, sync_alt, system_update_alt, tab, tab_unselected, table_view, text_rotate_up, text_rotate_vertical, text_rotation_angledown, text_rotation_angleup, text_rotation_down, text_rotation_none, theaters, thumb_down, thumb_up, thumbs_up_down, timeline, toc, today, toll, touch_app, tour, track_changes, translate, trending_down, trending_flat, trending_up, turned_in, turned_in_not, unpublished, update, upgrade, verified, verified_user, vertical_split, view_agenda, view_array, view_carousel, view_column, view_day, view_headline, view_list, view_module, view_quilt, view_sidebar, view_stream, view_week, visibility, visibility_off, voice_over_off, watch_later, wifi_protected_setup, work, work_off, work_outline, wysiwyg, youtube_searched_for, zoom_in, zoom_out
+    ( three_d_rotation, accessibility, accessibility_new, accessible, accessible_forward, account_balance, account_balance_wallet, account_box, account_circle, add_shopping_cart, add_task, addchart, admin_panel_settings, alarm, alarm_add, alarm_off, alarm_on, all_inbox, all_out, analytics, anchor, android, announcement, api, app_blocking, arrow_circle_down, arrow_circle_up, arrow_right_alt, article, aspect_ratio, assessment, assignment, assignment_ind, assignment_late, assignment_return, assignment_returned, assignment_turned_in, autorenew, backup, backup_table, batch_prediction, book, book_online, bookmark, bookmark_border, bookmarks, bug_report, build, build_circle, cached, calendar_today, calendar_view_day, camera_enhance, cancel_schedule_send, card_giftcard, card_membership, card_travel, change_history, check_circle, check_circle_outline, chrome_reader_mode, class, close_fullscreen, code, comment_bank, commute, compare_arrows, contact_page, contact_support, contactless, copyright, credit_card, dashboard, date_range, delete, delete_forever, delete_outline, description, disabled_by_default, dns, done, done_all, done_outline, donut_large, donut_small, drag_indicator, dynamic_form, eco, eject, euro_symbol, event, event_seat, exit_to_app, explore, explore_off, extension, face, fact_check, favorite, favorite_border, feedback, filter_alt, find_in_page, find_replace, fingerprint, flaky, flight_land, flight_takeoff, flip_to_back, flip_to_front, g_translate, gavel, get_app, gif, grade, grading, group_work, help, help_center, help_outline, highlight_alt, highlight_off, history, history_toggle_off, home, horizontal_split, hourglass_disabled, hourglass_empty, hourglass_full, http, https, important_devices, info, input, integration_instructions, invert_colors, label, label_important, label_off, language, launch, leaderboard, line_style, line_weight, list, lock, lock_open, login, loyalty, markunread_mailbox, maximize, mediation, minimize, model_training, next_plan, not_accessible, not_started, note_add, offline_bolt, offline_pin, online_prediction, opacity, open_in_browser, open_in_full, open_in_new, open_with, outbond, outlet, pageview, pan_tool, payment, pending, pending_actions, perm_camera_mic, perm_contact_calendar, perm_data_setting, perm_device_information, perm_identity, perm_media, perm_phone_msg, perm_scan_wifi, pets, picture_in_picture, picture_in_picture_alt, plagiarism, play_for_work, polymer, power_settings_new, pregnant_woman, preview, print, privacy_tip, published_with_changes, query_builder, question_answer, quickreply, receipt, record_voice_over, redeem, remove_shopping_cart, reorder, report_problem, request_page, restore, restore_from_trash, restore_page, room, rounded_corner, rowing, rule, schedule, search, search_off, settings, settings_applications, settings_backup_restore, settings_bluetooth, settings_brightness, settings_cell, settings_ethernet, settings_input_antenna, settings_input_component, settings_input_composite, settings_input_hdmi, settings_input_svideo, settings_overscan, settings_phone, settings_power, settings_remote, settings_voice, shop, shop_two, shopping_bag, shopping_basket, shopping_cart, smart_button, source, speaker_notes, speaker_notes_off, spellcheck, star_rate, stars, sticky_note_2, store, subject, subtitles_off, supervised_user_circle, supervisor_account, support, swap_horiz, swap_horizontal_circle, swap_vert, swap_vertical_circle, sync_alt, system_update_alt, tab, tab_unselected, table_view, text_rotate_up, text_rotate_vertical, text_rotation_angledown, text_rotation_angleup, text_rotation_down, text_rotation_none, theaters, thumb_down, thumb_up, thumbs_up_down, timeline, toc, today, toll, touch_app, tour, track_changes, translate, trending_down, trending_flat, trending_up, turned_in, turned_in_not, unpublished, update, update_disabled, upgrade, verified, verified_user, vertical_split, view_agenda, view_array, view_carousel, view_column, view_day, view_headline, view_list, view_module, view_quilt, view_sidebar, view_stream, view_week, visibility, visibility_off, voice_over_off, watch_later, wifi_protected_setup, work, work_off, work_outline, wysiwyg, youtube_searched_for, zoom_in, zoom_out
     , add_alert, auto_delete, error, error_outline, notification_important, warning
     , four_k, five_g, add_to_queue, airplay, album, art_track, av_timer, branding_watermark, call_to_action, closed_caption, closed_caption_disabled, control_camera, equalizer, explicit, fast_forward, fast_rewind, featured_play_list, featured_video, fiber_dvr, fiber_manual_record, fiber_new, fiber_pin, fiber_smart_record, forward_10, forward_30, forward_5, games, hd, hearing, hearing_disabled, high_quality, library_add, library_add_check, library_books, library_music, loop, mic, mic_none, mic_off, missed_video_call, movie, music_video, new_releases, not_interested, note, pause, pause_circle_filled, pause_circle_outline, play_arrow, play_circle_filled, play_circle_outline, playlist_add, playlist_add_check, playlist_play, queue, queue_music, queue_play_next, radio, recent_actors, remove_from_queue, repeat, repeat_one, replay, replay_10, replay_30, replay_5, shuffle, skip_next, skip_previous, slow_motion_video, snooze, sort_by_alpha, speed, stop, stop_circle, subscriptions, subtitles, surround_sound, video_call, video_label, video_library, video_settings, videocam, videocam_off, volume_down, volume_mute, volume_off, volume_up, web, web_asset
-    , add_ic_call, alternate_email, business, call, call_end, call_made, call_merge, call_missed, call_missed_outgoing, call_received, call_split, cancel_presentation, chat, chat_bubble, chat_bubble_outline, clear_all, comment, contact_mail, contact_phone, contacts, desktop_access_disabled, dialer_sip, dialpad, domain_disabled, domain_verification, duo, email, forum, forward_to_inbox, hourglass_bottom, hourglass_top, import_contacts, import_export, invert_colors_off, list_alt, live_help, location_off, location_on, mail_outline, mark_chat_read, mark_chat_unread, mark_email_read, mark_email_unread, message, mobile_screen_share, more_time, nat, no_sim, pause_presentation, person_add_disabled, person_search, phone, phone_disabled, phone_enabled, phonelink_erase, phonelink_lock, phonelink_ring, phonelink_setup, portable_wifi_off, present_to_all, print_disabled, qr_code, qr_code_scanner, read_more, ring_volume, rss_feed, screen_share, sentiment_satisfied_alt, speaker_phone, stay_current_landscape, stay_current_portrait, stay_primary_landscape, stay_primary_portrait, stop_screen_share, swap_calls, textsms, unsubscribe, voicemail, vpn_key, wifi_calling
+    , add_ic_call, alternate_email, business, call, call_end, call_made, call_merge, call_missed, call_missed_outgoing, call_received, call_split, cancel_presentation, chat, chat_bubble, chat_bubble_outline, clear_all, comment, contact_mail, contact_phone, contacts, desktop_access_disabled, dialer_sip, dialpad, domain_disabled, domain_verification, duo, email, forum, forward_to_inbox, hourglass_bottom, hourglass_top, import_contacts, import_export, invert_colors_off, list_alt, live_help, location_off, location_on, mail_outline, mark_chat_read, mark_chat_unread, mark_email_read, mark_email_unread, message, mobile_screen_share, more_time, nat, no_sim, pause_presentation, person_add_disabled, person_search, phone, phone_disabled, phone_enabled, phonelink_erase, phonelink_lock, phonelink_ring, phonelink_setup, portable_wifi_off, present_to_all, print_disabled, qr_code, qr_code_2, qr_code_scanner, read_more, ring_volume, rss_feed, screen_share, sentiment_satisfied_alt, speaker_phone, stay_current_landscape, stay_current_portrait, stay_primary_landscape, stay_primary_portrait, stop_screen_share, swap_calls, textsms, unsubscribe, voicemail, vpn_key, wifi_calling
     , add, add_box, add_circle, add_circle_outline, amp_stories, archive, backspace, ballot, biotech, block, calculate, clear, content_copy, content_cut, content_paste, create, delete_sweep, drafts, dynamic_feed, file_copy, filter_list, flag, font_download, forward, gesture, how_to_reg, how_to_vote, inbox, insights, link, link_off, low_priority, mail, markunread, move_to_inbox, next_week, outlined_flag, policy, push_pin, redo, remove, remove_circle, remove_circle_outline, reply, reply_all, report, report_off, save, save_alt, select_all, send, sort, square_foot, text_format, unarchive, undo, waves, weekend, where_to_vote
     , access_alarm, access_alarms, access_time, ad_units, add_alarm, add_to_home_screen, airplanemode_active, airplanemode_inactive, battery_alert, battery_charging_full, battery_full, battery_std, battery_unknown, bluetooth, bluetooth_connected, bluetooth_disabled, bluetooth_searching, brightness_auto, brightness_high, brightness_low, brightness_medium, data_usage, developer_mode, devices, dvr, gps_fixed, gps_not_fixed, gps_off, graphic_eq, location_disabled, location_searching, mobile_friendly, mobile_off, nfc, screen_lock_landscape, screen_lock_portrait, screen_lock_rotation, screen_rotation, sd_storage, settings_system_daydream, signal_cellular_4_bar, signal_cellular_alt, signal_cellular_connected_no_internet_4_bar, signal_cellular_no_sim, signal_cellular_null, signal_cellular_off, signal_wifi_4_bar, signal_wifi_4_bar_lock, signal_wifi_off, storage, usb, wallpaper, widgets, wifi_lock, wifi_tethering
-    , add_comment, attach_file, attach_money, bar_chart, border_all, border_bottom, border_clear, border_horizontal, border_inner, border_left, border_outer, border_right, border_style, border_top, border_vertical, bubble_chart, drag_handle, format_align_center, format_align_justify, format_align_left, format_align_right, format_bold, format_clear, format_color_reset, format_indent_decrease, format_indent_increase, format_italic, format_line_spacing, format_list_bulleted, format_list_numbered, format_list_numbered_rtl, format_paint, format_quote, format_shapes, format_size, format_strikethrough, format_textdirection_l_to_r, format_textdirection_r_to_l, format_underlined, functions, height, highlight, horizontal_rule, insert_chart, insert_chart_outlined, insert_comment, insert_drive_file, insert_emoticon, insert_invitation, insert_link, insert_photo, linear_scale, merge_type, mode_comment, monetization_on, money_off, multiline_chart, notes, pie_chart, post_add, publish, scatter_plot, score, short_text, show_chart, space_bar, stacked_line_chart, strikethrough_s, subscript, superscript, table_chart, table_rows, text_fields, title, vertical_align_bottom, vertical_align_center, vertical_align_top, wrap_text
+    , add_comment, align_horizontal_center, align_horizontal_left, align_horizontal_right, align_vertical_bottom, align_vertical_center, align_vertical_top, attach_file, attach_money, bar_chart, border_all, border_bottom, border_clear, border_horizontal, border_inner, border_left, border_outer, border_right, border_style, border_top, border_vertical, bubble_chart, drag_handle, format_align_center, format_align_justify, format_align_left, format_align_right, format_bold, format_clear, format_color_reset, format_indent_decrease, format_indent_increase, format_italic, format_line_spacing, format_list_bulleted, format_list_numbered, format_list_numbered_rtl, format_paint, format_quote, format_shapes, format_size, format_strikethrough, format_textdirection_l_to_r, format_textdirection_r_to_l, format_underlined, functions, height, highlight, horizontal_distribute, horizontal_rule, insert_chart, insert_chart_outlined, insert_comment, insert_drive_file, insert_emoticon, insert_invitation, insert_link, insert_photo, linear_scale, merge_type, mode_comment, monetization_on, money_off, multiline_chart, notes, pie_chart, post_add, publish, scatter_plot, score, short_text, show_chart, space_bar, stacked_line_chart, strikethrough_s, subscript, superscript, table_chart, table_rows, text_fields, title, vertical_align_bottom, vertical_align_center, vertical_align_top, vertical_distribute, wrap_text
     , attach_email, attachment, cloud, cloud_circle, cloud_done, cloud_download, cloud_off, cloud_queue, cloud_upload, create_new_folder, folder, folder_open, folder_shared, request_quote, rule_folder, snippet_folder, text_snippet, topic
     , browser_not_supported, cast, cast_connected, cast_for_education, computer, desktop_mac, desktop_windows, developer_board, device_hub, device_unknown, devices_other, dock, gamepad, headset, headset_mic, keyboard, keyboard_arrow_down, keyboard_arrow_left, keyboard_arrow_right, keyboard_arrow_up, keyboard_backspace, keyboard_capslock, keyboard_hide, keyboard_return, keyboard_tab, keyboard_voice, laptop, laptop_chromebook, laptop_mac, laptop_windows, memory, mouse, phone_android, phone_iphone, phonelink, phonelink_off, point_of_sale, power_input, router, scanner, security, sim_card, smartphone, speaker, speaker_group, tablet, tablet_android, tablet_mac, toys, tv, videogame_asset, watch
     , sensor_door, sensor_window
@@ -14,7 +14,7 @@ module Material.Icons.TwoTone exposing
     , app_settings_alt, apps, arrow_back, arrow_back_ios, arrow_downward, arrow_drop_down, arrow_drop_down_circle, arrow_drop_up, arrow_forward, arrow_forward_ios, arrow_left, arrow_right, arrow_upward, campaign, cancel, check, chevron_left, chevron_right, close, double_arrow, east, expand_less, expand_more, first_page, fullscreen, fullscreen_exit, home_work, last_page, legend_toggle, menu, menu_open, more_horiz, more_vert, north, north_east, north_west, payments, refresh, south, south_east, south_west, subdirectory_arrow_left, subdirectory_arrow_right, switch_left, switch_right, unfold_less, unfold_more, west
     , account_tree, adb, airline_seat_flat, airline_seat_flat_angled, airline_seat_individual_suite, airline_seat_legroom_extra, airline_seat_legroom_normal, airline_seat_legroom_reduced, airline_seat_recline_extra, airline_seat_recline_normal, bluetooth_audio, confirmation_number, directions_off, disc_full, drive_eta, enhanced_encryption, event_available, event_busy, event_note, folder_special, live_tv, mms, more, network_check, network_locked, no_encryption, ondemand_video, personal_video, phone_bluetooth_speaker, phone_callback, phone_forwarded, phone_in_talk, phone_locked, phone_missed, phone_paused, power, power_off, priority_high, sd_card, sms, sms_failed, support_agent, sync, sync_disabled, sync_problem, system_update, tap_and_play, time_to_leave, tv_off, vibration, voice_chat, vpn_lock, wc, wifi, wifi_off
     , ac_unit, airport_shuttle, all_inclusive, apartment, baby_changing_station, backpack, bathtub, beach_access, bento, business_center, carpenter, casino, charging_station, checkroom, child_care, child_friendly, corporate_fare, countertops, do_not_step, do_not_touch, dry, elevator, escalator, escalator_warning, family_restroom, fence, fire_extinguisher, fitness_center, food_bank, foundation, free_breakfast, golf_course, grass, hot_tub, house, house_siding, kitchen, meeting_room, microwave, night_shelter, no_backpack, no_cell, no_drinks, no_flash, no_food, no_meeting_room, no_photography, no_stroller, pool, rice_bowl, roofing, room_preferences, room_service, rv_hookup, smoke_free, smoking_rooms, soap, spa, sports_bar, stairs, storefront, stroller, tapas, tty, umbrella, wash, water_damage, wheelchair_pickup
-    , six_ft_apart, architecture, cake, clean_hands, connect_without_contact, construction, coronavirus, deck, domain, elderly, emoji_emotions, emoji_events, emoji_flags, emoji_food_beverage, emoji_nature, emoji_objects, emoji_people, emoji_symbols, emoji_transportation, engineering, facebook, fireplace, follow_the_signs, group, group_add, groups, history_edu, king_bed, leave_bags_at_home, location_city, luggage, masks, military_tech, mood, mood_bad, nights_stay, no_luggage, notifications, notifications_active, notifications_none, notifications_off, notifications_paused, outdoor_grill, pages, party_mode, people, people_alt, people_outline, person, person_add, person_add_alt_1, person_outline, person_remove, person_remove_alt_1, plus_one, poll, psychology, public, public_off, reduce_capacity, sanitizer, school, science, self_improvement, sentiment_dissatisfied, sentiment_satisfied, sentiment_very_dissatisfied, sentiment_very_satisfied, share, sick, single_bed, sports, sports_baseball, sports_basketball, sports_cricket, sports_esports, sports_football, sports_golf, sports_handball, sports_hockey, sports_kabaddi, sports_mma, sports_motorsports, sports_rugby, sports_soccer, sports_tennis, sports_volleyball, thumb_down_alt, thumb_up_alt, whatshot
+    , six_ft_apart, architecture, cake, clean_hands, connect_without_contact, construction, coronavirus, deck, domain, elderly, emoji_emotions, emoji_events, emoji_flags, emoji_food_beverage, emoji_nature, emoji_objects, emoji_people, emoji_symbols, emoji_transportation, engineering, facebook, fireplace, follow_the_signs, group, group_add, groups, history_edu, king_bed, location_city, luggage, masks, military_tech, mood, mood_bad, nights_stay, no_luggage, notifications, notifications_active, notifications_none, notifications_off, notifications_paused, outdoor_grill, pages, party_mode, people, people_alt, people_outline, person, person_add, person_add_alt_1, person_outline, person_remove, person_remove_alt_1, plus_one, poll, psychology, public, public_off, reduce_capacity, sanitizer, school, science, self_improvement, sentiment_dissatisfied, sentiment_satisfied, sentiment_very_dissatisfied, sentiment_very_satisfied, share, sick, single_bed, sports, sports_baseball, sports_basketball, sports_cricket, sports_esports, sports_football, sports_golf, sports_handball, sports_hockey, sports_kabaddi, sports_mma, sports_motorsports, sports_rugby, sports_soccer, sports_tennis, sports_volleyball, thumb_down_alt, thumb_up_alt, whatshot
     , check_box, check_box_outline_blank, indeterminate_check_box, radio_button_checked, radio_button_unchecked, star, star_border, star_half, star_outline, toggle_off, toggle_on
     )
 
@@ -23,7 +23,7 @@ module Material.Icons.TwoTone exposing
 
 # Action
 
-@docs three_d_rotation, accessibility, accessibility_new, accessible, accessible_forward, account_balance, account_balance_wallet, account_box, account_circle, add_shopping_cart, add_task, addchart, admin_panel_settings, alarm, alarm_add, alarm_off, alarm_on, all_inbox, all_out, analytics, anchor, android, announcement, api, app_blocking, arrow_circle_down, arrow_circle_up, arrow_right_alt, article, aspect_ratio, assessment, assignment, assignment_ind, assignment_late, assignment_return, assignment_returned, assignment_turned_in, autorenew, backup, backup_table, batch_prediction, book, book_online, bookmark, bookmark_border, bookmarks, bug_report, build, build_circle, cached, calendar_today, calendar_view_day, camera_enhance, cancel_schedule_send, card_giftcard, card_membership, card_travel, change_history, check_circle, check_circle_outline, chrome_reader_mode, class, close_fullscreen, code, comment_bank, commute, compare_arrows, contact_page, contact_support, contactless, copyright, credit_card, dashboard, date_range, delete, delete_forever, delete_outline, description, disabled_by_default, dns, done, done_all, done_outline, donut_large, donut_small, drag_indicator, dynamic_form, eco, eject, euro_symbol, event, event_seat, exit_to_app, explore, explore_off, extension, face, fact_check, favorite, favorite_border, feedback, filter_alt, find_in_page, find_replace, fingerprint, flaky, flight_land, flight_takeoff, flip_to_back, flip_to_front, g_translate, gavel, get_app, gif, grade, grading, group_work, help, help_center, help_outline, highlight_alt, highlight_off, history, history_toggle_off, home, horizontal_split, hourglass_disabled, hourglass_empty, hourglass_full, http, https, important_devices, info, input, integration_instructions, invert_colors, label, label_important, label_off, language, launch, leaderboard, line_style, line_weight, list, lock, lock_open, login, loyalty, markunread_mailbox, maximize, mediation, minimize, model_training, next_plan, not_accessible, not_started, note_add, offline_bolt, offline_pin, online_prediction, opacity, open_in_browser, open_in_full, open_in_new, open_with, outbond, outlet, pageview, pan_tool, payment, pending, pending_actions, perm_camera_mic, perm_contact_calendar, perm_data_setting, perm_device_information, perm_identity, perm_media, perm_phone_msg, perm_scan_wifi, pets, picture_in_picture, picture_in_picture_alt, plagiarism, play_for_work, polymer, power_settings_new, pregnant_woman, preview, print, privacy_tip, published_with_changes, query_builder, question_answer, quickreply, receipt, record_voice_over, redeem, remove_shopping_cart, reorder, report_problem, request_page, restore, restore_from_trash, restore_page, room, rounded_corner, rowing, rule, schedule, search, search_off, settings, settings_applications, settings_backup_restore, settings_bluetooth, settings_brightness, settings_cell, settings_ethernet, settings_input_antenna, settings_input_component, settings_input_composite, settings_input_hdmi, settings_input_svideo, settings_overscan, settings_phone, settings_power, settings_remote, settings_voice, shop, shop_two, shopping_bag, shopping_basket, shopping_cart, smart_button, source, speaker_notes, speaker_notes_off, spellcheck, star_rate, stars, sticky_note_2, store, subject, subtitles_off, supervised_user_circle, supervisor_account, support, swap_horiz, swap_horizontal_circle, swap_vert, swap_vertical_circle, sync_alt, system_update_alt, tab, tab_unselected, table_view, text_rotate_up, text_rotate_vertical, text_rotation_angledown, text_rotation_angleup, text_rotation_down, text_rotation_none, theaters, thumb_down, thumb_up, thumbs_up_down, timeline, toc, today, toll, touch_app, tour, track_changes, translate, trending_down, trending_flat, trending_up, turned_in, turned_in_not, unpublished, update, upgrade, verified, verified_user, vertical_split, view_agenda, view_array, view_carousel, view_column, view_day, view_headline, view_list, view_module, view_quilt, view_sidebar, view_stream, view_week, visibility, visibility_off, voice_over_off, watch_later, wifi_protected_setup, work, work_off, work_outline, wysiwyg, youtube_searched_for, zoom_in, zoom_out
+@docs three_d_rotation, accessibility, accessibility_new, accessible, accessible_forward, account_balance, account_balance_wallet, account_box, account_circle, add_shopping_cart, add_task, addchart, admin_panel_settings, alarm, alarm_add, alarm_off, alarm_on, all_inbox, all_out, analytics, anchor, android, announcement, api, app_blocking, arrow_circle_down, arrow_circle_up, arrow_right_alt, article, aspect_ratio, assessment, assignment, assignment_ind, assignment_late, assignment_return, assignment_returned, assignment_turned_in, autorenew, backup, backup_table, batch_prediction, book, book_online, bookmark, bookmark_border, bookmarks, bug_report, build, build_circle, cached, calendar_today, calendar_view_day, camera_enhance, cancel_schedule_send, card_giftcard, card_membership, card_travel, change_history, check_circle, check_circle_outline, chrome_reader_mode, class, close_fullscreen, code, comment_bank, commute, compare_arrows, contact_page, contact_support, contactless, copyright, credit_card, dashboard, date_range, delete, delete_forever, delete_outline, description, disabled_by_default, dns, done, done_all, done_outline, donut_large, donut_small, drag_indicator, dynamic_form, eco, eject, euro_symbol, event, event_seat, exit_to_app, explore, explore_off, extension, face, fact_check, favorite, favorite_border, feedback, filter_alt, find_in_page, find_replace, fingerprint, flaky, flight_land, flight_takeoff, flip_to_back, flip_to_front, g_translate, gavel, get_app, gif, grade, grading, group_work, help, help_center, help_outline, highlight_alt, highlight_off, history, history_toggle_off, home, horizontal_split, hourglass_disabled, hourglass_empty, hourglass_full, http, https, important_devices, info, input, integration_instructions, invert_colors, label, label_important, label_off, language, launch, leaderboard, line_style, line_weight, list, lock, lock_open, login, loyalty, markunread_mailbox, maximize, mediation, minimize, model_training, next_plan, not_accessible, not_started, note_add, offline_bolt, offline_pin, online_prediction, opacity, open_in_browser, open_in_full, open_in_new, open_with, outbond, outlet, pageview, pan_tool, payment, pending, pending_actions, perm_camera_mic, perm_contact_calendar, perm_data_setting, perm_device_information, perm_identity, perm_media, perm_phone_msg, perm_scan_wifi, pets, picture_in_picture, picture_in_picture_alt, plagiarism, play_for_work, polymer, power_settings_new, pregnant_woman, preview, print, privacy_tip, published_with_changes, query_builder, question_answer, quickreply, receipt, record_voice_over, redeem, remove_shopping_cart, reorder, report_problem, request_page, restore, restore_from_trash, restore_page, room, rounded_corner, rowing, rule, schedule, search, search_off, settings, settings_applications, settings_backup_restore, settings_bluetooth, settings_brightness, settings_cell, settings_ethernet, settings_input_antenna, settings_input_component, settings_input_composite, settings_input_hdmi, settings_input_svideo, settings_overscan, settings_phone, settings_power, settings_remote, settings_voice, shop, shop_two, shopping_bag, shopping_basket, shopping_cart, smart_button, source, speaker_notes, speaker_notes_off, spellcheck, star_rate, stars, sticky_note_2, store, subject, subtitles_off, supervised_user_circle, supervisor_account, support, swap_horiz, swap_horizontal_circle, swap_vert, swap_vertical_circle, sync_alt, system_update_alt, tab, tab_unselected, table_view, text_rotate_up, text_rotate_vertical, text_rotation_angledown, text_rotation_angleup, text_rotation_down, text_rotation_none, theaters, thumb_down, thumb_up, thumbs_up_down, timeline, toc, today, toll, touch_app, tour, track_changes, translate, trending_down, trending_flat, trending_up, turned_in, turned_in_not, unpublished, update, update_disabled, upgrade, verified, verified_user, vertical_split, view_agenda, view_array, view_carousel, view_column, view_day, view_headline, view_list, view_module, view_quilt, view_sidebar, view_stream, view_week, visibility, visibility_off, voice_over_off, watch_later, wifi_protected_setup, work, work_off, work_outline, wysiwyg, youtube_searched_for, zoom_in, zoom_out
 
 
 # Alert
@@ -38,7 +38,7 @@ module Material.Icons.TwoTone exposing
 
 # Communication
 
-@docs add_ic_call, alternate_email, business, call, call_end, call_made, call_merge, call_missed, call_missed_outgoing, call_received, call_split, cancel_presentation, chat, chat_bubble, chat_bubble_outline, clear_all, comment, contact_mail, contact_phone, contacts, desktop_access_disabled, dialer_sip, dialpad, domain_disabled, domain_verification, duo, email, forum, forward_to_inbox, hourglass_bottom, hourglass_top, import_contacts, import_export, invert_colors_off, list_alt, live_help, location_off, location_on, mail_outline, mark_chat_read, mark_chat_unread, mark_email_read, mark_email_unread, message, mobile_screen_share, more_time, nat, no_sim, pause_presentation, person_add_disabled, person_search, phone, phone_disabled, phone_enabled, phonelink_erase, phonelink_lock, phonelink_ring, phonelink_setup, portable_wifi_off, present_to_all, print_disabled, qr_code, qr_code_scanner, read_more, ring_volume, rss_feed, screen_share, sentiment_satisfied_alt, speaker_phone, stay_current_landscape, stay_current_portrait, stay_primary_landscape, stay_primary_portrait, stop_screen_share, swap_calls, textsms, unsubscribe, voicemail, vpn_key, wifi_calling
+@docs add_ic_call, alternate_email, business, call, call_end, call_made, call_merge, call_missed, call_missed_outgoing, call_received, call_split, cancel_presentation, chat, chat_bubble, chat_bubble_outline, clear_all, comment, contact_mail, contact_phone, contacts, desktop_access_disabled, dialer_sip, dialpad, domain_disabled, domain_verification, duo, email, forum, forward_to_inbox, hourglass_bottom, hourglass_top, import_contacts, import_export, invert_colors_off, list_alt, live_help, location_off, location_on, mail_outline, mark_chat_read, mark_chat_unread, mark_email_read, mark_email_unread, message, mobile_screen_share, more_time, nat, no_sim, pause_presentation, person_add_disabled, person_search, phone, phone_disabled, phone_enabled, phonelink_erase, phonelink_lock, phonelink_ring, phonelink_setup, portable_wifi_off, present_to_all, print_disabled, qr_code, qr_code_2, qr_code_scanner, read_more, ring_volume, rss_feed, screen_share, sentiment_satisfied_alt, speaker_phone, stay_current_landscape, stay_current_portrait, stay_primary_landscape, stay_primary_portrait, stop_screen_share, swap_calls, textsms, unsubscribe, voicemail, vpn_key, wifi_calling
 
 
 # Content
@@ -53,7 +53,7 @@ module Material.Icons.TwoTone exposing
 
 # Editor
 
-@docs add_comment, attach_file, attach_money, bar_chart, border_all, border_bottom, border_clear, border_horizontal, border_inner, border_left, border_outer, border_right, border_style, border_top, border_vertical, bubble_chart, drag_handle, format_align_center, format_align_justify, format_align_left, format_align_right, format_bold, format_clear, format_color_reset, format_indent_decrease, format_indent_increase, format_italic, format_line_spacing, format_list_bulleted, format_list_numbered, format_list_numbered_rtl, format_paint, format_quote, format_shapes, format_size, format_strikethrough, format_textdirection_l_to_r, format_textdirection_r_to_l, format_underlined, functions, height, highlight, horizontal_rule, insert_chart, insert_chart_outlined, insert_comment, insert_drive_file, insert_emoticon, insert_invitation, insert_link, insert_photo, linear_scale, merge_type, mode_comment, monetization_on, money_off, multiline_chart, notes, pie_chart, post_add, publish, scatter_plot, score, short_text, show_chart, space_bar, stacked_line_chart, strikethrough_s, subscript, superscript, table_chart, table_rows, text_fields, title, vertical_align_bottom, vertical_align_center, vertical_align_top, wrap_text
+@docs add_comment, align_horizontal_center, align_horizontal_left, align_horizontal_right, align_vertical_bottom, align_vertical_center, align_vertical_top, attach_file, attach_money, bar_chart, border_all, border_bottom, border_clear, border_horizontal, border_inner, border_left, border_outer, border_right, border_style, border_top, border_vertical, bubble_chart, drag_handle, format_align_center, format_align_justify, format_align_left, format_align_right, format_bold, format_clear, format_color_reset, format_indent_decrease, format_indent_increase, format_italic, format_line_spacing, format_list_bulleted, format_list_numbered, format_list_numbered_rtl, format_paint, format_quote, format_shapes, format_size, format_strikethrough, format_textdirection_l_to_r, format_textdirection_r_to_l, format_underlined, functions, height, highlight, horizontal_distribute, horizontal_rule, insert_chart, insert_chart_outlined, insert_comment, insert_drive_file, insert_emoticon, insert_invitation, insert_link, insert_photo, linear_scale, merge_type, mode_comment, monetization_on, money_off, multiline_chart, notes, pie_chart, post_add, publish, scatter_plot, score, short_text, show_chart, space_bar, stacked_line_chart, strikethrough_s, subscript, superscript, table_chart, table_rows, text_fields, title, vertical_align_bottom, vertical_align_center, vertical_align_top, vertical_distribute, wrap_text
 
 
 # File
@@ -98,7 +98,7 @@ module Material.Icons.TwoTone exposing
 
 # Social
 
-@docs six_ft_apart, architecture, cake, clean_hands, connect_without_contact, construction, coronavirus, deck, domain, elderly, emoji_emotions, emoji_events, emoji_flags, emoji_food_beverage, emoji_nature, emoji_objects, emoji_people, emoji_symbols, emoji_transportation, engineering, facebook, fireplace, follow_the_signs, group, group_add, groups, history_edu, king_bed, leave_bags_at_home, location_city, luggage, masks, military_tech, mood, mood_bad, nights_stay, no_luggage, notifications, notifications_active, notifications_none, notifications_off, notifications_paused, outdoor_grill, pages, party_mode, people, people_alt, people_outline, person, person_add, person_add_alt_1, person_outline, person_remove, person_remove_alt_1, plus_one, poll, psychology, public, public_off, reduce_capacity, sanitizer, school, science, self_improvement, sentiment_dissatisfied, sentiment_satisfied, sentiment_very_dissatisfied, sentiment_very_satisfied, share, sick, single_bed, sports, sports_baseball, sports_basketball, sports_cricket, sports_esports, sports_football, sports_golf, sports_handball, sports_hockey, sports_kabaddi, sports_mma, sports_motorsports, sports_rugby, sports_soccer, sports_tennis, sports_volleyball, thumb_down_alt, thumb_up_alt, whatshot
+@docs six_ft_apart, architecture, cake, clean_hands, connect_without_contact, construction, coronavirus, deck, domain, elderly, emoji_emotions, emoji_events, emoji_flags, emoji_food_beverage, emoji_nature, emoji_objects, emoji_people, emoji_symbols, emoji_transportation, engineering, facebook, fireplace, follow_the_signs, group, group_add, groups, history_edu, king_bed, location_city, luggage, masks, military_tech, mood, mood_bad, nights_stay, no_luggage, notifications, notifications_active, notifications_none, notifications_off, notifications_paused, outdoor_grill, pages, party_mode, people, people_alt, people_outline, person, person_add, person_add_alt_1, person_outline, person_remove, person_remove_alt_1, plus_one, poll, psychology, public, public_off, reduce_capacity, sanitizer, school, science, self_improvement, sentiment_dissatisfied, sentiment_satisfied, sentiment_very_dissatisfied, sentiment_very_satisfied, share, sick, single_bed, sports, sports_baseball, sports_basketball, sports_cricket, sports_esports, sports_football, sports_golf, sports_handball, sports_hockey, sports_kabaddi, sports_mma, sports_motorsports, sports_rugby, sports_soccer, sports_tennis, sports_volleyball, thumb_down_alt, thumb_up_alt, whatshot
 
 
 # Toggle
@@ -109,7 +109,7 @@ module Material.Icons.TwoTone exposing
 
 import Material.Icons.Internal exposing (icon)
 import Material.Icons.Types exposing (Coloring, Icon)
-import Svg exposing (Svg, circle, g, line, path, polygon, polyline, rect, svg, use)
+import Svg exposing (Svg, circle, g, path, polygon, polyline, rect, svg, use)
 import Svg.Attributes as A exposing (baseProfile, clipRule, cx, cy, d, enableBackground, fill, fillOpacity, fillRule, id, overflow, points, r, viewBox, x1, x2, xlinkHref, y1, y2)
 
 
@@ -1217,6 +1217,90 @@ album =
             []
         , path
             [ d "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-12.5c-2.49 0-4.5 2.01-4.5 4.5s2.01 4.5 4.5 4.5 4.5-2.01 4.5-4.5-2.01-4.5-4.5-4.5zm0 5.5c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1z" ]
+            []
+        ]
+
+
+{-| -}
+align_horizontal_center : Icon msg
+align_horizontal_center =
+    icon
+        [ enableBackground "new 0 0 24 24", viewBox "0 0 24 24" ]
+        [ rect
+            [ fill "none" ]
+            []
+        , polygon
+            [ points "11,2 13,2 13,7 21,7 21,10 13,10 13,14 18,14 18,17 13,17 13,22 11,22 11,17 6,17 6,14 11,14 11,10 3,10 3,7 11,7" ]
+            []
+        ]
+
+
+{-| -}
+align_horizontal_left : Icon msg
+align_horizontal_left =
+    icon
+        [ enableBackground "new 0 0 24 24", viewBox "0 0 24 24" ]
+        [ rect
+            [ fill "none" ]
+            []
+        , path
+            [ d "M4,22H2V2h2V22z M22,7H6v3h16V7z M16,14H6v3h10V14z" ]
+            []
+        ]
+
+
+{-| -}
+align_horizontal_right : Icon msg
+align_horizontal_right =
+    icon
+        [ enableBackground "new 0 0 24 24", viewBox "0 0 24 24" ]
+        [ rect
+            [ fill "none" ]
+            []
+        , path
+            [ d "M20,2h2v20h-2V2z M2,10h16V7H2V10z M8,17h10v-3H8V17z" ]
+            []
+        ]
+
+
+{-| -}
+align_vertical_bottom : Icon msg
+align_vertical_bottom =
+    icon
+        [ enableBackground "new 0 0 24 24", viewBox "0 0 24 24" ]
+        [ rect
+            [ fill "none" ]
+            []
+        , path
+            [ d "M22,22H2v-2h20V22z M10,2H7v16h3V2z M17,8h-3v10h3V8z" ]
+            []
+        ]
+
+
+{-| -}
+align_vertical_center : Icon msg
+align_vertical_center =
+    icon
+        [ enableBackground "new 0 0 24 24", viewBox "0 0 24 24" ]
+        [ rect
+            [ fill "none" ]
+            []
+        , polygon
+            [ points "22,11 17,11 17,6 14,6 14,11 10,11 10,3 7,3 7,11 1.84,11 1.84,13 7,13 7,21 10,21 10,13 14,13 14,18 17,18 17,13 22,13" ]
+            []
+        ]
+
+
+{-| -}
+align_vertical_top : Icon msg
+align_vertical_top =
+    icon
+        [ enableBackground "new 0 0 24 24", viewBox "0 0 24 24" ]
+        [ rect
+            [ fill "none" ]
+            []
+        , path
+            [ d "M22,2v2H2V2H22z M7,22h3V6H7V22z M14,16h3V6h-3V16z" ]
             []
         ]
 
@@ -10395,6 +10479,20 @@ home_work =
 
 
 {-| -}
+horizontal_distribute : Icon msg
+horizontal_distribute =
+    icon
+        [ enableBackground "new 0 0 24 24", viewBox "0 0 24 24" ]
+        [ rect
+            [ fill "none" ]
+            []
+        , path
+            [ d "M4,22H2V2h2V22z M22,2h-2v20h2V2z M13.5,7h-3v10h3V7z" ]
+            []
+        ]
+
+
+{-| -}
 horizontal_rule : Icon msg
 horizontal_rule =
     icon
@@ -11109,10 +11207,10 @@ integration_instructions =
             , circle
                 [ cx "12", cy "3.5", fill "none", r ".75" ]
                 []
-            , line
+            , Svg.line
                 [ fill "none", x1 "19", x2 "5", y1 "5", y2 "5" ]
                 []
-            , line
+            , Svg.line
                 [ fill "none", x1 "5", x2 "19", y1 "19", y2 "19" ]
                 []
             , g
@@ -11128,10 +11226,10 @@ integration_instructions =
                     []
                 ]
             ]
-        , line
+        , Svg.line
             [ fill "none", o ".3", x1 "19", x2 "5", y1 "5", y2 "5" ]
             []
-        , line
+        , Svg.line
             [ fill "none", o ".3", x1 "5", x2 "19", y1 "19", y2 "19" ]
             []
         , rect
@@ -11671,23 +11769,6 @@ leak_remove =
             []
         , path
             [ d "M14 3h-2c0 1.35-.31 2.63-.84 3.77l1.49 1.49C13.51 6.7 14 4.91 14 3zm7 9v-2c-1.91 0-3.7.49-5.27 1.35l1.49 1.49c1.15-.53 2.43-.84 3.78-.84zm0 4v-2c-.79 0-1.54.13-2.24.37l1.68 1.68c.19-.01.37-.05.56-.05zM10 3H8c0 .19-.04.37-.06.56l1.68 1.68c.25-.7.38-1.46.38-2.24zm-5.59-.14L3 4.27l2.84 2.84C5.03 7.67 4.06 8 3 8v2c1.61 0 3.09-.55 4.27-1.46L8.7 9.97C7.14 11.24 5.16 12 3 12v2c2.72 0 5.2-.99 7.11-2.62l2.51 2.51C10.99 15.81 10 18.29 10 21h2c0-2.16.76-4.14 2.03-5.7l1.43 1.43C14.55 17.91 14 19.39 14 21h2c0-1.06.33-2.03.89-2.84L19.73 21l1.41-1.41L4.41 2.86z" ]
-            []
-        ]
-
-
-{-| -}
-leave_bags_at_home : Icon msg
-leave_bags_at_home =
-    icon
-        [ enableBackground "new 0 0 24 24", viewBox "0 0 24 24" ]
-        [ rect
-            [ fill "none" ]
-            []
-        , path
-            [ d "M7,19V9.83l1,1V18h1.5v-5.67l1.75,1.75V18h1.5v-2.42l1.75,1.75V18h0.67l1,1H7z M10.83,8l1,1h0.92v0.92 l1.75,1.75V9H16v4.17l0,0l1,1V8H10.83z", o ".3" ]
-            []
-        , path
-            [ d "M10.83,8H17v6.17l2,2V8c0-1.1-0.9-2-2-2h-2V3c0-0.55-0.45-1-1-1h-4C9.45,2,9,2.45,9,3v3H8.83L10.83,8z M11,4h2v2h-2V4z M11.83,9h0.92v0.92L11.83,9z M21.19,21.19L2.81,2.81L1.39,4.22l3.63,3.63C5.02,7.9,5,7.95,5,8v11c0,1.1,0.9,2,2,2 c0,0.55,0.45,1,1,1c0.55,0,1-0.45,1-1h6c0,0.55,0.45,1,1,1c0.55,0,1-0.45,1-1c0.34,0,0.65-0.09,0.93-0.24l1.85,1.85L21.19,21.19z M7,19V9.83l1,1V18h1.5v-5.67l1.75,1.75V18h1.5v-2.42l1.75,1.75V18h0.67l1,1H7z M16,9v4.17l-1.5-1.5V9H16z" ]
             []
         ]
 
@@ -17323,6 +17404,23 @@ qr_code =
 
 
 {-| -}
+qr_code_2 : Icon msg
+qr_code_2 =
+    icon
+        [ enableBackground "new 0 0 24 24", viewBox "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ fill "none" ]
+                []
+            ]
+        , path
+            [ d "M15,21h-2v-2h2V21z M13,14h-2v5h2V14z M21,12h-2v4h2V12z M19,10h-2v2h2V10z M7,12H5v2h2V12z M5,10H3v2h2V10z M12,5h2V3h-2V5 z M4.5,4.5v3h3v-3H4.5z M9,9H3V3h6V9z M4.5,16.5v3h3v-3H4.5z M9,21H3v-6h6V21z M16.5,4.5v3h3v-3H16.5z M21,9h-6V3h6V9z M19,19v-3 l-4,0v2h2v3h4v-2H19z M17,12l-4,0v2h4V12z M13,10H7v2h2v2h2v-2h2V10z M14,9V7h-2V5h-2v4L14,9z M6.75,5.25h-1.5v1.5h1.5V5.25z M6.75,17.25h-1.5v1.5h1.5V17.25z M18.75,5.25h-1.5v1.5h1.5V5.25z" ]
+            []
+        ]
+
+
+{-| -}
 qr_code_scanner : Icon msg
 qr_code_scanner =
     icon
@@ -21852,27 +21950,15 @@ table_rows : Icon msg
 table_rows =
     icon
         [ enableBackground "new 0 0 24 24", viewBox "0 0 24 24" ]
-        [ g
+        [ rect
+            [ fill "none" ]
             []
-            [ g
-                []
-                [ rect
-                    [ fill "none" ]
-                    []
-                ]
-            , g
-                [ o ".3" ]
-                [ path
-                    [ d "M20,4v4H4V4H20z M20,10v4H4v-4H20z M4,20v-4h16v4H4z" ]
-                    []
-                ]
-            , g
-                []
-                [ path
-                    [ d "M2,2v20h20V2H2z M20,4v4H4V4H20z M20,10v4H4v-4H20z M4,20v-4h16v4H4z" ]
-                    []
-                ]
-            ]
+        , path
+            [ d "M19,5v3H5V5H19z M19,10v4H5v-4H19z M5,19v-3h14v3H5z", o ".3" ]
+            []
+        , path
+            [ d "M19,3H5C3.9,3,3,3.9,3,5v14c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V5C21,3.9,20.1,3,19,3z M19,5v3H5V5H19z M19,10v4H5v-4H19z M5,19v-3h14v3H5z" ]
+            []
         ]
 
 
@@ -23049,6 +23135,23 @@ update =
 
 
 {-| -}
+update_disabled : Icon msg
+update_disabled =
+    icon
+        [ enableBackground "new 0 0 24 24", viewBox "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ fill "none" ]
+                []
+            ]
+        , path
+            [ d "M8.67,5.84L7.22,4.39C8.6,3.51,10.24,3,12,3c2.74,0,5.19,1.23,6.84,3.16L21,4v6h-6l2.41-2.41C16.12,6.02,14.18,5,12,5 C10.8,5,9.66,5.31,8.67,5.84z M13,7h-2v1.17l2,2V7z M19.78,22.61l-3-3C15.39,20.48,13.76,21,12,21c-4.97,0-9-4.03-9-9 c0-1.76,0.51-3.4,1.39-4.78L1.39,4.22l1.41-1.41l18.38,18.38L19.78,22.61z M15.32,18.15L5.84,8.67C5.31,9.66,5,10.8,5,12 c0,3.86,3.14,7,7,7C13.2,19,14.34,18.69,15.32,18.15z M20.94,13h-2.02c-0.12,0.83-0.39,1.61-0.77,2.32l1.47,1.47 C20.32,15.67,20.79,14.38,20.94,13z" ]
+            []
+        ]
+
+
+{-| -}
 upgrade : Icon msg
 upgrade =
     icon
@@ -23163,6 +23266,20 @@ vertical_align_top =
             []
         , path
             [ d "M4 3h16v2H4zm4 8h3v10h2V11h3l-4-4z" ]
+            []
+        ]
+
+
+{-| -}
+vertical_distribute : Icon msg
+vertical_distribute =
+    icon
+        [ enableBackground "new 0 0 24 24", viewBox "0 0 24 24" ]
+        [ rect
+            [ fill "none" ]
+            []
+        , path
+            [ d "M22,2v2H2V2H22z M7,10.5v3h10v-3H7z M2,20v2h20v-2H2z" ]
             []
         ]
 

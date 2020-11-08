@@ -8,7 +8,7 @@ import Material.Icons as Filled exposing (offline_bolt)
 import Material.Icons.Outlined as Outlined exposing (offline_bolt)
 import Material.Icons.Types exposing (Coloring(..))
 
--- icon size coloring
+-- icon : Int (size) -> Coloring -> Html msg
 Filled.offline_bolt 16 (Color <| Color.rgb 96 181 204)
 Outlined.offline_bolt 16 Inherit
 ```
