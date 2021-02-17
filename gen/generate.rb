@@ -2,6 +2,7 @@ require "rubygems"
 require "active_support/core_ext/hash"
 require "active_support/inflector"
 require "fileutils"
+require "humanize"
 require "json"
 
 
@@ -76,11 +77,22 @@ end
 
 def icon_function_name(name)
   case name
-  when "360" ; "three_sixty"
+  when "1x_mobiledata" ; "one_x_mobiledata"
+  when "3g_mobiledata" ; "three_g_mobiledata"
+  when "3p" ; "three_p"
   when "3d_rotation" ; "three_d_rotation"
-  when "4k" ; "four_k"
+  when "30fps" ; "thirty_fps"
+  when "30fps_select" ; "thirty_fps_select"
+  when "360" ; "three_sixty"
+  when "4g_mobiledata" ; "four_g_mobiledata"
+  when "4g_plus_mobiledata" ; "four_g_plus_mobiledata"
   when "5g" ; "five_g"
   when "6_ft_apart" ; "six_ft_apart"
+  when "60fps" ; "sixty_fps"
+  when "60fps_select" ; "sixty_fps_select"
+  when /(\d+)k$/ ; "#{$1.to_i.humanize.underscore}_k"
+  when /(\d+)k_plus$/ ; "#{$1.to_i.humanize.underscore}_k_plus"
+  when /(\d+)mp$/ ; "#{$1.to_i.humanize.underscore}_mp"
   else
     if name[0] =~ /\d/
       raise "An icon can't have a number as the first character (icon: `#{name}`)"
