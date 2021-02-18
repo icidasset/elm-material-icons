@@ -8,6 +8,7 @@ GEM
       tzinfo (~> 1.1)
       zeitwerk (~> 2.2, >= 2.2.2)
     concurrent-ruby (1.1.7)
+    humanize (2.5.1)
     i18n (1.8.5)
       concurrent-ruby (~> 1.0)
     minitest (5.14.2)
@@ -21,6 +22,7 @@ PLATFORMS
 
 DEPENDENCIES
   activesupport (~> 6.0)
+  humanize (~> 2.5)
 
 BUNDLED WITH
-   1.17.2
+   1.17.3
