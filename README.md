@@ -6,11 +6,9 @@ This package includes all the [Material icons](https://material.io/tools/icons/)
 import Color
 import Material.Icons as Filled exposing (offline_bolt)
 import Material.Icons.Outlined as Outlined exposing (offline_bolt)
-import Material.Icons.Types exposing (Coloring(..))
 
--- icon : Int (size) -> Coloring -> Html msg
-Filled.offline_bolt 16 (Color <| Color.rgb 96 181 204)
-Outlined.offline_bolt 16 Inherit
+Filled.offline_bolt 16 (Filled.Color <| Color.rgb 96 181 204)
+Outlined.offline_bolt 16 Outlined.Inherit
 ```
 
 ### Preview

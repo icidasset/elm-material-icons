@@ -1,5 +1,10 @@
 # Changelog
 
+#### 6.1.0
+
+- Forgot to update README
+- Add missing export
+
 #### 6.0.0
 
 - Synced icons with material.io

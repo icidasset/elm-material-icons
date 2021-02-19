@@ -189,11 +189,11 @@ def generate(family)
   end.join(", ")
 
   append_to_file out_path, <<~HERE
-  module #{module_name} exposing (Coloring(..), #{exposed})
+  module #{module_name} exposing (Coloring(..), Icon, #{exposed})
 
   {-|
 
-  @docs Coloring
+  @docs Coloring, Icon
   HERE
 
   # Docs
@@ -320,7 +320,6 @@ end
 # Move
 # ====
 
-%x`mv #{escape(ROOT)}/src/Material/Icons/Types.elm #{escape(ROOT)}/src/Types.elm`
 %x`mv #{escape(ROOT)}/src/Material/Icons/Internal.elm #{escape(ROOT)}/src/Internal.elm`
 
 %x`rm -rf #{escape(ROOT)}/src/Material`
