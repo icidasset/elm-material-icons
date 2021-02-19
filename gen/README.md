@@ -5,5 +5,6 @@ This ruby and javascript code is used to generate the Elm code for the icons. De
 ```shell
 # see .tool-versions file for which versions I used for nodejs and ruby.
 yarn install
+bundle
 ruby generate.rb
 ```

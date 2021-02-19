@@ -3,14 +3,12 @@
     "name": "icidasset/elm-material-icons",
     "summary": "Material Icons Library",
     "license": "BSD-3-Clause",
-    "version": "5.0.0",
+    "version": "6.0.0",
     "exposed-modules": [
         "Material.Icons",
         "Material.Icons.Outlined",
         "Material.Icons.Round",
-        "Material.Icons.Sharp",
-        "Material.Icons.TwoTone",
-        "Material.Icons.Types"
+        "Material.Icons.TwoTone"
     ],
     "elm-version": "0.19.0 <= v < 0.20.0",
     "dependencies": {
