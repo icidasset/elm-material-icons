@@ -139,7 +139,7 @@ FileUtils.rm_rf OUT_DIR
 FileUtils.mkdir_p OUT_DIR
 
 # Download source of truth
-# %x`curl -o #{escape(SOT_DIR)}/icons.json https://fonts.google.com/metadata/icons`
+%x`curl -o #{escape(SOT_DIR)}/icons.json https://fonts.google.com/metadata/icons`
 
 
 
@@ -189,11 +189,9 @@ def generate(family)
   end.join(", ")
 
   append_to_file out_path, <<~HERE
-  module #{module_name} exposing (Coloring(..), Icon, #{exposed})
+  module #{module_name} exposing (#{exposed})
 
   {-|
-
-  @docs Coloring, Icon
   HERE
 
   # Docs
@@ -224,48 +222,10 @@ def generate(family)
   append_to_file out_path, <<~HERE
   -}
 
-  import Color exposing (Color)
   import Material.Icons.Internal exposing (..)
+  import Material.Icons.Types exposing (..)
   import Svg exposing (Svg, g, line, polygon, polyline, rect, text, use, svg)
   import Svg.Attributes as A exposing (baseProfile, clipRule, cx, cy, d, enableBackground, fill, fillOpacity, fillRule, id, overflow, points, r, x1, x2, xlinkHref, y1, y2)
-
-
-  {-| Should I use a [`Color`](https://package.elm-lang.org/packages/avh4/elm-color/latest/), or do I `Inherit` from the CSS color?
-  -}
-  type Coloring
-      = Color Color
-      | Inherit
-
-
-  {-| Type alias for our icons.
-  -}
-  type alias Icon msg =
-      Int -> Coloring -> Svg msg
-
-
-  {-| Internal helper for building icons.
-  -}
-  icon : List (Svg.Attribute msg) -> List (Svg msg) -> Icon msg
-  icon attributes nodes size coloring =
-      let
-          sizeAsString =
-              String.fromInt size
-      in
-      svg
-          ((++)
-              attributes
-              [ A.height sizeAsString, A.width sizeAsString ]
-          )
-          [ g
-              [ case coloring of
-                  Color color ->
-                      fill (Color.toCssString color)
-
-                  Inherit ->
-                      fill "currentColor"
-              ]
-              nodes
-          ]
   HERE
 
   # Process each icon
@@ -274,8 +234,8 @@ def generate(family)
 
     puts "Processing #{family}/#{icon_fn_name}"
 
-    # download_icon(family, icon)
-    # confirm_icon(family, icon)
+    download_icon(family, icon)
+    confirm_icon(family, icon)
 
     svg             = icon_svg(family, icon)
     elm_icon_code   = %x`./node_modules/.bin/html-elm "#{escape_quotes(svg)}"`
@@ -321,12 +281,14 @@ end
 # ====
 
 %x`mv #{escape(ROOT)}/src/Material/Icons/Internal.elm #{escape(ROOT)}/src/Internal.elm`
+%x`mv #{escape(ROOT)}/src/Material/Icons/Types.elm #{escape(ROOT)}/src/Types.elm`
 
 %x`rm -rf #{escape(ROOT)}/src/Material`
 %x`mv -f #{escape(OUT_DIR)}/* #{escape(ROOT)}/src`
 %x`rm -rf #{escape(OUT_DIR)}`
 
 %x`mv #{escape(ROOT)}/src/Internal.elm #{escape(ROOT)}/src/Material/Icons/Internal.elm`
+%x`mv #{escape(ROOT)}/src/Types.elm #{escape(ROOT)}/src/Material/Icons/Types.elm`
 
 
 

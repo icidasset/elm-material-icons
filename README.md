@@ -4,11 +4,12 @@ This package includes all the [Material icons](https://material.io/tools/icons/)
 
 ```elm
 import Color
-import Material.Icons as Filled exposing (offline_bolt)
-import Material.Icons.Outlined as Outlined exposing (offline_bolt)
+import Material.Icons as Filled
+import Material.Icons.Outlined as Outlined
+import Material.Icons.Types exposing (Coloring(..))
 
-Filled.offline_bolt 16 (Filled.Color <| Color.rgb 96 181 204)
-Outlined.offline_bolt 16 Outlined.Inherit
+Filled.offline_bolt 16 (Color <| Color.rgb 96 181 204)
+Outlined.offline_bolt 16 Inherit
 ```
 
 ### Preview

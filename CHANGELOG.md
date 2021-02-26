@@ -1,5 +1,10 @@
 # Changelog
 
+#### 7.0.0
+
+Added back the `Types` module.
+
+
 #### 6.1.0
 
 - Forgot to update README
