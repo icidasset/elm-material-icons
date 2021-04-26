@@ -1,5 +1,10 @@
 # Changelog
 
+#### 8.0.0
+
+Synced icons with [material.io](https://material.io/icons)
+
+
 #### 7.0.0
 
 Added back the `Types` module.
