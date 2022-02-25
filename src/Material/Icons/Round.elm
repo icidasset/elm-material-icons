@@ -1,21 +1,21 @@
 module Material.Icons.Round exposing
-    ( three_d_rotation, accessibility, accessibility_new, accessible, accessible_forward, account_balance, account_balance_wallet, account_box, account_circle, add_shopping_cart, add_task, add_to_drive, addchart, admin_panel_settings, ads_click, alarm, alarm_add, alarm_off, alarm_on, all_inbox, all_out, analytics, anchor, android, announcement, api, app_blocking, arrow_circle_down, arrow_circle_left, arrow_circle_right, arrow_circle_up, arrow_right_alt, article, aspect_ratio, assessment, assignment, assignment_ind, assignment_late, assignment_return, assignment_returned, assignment_turned_in, autorenew, backup, backup_table, batch_prediction, book, book_online, bookmark, bookmark_add, bookmark_added, bookmark_border, bookmark_remove, bookmarks, bug_report, build, build_circle, cached, calendar_today, calendar_view_day, calendar_view_month, calendar_view_week, camera_enhance, cancel_schedule_send, card_giftcard, card_membership, card_travel, change_history, check_circle, check_circle_outline, chrome_reader_mode, circle_notifications, class, close_fullscreen, code, code_off, comment_bank, commute, compare_arrows, compress, contact_page, contact_support, contactless, copyright, credit_card, credit_card_off, dangerous, dashboard, dashboard_customize, data_exploration, date_range, delete, delete_forever, delete_outline, description, disabled_by_default, disabled_visible, dns, done, done_all, done_outline, donut_large, donut_small, drag_indicator, dynamic_form, edit_calendar, edit_off, eject, euro_symbol, event, event_seat, exit_to_app, expand, explore, explore_off, extension, extension_off, face, fact_check, favorite, favorite_border, fax, feedback, file_present, filter_alt, find_in_page, find_replace, fingerprint, fit_screen, flaky, flight_land, flight_takeoff, flip_to_back, flip_to_front, flutter_dash, free_cancellation, g_translate, gavel, generating_tokens, get_app, gif, gif_box, grade, grading, group_work, help, help_center, help_outline, hide_source, highlight_alt, highlight_off, history, history_toggle_off, home, horizontal_split, hotel_class, hourglass_disabled, hourglass_empty, hourglass_full, http, https, important_devices, info, input, integration_instructions, invert_colors, label, label_important, label_off, language, launch, leaderboard, lightbulb, line_style, line_weight, list, lock, lock_clock, lock_open, login, logout, loyalty, manage_accounts, mark_as_unread, markunread_mailbox, maximize, mediation, minimize, model_training, new_label, next_plan, nightlight_round, no_accounts, not_accessible, not_started, note_add, offline_bolt, offline_pin, online_prediction, opacity, open_in_browser, open_in_full, open_in_new, open_in_new_off, open_with, outbound, outbox, outlet, pageview, paid, pan_tool, payment, pending, pending_actions, perm_camera_mic, perm_contact_calendar, perm_data_setting, perm_device_information, perm_identity, perm_media, perm_phone_msg, perm_scan_wifi, pets, picture_in_picture, picture_in_picture_alt, pin_end, pin_invoke, plagiarism, play_for_work, polymer, power_settings_new, pregnant_woman, preview, print, privacy_tip, private_connectivity, production_quantity_limits, published_with_changes, query_builder, question_answer, quickreply, receipt, record_voice_over, redeem, remove_done, remove_shopping_cart, reorder, report_problem, request_page, restore, restore_from_trash, restore_page, room, rounded_corner, rowing, rule, saved_search, savings, schedule, schedule_send, search, search_off, segment, send_and_archive, sensors, sensors_off, settings, settings_accessibility, settings_applications, settings_backup_restore, settings_bluetooth, settings_brightness, settings_cell, settings_ethernet, settings_input_antenna, settings_input_component, settings_input_composite, settings_input_hdmi, settings_input_svideo, settings_overscan, settings_phone, settings_power, settings_remote, settings_voice, shop, shop_2, shop_two, shopping_bag, shopping_basket, shopping_cart, smart_button, source, space_dashboard, speaker_notes, speaker_notes_off, spellcheck, star_rate, stars, sticky_note_2, store, subject, subtitles_off, supervised_user_circle, supervisor_account, support, swap_horiz, swap_horizontal_circle, swap_vert, swap_vertical_circle, swipe, switch_access_shortcut, switch_access_shortcut_add, sync_alt, system_update_alt, tab, tab_unselected, table_view, task_alt, text_rotate_up, text_rotate_vertical, text_rotation_angledown, text_rotation_angleup, text_rotation_down, text_rotation_none, theaters, thumb_down, thumb_down_off_alt, thumb_up, thumb_up_off_alt, thumbs_up_down, timeline, tips_and_updates, toc, today, token, toll, touch_app, tour, track_changes, translate, trending_down, trending_flat, trending_up, try, turned_in, turned_in_not, unpublished, update, update_disabled, upgrade, verified, verified_user, vertical_split, view_agenda, view_array, view_carousel, view_column, view_day, view_headline, view_in_ar, view_list, view_module, view_quilt, view_sidebar, view_stream, view_week, visibility, visibility_off, voice_over_off, watch_later, wifi_protected_setup, work, work_off, work_outline, wysiwyg, youtube_searched_for, zoom_in, zoom_out
+    ( one_two_three, three_d_rotation, abc, accessibility, accessibility_new, accessible, accessible_forward, account_balance, account_balance_wallet, account_box, account_circle, add_card, add_shopping_cart, add_task, add_to_drive, addchart, admin_panel_settings, ads_click, alarm, alarm_add, alarm_off, alarm_on, all_inbox, all_out, analytics, anchor, android, announcement, api, app_blocking, app_shortcut, arrow_circle_down, arrow_circle_left, arrow_circle_right, arrow_circle_up, arrow_right_alt, article, aspect_ratio, assessment, assignment, assignment_ind, assignment_late, assignment_return, assignment_returned, assignment_turned_in, assured_workload, autorenew, backup, backup_table, balance, batch_prediction, book, book_online, bookmark, bookmark_add, bookmark_added, bookmark_border, bookmark_remove, bookmarks, browse_gallery, bug_report, build, build_circle, cached, calendar_month, calendar_today, calendar_view_day, calendar_view_month, calendar_view_week, camera_enhance, cancel_schedule_send, card_giftcard, card_membership, card_travel, change_history, check_circle, check_circle_outline, chrome_reader_mode, circle_notifications, class, close_fullscreen, code, code_off, comment_bank, commit, commute, compare_arrows, compress, contact_page, contact_support, contactless, copyright, credit_card, credit_card_off, css, currency_exchange, dangerous, dashboard, dashboard_customize, data_exploration, data_thresholding, date_range, delete, delete_forever, delete_outline, density_large, density_medium, density_small, description, disabled_by_default, disabled_visible, display_settings, dns, done, done_all, done_outline, donut_large, donut_small, drag_indicator, dynamic_form, edit_calendar, edit_off, eject, euro_symbol, event, event_repeat, event_seat, exit_to_app, expand, explore, explore_off, extension, extension_off, face, fact_check, favorite, favorite_border, fax, feedback, file_present, filter_alt, filter_alt_off, find_in_page, find_replace, fingerprint, fit_screen, flaky, flight_land, flight_takeoff, flip_to_back, flip_to_front, flutter_dash, free_cancellation, g_translate, gavel, generating_tokens, get_app, gif, gif_box, grade, grading, group_work, help, help_center, help_outline, hide_source, highlight_alt, highlight_off, history, history_toggle_off, hls, hls_off, home, horizontal_split, hotel_class, hourglass_disabled, hourglass_empty, hourglass_full, html, http, https, important_devices, info, input, install_desktop, install_mobile, integration_instructions, invert_colors, javascript, join_full, join_inner, join_left, join_right, label, label_important, label_off, language, launch, leaderboard, lightbulb, lightbulb_circle, line_style, line_weight, list, lock, lock_clock, lock_open, lock_reset, login, logout, loyalty, manage_accounts, manage_history, mark_as_unread, markunread_mailbox, maximize, mediation, minimize, model_training, network_ping, new_label, next_plan, nightlight_round, no_accounts, noise_aware, noise_control_off, not_accessible, not_started, note_add, offline_bolt, offline_pin, on_device_training, online_prediction, opacity, open_in_browser, open_in_full, open_in_new, open_in_new_off, open_with, outbound, outbox, outlet, output, pageview, paid, pan_tool, pan_tool_alt, payment, pending, pending_actions, percent, perm_camera_mic, perm_contact_calendar, perm_data_setting, perm_device_information, perm_identity, perm_media, perm_phone_msg, perm_scan_wifi, pets, php, picture_in_picture, picture_in_picture_alt, pin_end, pin_invoke, pinch, plagiarism, play_for_work, polymer, power_settings_new, pregnant_woman, preview, print, privacy_tip, private_connectivity, production_quantity_limits, published_with_changes, query_builder, question_answer, question_mark, quickreply, receipt, record_voice_over, redeem, remove_done, remove_shopping_cart, reorder, report_problem, request_page, restore, restore_from_trash, restore_page, rocket, rocket_launch, room, rounded_corner, rowing, rule, satellite_alt, saved_search, savings, schedule, schedule_send, search, search_off, segment, send_and_archive, sensors, sensors_off, settings, settings_accessibility, settings_applications, settings_backup_restore, settings_bluetooth, settings_brightness, settings_cell, settings_ethernet, settings_input_antenna, settings_input_component, settings_input_composite, settings_input_hdmi, settings_input_svideo, settings_overscan, settings_phone, settings_power, settings_remote, settings_voice, shop, shop_2, shop_two, shopping_bag, shopping_basket, shopping_cart, shopping_cart_checkout, smart_button, source, space_dashboard, spatial_audio, spatial_audio_off, spatial_tracking, speaker_notes, speaker_notes_off, spellcheck, star_rate, stars, sticky_note_2, store, subject, subtitles_off, supervised_user_circle, supervisor_account, support, swap_horiz, swap_horizontal_circle, swap_vert, swap_vertical_circle, swipe, swipe_down, swipe_down_alt, swipe_left, swipe_left_alt, swipe_right, swipe_right_alt, swipe_up, swipe_up_alt, swipe_vertical, switch_access_shortcut, switch_access_shortcut_add, sync_alt, system_update_alt, tab, tab_unselected, table_view, task_alt, terminal, text_rotate_up, text_rotate_vertical, text_rotation_angledown, text_rotation_angleup, text_rotation_down, text_rotation_none, theaters, thumb_down, thumb_down_off_alt, thumb_up, thumb_up_off_alt, thumbs_up_down, timeline, tips_and_updates, toc, today, token, toll, touch_app, tour, track_changes, translate, trending_down, trending_flat, trending_up, try, turned_in, turned_in_not, unpublished, update, update_disabled, upgrade, verified, verified_user, vertical_split, view_agenda, view_array, view_carousel, view_column, view_comfy_alt, view_compact_alt, view_cozy, view_day, view_headline, view_in_ar, view_kanban, view_list, view_module, view_quilt, view_sidebar, view_stream, view_timeline, view_week, visibility, visibility_off, voice_over_off, watch_later, webhook, wifi_protected_setup, work, work_history, work_off, work_outline, wysiwyg, youtube_searched_for, zoom_in, zoom_out
     , add_alert, auto_delete, error, error_outline, notification_important, warning, warning_amber
-    , ten_k, one_k, one_k_plus, two_k, two_k_plus, three_k, three_k_plus, four_k, four_k_plus, five_g, five_k, five_k_plus, six_k, six_k_plus, seven_k, seven_k_plus, eight_k, eight_k_plus, nine_k, nine_k_plus, add_to_queue, airplay, album, art_track, av_timer, branding_watermark, call_to_action, closed_caption, closed_caption_disabled, closed_caption_off, control_camera, equalizer, explicit, fast_forward, fast_rewind, featured_play_list, featured_video, fiber_dvr, fiber_manual_record, fiber_new, fiber_pin, fiber_smart_record, forward_10, forward_30, forward_5, games, hd, hearing, hearing_disabled, high_quality, interpreter_mode, library_add, library_add_check, library_books, library_music, loop, mic, mic_none, mic_off, missed_video_call, movie, music_video, new_releases, not_interested, note, pause, pause_circle, pause_circle_filled, pause_circle_outline, play_arrow, play_circle, play_circle_filled, play_circle_outline, play_disabled, playlist_add, playlist_add_check, playlist_add_check_circle, playlist_add_circle, playlist_play, queue, queue_music, queue_play_next, radio, recent_actors, remove_from_queue, repeat, repeat_on, repeat_one, repeat_one_on, replay, replay_10, replay_30, replay_5, replay_circle_filled, sd, shuffle, shuffle_on, skip_next, skip_previous, slow_motion_video, snooze, sort_by_alpha, speed, stop, stop_circle, subscriptions, subtitles, surround_sound, video_call, video_label, video_library, video_settings, videocam, videocam_off, volume_down, volume_mute, volume_off, volume_up, web, web_asset, web_asset_off
-    , three_p, add_ic_call, alternate_email, app_registration, business, call, call_end, call_made, call_merge, call_missed, call_missed_outgoing, call_received, call_split, cancel_presentation, cell_wifi, chat, chat_bubble, chat_bubble_outline, clear_all, comment, comments_disabled, contact_mail, contact_phone, contacts, desktop_access_disabled, dialer_sip, dialpad, document_scanner, domain_disabled, domain_verification, duo, email, forum, forward_to_inbox, hourglass_bottom, hourglass_top, hub, import_contacts, import_export, invert_colors_off, key, list_alt, live_help, location_off, location_on, mail_outline, mark_chat_read, mark_chat_unread, mark_email_read, mark_email_unread, message, mobile_screen_share, more_time, nat, no_sim, pause_presentation, person_add_disabled, person_search, phone, phone_disabled, phone_enabled, phonelink_erase, phonelink_lock, phonelink_ring, phonelink_setup, portable_wifi_off, present_to_all, print_disabled, qr_code, qr_code_2, qr_code_scanner, read_more, ring_volume, rss_feed, rtt, screen_share, send_time_extension, sentiment_satisfied_alt, sip, speaker_phone, spoke, stay_current_landscape, stay_current_portrait, stay_primary_landscape, stay_primary_portrait, stop_screen_share, swap_calls, textsms, unsubscribe, voicemail, vpn_key, wifi_calling
-    , add, add_box, add_circle, add_circle_outline, add_link, archive, attribution, backspace, ballot, biotech, block, bolt, calculate, change_circle, clear, content_copy, content_cut, content_paste, content_paste_go, content_paste_off, content_paste_search, copy_all, create, delete_sweep, drafts, dynamic_feed, file_copy, filter_list, flag, font_download, font_download_off, forward, gesture, how_to_reg, how_to_vote, inbox, insights, inventory, inventory_2, link, link_off, low_priority, mail, markunread, move_to_inbox, next_week, outlined_flag, policy, push_pin, redo, remove, remove_circle, remove_circle_outline, reply, reply_all, report, report_gmailerrorred, report_off, save, save_alt, select_all, send, shield, sort, square_foot, stacked_bar_chart, stream, tag, text_format, unarchive, undo, upcoming, waves, weekend, where_to_vote
-    , one_x_mobiledata, thirty_fps, three_g_mobiledata, four_g_mobiledata, four_g_plus_mobiledata, sixty_fps, access_alarm, access_alarms, access_time, access_time_filled, ad_units, add_alarm, add_to_home_screen, air, airplane_ticket, airplanemode_active, airplanemode_inactive, aod, battery_alert, battery_charging_full, battery_full, battery_saver, battery_std, battery_unknown, bloodtype, bluetooth, bluetooth_connected, bluetooth_disabled, bluetooth_drive, bluetooth_searching, brightness_auto, brightness_high, brightness_low, brightness_medium, cable, cameraswitch, credit_score, dark_mode, data_saver_off, data_saver_on, data_usage, developer_mode, device_thermostat, devices, do_not_disturb_on_total_silence, dvr, e_mobiledata, edgesensor_high, edgesensor_low, flashlight_off, flashlight_on, flourescent, fmd_bad, fmd_good, g_mobiledata, gpp_bad, gpp_good, gpp_maybe, gps_fixed, gps_not_fixed, gps_off, graphic_eq, grid_3x3, grid_4x4, grid_goldenratio, h_mobiledata, h_plus_mobiledata, hdr_auto, hdr_auto_select, hdr_off_select, hdr_on_select, lens_blur, light_mode, location_disabled, location_searching, lte_mobiledata, lte_plus_mobiledata, media_bluetooth_off, media_bluetooth_on, medication, medication_liquid, mobile_friendly, mobile_off, mobiledata_off, mode_night, mode_standby, monitor_heart, monitor_weight, nearby_error, nearby_off, network_cell, network_wifi, nfc, nightlight, note_alt, password, pattern, phishing, pin, play_lesson, price_change, price_check, punch_clock, quiz, r_mobiledata, radar, remember_me, reset_tv, restart_alt, reviews, rsvp, screen_lock_landscape, screen_lock_portrait, screen_lock_rotation, screen_rotation, screen_search_desktop, screenshot, sd_storage, security_update, security_update_good, security_update_warning, sell, send_to_mobile, settings_suggest, settings_system_daydream, share_location, shortcut, signal_cellular_0_bar, signal_cellular_4_bar, signal_cellular_alt, signal_cellular_connected_no_internet_0_bar, signal_cellular_connected_no_internet_4_bar, signal_cellular_no_sim, signal_cellular_nodata, signal_cellular_null, signal_cellular_off, signal_wifi_0_bar, signal_wifi_4_bar, signal_wifi_4_bar_lock, signal_wifi_bad, signal_wifi_connected_no_internet_4, signal_wifi_off, signal_wifi_statusbar_4_bar, signal_wifi_statusbar_connected_no_internet_4, signal_wifi_statusbar_null, sim_card_download, splitscreen, sports_score, storage, storm, summarize, system_security_update, system_security_update_good, system_security_update_warning, task, thermostat, timer_10_select, timer_3_select, tungsten, usb, usb_off, wallpaper, water, widgets, wifi_calling_3, wifi_lock, wifi_tethering, wifi_tethering_error, wifi_tethering_error_rounded, wifi_tethering_off
-    , add_chart, add_comment, align_horizontal_center, align_horizontal_left, align_horizontal_right, align_vertical_bottom, align_vertical_center, align_vertical_top, area_chart, attach_file, attach_money, auto_graph, bar_chart, border_all, border_bottom, border_clear, border_color, border_horizontal, border_inner, border_left, border_outer, border_right, border_style, border_top, border_vertical, bubble_chart, candlestick_chart, checklist, checklist_rtl, data_array, data_object, drag_handle, draw, edit_note, format_align_center, format_align_justify, format_align_left, format_align_right, format_bold, format_clear, format_color_fill, format_color_reset, format_color_text, format_indent_decrease, format_indent_increase, format_italic, format_line_spacing, format_list_bulleted, format_list_numbered, format_list_numbered_rtl, format_paint, format_quote, format_shapes, format_size, format_strikethrough, format_textdirection_l_to_r, format_textdirection_r_to_l, format_underlined, functions, height, highlight, horizontal_distribute, horizontal_rule, insert_chart, insert_chart_outlined, insert_comment, insert_drive_file, insert_emoticon, insert_invitation, insert_link, insert_page_break, insert_photo, line_axis, linear_scale, margin, merge_type, mode, mode_comment, mode_edit, mode_edit_outline, monetization_on, money_off, money_off_csred, multiline_chart, notes, numbers, padding, pie_chart, pie_chart_outline, post_add, publish, query_stats, scatter_plot, schema, score, short_text, show_chart, space_bar, stacked_line_chart, strikethrough_s, subscript, superscript, table_chart, table_rows, text_fields, title, vertical_align_bottom, vertical_align_center, vertical_align_top, vertical_distribute, wrap_text
-    , approval, attach_email, attachment, cloud, cloud_circle, cloud_done, cloud_download, cloud_off, cloud_queue, cloud_upload, create_new_folder, download, download_done, download_for_offline, downloading, drive_file_move, drive_file_move_rtl, drive_file_rename_outline, drive_folder_upload, file_download, file_download_done, file_download_off, file_upload, folder, folder_open, folder_shared, grid_view, request_quote, rule_folder, snippet_folder, text_snippet, topic, upload, upload_file, workspaces
-    , adf_scanner, browser_not_supported, browser_updated, cast, cast_connected, cast_for_education, computer, connected_tv, desktop_mac, desktop_windows, developer_board, developer_board_off, device_hub, device_unknown, devices_other, dock, earbuds, earbuds_battery, gamepad, headphones, headphones_battery, headset, headset_mic, headset_off, home_max, home_mini, keyboard, keyboard_alt, keyboard_arrow_down, keyboard_arrow_left, keyboard_arrow_right, keyboard_arrow_up, keyboard_backspace, keyboard_capslock, keyboard_double_arrow_down, keyboard_double_arrow_left, keyboard_double_arrow_right, keyboard_double_arrow_up, keyboard_hide, keyboard_return, keyboard_tab, keyboard_voice, laptop, laptop_chromebook, laptop_mac, laptop_windows, memory, monitor, mouse, phone_android, phone_iphone, phonelink, phonelink_off, point_of_sale, power_input, router, scanner, security, sim_card, smart_display, smart_screen, smart_toy, smartphone, speaker, speaker_group, tablet, tablet_android, tablet_mac, toys, tv, videogame_asset, videogame_asset_off, watch
-    , sensor_door, sensor_window, shield_moon
-    , ten_mp, eleven_mp, twelve_mp, thirteen_mp, fourteen_mp, fifteen_mp, sixteen_mp, seventeen_mp, eighteen_mp, nineteen_mp, twenty_mp, twenty_one_mp, twenty_two_mp, twenty_three_mp, twenty_four_mp, two_mp, thirty_fps_select, three_mp, four_mp, five_mp, sixty_fps_select, six_mp, seven_mp, eight_mp, nine_mp, add_a_photo, add_photo_alternate, add_to_photos, adjust, animation, assistant, assistant_photo, audiotrack, auto_awesome, auto_awesome_mosaic, auto_awesome_motion, auto_fix_high, auto_fix_normal, auto_fix_off, auto_stories, autofps_select, bedtime, blur_circular, blur_linear, blur_off, blur_on, brightness_1, brightness_2, brightness_3, brightness_4, brightness_5, brightness_6, brightness_7, broken_image, brush, burst_mode, camera, camera_alt, camera_front, camera_rear, camera_roll, cases, center_focus_strong, center_focus_weak, circle, collections, collections_bookmark, color_lens, colorize, compare, control_point, control_point_duplicate, crop, crop_16_9, crop_3_2, crop_5_4, crop_7_5, crop_din, crop_free, crop_landscape, crop_original, crop_portrait, crop_rotate, crop_square, dehaze, details, dirty_lens, edit, euro, exposure, exposure_neg_1, exposure_neg_2, exposure_plus_1, exposure_plus_2, exposure_zero, face_retouching_natural, face_retouching_off, filter, filter_1, filter_2, filter_3, filter_4, filter_5, filter_6, filter_7, filter_8, filter_9, filter_9_plus, filter_b_and_w, filter_center_focus, filter_drama, filter_frames, filter_hdr, filter_none, filter_tilt_shift, filter_vintage, flare, flash_auto, flash_off, flash_on, flip, flip_camera_android, flip_camera_ios, gradient, grain, grid_off, grid_on, hdr_enhanced_select, hdr_off, hdr_on, hdr_plus, hdr_strong, hdr_weak, healing, hevc, hide_image, image, image_aspect_ratio, image_not_supported, image_search, incomplete_circle, iso, landscape, leak_add, leak_remove, lens, linked_camera, logo_dev, looks, looks_3, looks_4, looks_5, looks_6, looks_one, looks_two, loupe, mic_external_off, mic_external_on, monochrome_photos, motion_photos_auto, motion_photos_off, motion_photos_on, motion_photos_pause, motion_photos_paused, movie_creation, movie_filter, mp, music_note, music_off, nature, nature_people, navigate_before, navigate_next, palette, panorama, panorama_fish_eye, panorama_horizontal, panorama_horizontal_select, panorama_photosphere, panorama_photosphere_select, panorama_vertical, panorama_vertical_select, panorama_wide_angle, panorama_wide_angle_select, photo, photo_album, photo_camera, photo_camera_back, photo_camera_front, photo_filter, photo_library, photo_size_select_actual, photo_size_select_large, photo_size_select_small, picture_as_pdf, portrait, raw_off, raw_on, receipt_long, remove_red_eye, rotate_90_degrees_ccw, rotate_90_degrees_cw, rotate_left, rotate_right, shutter_speed, slideshow, straighten, style, switch_camera, switch_video, tag_faces, texture, thermostat_auto, timelapse, timer, timer_10, timer_3, timer_off, tonality, transform, tune, video_camera_back, video_camera_front, video_stable, view_comfy, view_compact, vignette, vrpano, wb_auto, wb_cloudy, wb_incandescent, wb_iridescent, wb_shade, wb_sunny, wb_twilight
-    , three_sixty, add_business, add_location, add_location_alt, add_road, agriculture, airline_stops, airlines, alt_route, atm, attractions, badge, bakery_dining, beenhere, bike_scooter, breakfast_dining, brunch_dining, bus_alert, car_rental, car_repair, castle, category, celebration, church, cleaning_services, compass_calibration, connecting_airports, delivery_dining, departure_board, design_services, diamond, dinner_dining, directions, directions_bike, directions_boat, directions_boat_filled, directions_bus, directions_bus_filled, directions_car, directions_car_filled, directions_railway, directions_railway_filled, directions_run, directions_subway, directions_subway_filled, directions_transit, directions_transit_filled, directions_walk, dry_cleaning, edit_attributes, edit_location, edit_location_alt, edit_road, egg, egg_alt, electric_bike, electric_car, electric_moped, electric_rickshaw, electric_scooter, electrical_services, emergency, ev_station, fastfood, festival, flight, flight_class, forest, fort, hail, handyman, hardware, home_repair_service, hotel, hvac, icecream, kebab_dining, layers, layers_clear, liquor, local_activity, local_airport, local_atm, local_bar, local_cafe, local_car_wash, local_convenience_store, local_dining, local_drink, local_fire_department, local_florist, local_gas_station, local_grocery_store, local_hospital, local_hotel, local_laundry_service, local_library, local_mall, local_movies, local_offer, local_parking, local_pharmacy, local_phone, local_pizza, local_play, local_police, local_post_office, local_printshop, local_see, local_shipping, local_taxi, lunch_dining, map, maps_ugc, medical_services, menu_book, miscellaneous_services, mode_of_travel, money, moped, mosque, moving, multiple_stop, museum, my_location, navigation, near_me, near_me_disabled, nightlife, no_meals, no_transfer, not_listed_location, park, pedal_bike, person_pin, person_pin_circle, pest_control, pest_control_rodent, pin_drop, place, plumbing, railway_alert, ramen_dining, rate_review, restaurant, restaurant_menu, route, run_circle, sailing, satellite, set_meal, snowmobile, soup_kitchen, store_mall_directory, streetview, subway, synagogue, takeout_dining, taxi_alert, temple_buddhist, temple_hindu, terrain, theater_comedy, traffic, train, tram, transfer_within_a_station, transit_enterexit, trip_origin, two_wheeler, volunteer_activism, wine_bar, wrong_location, zoom_out_map
+    , ten_k, one_k, one_k_plus, two_k, two_k_plus, three_k, three_k_plus, four_k, four_k_plus, five_g, five_k, five_k_plus, six_k, six_k_plus, seven_k, seven_k_plus, eight_k, eight_k_plus, nine_k, nine_k_plus, add_to_queue, airplay, album, art_track, audio_file, av_timer, branding_watermark, call_to_action, closed_caption, closed_caption_disabled, closed_caption_off, control_camera, equalizer, explicit, fast_forward, fast_rewind, featured_play_list, featured_video, fiber_dvr, fiber_manual_record, fiber_new, fiber_pin, fiber_smart_record, forward_10, forward_30, forward_5, games, hd, hearing, hearing_disabled, high_quality, interpreter_mode, library_add, library_add_check, library_books, library_music, loop, lyrics, mic, mic_none, mic_off, missed_video_call, movie, music_video, new_releases, not_interested, note, pause, pause_circle, pause_circle_filled, pause_circle_outline, play_arrow, play_circle, play_circle_filled, play_circle_outline, play_disabled, playlist_add, playlist_add_check, playlist_add_check_circle, playlist_add_circle, playlist_play, playlist_remove, queue, queue_music, queue_play_next, radio, recent_actors, remove_from_queue, repeat, repeat_on, repeat_one, repeat_one_on, replay, replay_10, replay_30, replay_5, replay_circle_filled, sd, shuffle, shuffle_on, skip_next, skip_previous, slow_motion_video, snooze, sort_by_alpha, speed, stop, stop_circle, subscriptions, subtitles, surround_sound, video_call, video_file, video_label, video_library, video_settings, videocam, videocam_off, volume_down, volume_mute, volume_off, volume_up, web, web_asset, web_asset_off
+    , three_p, add_ic_call, alternate_email, app_registration, business, call, call_end, call_made, call_merge, call_missed, call_missed_outgoing, call_received, call_split, cancel_presentation, cell_tower, cell_wifi, chat, chat_bubble, chat_bubble_outline, clear_all, co_present, comment, comments_disabled, contact_mail, contact_phone, contacts, desktop_access_disabled, dialer_sip, dialpad, document_scanner, domain_disabled, domain_verification, duo, email, forum, forward_to_inbox, hourglass_bottom, hourglass_top, hub, import_contacts, import_export, invert_colors_off, key, key_off, list_alt, live_help, location_off, location_on, mail_lock, mail_outline, mark_chat_read, mark_chat_unread, mark_email_read, mark_email_unread, mark_unread_chat_alt, message, mobile_screen_share, more_time, nat, no_sim, pause_presentation, person_add_disabled, person_search, phone, phone_disabled, phone_enabled, phonelink_erase, phonelink_lock, phonelink_ring, phonelink_setup, portable_wifi_off, present_to_all, print_disabled, qr_code, qr_code_2, qr_code_scanner, read_more, ring_volume, rss_feed, rtt, screen_share, send_time_extension, sentiment_satisfied_alt, sip, speaker_phone, spoke, stay_current_landscape, stay_current_portrait, stay_primary_landscape, stay_primary_portrait, stop_screen_share, swap_calls, textsms, unsubscribe, voicemail, vpn_key, vpn_key_off, wifi_calling
+    , add, add_box, add_circle, add_circle_outline, add_link, archive, attribution, backspace, ballot, biotech, block, bolt, calculate, change_circle, clear, content_copy, content_cut, content_paste, content_paste_go, content_paste_off, content_paste_search, copy_all, create, delete_sweep, deselect, drafts, dynamic_feed, file_copy, filter_list, filter_list_off, flag, flag_circle, font_download, font_download_off, forward, gesture, how_to_reg, how_to_vote, inbox, insights, inventory, inventory_2, link, link_off, low_priority, mail, markunread, move_to_inbox, next_week, outlined_flag, policy, push_pin, redo, remove, remove_circle, remove_circle_outline, reply, reply_all, report, report_gmailerrorred, report_off, save, save_alt, save_as, select_all, send, shield, sort, square_foot, stacked_bar_chart, stream, tag, text_format, unarchive, undo, upcoming, waves, weekend, where_to_vote
+    , one_x_mobiledata, thirty_fps, three_g_mobiledata, four_g_mobiledata, four_g_plus_mobiledata, sixty_fps, access_alarm, access_alarms, access_time, access_time_filled, ad_units, add_alarm, add_to_home_screen, air, airplane_ticket, airplanemode_active, airplanemode_inactive, aod, battery_0_bar, battery_1_bar, battery_2_bar, battery_3_bar, battery_4_bar, battery_5_bar, battery_6_bar, battery_alert, battery_charging_full, battery_full, battery_saver, battery_std, battery_unknown, bloodtype, bluetooth, bluetooth_connected, bluetooth_disabled, bluetooth_drive, bluetooth_searching, brightness_auto, brightness_high, brightness_low, brightness_medium, cable, cameraswitch, credit_score, dark_mode, data_saver_off, data_saver_on, data_usage, developer_mode, device_thermostat, devices, devices_fold, discount, do_not_disturb_on_total_silence, dvr, e_mobiledata, edgesensor_high, edgesensor_low, flashlight_off, flashlight_on, flourescent, fmd_bad, fmd_good, g_mobiledata, gpp_bad, gpp_good, gpp_maybe, gps_fixed, gps_not_fixed, gps_off, graphic_eq, grid_3x3, grid_4x4, grid_goldenratio, h_mobiledata, h_plus_mobiledata, hdr_auto, hdr_auto_select, hdr_off_select, hdr_on_select, lan, lens_blur, light_mode, location_disabled, location_searching, lte_mobiledata, lte_plus_mobiledata, media_bluetooth_off, media_bluetooth_on, medication, medication_liquid, mobile_friendly, mobile_off, mobiledata_off, mode_night, mode_standby, monitor_heart, monitor_weight, nearby_error, nearby_off, network_cell, network_wifi, network_wifi_1_bar, network_wifi_2_bar, network_wifi_3_bar, nfc, nightlight, note_alt, password, pattern, phishing, pin, play_lesson, price_change, price_check, punch_clock, quiz, r_mobiledata, radar, remember_me, reset_tv, restart_alt, reviews, rsvp, screen_lock_landscape, screen_lock_portrait, screen_lock_rotation, screen_rotation, screen_search_desktop, screenshot, screenshot_monitor, sd_storage, security_update, security_update_good, security_update_warning, sell, send_to_mobile, settings_suggest, settings_system_daydream, share_location, shortcut, signal_cellular_0_bar, signal_cellular_4_bar, signal_cellular_alt, signal_cellular_alt_1_bar, signal_cellular_alt_2_bar, signal_cellular_connected_no_internet_0_bar, signal_cellular_connected_no_internet_4_bar, signal_cellular_no_sim, signal_cellular_nodata, signal_cellular_null, signal_cellular_off, signal_wifi_0_bar, signal_wifi_4_bar, signal_wifi_4_bar_lock, signal_wifi_bad, signal_wifi_connected_no_internet_4, signal_wifi_off, signal_wifi_statusbar_4_bar, signal_wifi_statusbar_connected_no_internet_4, signal_wifi_statusbar_null, sim_card_download, splitscreen, sports_score, ssid_chart, storage, storm, summarize, system_security_update, system_security_update_good, system_security_update_warning, task, thermostat, timer_10_select, timer_3_select, tungsten, usb, usb_off, wallpaper, water, widgets, wifi_1_bar, wifi_2_bar, wifi_calling_3, wifi_channel, wifi_find, wifi_lock, wifi_password, wifi_tethering, wifi_tethering_error, wifi_tethering_off
+    , add_chart, add_comment, align_horizontal_center, align_horizontal_left, align_horizontal_right, align_vertical_bottom, align_vertical_center, align_vertical_top, area_chart, attach_file, attach_money, auto_graph, bar_chart, border_all, border_bottom, border_clear, border_color, border_horizontal, border_inner, border_left, border_outer, border_right, border_style, border_top, border_vertical, bubble_chart, candlestick_chart, checklist, checklist_rtl, data_array, data_object, drag_handle, draw, edit_note, format_align_center, format_align_justify, format_align_left, format_align_right, format_bold, format_clear, format_color_fill, format_color_reset, format_color_text, format_indent_decrease, format_indent_increase, format_italic, format_line_spacing, format_list_bulleted, format_list_numbered, format_list_numbered_rtl, format_paint, format_quote, format_shapes, format_size, format_strikethrough, format_textdirection_l_to_r, format_textdirection_r_to_l, format_underlined, functions, height, hexagon, highlight, horizontal_distribute, horizontal_rule, insert_chart, insert_chart_outlined, insert_comment, insert_drive_file, insert_emoticon, insert_invitation, insert_link, insert_page_break, insert_photo, line_axis, linear_scale, margin, merge_type, mode, mode_comment, mode_edit, mode_edit_outline, monetization_on, money_off, money_off_csred, move_down, move_up, multiline_chart, notes, numbers, padding, pentagon, pie_chart, pie_chart_outline, polyline, post_add, publish, query_stats, rectangle, scatter_plot, schema, score, short_text, show_chart, space_bar, square, stacked_line_chart, strikethrough_s, subscript, superscript, table_chart, table_rows, text_decrease, text_fields, text_increase, title, vertical_align_bottom, vertical_align_center, vertical_align_top, vertical_distribute, wrap_text
+    , approval, attach_email, attachment, cloud, cloud_circle, cloud_done, cloud_download, cloud_off, cloud_queue, cloud_sync, cloud_upload, create_new_folder, difference, download, download_done, download_for_offline, downloading, drive_file_move, drive_file_move_rtl, drive_file_rename_outline, drive_folder_upload, file_download, file_download_done, file_download_off, file_open, file_upload, folder, folder_copy, folder_delete, folder_off, folder_open, folder_shared, folder_zip, format_overline, grid_view, newspaper, request_quote, rule_folder, snippet_folder, text_snippet, topic, upload, upload_file, workspaces
+    , adf_scanner, browser_not_supported, browser_updated, cast, cast_connected, cast_for_education, computer, connected_tv, desktop_mac, desktop_windows, developer_board, developer_board_off, device_hub, device_unknown, devices_other, dock, earbuds, earbuds_battery, gamepad, headphones, headphones_battery, headset, headset_mic, headset_off, home_max, home_mini, keyboard, keyboard_alt, keyboard_arrow_down, keyboard_arrow_left, keyboard_arrow_right, keyboard_arrow_up, keyboard_backspace, keyboard_capslock, keyboard_command_key, keyboard_control_key, keyboard_double_arrow_down, keyboard_double_arrow_left, keyboard_double_arrow_right, keyboard_double_arrow_up, keyboard_hide, keyboard_option_key, keyboard_return, keyboard_tab, keyboard_voice, laptop, laptop_chromebook, laptop_mac, laptop_windows, memory, monitor, mouse, phone_android, phone_iphone, phonelink, phonelink_off, point_of_sale, power_input, router, scanner, security, sim_card, smart_display, smart_screen, smart_toy, smartphone, speaker, speaker_group, start, tablet, tablet_android, tablet_mac, toys, tv, videogame_asset, videogame_asset_off, watch, watch_off
+    , auto_mode, blinds_closed, curtains, curtains_closed, electric_bolt, electric_meter, energy_savings_leaf, gas_meter, heat_pump, mode_fan_off, nest_cam_wired_stand, oil_barrel, propane, propane_tank, roller_shades, roller_shades_closed, sensor_door, sensor_occupied, sensor_window, shield_moon, solar_power, vertical_shades, vertical_shades_closed, wind_power
+    , ten_mp, eleven_mp, twelve_mp, thirteen_mp, fourteen_mp, fifteen_mp, sixteen_mp, seventeen_mp, eighteen_mp, nineteen_mp, twenty_mp, twenty_one_mp, twenty_two_mp, twenty_three_mp, twenty_four_mp, two_mp, thirty_fps_select, three_mp, four_mp, five_mp, sixty_fps_select, six_mp, seven_mp, eight_mp, nine_mp, add_a_photo, add_photo_alternate, add_to_photos, adjust, animation, assistant, assistant_photo, audiotrack, auto_awesome, auto_awesome_mosaic, auto_awesome_motion, auto_fix_high, auto_fix_normal, auto_fix_off, auto_stories, autofps_select, bedtime, bedtime_off, blur_circular, blur_linear, blur_off, blur_on, brightness_1, brightness_2, brightness_3, brightness_4, brightness_5, brightness_6, brightness_7, broken_image, brush, burst_mode, camera, camera_alt, camera_front, camera_rear, camera_roll, cases, center_focus_strong, center_focus_weak, circle, collections, collections_bookmark, color_lens, colorize, compare, contrast, control_point, control_point_duplicate, crop, crop_16_9, crop_3_2, crop_5_4, crop_7_5, crop_din, crop_free, crop_landscape, crop_original, crop_portrait, crop_rotate, crop_square, currency_bitcoin, currency_franc, currency_lira, currency_pound, currency_ruble, currency_rupee, currency_yen, currency_yuan, deblur, dehaze, details, dirty_lens, edit, euro, exposure, exposure_neg_1, exposure_neg_2, exposure_plus_1, exposure_plus_2, exposure_zero, face_retouching_natural, face_retouching_off, filter, filter_1, filter_2, filter_3, filter_4, filter_5, filter_6, filter_7, filter_8, filter_9, filter_9_plus, filter_b_and_w, filter_center_focus, filter_drama, filter_frames, filter_hdr, filter_none, filter_tilt_shift, filter_vintage, flare, flash_auto, flash_off, flash_on, flip, flip_camera_android, flip_camera_ios, gradient, grain, grid_off, grid_on, hdr_enhanced_select, hdr_off, hdr_on, hdr_plus, hdr_strong, hdr_weak, healing, hevc, hide_image, image, image_aspect_ratio, image_not_supported, image_search, incomplete_circle, iso, landscape, leak_add, leak_remove, lens, linked_camera, logo_dev, looks, looks_3, looks_4, looks_5, looks_6, looks_one, looks_two, loupe, mic_external_off, mic_external_on, monochrome_photos, motion_photos_auto, motion_photos_off, motion_photos_on, motion_photos_pause, motion_photos_paused, movie_creation, movie_filter, mp, music_note, music_off, nature, nature_people, navigate_before, navigate_next, palette, panorama, panorama_fish_eye, panorama_horizontal, panorama_horizontal_select, panorama_photosphere, panorama_photosphere_select, panorama_vertical, panorama_vertical_select, panorama_wide_angle, panorama_wide_angle_select, photo, photo_album, photo_camera, photo_camera_back, photo_camera_front, photo_filter, photo_library, photo_size_select_actual, photo_size_select_large, photo_size_select_small, picture_as_pdf, portrait, raw_off, raw_on, receipt_long, remove_red_eye, rotate_90_degrees_ccw, rotate_90_degrees_cw, rotate_left, rotate_right, shutter_speed, slideshow, straighten, style, switch_camera, switch_video, tag_faces, texture, thermostat_auto, timelapse, timer, timer_10, timer_3, timer_off, tonality, transform, tune, video_camera_back, video_camera_front, video_stable, view_comfy, view_compact, vignette, vrpano, wb_auto, wb_cloudy, wb_incandescent, wb_iridescent, wb_shade, wb_sunny, wb_twilight
+    , three_sixty, add_business, add_location, add_location_alt, add_road, agriculture, airline_stops, airlines, alt_route, atm, attractions, badge, bakery_dining, beenhere, bike_scooter, breakfast_dining, brunch_dining, bus_alert, car_crash, car_rental, car_repair, castle, category, celebration, church, cleaning_services, compass_calibration, connecting_airports, crisis_alert, delivery_dining, departure_board, design_services, diamond, dinner_dining, directions, directions_bike, directions_boat, directions_boat_filled, directions_bus, directions_bus_filled, directions_car, directions_car_filled, directions_railway, directions_railway_filled, directions_run, directions_subway, directions_subway_filled, directions_transit, directions_transit_filled, directions_walk, dry_cleaning, edit_attributes, edit_location, edit_location_alt, edit_road, egg, egg_alt, electric_bike, electric_car, electric_moped, electric_rickshaw, electric_scooter, electrical_services, emergency, emergency_recording, emergency_share, ev_station, factory, fastfood, festival, flight, flight_class, forest, fork_left, fork_right, fort, hail, handyman, hardware, home_repair_service, hotel, hvac, icecream, kebab_dining, layers, layers_clear, liquor, local_activity, local_airport, local_atm, local_bar, local_cafe, local_car_wash, local_convenience_store, local_dining, local_drink, local_fire_department, local_florist, local_gas_station, local_grocery_store, local_hospital, local_hotel, local_laundry_service, local_library, local_mall, local_movies, local_offer, local_parking, local_pharmacy, local_phone, local_pizza, local_play, local_police, local_post_office, local_printshop, local_see, local_shipping, local_taxi, lunch_dining, map, maps_ugc, medical_information, medical_services, menu_book, merge, minor_crash, miscellaneous_services, mode_of_travel, money, moped, mosque, moving, multiple_stop, museum, my_location, navigation, near_me, near_me_disabled, nightlife, no_crash, no_meals, no_transfer, not_listed_location, park, pedal_bike, person_pin, person_pin_circle, pest_control, pest_control_rodent, pin_drop, place, plumbing, railway_alert, ramen_dining, ramp_left, ramp_right, rate_review, remove_road, restaurant, restaurant_menu, roundabout_left, roundabout_right, route, run_circle, safety_check, sailing, satellite, screen_rotation_alt, set_meal, signpost, snowmobile, sos, soup_kitchen, stadium, store_mall_directory, straight, streetview, subway, synagogue, takeout_dining, taxi_alert, temple_buddhist, temple_hindu, terrain, theater_comedy, tire_repair, traffic, train, tram, transfer_within_a_station, transit_enterexit, trip_origin, turn_left, turn_right, turn_sharp_left, turn_sharp_right, turn_slight_left, turn_slight_right, two_wheeler, u_turn_left, u_turn_right, volunteer_activism, warehouse, wine_bar, wrong_location, zoom_in_map, zoom_out_map
     , app_settings_alt, apps, apps_outage, arrow_back, arrow_back_ios, arrow_back_ios_new, arrow_downward, arrow_drop_down, arrow_drop_down_circle, arrow_drop_up, arrow_forward, arrow_forward_ios, arrow_left, arrow_right, arrow_upward, assistant_direction, campaign, cancel, check, chevron_left, chevron_right, close, double_arrow, east, expand_circle_down, expand_less, expand_more, first_page, fullscreen, fullscreen_exit, home_work, last_page, legend_toggle, maps_home_work, menu, menu_open, more_horiz, more_vert, north, north_east, north_west, offline_share, payments, pivot_table_chart, refresh, south, south_east, south_west, subdirectory_arrow_left, subdirectory_arrow_right, switch_left, switch_right, unfold_less, unfold_more, waterfall_chart, west
-    , account_tree, adb, airline_seat_flat, airline_seat_flat_angled, airline_seat_individual_suite, airline_seat_legroom_extra, airline_seat_legroom_normal, airline_seat_legroom_reduced, airline_seat_recline_extra, airline_seat_recline_normal, bluetooth_audio, confirmation_number, directions_off, disc_full, do_disturb, do_disturb_alt, do_disturb_off, do_disturb_on, do_not_disturb, do_not_disturb_alt, do_not_disturb_off, do_not_disturb_on, drive_eta, enhanced_encryption, event_available, event_busy, event_note, folder_special, imagesearch_roller, live_tv, mms, more, network_check, network_locked, no_encryption, no_encryption_gmailerrorred, ondemand_video, personal_video, phone_bluetooth_speaker, phone_callback, phone_forwarded, phone_in_talk, phone_locked, phone_missed, phone_paused, power, power_off, priority_high, running_with_errors, sd_card, sd_card_alert, sim_card_alert, sms, sms_failed, support_agent, sync, sync_disabled, sync_problem, system_update, tap_and_play, time_to_leave, tv_off, vibration, voice_chat, vpn_lock, wc, wifi, wifi_off
-    , ac_unit, airport_shuttle, all_inclusive, apartment, baby_changing_station, backpack, balcony, bathtub, beach_access, bento, bungalow, business_center, cabin, carpenter, casino, chalet, charging_station, checkroom, child_care, child_friendly, corporate_fare, cottage, countertops, crib, do_not_step, do_not_touch, dry, elevator, escalator, escalator_warning, family_restroom, fence, fire_extinguisher, fitness_center, food_bank, foundation, free_breakfast, gite, golf_course, grass, holiday_village, hot_tub, house, house_siding, houseboat, iron, kitchen, meeting_room, microwave, night_shelter, no_backpack, no_cell, no_drinks, no_flash, no_food, no_meeting_room, no_photography, no_stroller, other_houses, pool, rice_bowl, roofing, room_preferences, room_service, rv_hookup, smoke_free, smoking_rooms, soap, spa, sports_bar, stairs, storefront, stroller, tapas, tty, umbrella, villa, wash, water_damage, wheelchair_pickup
+    , account_tree, adb, airline_seat_flat, airline_seat_flat_angled, airline_seat_individual_suite, airline_seat_legroom_extra, airline_seat_legroom_normal, airline_seat_legroom_reduced, airline_seat_recline_extra, airline_seat_recline_normal, bluetooth_audio, confirmation_number, directions_off, disc_full, do_disturb, do_disturb_alt, do_disturb_off, do_disturb_on, do_not_disturb, do_not_disturb_alt, do_not_disturb_off, do_not_disturb_on, drive_eta, enhanced_encryption, event_available, event_busy, event_note, folder_special, imagesearch_roller, live_tv, mms, more, network_check, network_locked, no_encryption, no_encryption_gmailerrorred, ondemand_video, personal_video, phone_bluetooth_speaker, phone_callback, phone_forwarded, phone_in_talk, phone_locked, phone_missed, phone_paused, power, power_off, priority_high, running_with_errors, sd_card, sd_card_alert, sim_card_alert, sms, sms_failed, support_agent, sync, sync_disabled, sync_lock, sync_problem, system_update, tap_and_play, time_to_leave, tv_off, vibration, voice_chat, vpn_lock, wc, wifi, wifi_off
+    , ac_unit, airport_shuttle, all_inclusive, apartment, baby_changing_station, backpack, balcony, bathtub, beach_access, bento, bungalow, business_center, cabin, carpenter, casino, chalet, charging_station, checkroom, child_care, child_friendly, corporate_fare, cottage, countertops, crib, do_not_step, do_not_touch, dry, elevator, escalator, escalator_warning, family_restroom, fence, fire_extinguisher, fitness_center, food_bank, foundation, free_breakfast, gite, golf_course, grass, holiday_village, hot_tub, house, house_siding, houseboat, iron, kitchen, meeting_room, microwave, night_shelter, no_backpack, no_cell, no_drinks, no_flash, no_food, no_meeting_room, no_photography, no_stroller, other_houses, pool, rice_bowl, roofing, room_preferences, room_service, rv_hookup, smoke_free, smoking_rooms, soap, spa, sports_bar, stairs, storefront, stroller, tapas, tty, umbrella, vape_free, vaping_rooms, villa, wash, water_damage, wheelchair_pickup
     , bathroom, bed, bedroom_baby, bedroom_child, bedroom_parent, blender, camera_indoor, camera_outdoor, chair, chair_alt, coffee, coffee_maker, dining, door_back, door_front, door_sliding, doorbell, feed, flatware, garage, light, living, manage_search, podcasts, shower, table_bar, table_restaurant, window, yard
-    , six_ft_apart, add_moderator, add_reaction, architecture, back_hand, cake, catching_pokemon, clean_hands, co2, compost, connect_without_contact, construction, cookie, coronavirus, cruelty_free, deck, domain, downhill_skiing, edit_notifications, elderly, emoji_emotions, emoji_events, emoji_food_beverage, emoji_nature, emoji_objects, emoji_people, emoji_symbols, emoji_transportation, engineering, female, fireplace, fitbit, follow_the_signs, front_hand, group, group_add, group_off, group_remove, groups, health_and_safety, heart_broken, hiking, history_edu, hive, ice_skating, interests, ios_share, kayaking, king_bed, kitesurfing, location_city, luggage, male, man, masks, military_tech, mood, mood_bad, nights_stay, no_luggage, nordic_walking, notification_add, notifications, notifications_active, notifications_none, notifications_off, notifications_paused, outdoor_grill, pages, paragliding, party_mode, people, people_alt, people_outline, person, person_add, person_add_alt, person_add_alt_1, person_off, person_outline, person_remove, person_remove_alt_1, personal_injury, piano, piano_off, pix, plus_one, poll, precision_manufacturing, psychology, public, public_off, real_estate_agent, recommend, recycling, reduce_capacity, remove_moderator, safety_divider, sanitizer, school, science, self_improvement, sentiment_dissatisfied, sentiment_neutral, sentiment_satisfied, sentiment_very_dissatisfied, sentiment_very_satisfied, share, sick, single_bed, skateboarding, sledding, snowboarding, snowshoeing, social_distance, south_america, sports, sports_baseball, sports_basketball, sports_cricket, sports_esports, sports_football, sports_golf, sports_handball, sports_hockey, sports_kabaddi, sports_mma, sports_motorsports, sports_rugby, sports_soccer, sports_tennis, sports_volleyball, surfing, switch_account, thumb_down_alt, thumb_up_alt, transgender, travel_explore, vaccines, water_drop, waving_hand, whatsapp, whatshot, woman, workspace_premium
+    , six_ft_apart, add_moderator, add_reaction, architecture, back_hand, boy, cake, catching_pokemon, clean_hands, co2, compost, connect_without_contact, construction, cookie, coronavirus, cruelty_free, cyclone, deck, domain, domain_add, downhill_skiing, edit_notifications, elderly, elderly_woman, emoji_emotions, emoji_events, emoji_food_beverage, emoji_nature, emoji_objects, emoji_people, emoji_symbols, emoji_transportation, engineering, female, fireplace, fitbit, flood, follow_the_signs, front_hand, girl, group, group_add, group_off, group_remove, groups, handshake, health_and_safety, heart_broken, hiking, history_edu, hive, ice_skating, interests, ios_share, kayaking, king_bed, kitesurfing, landslide, location_city, luggage, male, man, masks, military_tech, mood, mood_bad, nights_stay, no_luggage, nordic_walking, notification_add, notifications, notifications_active, notifications_none, notifications_off, notifications_paused, outdoor_grill, pages, paragliding, party_mode, people, people_alt, people_outline, person, person_add, person_add_alt, person_add_alt_1, person_off, person_outline, person_remove, person_remove_alt_1, personal_injury, piano, piano_off, pix, plus_one, poll, precision_manufacturing, psychology, public, public_off, real_estate_agent, recommend, recycling, reduce_capacity, remove_moderator, roller_skating, safety_divider, sanitizer, scale, school, science, scoreboard, scuba_diving, self_improvement, sentiment_dissatisfied, sentiment_neutral, sentiment_satisfied, sentiment_very_dissatisfied, sentiment_very_satisfied, severe_cold, share, sick, sign_language, single_bed, skateboarding, sledding, snowboarding, snowshoeing, social_distance, south_america, sports, sports_baseball, sports_basketball, sports_cricket, sports_esports, sports_football, sports_golf, sports_gymnastics, sports_handball, sports_hockey, sports_kabaddi, sports_martial_arts, sports_mma, sports_motorsports, sports_rugby, sports_soccer, sports_tennis, sports_volleyball, surfing, switch_account, thumb_down_alt, thumb_up_alt, thunderstorm, tornado, transgender, travel_explore, tsunami, vaccines, volcano, water_drop, waving_hand, whatsapp, whatshot, woman, workspace_premium
     , check_box, check_box_outline_blank, indeterminate_check_box, radio_button_checked, radio_button_unchecked, star, star_border, star_border_purple500, star_half, star_outline, star_purple500, toggle_off, toggle_on
     )
 
@@ -24,7 +24,7 @@ module Material.Icons.Round exposing
 
 # Action
 
-@docs three_d_rotation, accessibility, accessibility_new, accessible, accessible_forward, account_balance, account_balance_wallet, account_box, account_circle, add_shopping_cart, add_task, add_to_drive, addchart, admin_panel_settings, ads_click, alarm, alarm_add, alarm_off, alarm_on, all_inbox, all_out, analytics, anchor, android, announcement, api, app_blocking, arrow_circle_down, arrow_circle_left, arrow_circle_right, arrow_circle_up, arrow_right_alt, article, aspect_ratio, assessment, assignment, assignment_ind, assignment_late, assignment_return, assignment_returned, assignment_turned_in, autorenew, backup, backup_table, batch_prediction, book, book_online, bookmark, bookmark_add, bookmark_added, bookmark_border, bookmark_remove, bookmarks, bug_report, build, build_circle, cached, calendar_today, calendar_view_day, calendar_view_month, calendar_view_week, camera_enhance, cancel_schedule_send, card_giftcard, card_membership, card_travel, change_history, check_circle, check_circle_outline, chrome_reader_mode, circle_notifications, class, close_fullscreen, code, code_off, comment_bank, commute, compare_arrows, compress, contact_page, contact_support, contactless, copyright, credit_card, credit_card_off, dangerous, dashboard, dashboard_customize, data_exploration, date_range, delete, delete_forever, delete_outline, description, disabled_by_default, disabled_visible, dns, done, done_all, done_outline, donut_large, donut_small, drag_indicator, dynamic_form, edit_calendar, edit_off, eject, euro_symbol, event, event_seat, exit_to_app, expand, explore, explore_off, extension, extension_off, face, fact_check, favorite, favorite_border, fax, feedback, file_present, filter_alt, find_in_page, find_replace, fingerprint, fit_screen, flaky, flight_land, flight_takeoff, flip_to_back, flip_to_front, flutter_dash, free_cancellation, g_translate, gavel, generating_tokens, get_app, gif, gif_box, grade, grading, group_work, help, help_center, help_outline, hide_source, highlight_alt, highlight_off, history, history_toggle_off, home, horizontal_split, hotel_class, hourglass_disabled, hourglass_empty, hourglass_full, http, https, important_devices, info, input, integration_instructions, invert_colors, label, label_important, label_off, language, launch, leaderboard, lightbulb, line_style, line_weight, list, lock, lock_clock, lock_open, login, logout, loyalty, manage_accounts, mark_as_unread, markunread_mailbox, maximize, mediation, minimize, model_training, new_label, next_plan, nightlight_round, no_accounts, not_accessible, not_started, note_add, offline_bolt, offline_pin, online_prediction, opacity, open_in_browser, open_in_full, open_in_new, open_in_new_off, open_with, outbound, outbox, outlet, pageview, paid, pan_tool, payment, pending, pending_actions, perm_camera_mic, perm_contact_calendar, perm_data_setting, perm_device_information, perm_identity, perm_media, perm_phone_msg, perm_scan_wifi, pets, picture_in_picture, picture_in_picture_alt, pin_end, pin_invoke, plagiarism, play_for_work, polymer, power_settings_new, pregnant_woman, preview, print, privacy_tip, private_connectivity, production_quantity_limits, published_with_changes, query_builder, question_answer, quickreply, receipt, record_voice_over, redeem, remove_done, remove_shopping_cart, reorder, report_problem, request_page, restore, restore_from_trash, restore_page, room, rounded_corner, rowing, rule, saved_search, savings, schedule, schedule_send, search, search_off, segment, send_and_archive, sensors, sensors_off, settings, settings_accessibility, settings_applications, settings_backup_restore, settings_bluetooth, settings_brightness, settings_cell, settings_ethernet, settings_input_antenna, settings_input_component, settings_input_composite, settings_input_hdmi, settings_input_svideo, settings_overscan, settings_phone, settings_power, settings_remote, settings_voice, shop, shop_2, shop_two, shopping_bag, shopping_basket, shopping_cart, smart_button, source, space_dashboard, speaker_notes, speaker_notes_off, spellcheck, star_rate, stars, sticky_note_2, store, subject, subtitles_off, supervised_user_circle, supervisor_account, support, swap_horiz, swap_horizontal_circle, swap_vert, swap_vertical_circle, swipe, switch_access_shortcut, switch_access_shortcut_add, sync_alt, system_update_alt, tab, tab_unselected, table_view, task_alt, text_rotate_up, text_rotate_vertical, text_rotation_angledown, text_rotation_angleup, text_rotation_down, text_rotation_none, theaters, thumb_down, thumb_down_off_alt, thumb_up, thumb_up_off_alt, thumbs_up_down, timeline, tips_and_updates, toc, today, token, toll, touch_app, tour, track_changes, translate, trending_down, trending_flat, trending_up, try, turned_in, turned_in_not, unpublished, update, update_disabled, upgrade, verified, verified_user, vertical_split, view_agenda, view_array, view_carousel, view_column, view_day, view_headline, view_in_ar, view_list, view_module, view_quilt, view_sidebar, view_stream, view_week, visibility, visibility_off, voice_over_off, watch_later, wifi_protected_setup, work, work_off, work_outline, wysiwyg, youtube_searched_for, zoom_in, zoom_out
+@docs one_two_three, three_d_rotation, abc, accessibility, accessibility_new, accessible, accessible_forward, account_balance, account_balance_wallet, account_box, account_circle, add_card, add_shopping_cart, add_task, add_to_drive, addchart, admin_panel_settings, ads_click, alarm, alarm_add, alarm_off, alarm_on, all_inbox, all_out, analytics, anchor, android, announcement, api, app_blocking, app_shortcut, arrow_circle_down, arrow_circle_left, arrow_circle_right, arrow_circle_up, arrow_right_alt, article, aspect_ratio, assessment, assignment, assignment_ind, assignment_late, assignment_return, assignment_returned, assignment_turned_in, assured_workload, autorenew, backup, backup_table, balance, batch_prediction, book, book_online, bookmark, bookmark_add, bookmark_added, bookmark_border, bookmark_remove, bookmarks, browse_gallery, bug_report, build, build_circle, cached, calendar_month, calendar_today, calendar_view_day, calendar_view_month, calendar_view_week, camera_enhance, cancel_schedule_send, card_giftcard, card_membership, card_travel, change_history, check_circle, check_circle_outline, chrome_reader_mode, circle_notifications, class, close_fullscreen, code, code_off, comment_bank, commit, commute, compare_arrows, compress, contact_page, contact_support, contactless, copyright, credit_card, credit_card_off, css, currency_exchange, dangerous, dashboard, dashboard_customize, data_exploration, data_thresholding, date_range, delete, delete_forever, delete_outline, density_large, density_medium, density_small, description, disabled_by_default, disabled_visible, display_settings, dns, done, done_all, done_outline, donut_large, donut_small, drag_indicator, dynamic_form, edit_calendar, edit_off, eject, euro_symbol, event, event_repeat, event_seat, exit_to_app, expand, explore, explore_off, extension, extension_off, face, fact_check, favorite, favorite_border, fax, feedback, file_present, filter_alt, filter_alt_off, find_in_page, find_replace, fingerprint, fit_screen, flaky, flight_land, flight_takeoff, flip_to_back, flip_to_front, flutter_dash, free_cancellation, g_translate, gavel, generating_tokens, get_app, gif, gif_box, grade, grading, group_work, help, help_center, help_outline, hide_source, highlight_alt, highlight_off, history, history_toggle_off, hls, hls_off, home, horizontal_split, hotel_class, hourglass_disabled, hourglass_empty, hourglass_full, html, http, https, important_devices, info, input, install_desktop, install_mobile, integration_instructions, invert_colors, javascript, join_full, join_inner, join_left, join_right, label, label_important, label_off, language, launch, leaderboard, lightbulb, lightbulb_circle, line_style, line_weight, list, lock, lock_clock, lock_open, lock_reset, login, logout, loyalty, manage_accounts, manage_history, mark_as_unread, markunread_mailbox, maximize, mediation, minimize, model_training, network_ping, new_label, next_plan, nightlight_round, no_accounts, noise_aware, noise_control_off, not_accessible, not_started, note_add, offline_bolt, offline_pin, on_device_training, online_prediction, opacity, open_in_browser, open_in_full, open_in_new, open_in_new_off, open_with, outbound, outbox, outlet, output, pageview, paid, pan_tool, pan_tool_alt, payment, pending, pending_actions, percent, perm_camera_mic, perm_contact_calendar, perm_data_setting, perm_device_information, perm_identity, perm_media, perm_phone_msg, perm_scan_wifi, pets, php, picture_in_picture, picture_in_picture_alt, pin_end, pin_invoke, pinch, plagiarism, play_for_work, polymer, power_settings_new, pregnant_woman, preview, print, privacy_tip, private_connectivity, production_quantity_limits, published_with_changes, query_builder, question_answer, question_mark, quickreply, receipt, record_voice_over, redeem, remove_done, remove_shopping_cart, reorder, report_problem, request_page, restore, restore_from_trash, restore_page, rocket, rocket_launch, room, rounded_corner, rowing, rule, satellite_alt, saved_search, savings, schedule, schedule_send, search, search_off, segment, send_and_archive, sensors, sensors_off, settings, settings_accessibility, settings_applications, settings_backup_restore, settings_bluetooth, settings_brightness, settings_cell, settings_ethernet, settings_input_antenna, settings_input_component, settings_input_composite, settings_input_hdmi, settings_input_svideo, settings_overscan, settings_phone, settings_power, settings_remote, settings_voice, shop, shop_2, shop_two, shopping_bag, shopping_basket, shopping_cart, shopping_cart_checkout, smart_button, source, space_dashboard, spatial_audio, spatial_audio_off, spatial_tracking, speaker_notes, speaker_notes_off, spellcheck, star_rate, stars, sticky_note_2, store, subject, subtitles_off, supervised_user_circle, supervisor_account, support, swap_horiz, swap_horizontal_circle, swap_vert, swap_vertical_circle, swipe, swipe_down, swipe_down_alt, swipe_left, swipe_left_alt, swipe_right, swipe_right_alt, swipe_up, swipe_up_alt, swipe_vertical, switch_access_shortcut, switch_access_shortcut_add, sync_alt, system_update_alt, tab, tab_unselected, table_view, task_alt, terminal, text_rotate_up, text_rotate_vertical, text_rotation_angledown, text_rotation_angleup, text_rotation_down, text_rotation_none, theaters, thumb_down, thumb_down_off_alt, thumb_up, thumb_up_off_alt, thumbs_up_down, timeline, tips_and_updates, toc, today, token, toll, touch_app, tour, track_changes, translate, trending_down, trending_flat, trending_up, try, turned_in, turned_in_not, unpublished, update, update_disabled, upgrade, verified, verified_user, vertical_split, view_agenda, view_array, view_carousel, view_column, view_comfy_alt, view_compact_alt, view_cozy, view_day, view_headline, view_in_ar, view_kanban, view_list, view_module, view_quilt, view_sidebar, view_stream, view_timeline, view_week, visibility, visibility_off, voice_over_off, watch_later, webhook, wifi_protected_setup, work, work_history, work_off, work_outline, wysiwyg, youtube_searched_for, zoom_in, zoom_out
 
 
 # Alert
@@ -34,52 +34,52 @@ module Material.Icons.Round exposing
 
 # Av
 
-@docs ten_k, one_k, one_k_plus, two_k, two_k_plus, three_k, three_k_plus, four_k, four_k_plus, five_g, five_k, five_k_plus, six_k, six_k_plus, seven_k, seven_k_plus, eight_k, eight_k_plus, nine_k, nine_k_plus, add_to_queue, airplay, album, art_track, av_timer, branding_watermark, call_to_action, closed_caption, closed_caption_disabled, closed_caption_off, control_camera, equalizer, explicit, fast_forward, fast_rewind, featured_play_list, featured_video, fiber_dvr, fiber_manual_record, fiber_new, fiber_pin, fiber_smart_record, forward_10, forward_30, forward_5, games, hd, hearing, hearing_disabled, high_quality, interpreter_mode, library_add, library_add_check, library_books, library_music, loop, mic, mic_none, mic_off, missed_video_call, movie, music_video, new_releases, not_interested, note, pause, pause_circle, pause_circle_filled, pause_circle_outline, play_arrow, play_circle, play_circle_filled, play_circle_outline, play_disabled, playlist_add, playlist_add_check, playlist_add_check_circle, playlist_add_circle, playlist_play, queue, queue_music, queue_play_next, radio, recent_actors, remove_from_queue, repeat, repeat_on, repeat_one, repeat_one_on, replay, replay_10, replay_30, replay_5, replay_circle_filled, sd, shuffle, shuffle_on, skip_next, skip_previous, slow_motion_video, snooze, sort_by_alpha, speed, stop, stop_circle, subscriptions, subtitles, surround_sound, video_call, video_label, video_library, video_settings, videocam, videocam_off, volume_down, volume_mute, volume_off, volume_up, web, web_asset, web_asset_off
+@docs ten_k, one_k, one_k_plus, two_k, two_k_plus, three_k, three_k_plus, four_k, four_k_plus, five_g, five_k, five_k_plus, six_k, six_k_plus, seven_k, seven_k_plus, eight_k, eight_k_plus, nine_k, nine_k_plus, add_to_queue, airplay, album, art_track, audio_file, av_timer, branding_watermark, call_to_action, closed_caption, closed_caption_disabled, closed_caption_off, control_camera, equalizer, explicit, fast_forward, fast_rewind, featured_play_list, featured_video, fiber_dvr, fiber_manual_record, fiber_new, fiber_pin, fiber_smart_record, forward_10, forward_30, forward_5, games, hd, hearing, hearing_disabled, high_quality, interpreter_mode, library_add, library_add_check, library_books, library_music, loop, lyrics, mic, mic_none, mic_off, missed_video_call, movie, music_video, new_releases, not_interested, note, pause, pause_circle, pause_circle_filled, pause_circle_outline, play_arrow, play_circle, play_circle_filled, play_circle_outline, play_disabled, playlist_add, playlist_add_check, playlist_add_check_circle, playlist_add_circle, playlist_play, playlist_remove, queue, queue_music, queue_play_next, radio, recent_actors, remove_from_queue, repeat, repeat_on, repeat_one, repeat_one_on, replay, replay_10, replay_30, replay_5, replay_circle_filled, sd, shuffle, shuffle_on, skip_next, skip_previous, slow_motion_video, snooze, sort_by_alpha, speed, stop, stop_circle, subscriptions, subtitles, surround_sound, video_call, video_file, video_label, video_library, video_settings, videocam, videocam_off, volume_down, volume_mute, volume_off, volume_up, web, web_asset, web_asset_off
 
 
 # Communication
 
-@docs three_p, add_ic_call, alternate_email, app_registration, business, call, call_end, call_made, call_merge, call_missed, call_missed_outgoing, call_received, call_split, cancel_presentation, cell_wifi, chat, chat_bubble, chat_bubble_outline, clear_all, comment, comments_disabled, contact_mail, contact_phone, contacts, desktop_access_disabled, dialer_sip, dialpad, document_scanner, domain_disabled, domain_verification, duo, email, forum, forward_to_inbox, hourglass_bottom, hourglass_top, hub, import_contacts, import_export, invert_colors_off, key, list_alt, live_help, location_off, location_on, mail_outline, mark_chat_read, mark_chat_unread, mark_email_read, mark_email_unread, message, mobile_screen_share, more_time, nat, no_sim, pause_presentation, person_add_disabled, person_search, phone, phone_disabled, phone_enabled, phonelink_erase, phonelink_lock, phonelink_ring, phonelink_setup, portable_wifi_off, present_to_all, print_disabled, qr_code, qr_code_2, qr_code_scanner, read_more, ring_volume, rss_feed, rtt, screen_share, send_time_extension, sentiment_satisfied_alt, sip, speaker_phone, spoke, stay_current_landscape, stay_current_portrait, stay_primary_landscape, stay_primary_portrait, stop_screen_share, swap_calls, textsms, unsubscribe, voicemail, vpn_key, wifi_calling
+@docs three_p, add_ic_call, alternate_email, app_registration, business, call, call_end, call_made, call_merge, call_missed, call_missed_outgoing, call_received, call_split, cancel_presentation, cell_tower, cell_wifi, chat, chat_bubble, chat_bubble_outline, clear_all, co_present, comment, comments_disabled, contact_mail, contact_phone, contacts, desktop_access_disabled, dialer_sip, dialpad, document_scanner, domain_disabled, domain_verification, duo, email, forum, forward_to_inbox, hourglass_bottom, hourglass_top, hub, import_contacts, import_export, invert_colors_off, key, key_off, list_alt, live_help, location_off, location_on, mail_lock, mail_outline, mark_chat_read, mark_chat_unread, mark_email_read, mark_email_unread, mark_unread_chat_alt, message, mobile_screen_share, more_time, nat, no_sim, pause_presentation, person_add_disabled, person_search, phone, phone_disabled, phone_enabled, phonelink_erase, phonelink_lock, phonelink_ring, phonelink_setup, portable_wifi_off, present_to_all, print_disabled, qr_code, qr_code_2, qr_code_scanner, read_more, ring_volume, rss_feed, rtt, screen_share, send_time_extension, sentiment_satisfied_alt, sip, speaker_phone, spoke, stay_current_landscape, stay_current_portrait, stay_primary_landscape, stay_primary_portrait, stop_screen_share, swap_calls, textsms, unsubscribe, voicemail, vpn_key, vpn_key_off, wifi_calling
 
 
 # Content
 
-@docs add, add_box, add_circle, add_circle_outline, add_link, archive, attribution, backspace, ballot, biotech, block, bolt, calculate, change_circle, clear, content_copy, content_cut, content_paste, content_paste_go, content_paste_off, content_paste_search, copy_all, create, delete_sweep, drafts, dynamic_feed, file_copy, filter_list, flag, font_download, font_download_off, forward, gesture, how_to_reg, how_to_vote, inbox, insights, inventory, inventory_2, link, link_off, low_priority, mail, markunread, move_to_inbox, next_week, outlined_flag, policy, push_pin, redo, remove, remove_circle, remove_circle_outline, reply, reply_all, report, report_gmailerrorred, report_off, save, save_alt, select_all, send, shield, sort, square_foot, stacked_bar_chart, stream, tag, text_format, unarchive, undo, upcoming, waves, weekend, where_to_vote
+@docs add, add_box, add_circle, add_circle_outline, add_link, archive, attribution, backspace, ballot, biotech, block, bolt, calculate, change_circle, clear, content_copy, content_cut, content_paste, content_paste_go, content_paste_off, content_paste_search, copy_all, create, delete_sweep, deselect, drafts, dynamic_feed, file_copy, filter_list, filter_list_off, flag, flag_circle, font_download, font_download_off, forward, gesture, how_to_reg, how_to_vote, inbox, insights, inventory, inventory_2, link, link_off, low_priority, mail, markunread, move_to_inbox, next_week, outlined_flag, policy, push_pin, redo, remove, remove_circle, remove_circle_outline, reply, reply_all, report, report_gmailerrorred, report_off, save, save_alt, save_as, select_all, send, shield, sort, square_foot, stacked_bar_chart, stream, tag, text_format, unarchive, undo, upcoming, waves, weekend, where_to_vote
 
 
 # Device
 
-@docs one_x_mobiledata, thirty_fps, three_g_mobiledata, four_g_mobiledata, four_g_plus_mobiledata, sixty_fps, access_alarm, access_alarms, access_time, access_time_filled, ad_units, add_alarm, add_to_home_screen, air, airplane_ticket, airplanemode_active, airplanemode_inactive, aod, battery_alert, battery_charging_full, battery_full, battery_saver, battery_std, battery_unknown, bloodtype, bluetooth, bluetooth_connected, bluetooth_disabled, bluetooth_drive, bluetooth_searching, brightness_auto, brightness_high, brightness_low, brightness_medium, cable, cameraswitch, credit_score, dark_mode, data_saver_off, data_saver_on, data_usage, developer_mode, device_thermostat, devices, do_not_disturb_on_total_silence, dvr, e_mobiledata, edgesensor_high, edgesensor_low, flashlight_off, flashlight_on, flourescent, fmd_bad, fmd_good, g_mobiledata, gpp_bad, gpp_good, gpp_maybe, gps_fixed, gps_not_fixed, gps_off, graphic_eq, grid_3x3, grid_4x4, grid_goldenratio, h_mobiledata, h_plus_mobiledata, hdr_auto, hdr_auto_select, hdr_off_select, hdr_on_select, lens_blur, light_mode, location_disabled, location_searching, lte_mobiledata, lte_plus_mobiledata, media_bluetooth_off, media_bluetooth_on, medication, medication_liquid, mobile_friendly, mobile_off, mobiledata_off, mode_night, mode_standby, monitor_heart, monitor_weight, nearby_error, nearby_off, network_cell, network_wifi, nfc, nightlight, note_alt, password, pattern, phishing, pin, play_lesson, price_change, price_check, punch_clock, quiz, r_mobiledata, radar, remember_me, reset_tv, restart_alt, reviews, rsvp, screen_lock_landscape, screen_lock_portrait, screen_lock_rotation, screen_rotation, screen_search_desktop, screenshot, sd_storage, security_update, security_update_good, security_update_warning, sell, send_to_mobile, settings_suggest, settings_system_daydream, share_location, shortcut, signal_cellular_0_bar, signal_cellular_4_bar, signal_cellular_alt, signal_cellular_connected_no_internet_0_bar, signal_cellular_connected_no_internet_4_bar, signal_cellular_no_sim, signal_cellular_nodata, signal_cellular_null, signal_cellular_off, signal_wifi_0_bar, signal_wifi_4_bar, signal_wifi_4_bar_lock, signal_wifi_bad, signal_wifi_connected_no_internet_4, signal_wifi_off, signal_wifi_statusbar_4_bar, signal_wifi_statusbar_connected_no_internet_4, signal_wifi_statusbar_null, sim_card_download, splitscreen, sports_score, storage, storm, summarize, system_security_update, system_security_update_good, system_security_update_warning, task, thermostat, timer_10_select, timer_3_select, tungsten, usb, usb_off, wallpaper, water, widgets, wifi_calling_3, wifi_lock, wifi_tethering, wifi_tethering_error, wifi_tethering_error_rounded, wifi_tethering_off
+@docs one_x_mobiledata, thirty_fps, three_g_mobiledata, four_g_mobiledata, four_g_plus_mobiledata, sixty_fps, access_alarm, access_alarms, access_time, access_time_filled, ad_units, add_alarm, add_to_home_screen, air, airplane_ticket, airplanemode_active, airplanemode_inactive, aod, battery_0_bar, battery_1_bar, battery_2_bar, battery_3_bar, battery_4_bar, battery_5_bar, battery_6_bar, battery_alert, battery_charging_full, battery_full, battery_saver, battery_std, battery_unknown, bloodtype, bluetooth, bluetooth_connected, bluetooth_disabled, bluetooth_drive, bluetooth_searching, brightness_auto, brightness_high, brightness_low, brightness_medium, cable, cameraswitch, credit_score, dark_mode, data_saver_off, data_saver_on, data_usage, developer_mode, device_thermostat, devices, devices_fold, discount, do_not_disturb_on_total_silence, dvr, e_mobiledata, edgesensor_high, edgesensor_low, flashlight_off, flashlight_on, flourescent, fmd_bad, fmd_good, g_mobiledata, gpp_bad, gpp_good, gpp_maybe, gps_fixed, gps_not_fixed, gps_off, graphic_eq, grid_3x3, grid_4x4, grid_goldenratio, h_mobiledata, h_plus_mobiledata, hdr_auto, hdr_auto_select, hdr_off_select, hdr_on_select, lan, lens_blur, light_mode, location_disabled, location_searching, lte_mobiledata, lte_plus_mobiledata, media_bluetooth_off, media_bluetooth_on, medication, medication_liquid, mobile_friendly, mobile_off, mobiledata_off, mode_night, mode_standby, monitor_heart, monitor_weight, nearby_error, nearby_off, network_cell, network_wifi, network_wifi_1_bar, network_wifi_2_bar, network_wifi_3_bar, nfc, nightlight, note_alt, password, pattern, phishing, pin, play_lesson, price_change, price_check, punch_clock, quiz, r_mobiledata, radar, remember_me, reset_tv, restart_alt, reviews, rsvp, screen_lock_landscape, screen_lock_portrait, screen_lock_rotation, screen_rotation, screen_search_desktop, screenshot, screenshot_monitor, sd_storage, security_update, security_update_good, security_update_warning, sell, send_to_mobile, settings_suggest, settings_system_daydream, share_location, shortcut, signal_cellular_0_bar, signal_cellular_4_bar, signal_cellular_alt, signal_cellular_alt_1_bar, signal_cellular_alt_2_bar, signal_cellular_connected_no_internet_0_bar, signal_cellular_connected_no_internet_4_bar, signal_cellular_no_sim, signal_cellular_nodata, signal_cellular_null, signal_cellular_off, signal_wifi_0_bar, signal_wifi_4_bar, signal_wifi_4_bar_lock, signal_wifi_bad, signal_wifi_connected_no_internet_4, signal_wifi_off, signal_wifi_statusbar_4_bar, signal_wifi_statusbar_connected_no_internet_4, signal_wifi_statusbar_null, sim_card_download, splitscreen, sports_score, ssid_chart, storage, storm, summarize, system_security_update, system_security_update_good, system_security_update_warning, task, thermostat, timer_10_select, timer_3_select, tungsten, usb, usb_off, wallpaper, water, widgets, wifi_1_bar, wifi_2_bar, wifi_calling_3, wifi_channel, wifi_find, wifi_lock, wifi_password, wifi_tethering, wifi_tethering_error, wifi_tethering_off
 
 
 # Editor
 
-@docs add_chart, add_comment, align_horizontal_center, align_horizontal_left, align_horizontal_right, align_vertical_bottom, align_vertical_center, align_vertical_top, area_chart, attach_file, attach_money, auto_graph, bar_chart, border_all, border_bottom, border_clear, border_color, border_horizontal, border_inner, border_left, border_outer, border_right, border_style, border_top, border_vertical, bubble_chart, candlestick_chart, checklist, checklist_rtl, data_array, data_object, drag_handle, draw, edit_note, format_align_center, format_align_justify, format_align_left, format_align_right, format_bold, format_clear, format_color_fill, format_color_reset, format_color_text, format_indent_decrease, format_indent_increase, format_italic, format_line_spacing, format_list_bulleted, format_list_numbered, format_list_numbered_rtl, format_paint, format_quote, format_shapes, format_size, format_strikethrough, format_textdirection_l_to_r, format_textdirection_r_to_l, format_underlined, functions, height, highlight, horizontal_distribute, horizontal_rule, insert_chart, insert_chart_outlined, insert_comment, insert_drive_file, insert_emoticon, insert_invitation, insert_link, insert_page_break, insert_photo, line_axis, linear_scale, margin, merge_type, mode, mode_comment, mode_edit, mode_edit_outline, monetization_on, money_off, money_off_csred, multiline_chart, notes, numbers, padding, pie_chart, pie_chart_outline, post_add, publish, query_stats, scatter_plot, schema, score, short_text, show_chart, space_bar, stacked_line_chart, strikethrough_s, subscript, superscript, table_chart, table_rows, text_fields, title, vertical_align_bottom, vertical_align_center, vertical_align_top, vertical_distribute, wrap_text
+@docs add_chart, add_comment, align_horizontal_center, align_horizontal_left, align_horizontal_right, align_vertical_bottom, align_vertical_center, align_vertical_top, area_chart, attach_file, attach_money, auto_graph, bar_chart, border_all, border_bottom, border_clear, border_color, border_horizontal, border_inner, border_left, border_outer, border_right, border_style, border_top, border_vertical, bubble_chart, candlestick_chart, checklist, checklist_rtl, data_array, data_object, drag_handle, draw, edit_note, format_align_center, format_align_justify, format_align_left, format_align_right, format_bold, format_clear, format_color_fill, format_color_reset, format_color_text, format_indent_decrease, format_indent_increase, format_italic, format_line_spacing, format_list_bulleted, format_list_numbered, format_list_numbered_rtl, format_paint, format_quote, format_shapes, format_size, format_strikethrough, format_textdirection_l_to_r, format_textdirection_r_to_l, format_underlined, functions, height, hexagon, highlight, horizontal_distribute, horizontal_rule, insert_chart, insert_chart_outlined, insert_comment, insert_drive_file, insert_emoticon, insert_invitation, insert_link, insert_page_break, insert_photo, line_axis, linear_scale, margin, merge_type, mode, mode_comment, mode_edit, mode_edit_outline, monetization_on, money_off, money_off_csred, move_down, move_up, multiline_chart, notes, numbers, padding, pentagon, pie_chart, pie_chart_outline, polyline, post_add, publish, query_stats, rectangle, scatter_plot, schema, score, short_text, show_chart, space_bar, square, stacked_line_chart, strikethrough_s, subscript, superscript, table_chart, table_rows, text_decrease, text_fields, text_increase, title, vertical_align_bottom, vertical_align_center, vertical_align_top, vertical_distribute, wrap_text
 
 
 # File
 
-@docs approval, attach_email, attachment, cloud, cloud_circle, cloud_done, cloud_download, cloud_off, cloud_queue, cloud_upload, create_new_folder, download, download_done, download_for_offline, downloading, drive_file_move, drive_file_move_rtl, drive_file_rename_outline, drive_folder_upload, file_download, file_download_done, file_download_off, file_upload, folder, folder_open, folder_shared, grid_view, request_quote, rule_folder, snippet_folder, text_snippet, topic, upload, upload_file, workspaces
+@docs approval, attach_email, attachment, cloud, cloud_circle, cloud_done, cloud_download, cloud_off, cloud_queue, cloud_sync, cloud_upload, create_new_folder, difference, download, download_done, download_for_offline, downloading, drive_file_move, drive_file_move_rtl, drive_file_rename_outline, drive_folder_upload, file_download, file_download_done, file_download_off, file_open, file_upload, folder, folder_copy, folder_delete, folder_off, folder_open, folder_shared, folder_zip, format_overline, grid_view, newspaper, request_quote, rule_folder, snippet_folder, text_snippet, topic, upload, upload_file, workspaces
 
 
 # Hardware
 
-@docs adf_scanner, browser_not_supported, browser_updated, cast, cast_connected, cast_for_education, computer, connected_tv, desktop_mac, desktop_windows, developer_board, developer_board_off, device_hub, device_unknown, devices_other, dock, earbuds, earbuds_battery, gamepad, headphones, headphones_battery, headset, headset_mic, headset_off, home_max, home_mini, keyboard, keyboard_alt, keyboard_arrow_down, keyboard_arrow_left, keyboard_arrow_right, keyboard_arrow_up, keyboard_backspace, keyboard_capslock, keyboard_double_arrow_down, keyboard_double_arrow_left, keyboard_double_arrow_right, keyboard_double_arrow_up, keyboard_hide, keyboard_return, keyboard_tab, keyboard_voice, laptop, laptop_chromebook, laptop_mac, laptop_windows, memory, monitor, mouse, phone_android, phone_iphone, phonelink, phonelink_off, point_of_sale, power_input, router, scanner, security, sim_card, smart_display, smart_screen, smart_toy, smartphone, speaker, speaker_group, tablet, tablet_android, tablet_mac, toys, tv, videogame_asset, videogame_asset_off, watch
+@docs adf_scanner, browser_not_supported, browser_updated, cast, cast_connected, cast_for_education, computer, connected_tv, desktop_mac, desktop_windows, developer_board, developer_board_off, device_hub, device_unknown, devices_other, dock, earbuds, earbuds_battery, gamepad, headphones, headphones_battery, headset, headset_mic, headset_off, home_max, home_mini, keyboard, keyboard_alt, keyboard_arrow_down, keyboard_arrow_left, keyboard_arrow_right, keyboard_arrow_up, keyboard_backspace, keyboard_capslock, keyboard_command_key, keyboard_control_key, keyboard_double_arrow_down, keyboard_double_arrow_left, keyboard_double_arrow_right, keyboard_double_arrow_up, keyboard_hide, keyboard_option_key, keyboard_return, keyboard_tab, keyboard_voice, laptop, laptop_chromebook, laptop_mac, laptop_windows, memory, monitor, mouse, phone_android, phone_iphone, phonelink, phonelink_off, point_of_sale, power_input, router, scanner, security, sim_card, smart_display, smart_screen, smart_toy, smartphone, speaker, speaker_group, start, tablet, tablet_android, tablet_mac, toys, tv, videogame_asset, videogame_asset_off, watch, watch_off
 
 
 # Home
 
-@docs sensor_door, sensor_window, shield_moon
+@docs auto_mode, blinds_closed, curtains, curtains_closed, electric_bolt, electric_meter, energy_savings_leaf, gas_meter, heat_pump, mode_fan_off, nest_cam_wired_stand, oil_barrel, propane, propane_tank, roller_shades, roller_shades_closed, sensor_door, sensor_occupied, sensor_window, shield_moon, solar_power, vertical_shades, vertical_shades_closed, wind_power
 
 
 # Image
 
-@docs ten_mp, eleven_mp, twelve_mp, thirteen_mp, fourteen_mp, fifteen_mp, sixteen_mp, seventeen_mp, eighteen_mp, nineteen_mp, twenty_mp, twenty_one_mp, twenty_two_mp, twenty_three_mp, twenty_four_mp, two_mp, thirty_fps_select, three_mp, four_mp, five_mp, sixty_fps_select, six_mp, seven_mp, eight_mp, nine_mp, add_a_photo, add_photo_alternate, add_to_photos, adjust, animation, assistant, assistant_photo, audiotrack, auto_awesome, auto_awesome_mosaic, auto_awesome_motion, auto_fix_high, auto_fix_normal, auto_fix_off, auto_stories, autofps_select, bedtime, blur_circular, blur_linear, blur_off, blur_on, brightness_1, brightness_2, brightness_3, brightness_4, brightness_5, brightness_6, brightness_7, broken_image, brush, burst_mode, camera, camera_alt, camera_front, camera_rear, camera_roll, cases, center_focus_strong, center_focus_weak, circle, collections, collections_bookmark, color_lens, colorize, compare, control_point, control_point_duplicate, crop, crop_16_9, crop_3_2, crop_5_4, crop_7_5, crop_din, crop_free, crop_landscape, crop_original, crop_portrait, crop_rotate, crop_square, dehaze, details, dirty_lens, edit, euro, exposure, exposure_neg_1, exposure_neg_2, exposure_plus_1, exposure_plus_2, exposure_zero, face_retouching_natural, face_retouching_off, filter, filter_1, filter_2, filter_3, filter_4, filter_5, filter_6, filter_7, filter_8, filter_9, filter_9_plus, filter_b_and_w, filter_center_focus, filter_drama, filter_frames, filter_hdr, filter_none, filter_tilt_shift, filter_vintage, flare, flash_auto, flash_off, flash_on, flip, flip_camera_android, flip_camera_ios, gradient, grain, grid_off, grid_on, hdr_enhanced_select, hdr_off, hdr_on, hdr_plus, hdr_strong, hdr_weak, healing, hevc, hide_image, image, image_aspect_ratio, image_not_supported, image_search, incomplete_circle, iso, landscape, leak_add, leak_remove, lens, linked_camera, logo_dev, looks, looks_3, looks_4, looks_5, looks_6, looks_one, looks_two, loupe, mic_external_off, mic_external_on, monochrome_photos, motion_photos_auto, motion_photos_off, motion_photos_on, motion_photos_pause, motion_photos_paused, movie_creation, movie_filter, mp, music_note, music_off, nature, nature_people, navigate_before, navigate_next, palette, panorama, panorama_fish_eye, panorama_horizontal, panorama_horizontal_select, panorama_photosphere, panorama_photosphere_select, panorama_vertical, panorama_vertical_select, panorama_wide_angle, panorama_wide_angle_select, photo, photo_album, photo_camera, photo_camera_back, photo_camera_front, photo_filter, photo_library, photo_size_select_actual, photo_size_select_large, photo_size_select_small, picture_as_pdf, portrait, raw_off, raw_on, receipt_long, remove_red_eye, rotate_90_degrees_ccw, rotate_90_degrees_cw, rotate_left, rotate_right, shutter_speed, slideshow, straighten, style, switch_camera, switch_video, tag_faces, texture, thermostat_auto, timelapse, timer, timer_10, timer_3, timer_off, tonality, transform, tune, video_camera_back, video_camera_front, video_stable, view_comfy, view_compact, vignette, vrpano, wb_auto, wb_cloudy, wb_incandescent, wb_iridescent, wb_shade, wb_sunny, wb_twilight
+@docs ten_mp, eleven_mp, twelve_mp, thirteen_mp, fourteen_mp, fifteen_mp, sixteen_mp, seventeen_mp, eighteen_mp, nineteen_mp, twenty_mp, twenty_one_mp, twenty_two_mp, twenty_three_mp, twenty_four_mp, two_mp, thirty_fps_select, three_mp, four_mp, five_mp, sixty_fps_select, six_mp, seven_mp, eight_mp, nine_mp, add_a_photo, add_photo_alternate, add_to_photos, adjust, animation, assistant, assistant_photo, audiotrack, auto_awesome, auto_awesome_mosaic, auto_awesome_motion, auto_fix_high, auto_fix_normal, auto_fix_off, auto_stories, autofps_select, bedtime, bedtime_off, blur_circular, blur_linear, blur_off, blur_on, brightness_1, brightness_2, brightness_3, brightness_4, brightness_5, brightness_6, brightness_7, broken_image, brush, burst_mode, camera, camera_alt, camera_front, camera_rear, camera_roll, cases, center_focus_strong, center_focus_weak, circle, collections, collections_bookmark, color_lens, colorize, compare, contrast, control_point, control_point_duplicate, crop, crop_16_9, crop_3_2, crop_5_4, crop_7_5, crop_din, crop_free, crop_landscape, crop_original, crop_portrait, crop_rotate, crop_square, currency_bitcoin, currency_franc, currency_lira, currency_pound, currency_ruble, currency_rupee, currency_yen, currency_yuan, deblur, dehaze, details, dirty_lens, edit, euro, exposure, exposure_neg_1, exposure_neg_2, exposure_plus_1, exposure_plus_2, exposure_zero, face_retouching_natural, face_retouching_off, filter, filter_1, filter_2, filter_3, filter_4, filter_5, filter_6, filter_7, filter_8, filter_9, filter_9_plus, filter_b_and_w, filter_center_focus, filter_drama, filter_frames, filter_hdr, filter_none, filter_tilt_shift, filter_vintage, flare, flash_auto, flash_off, flash_on, flip, flip_camera_android, flip_camera_ios, gradient, grain, grid_off, grid_on, hdr_enhanced_select, hdr_off, hdr_on, hdr_plus, hdr_strong, hdr_weak, healing, hevc, hide_image, image, image_aspect_ratio, image_not_supported, image_search, incomplete_circle, iso, landscape, leak_add, leak_remove, lens, linked_camera, logo_dev, looks, looks_3, looks_4, looks_5, looks_6, looks_one, looks_two, loupe, mic_external_off, mic_external_on, monochrome_photos, motion_photos_auto, motion_photos_off, motion_photos_on, motion_photos_pause, motion_photos_paused, movie_creation, movie_filter, mp, music_note, music_off, nature, nature_people, navigate_before, navigate_next, palette, panorama, panorama_fish_eye, panorama_horizontal, panorama_horizontal_select, panorama_photosphere, panorama_photosphere_select, panorama_vertical, panorama_vertical_select, panorama_wide_angle, panorama_wide_angle_select, photo, photo_album, photo_camera, photo_camera_back, photo_camera_front, photo_filter, photo_library, photo_size_select_actual, photo_size_select_large, photo_size_select_small, picture_as_pdf, portrait, raw_off, raw_on, receipt_long, remove_red_eye, rotate_90_degrees_ccw, rotate_90_degrees_cw, rotate_left, rotate_right, shutter_speed, slideshow, straighten, style, switch_camera, switch_video, tag_faces, texture, thermostat_auto, timelapse, timer, timer_10, timer_3, timer_off, tonality, transform, tune, video_camera_back, video_camera_front, video_stable, view_comfy, view_compact, vignette, vrpano, wb_auto, wb_cloudy, wb_incandescent, wb_iridescent, wb_shade, wb_sunny, wb_twilight
 
 
 # Maps
 
-@docs three_sixty, add_business, add_location, add_location_alt, add_road, agriculture, airline_stops, airlines, alt_route, atm, attractions, badge, bakery_dining, beenhere, bike_scooter, breakfast_dining, brunch_dining, bus_alert, car_rental, car_repair, castle, category, celebration, church, cleaning_services, compass_calibration, connecting_airports, delivery_dining, departure_board, design_services, diamond, dinner_dining, directions, directions_bike, directions_boat, directions_boat_filled, directions_bus, directions_bus_filled, directions_car, directions_car_filled, directions_railway, directions_railway_filled, directions_run, directions_subway, directions_subway_filled, directions_transit, directions_transit_filled, directions_walk, dry_cleaning, edit_attributes, edit_location, edit_location_alt, edit_road, egg, egg_alt, electric_bike, electric_car, electric_moped, electric_rickshaw, electric_scooter, electrical_services, emergency, ev_station, fastfood, festival, flight, flight_class, forest, fort, hail, handyman, hardware, home_repair_service, hotel, hvac, icecream, kebab_dining, layers, layers_clear, liquor, local_activity, local_airport, local_atm, local_bar, local_cafe, local_car_wash, local_convenience_store, local_dining, local_drink, local_fire_department, local_florist, local_gas_station, local_grocery_store, local_hospital, local_hotel, local_laundry_service, local_library, local_mall, local_movies, local_offer, local_parking, local_pharmacy, local_phone, local_pizza, local_play, local_police, local_post_office, local_printshop, local_see, local_shipping, local_taxi, lunch_dining, map, maps_ugc, medical_services, menu_book, miscellaneous_services, mode_of_travel, money, moped, mosque, moving, multiple_stop, museum, my_location, navigation, near_me, near_me_disabled, nightlife, no_meals, no_transfer, not_listed_location, park, pedal_bike, person_pin, person_pin_circle, pest_control, pest_control_rodent, pin_drop, place, plumbing, railway_alert, ramen_dining, rate_review, restaurant, restaurant_menu, route, run_circle, sailing, satellite, set_meal, snowmobile, soup_kitchen, store_mall_directory, streetview, subway, synagogue, takeout_dining, taxi_alert, temple_buddhist, temple_hindu, terrain, theater_comedy, traffic, train, tram, transfer_within_a_station, transit_enterexit, trip_origin, two_wheeler, volunteer_activism, wine_bar, wrong_location, zoom_out_map
+@docs three_sixty, add_business, add_location, add_location_alt, add_road, agriculture, airline_stops, airlines, alt_route, atm, attractions, badge, bakery_dining, beenhere, bike_scooter, breakfast_dining, brunch_dining, bus_alert, car_crash, car_rental, car_repair, castle, category, celebration, church, cleaning_services, compass_calibration, connecting_airports, crisis_alert, delivery_dining, departure_board, design_services, diamond, dinner_dining, directions, directions_bike, directions_boat, directions_boat_filled, directions_bus, directions_bus_filled, directions_car, directions_car_filled, directions_railway, directions_railway_filled, directions_run, directions_subway, directions_subway_filled, directions_transit, directions_transit_filled, directions_walk, dry_cleaning, edit_attributes, edit_location, edit_location_alt, edit_road, egg, egg_alt, electric_bike, electric_car, electric_moped, electric_rickshaw, electric_scooter, electrical_services, emergency, emergency_recording, emergency_share, ev_station, factory, fastfood, festival, flight, flight_class, forest, fork_left, fork_right, fort, hail, handyman, hardware, home_repair_service, hotel, hvac, icecream, kebab_dining, layers, layers_clear, liquor, local_activity, local_airport, local_atm, local_bar, local_cafe, local_car_wash, local_convenience_store, local_dining, local_drink, local_fire_department, local_florist, local_gas_station, local_grocery_store, local_hospital, local_hotel, local_laundry_service, local_library, local_mall, local_movies, local_offer, local_parking, local_pharmacy, local_phone, local_pizza, local_play, local_police, local_post_office, local_printshop, local_see, local_shipping, local_taxi, lunch_dining, map, maps_ugc, medical_information, medical_services, menu_book, merge, minor_crash, miscellaneous_services, mode_of_travel, money, moped, mosque, moving, multiple_stop, museum, my_location, navigation, near_me, near_me_disabled, nightlife, no_crash, no_meals, no_transfer, not_listed_location, park, pedal_bike, person_pin, person_pin_circle, pest_control, pest_control_rodent, pin_drop, place, plumbing, railway_alert, ramen_dining, ramp_left, ramp_right, rate_review, remove_road, restaurant, restaurant_menu, roundabout_left, roundabout_right, route, run_circle, safety_check, sailing, satellite, screen_rotation_alt, set_meal, signpost, snowmobile, sos, soup_kitchen, stadium, store_mall_directory, straight, streetview, subway, synagogue, takeout_dining, taxi_alert, temple_buddhist, temple_hindu, terrain, theater_comedy, tire_repair, traffic, train, tram, transfer_within_a_station, transit_enterexit, trip_origin, turn_left, turn_right, turn_sharp_left, turn_sharp_right, turn_slight_left, turn_slight_right, two_wheeler, u_turn_left, u_turn_right, volunteer_activism, warehouse, wine_bar, wrong_location, zoom_in_map, zoom_out_map
 
 
 # Navigation
@@ -89,12 +89,12 @@ module Material.Icons.Round exposing
 
 # Notification
 
-@docs account_tree, adb, airline_seat_flat, airline_seat_flat_angled, airline_seat_individual_suite, airline_seat_legroom_extra, airline_seat_legroom_normal, airline_seat_legroom_reduced, airline_seat_recline_extra, airline_seat_recline_normal, bluetooth_audio, confirmation_number, directions_off, disc_full, do_disturb, do_disturb_alt, do_disturb_off, do_disturb_on, do_not_disturb, do_not_disturb_alt, do_not_disturb_off, do_not_disturb_on, drive_eta, enhanced_encryption, event_available, event_busy, event_note, folder_special, imagesearch_roller, live_tv, mms, more, network_check, network_locked, no_encryption, no_encryption_gmailerrorred, ondemand_video, personal_video, phone_bluetooth_speaker, phone_callback, phone_forwarded, phone_in_talk, phone_locked, phone_missed, phone_paused, power, power_off, priority_high, running_with_errors, sd_card, sd_card_alert, sim_card_alert, sms, sms_failed, support_agent, sync, sync_disabled, sync_problem, system_update, tap_and_play, time_to_leave, tv_off, vibration, voice_chat, vpn_lock, wc, wifi, wifi_off
+@docs account_tree, adb, airline_seat_flat, airline_seat_flat_angled, airline_seat_individual_suite, airline_seat_legroom_extra, airline_seat_legroom_normal, airline_seat_legroom_reduced, airline_seat_recline_extra, airline_seat_recline_normal, bluetooth_audio, confirmation_number, directions_off, disc_full, do_disturb, do_disturb_alt, do_disturb_off, do_disturb_on, do_not_disturb, do_not_disturb_alt, do_not_disturb_off, do_not_disturb_on, drive_eta, enhanced_encryption, event_available, event_busy, event_note, folder_special, imagesearch_roller, live_tv, mms, more, network_check, network_locked, no_encryption, no_encryption_gmailerrorred, ondemand_video, personal_video, phone_bluetooth_speaker, phone_callback, phone_forwarded, phone_in_talk, phone_locked, phone_missed, phone_paused, power, power_off, priority_high, running_with_errors, sd_card, sd_card_alert, sim_card_alert, sms, sms_failed, support_agent, sync, sync_disabled, sync_lock, sync_problem, system_update, tap_and_play, time_to_leave, tv_off, vibration, voice_chat, vpn_lock, wc, wifi, wifi_off
 
 
 # Places
 
-@docs ac_unit, airport_shuttle, all_inclusive, apartment, baby_changing_station, backpack, balcony, bathtub, beach_access, bento, bungalow, business_center, cabin, carpenter, casino, chalet, charging_station, checkroom, child_care, child_friendly, corporate_fare, cottage, countertops, crib, do_not_step, do_not_touch, dry, elevator, escalator, escalator_warning, family_restroom, fence, fire_extinguisher, fitness_center, food_bank, foundation, free_breakfast, gite, golf_course, grass, holiday_village, hot_tub, house, house_siding, houseboat, iron, kitchen, meeting_room, microwave, night_shelter, no_backpack, no_cell, no_drinks, no_flash, no_food, no_meeting_room, no_photography, no_stroller, other_houses, pool, rice_bowl, roofing, room_preferences, room_service, rv_hookup, smoke_free, smoking_rooms, soap, spa, sports_bar, stairs, storefront, stroller, tapas, tty, umbrella, villa, wash, water_damage, wheelchair_pickup
+@docs ac_unit, airport_shuttle, all_inclusive, apartment, baby_changing_station, backpack, balcony, bathtub, beach_access, bento, bungalow, business_center, cabin, carpenter, casino, chalet, charging_station, checkroom, child_care, child_friendly, corporate_fare, cottage, countertops, crib, do_not_step, do_not_touch, dry, elevator, escalator, escalator_warning, family_restroom, fence, fire_extinguisher, fitness_center, food_bank, foundation, free_breakfast, gite, golf_course, grass, holiday_village, hot_tub, house, house_siding, houseboat, iron, kitchen, meeting_room, microwave, night_shelter, no_backpack, no_cell, no_drinks, no_flash, no_food, no_meeting_room, no_photography, no_stroller, other_houses, pool, rice_bowl, roofing, room_preferences, room_service, rv_hookup, smoke_free, smoking_rooms, soap, spa, sports_bar, stairs, storefront, stroller, tapas, tty, umbrella, vape_free, vaping_rooms, villa, wash, water_damage, wheelchair_pickup
 
 
 # Search
@@ -104,7 +104,7 @@ module Material.Icons.Round exposing
 
 # Social
 
-@docs six_ft_apart, add_moderator, add_reaction, architecture, back_hand, cake, catching_pokemon, clean_hands, co2, compost, connect_without_contact, construction, cookie, coronavirus, cruelty_free, deck, domain, downhill_skiing, edit_notifications, elderly, emoji_emotions, emoji_events, emoji_food_beverage, emoji_nature, emoji_objects, emoji_people, emoji_symbols, emoji_transportation, engineering, female, fireplace, fitbit, follow_the_signs, front_hand, group, group_add, group_off, group_remove, groups, health_and_safety, heart_broken, hiking, history_edu, hive, ice_skating, interests, ios_share, kayaking, king_bed, kitesurfing, location_city, luggage, male, man, masks, military_tech, mood, mood_bad, nights_stay, no_luggage, nordic_walking, notification_add, notifications, notifications_active, notifications_none, notifications_off, notifications_paused, outdoor_grill, pages, paragliding, party_mode, people, people_alt, people_outline, person, person_add, person_add_alt, person_add_alt_1, person_off, person_outline, person_remove, person_remove_alt_1, personal_injury, piano, piano_off, pix, plus_one, poll, precision_manufacturing, psychology, public, public_off, real_estate_agent, recommend, recycling, reduce_capacity, remove_moderator, safety_divider, sanitizer, school, science, self_improvement, sentiment_dissatisfied, sentiment_neutral, sentiment_satisfied, sentiment_very_dissatisfied, sentiment_very_satisfied, share, sick, single_bed, skateboarding, sledding, snowboarding, snowshoeing, social_distance, south_america, sports, sports_baseball, sports_basketball, sports_cricket, sports_esports, sports_football, sports_golf, sports_handball, sports_hockey, sports_kabaddi, sports_mma, sports_motorsports, sports_rugby, sports_soccer, sports_tennis, sports_volleyball, surfing, switch_account, thumb_down_alt, thumb_up_alt, transgender, travel_explore, vaccines, water_drop, waving_hand, whatsapp, whatshot, woman, workspace_premium
+@docs six_ft_apart, add_moderator, add_reaction, architecture, back_hand, boy, cake, catching_pokemon, clean_hands, co2, compost, connect_without_contact, construction, cookie, coronavirus, cruelty_free, cyclone, deck, domain, domain_add, downhill_skiing, edit_notifications, elderly, elderly_woman, emoji_emotions, emoji_events, emoji_food_beverage, emoji_nature, emoji_objects, emoji_people, emoji_symbols, emoji_transportation, engineering, female, fireplace, fitbit, flood, follow_the_signs, front_hand, girl, group, group_add, group_off, group_remove, groups, handshake, health_and_safety, heart_broken, hiking, history_edu, hive, ice_skating, interests, ios_share, kayaking, king_bed, kitesurfing, landslide, location_city, luggage, male, man, masks, military_tech, mood, mood_bad, nights_stay, no_luggage, nordic_walking, notification_add, notifications, notifications_active, notifications_none, notifications_off, notifications_paused, outdoor_grill, pages, paragliding, party_mode, people, people_alt, people_outline, person, person_add, person_add_alt, person_add_alt_1, person_off, person_outline, person_remove, person_remove_alt_1, personal_injury, piano, piano_off, pix, plus_one, poll, precision_manufacturing, psychology, public, public_off, real_estate_agent, recommend, recycling, reduce_capacity, remove_moderator, roller_skating, safety_divider, sanitizer, scale, school, science, scoreboard, scuba_diving, self_improvement, sentiment_dissatisfied, sentiment_neutral, sentiment_satisfied, sentiment_very_dissatisfied, sentiment_very_satisfied, severe_cold, share, sick, sign_language, single_bed, skateboarding, sledding, snowboarding, snowshoeing, social_distance, south_america, sports, sports_baseball, sports_basketball, sports_cricket, sports_esports, sports_football, sports_golf, sports_gymnastics, sports_handball, sports_hockey, sports_kabaddi, sports_martial_arts, sports_mma, sports_motorsports, sports_rugby, sports_soccer, sports_tennis, sports_volleyball, surfing, switch_account, thumb_down_alt, thumb_up_alt, thunderstorm, tornado, transgender, travel_explore, tsunami, vaccines, volcano, water_drop, waving_hand, whatsapp, whatshot, woman, workspace_premium
 
 
 # Toggle
@@ -184,6 +184,29 @@ eleven_mp =
                     []
                     []
                 ]
+            ]
+        ]
+
+
+{-| -}
+one_two_three : Icon msg
+one_two_three =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M4.75,10.5C4.34,10.5,4,10.16,4,9.75S4.34,9,4.75,9H6c0.55,0,1,0.45,1,1v4.25C7,14.66,6.66,15,6.25,15S5.5,14.66,5.5,14.25 V10.5H4.75z M9.75,9C9.34,9,9,9.34,9,9.75s0.34,0.75,0.75,0.75H12v1h-2c-0.55,0-1,0.45-1,1V14c0,0.55,0.45,1,1,1h2.75 c0.41,0,0.75-0.34,0.75-0.75c0-0.41-0.34-0.75-0.75-0.75H10.5v-1h2c0.55,0,1-0.45,1-1V10c0-0.55-0.45-1-1-1H9.75z M18.5,15 c0.55,0,1-0.45,1-1v-4c0-0.55-0.45-1-1-1h-2.75C15.34,9,15,9.34,15,9.75s0.34,0.75,0.75,0.75H18v1h-1.5c-0.28,0-0.5,0.22-0.5,0.5 s0.22,0.5,0.5,0.5H18v1h-2.25c-0.41,0-0.75,0.34-0.75,0.75S15.34,15,15.75,15H18.5z" ]
+                []
             ]
         ]
 
@@ -1403,6 +1426,29 @@ nine_mp =
 
 
 {-| -}
+abc : Icon msg
+abc =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M7.25,15c-0.41,0-0.75-0.34-0.75-0.75V13.5h-2v0.75C4.5,14.66,4.16,15,3.75,15S3,14.66,3,14.25V10c0-0.55,0.45-1,1-1h3 c0.55,0,1,0.45,1,1v4.25C8,14.66,7.66,15,7.25,15z M6.5,10.5h-2V12h2V10.5z M13.5,12c0.55,0,1,0.45,1,1v1c0,0.55-0.45,1-1,1h-3 c-0.55,0-1-0.45-1-1v-4c0-0.55,0.45-1,1-1h3c0.55,0,1,0.45,1,1v1C14.5,11.55,14.05,12,13.5,12z M11,10.5v0.75h2V10.5H11z M13,12.75 h-2v0.75h2V12.75z M21,10.25c0,0.41-0.34,0.75-0.75,0.75c-0.33,0-0.6-0.21-0.71-0.5l-2.04,0v3l2.04,0c0.1-0.29,0.38-0.5,0.71-0.5 c0.41,0,0.75,0.34,0.75,0.75V14c0,0.55-0.45,1-1,1h-3c-0.55,0-1-0.45-1-1v-4c0-0.55,0.45-1,1-1h3c0.55,0,1,0.45,1,1V10.25z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
 ac_unit : Icon msg
 ac_unit =
     icon
@@ -1769,6 +1815,29 @@ add_business =
                     [ d "M22,18h-2v-2c0-0.55-0.45-1-1-1s-1,0.45-1,1v2h-2c-0.55,0-1,0.45-1,1c0,0.55,0.45,1,1,1h2v2c0,0.55,0.45,1,1,1s1-0.45,1-1 v-2h2c0.55,0,1-0.45,1-1C23,18.45,22.55,18,22,18z" ]
                     []
                 ]
+            ]
+        ]
+
+
+{-| -}
+add_card : Icon msg
+add_card =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M14,19c0-0.55-0.45-1-1-1H4v-6h18V6c0-1.1-0.9-2-2-2H4C2.89,4,2.01,4.89,2.01,6L2,18c0,1.11,0.89,2,2,2h9 C13.55,20,14,19.55,14,19z M20,8H4V6h16V8z M20,22c-0.55,0-1-0.45-1-1v-2h-2c-0.55,0-1-0.45-1-1c0-0.55,0.45-1,1-1h2v-2 c0-0.55,0.45-1,1-1c0.55,0,1,0.45,1,1v2h2c0.55,0,1,0.45,1,1c0,0.55-0.45,1-1,1h-2v2C21,21.55,20.55,22,20,22z" ]
+                []
             ]
         ]
 
@@ -2967,6 +3036,41 @@ app_settings_alt =
 
 
 {-| -}
+app_shortcut : Icon msg
+app_shortcut =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M17,18H7V6h10v1h2V3c0-1.1-0.9-2-2-2H7C5.9,1,5,1.9,5,3v18c0,1.1,0.9,2,2,2h10c1.1,0,2-0.9,2-2v-4h-2V18z" ]
+                    []
+                , p
+                    [ d "M20.38,9.62l0.4,0.87c0.09,0.2,0.37,0.2,0.46,0l0.4-0.87l0.87-0.4c0.2-0.09,0.2-0.37,0-0.46l-0.87-0.4l-0.4-0.87 c-0.09-0.2-0.37-0.2-0.46,0l-0.4,0.87l-0.87,0.4c-0.2,0.09-0.2,0.37,0,0.46L20.38,9.62z" ]
+                    []
+                , p
+                    [ d "M15.54,9l-0.79,1.75L13,11.54c-0.39,0.18-0.39,0.73,0,0.91l1.75,0.79L15.54,15c0.18,0.39,0.73,0.39,0.91,0l0.79-1.75 L19,12.46c0.39-0.18,0.39-0.73,0-0.91l-1.75-0.79L16.46,9C16.28,8.61,15.72,8.61,15.54,9z" ]
+                    []
+                , p
+                    [ d "M20.77,13.5l-0.4,0.87l-0.87,0.4c-0.2,0.09-0.2,0.37,0,0.46l0.87,0.4l0.4,0.87c0.09,0.2,0.37,0.2,0.46,0l0.4-0.87 l0.87-0.4c0.2-0.09,0.2-0.37,0-0.46l-0.87-0.4l-0.4-0.87C21.14,13.31,20.86,13.31,20.77,13.5z" ]
+                    []
+                ]
+            ]
+        ]
+
+
+{-| -}
 approval : Icon msg
 approval =
     icon
@@ -3543,6 +3647,47 @@ assistant_photo =
 
 
 {-| -}
+assured_workload : Icon msg
+assured_workload =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M6,17c0.55,0,1-0.45,1-1v-5c0-0.55-0.45-1-1-1h0c-0.55,0-1,0.45-1,1v5C5,16.55,5.45,17,6,17L6,17z" ]
+                    []
+                , p
+                    [ d "M12,17c0.55,0,1-0.45,1-1v-5c0-0.55-0.45-1-1-1h0c-0.55,0-1,0.45-1,1v5C11,16.55,11.45,17,12,17L12,17z" ]
+                    []
+                , p
+                    [ d "M21.32,5.66l-8.42-4.21c-0.56-0.28-1.23-0.28-1.79,0L2.68,5.66C2.26,5.87,2,6.3,2,6.76v0C2,7.45,2.55,8,3.24,8h17.53 C21.45,8,22,7.45,22,6.76v0C22,6.3,21.74,5.87,21.32,5.66z" ]
+                    []
+                , p
+                    [ d "M2,20L2,20c0,0.55,0.45,1,1,1h11.4c-0.21-0.64-0.32-1.31-0.36-2H3C2.45,19,2,19.45,2,20z" ]
+                    []
+                , p
+                    [ d "M19,12.26V11c0-0.55-0.45-1-1-1h0c-0.55,0-1,0.45-1,1v2.26L19,12.26z" ]
+                    []
+                , p
+                    [ d "M19.55,14.22l-3,1.5C16.21,15.89,16,16.24,16,16.62v1.93c0,2.52,1.71,4.88,4,5.45c2.29-0.57,4-2.93,4-5.45v-1.93 c0-0.38-0.21-0.73-0.55-0.89l-3-1.5C20.17,14.08,19.83,14.08,19.55,14.22z M18.58,20.3l-0.8-0.8c-0.29-0.29-0.29-0.77,0-1.06l0,0 c0.29-0.29,0.77-0.29,1.06,0l0.44,0.44l1.88-1.85c0.29-0.29,0.77-0.29,1.06,0l0,0c0.29,0.29,0.29,0.77,0,1.06l-2.23,2.21 C19.6,20.69,18.97,20.69,18.58,20.3z" ]
+                    []
+                ]
+            ]
+        ]
+
+
+{-| -}
 atm : Icon msg
 atm =
     icon
@@ -3667,6 +3812,29 @@ attribution =
         , c
             [ cx "12", cy "6.5", r "1.5" ]
             []
+        ]
+
+
+{-| -}
+audio_file : Icon msg
+audio_file =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M19.41,7.41l-4.83-4.83C14.21,2.21,13.7,2,13.17,2H6C4.9,2,4.01,2.9,4.01,4L4,20c0,1.1,0.89,2,1.99,2H18c1.1,0,2-0.9,2-2 V8.83C20,8.3,19.79,7.79,19.41,7.41z M15,13h-2v3.61c0,1.28-1,2.41-2.28,2.39c-1.44-0.02-2.56-1.39-2.13-2.91 c0.21-0.72,0.8-1.31,1.53-1.51c0.7-0.19,1.36-0.05,1.88,0.29V12c0-0.55,0.45-1,1-1h2c0.55,0,1,0.45,1,1C16,12.55,15.55,13,15,13z M14,9c-0.55,0-1-0.45-1-1V3.5L18.5,9H14z" ]
+                []
+            ]
         ]
 
 
@@ -3885,6 +4053,47 @@ auto_graph =
             [ p
                 [ d "M14.06,9.94L13,9.45c-0.39-0.18-0.39-0.73,0-0.91l1.06-0.49L14.55,7c0.18-0.39,0.73-0.39,0.91,0l0.49,1.06L17,8.55 c0.39,0.18,0.39,0.73,0,0.91l-1.06,0.49L15.45,11c-0.18,0.39-0.73,0.39-0.91,0L14.06,9.94z M4.45,13l0.49-1.06L6,11.45 c0.39-0.18,0.39-0.73,0-0.91l-1.06-0.49L4.45,9C4.28,8.61,3.72,8.61,3.55,9l-0.49,1.06L2,10.55c-0.39,0.18-0.39,0.73,0,0.91 l1.06,0.49L3.55,13C3.72,13.39,4.28,13.39,4.45,13z M8.96,7.99l0.63-1.4l1.4-0.63c0.39-0.18,0.39-0.73,0-0.91l-1.4-0.63l-0.63-1.4 c-0.18-0.39-0.73-0.39-0.91,0l-0.63,1.4l-1.4,0.63c-0.39,0.18-0.39,0.73,0,0.91l1.4,0.63l0.63,1.4C8.22,8.38,8.78,8.38,8.96,7.99z M22.34,8.27c-0.4-0.4-1.07-0.39-1.45,0.04l-6.39,7.18l-3.29-3.29c-0.39-0.39-1.02-0.39-1.41,0l-6.04,6.05 c-0.41,0.41-0.41,1.09,0,1.5c0.41,0.41,1.09,0.41,1.5,0l5.25-5.26l3.25,3.25c0.41,0.41,1.07,0.39,1.45-0.04l7.17-8.07 C22.73,9.24,22.71,8.64,22.34,8.27z" ]
                 []
+            ]
+        ]
+
+
+{-| -}
+auto_mode : Icon msg
+auto_mode =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M18.06,2.83c-1.15-0.77-2.46-1.32-3.86-1.61C13.58,1.1,13,1.57,13,2.21v0c0,0.46,0.31,0.88,0.76,0.97 c1.17,0.23,2.26,0.7,3.21,1.34c0.39,0.26,0.9,0.19,1.23-0.14l0,0C18.66,3.93,18.59,3.18,18.06,2.83z" ]
+                    []
+                , p
+                    [ d "M11,2.21L11,2.21c0-0.64-0.58-1.11-1.2-0.99c-1.4,0.29-2.71,0.84-3.86,1.61c-0.52,0.35-0.59,1.1-0.15,1.54l0,0 c0.33,0.33,0.84,0.4,1.23,0.14c0.96-0.64,2.04-1.1,3.21-1.34C10.69,3.09,11,2.67,11,2.21z" ]
+                    []
+                , p
+                    [ d "M4.38,5.79L4.38,5.79C3.93,5.34,3.18,5.42,2.84,5.94C2.07,7.09,1.51,8.39,1.23,9.8C1.1,10.42,1.58,11,2.21,11h0 c0.46,0,0.88-0.31,0.97-0.76c0.23-1.17,0.7-2.26,1.34-3.22C4.77,6.64,4.7,6.12,4.38,5.79z" ]
+                    []
+                , p
+                    [ d "M21.79,11L21.79,11c0.63,0,1.11-0.58,0.98-1.2c-0.29-1.4-0.84-2.7-1.61-3.86c-0.35-0.52-1.1-0.6-1.54-0.15l0,0 c-0.33,0.33-0.4,0.84-0.14,1.23c0.64,0.96,1.1,2.05,1.34,3.22C20.91,10.69,21.33,11,21.79,11z" ]
+                    []
+                , p
+                    [ d "M8,12.46l2.44,1.11L11.54,16c0.18,0.39,0.73,0.39,0.91,0l1.11-2.44L16,12.46c0.39-0.18,0.39-0.73,0-0.91l-2.44-1.11 L12.46,8c-0.18-0.39-0.73-0.39-0.91,0l-1.11,2.44L8,11.54C7.61,11.72,7.61,12.28,8,12.46z" ]
+                    []
+                , p
+                    [ d "M12,21c-3.11,0-5.85-1.59-7.46-4H6c0.55,0,1-0.45,1-1v0c0-0.55-0.45-1-1-1H2c-0.55,0-1,0.45-1,1v4c0,0.55,0.45,1,1,1h0 c0.55,0,1-0.45,1-1v-1.7c1.99,2.84,5.27,4.7,9,4.7c4.45,0,8.27-2.64,10-6.43c0.26-0.57-0.08-1.25-0.69-1.39l0,0 c-0.45-0.1-0.93,0.11-1.12,0.54C18.77,18.83,15.64,21,12,21z" ]
+                    []
+                ]
             ]
         ]
 
@@ -4175,6 +4384,26 @@ bakery_dining =
 
 
 {-| -}
+balance : Icon msg
+balance =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M13,19V7.83c0.85-0.3,1.53-0.98,1.83-1.83H18l-2.78,6.49c-0.17,0.39-0.23,0.84-0.11,1.25c0.39,1.3,1.76,2.26,3.39,2.26 s3.01-0.96,3.39-2.26c0.12-0.41,0.06-0.86-0.11-1.25L19,6h1c0.55,0,1-0.45,1-1s-0.45-1-1-1h-5.17C14.42,2.83,13.31,2,12,2 S9.58,2.83,9.17,4L4,4C3.45,4,3,4.45,3,5c0,0.55,0.45,1,1,1h1l-2.78,6.49c-0.17,0.39-0.23,0.84-0.11,1.25 C2.49,15.04,3.87,16,5.5,16s3.01-0.96,3.39-2.26c0.12-0.41,0.06-0.86-0.11-1.25L6,6h3.17c0.3,0.85,0.98,1.53,1.83,1.83V19 M11,19H3 c-0.55,0-1,0.45-1,1s0.45,1,1,1h18c0.55,0,1-0.45,1-1s-0.45-1-1-1h-8 M20.37,13h-3.74l1.87-4.36L20.37,13z M7.37,13H3.63L5.5,8.64 L7.37,13z M12,6c-0.55,0-1-0.45-1-1c0-0.55,0.45-1,1-1s1,0.45,1,1C13,5.55,12.55,6,12,6z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
 balcony : Icon msg
 balcony =
     icon
@@ -4284,6 +4513,167 @@ bathtub =
                         []
                     ]
                 ]
+            ]
+        ]
+
+
+{-| -}
+battery_0_bar : Icon msg
+battery_0_bar =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M17,5v16c0,0.55-0.45,1-1,1H8c-0.55,0-1-0.45-1-1V5c0-0.55,0.45-1,1-1h2V3c0-0.55,0.45-1,1-1h2c0.55,0,1,0.45,1,1v1h2 C16.55,4,17,4.45,17,5z M15,6H9v14h6V6z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+battery_1_bar : Icon msg
+battery_1_bar =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M17,5v16c0,0.55-0.45,1-1,1H8c-0.55,0-1-0.45-1-1V5c0-0.55,0.45-1,1-1h2V3c0-0.55,0.45-1,1-1h2c0.55,0,1,0.45,1,1v1h2 C16.55,4,17,4.45,17,5z M15,6H9v12h6V6z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+battery_2_bar : Icon msg
+battery_2_bar =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M17,5v16c0,0.55-0.45,1-1,1H8c-0.55,0-1-0.45-1-1V5c0-0.55,0.45-1,1-1h2V3c0-0.55,0.45-1,1-1h2c0.55,0,1,0.45,1,1v1h2 C16.55,4,17,4.45,17,5z M15,6H9v10h6V6z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+battery_3_bar : Icon msg
+battery_3_bar =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M17,5v16c0,0.55-0.45,1-1,1H8c-0.55,0-1-0.45-1-1V5c0-0.55,0.45-1,1-1h2V3c0-0.55,0.45-1,1-1h2c0.55,0,1,0.45,1,1v1h2 C16.55,4,17,4.45,17,5z M15,6H9v8h6V6z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+battery_4_bar : Icon msg
+battery_4_bar =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M17,5v16c0,0.55-0.45,1-1,1H8c-0.55,0-1-0.45-1-1V5c0-0.55,0.45-1,1-1h2V3c0-0.55,0.45-1,1-1h2c0.55,0,1,0.45,1,1v1h2 C16.55,4,17,4.45,17,5z M15,6H9v6h6V6z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+battery_5_bar : Icon msg
+battery_5_bar =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M17,5v16c0,0.55-0.45,1-1,1H8c-0.55,0-1-0.45-1-1V5c0-0.55,0.45-1,1-1h2V3c0-0.55,0.45-1,1-1h2c0.55,0,1,0.45,1,1v1h2 C16.55,4,17,4.45,17,5z M15,6H9v4h6V6z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+battery_6_bar : Icon msg
+battery_6_bar =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M17,5v16c0,0.55-0.45,1-1,1H8c-0.55,0-1-0.45-1-1V5c0-0.55,0.45-1,1-1h2V3c0-0.55,0.45-1,1-1h2c0.55,0,1,0.45,1,1v1h2 C16.55,4,17,4.45,17,5z M15,6H9v2h6V6z" ]
+                []
             ]
         ]
 
@@ -4521,7 +4911,36 @@ bedtime =
             [ g
                 []
                 [ p
-                    [ d "M11.97,2.73c0.16-0.34-0.12-0.72-0.5-0.7C5.47,2.33,1,7.86,2.19,13.99c0.78,4.03,4.09,7.22,8.14,7.87 c4.07,0.66,7.77-1.14,9.87-4.15c0.21-0.31,0.04-0.75-0.33-0.79C13.13,16.16,9,8.96,11.97,2.73z" ]
+                    [ d "M11.65,3.46c0.27-0.71-0.36-1.45-1.12-1.34c-5.52,0.8-9.47,6.07-8.34,11.88c0.78,4.02,4.09,7.21,8.14,7.87 c3.74,0.61,7.16-0.87,9.32-3.44c0.48-0.57,0.19-1.48-0.55-1.62C13.08,15.66,9.42,9.27,11.65,3.46z" ]
+                    []
+                ]
+            ]
+        ]
+
+
+{-| -}
+bedtime_off : Icon msg
+bedtime_off =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M11.65,3.46c0.27-0.71-0.36-1.45-1.12-1.34C9.05,2.33,7.68,2.88,6.49,3.66l4.59,4.59C10.88,6.69,11.04,5.05,11.65,3.46z" ]
+                    []
+                , p
+                    [ d "M2.1,3.51L2.1,3.51c-0.39,0.39-0.39,1.02,0,1.41l1.56,1.56c-1.4,2.11-2.02,4.77-1.46,7.56c0.79,3.94,3.99,7.07,7.94,7.78 c2.74,0.49,5.3-0.15,7.35-1.51l1.57,1.57c0.39,0.39,1.02,0.39,1.41,0l0,0c0.39-0.39,0.39-1.02,0-1.41L3.51,3.51 C3.12,3.12,2.49,3.12,2.1,3.51z" ]
                     []
                 ]
             ]
@@ -4642,6 +5061,29 @@ blender =
                     [ d "M16.13,15.13l1.69-10.98C17.92,3.55,17.45,3,16.83,3H14v0c0-0.55-0.45-1-1-1h-2c-0.55,0-1,0.45-1,1v0H5C3.9,3,3,3.9,3,5v4 c0,1.1,0.9,2,2,2h2.23l0.64,4.13C6.74,16.05,6,17.43,6,19v1c0,1.1,0.9,2,2,2h8c1.1,0,2-0.9,2-2v-1 C18,17.43,17.26,16.05,16.13,15.13z M5,9V5h1.31l0.62,4H5z M12,19c-0.55,0-1-0.45-1-1s0.45-1,1-1s1,0.45,1,1S12.55,19,12,19z M14.29,14H9.72L8.33,5h7.34L14.29,14z" ]
                     []
                 ]
+            ]
+        ]
+
+
+{-| -}
+blinds_closed : Icon msg
+blinds_closed =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M20,19V5c0-1.1-0.9-2-2-2H6C4.9,3,4,3.9,4,5v14H3c-0.55,0-1,0.45-1,1v0c0,0.55,0.45,1,1,1h10.25 c0,0.97,0.78,1.75,1.75,1.75s1.75-0.78,1.75-1.75H21c0.55,0,1-0.45,1-1v0c0-0.55-0.45-1-1-1H20z M18,11h-2V9h2V11z M14,11H6V9h8V11 z M14,13v2H6v-2H14z M16,13h2v2h-2V13z M18,7h-2V5h2V7z M14,5v2H6V5H14z M6,19v-2h8v2H6z M16,19v-2h2v2H16z" ]
+                []
             ]
         ]
 
@@ -5175,6 +5617,29 @@ border_vertical =
 
 
 {-| -}
+boy : Icon msg
+boy =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M12,7.5c0.97,0,1.75-0.78,1.75-1.75S12.97,4,12,4s-1.75,0.78-1.75,1.75S11.03,7.5,12,7.5z M14,19c0,0.55-0.45,1-1,1h-2 c-0.55,0-1-0.45-1-1v-4c-0.55,0-1-0.45-1-1v-3.5c0-1.1,0.9-2,2-2h2c1.1,0,2,0.9,2,2V14c0,0.55-0.45,1-1,1V19z" ]
+                    []
+                ]
+            ]
+        ]
+
+
+{-| -}
 branding_watermark : Icon msg
 branding_watermark =
     icon
@@ -5409,6 +5874,35 @@ broken_image =
         , p
             [ d "M21 5v6.59l-2.29-2.3c-.39-.39-1.03-.39-1.42 0L14 12.59 10.71 9.3c-.39-.39-1.02-.39-1.41 0L6 12.59 3 9.58V5c0-1.1.9-2 2-2h14c1.1 0 2 .9 2 2zm-3 6.42l3 3.01V19c0 1.1-.9 2-2 2H5c-1.1 0-2-.9-2-2v-6.58l2.29 2.29c.39.39 1.02.39 1.41 0l3.3-3.3 3.29 3.29c.39.39 1.02.39 1.41 0l3.3-3.28z" ]
             []
+        ]
+
+
+{-| -}
+browse_gallery : Icon msg
+browse_gallery =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M9,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9S13.97,3,9,3z M11.09,15.5L8.59,13C8.21,12.62,8,12.12,8,11.59V8 c0-0.55,0.45-1,1-1h0c0.55,0,1,0.45,1,1v3.59l2.5,2.5c0.39,0.39,0.39,1.02,0,1.41l0,0C12.11,15.89,11.48,15.89,11.09,15.5z" ]
+                    []
+                , p
+                    [ d "M17.99,5.08L17.99,5.08c0,0.37,0.21,0.69,0.53,0.88C20.6,7.17,22,9.42,22,12c0,2.58-1.4,4.83-3.48,6.04 c-0.32,0.19-0.53,0.51-0.53,0.88v0c0,0.77,0.84,1.25,1.51,0.86C22.18,18.22,24,15.32,24,12c0-3.32-1.82-6.22-4.5-7.78 C18.83,3.83,17.99,4.31,17.99,5.08z" ]
+                    []
+                ]
+            ]
         ]
 
 
@@ -5737,6 +6231,29 @@ calculate =
             []
             [ p
                 [ d "M19,3H5C3.9,3,3,3.9,3,5v14c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V5C21,3.9,20.1,3,19,3z M13.56,6.53L13.56,6.53 c0.29-0.29,0.77-0.29,1.06,0l0.88,0.88l0.88-0.88c0.29-0.29,0.77-0.29,1.06,0l0,0c0.29,0.29,0.29,0.77,0,1.06l-0.88,0.88l0.88,0.88 c0.29,0.29,0.29,0.77,0,1.06v0c-0.29,0.29-0.77,0.29-1.06,0L15.5,9.54l-0.88,0.88c-0.29,0.29-0.77,0.29-1.06,0l0,0 c-0.29-0.29-0.29-0.77,0-1.06l0.88-0.88l-0.88-0.88C13.26,7.3,13.26,6.82,13.56,6.53z M7,7.72h3.5c0.41,0,0.75,0.34,0.75,0.75v0 c0,0.41-0.34,0.75-0.75,0.75H7c-0.41,0-0.75-0.34-0.75-0.75v0C6.25,8.06,6.59,7.72,7,7.72z M10.75,16H9.5v1.25 C9.5,17.66,9.16,18,8.75,18h0C8.34,18,8,17.66,8,17.25V16H6.75C6.34,16,6,15.66,6,15.25v0c0-0.41,0.34-0.75,0.75-0.75H8v-1.25 c0-0.41,0.34-0.75,0.75-0.75h0c0.41,0,0.75,0.34,0.75,0.75v1.25h1.25c0.41,0,0.75,0.34,0.75,0.75v0C11.5,15.66,11.16,16,10.75,16z M17.25,17.25h-3.5c-0.41,0-0.75-0.34-0.75-0.75l0,0c0-0.41,0.34-0.75,0.75-0.75h3.5c0.41,0,0.75,0.34,0.75,0.75l0,0 C18,16.91,17.66,17.25,17.25,17.25z M17.25,14.75h-3.5C13.34,14.75,13,14.41,13,14v0c0-0.41,0.34-0.75,0.75-0.75h3.5 c0.41,0,0.75,0.34,0.75,0.75v0C18,14.41,17.66,14.75,17.25,14.75z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+calendar_month : Icon msg
+calendar_month =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M17,2c-0.55,0-1,0.45-1,1v1H8V3c0-0.55-0.45-1-1-1S6,2.45,6,3v1H5C3.89,4,3.01,4.9,3.01,6L3,20c0,1.1,0.89,2,2,2h14 c1.1,0,2-0.9,2-2V6c0-1.1-0.9-2-2-2h-1V3C18,2.45,17.55,2,17,2z M19,20H5V10h14V20z M11,13c0-0.55,0.45-1,1-1s1,0.45,1,1 s-0.45,1-1,1S11,13.55,11,13z M7,13c0-0.55,0.45-1,1-1s1,0.45,1,1s-0.45,1-1,1S7,13.55,7,13z M15,13c0-0.55,0.45-1,1-1s1,0.45,1,1 s-0.45,1-1,1S15,13.55,15,13z M11,17c0-0.55,0.45-1,1-1s1,0.45,1,1s-0.45,1-1,1S11,17.55,11,17z M7,17c0-0.55,0.45-1,1-1 s1,0.45,1,1s-0.45,1-1,1S7,17.55,7,17z M15,17c0-0.55,0.45-1,1-1s1,0.45,1,1s-0.45,1-1,1S15,17.55,15,17z" ]
                 []
             ]
         ]
@@ -6211,6 +6728,32 @@ candlestick_chart =
 
 
 {-| -}
+car_crash : Icon msg
+car_crash =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M18,1c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5S20.76,1,18,1z M18,7c-0.28,0-0.5-0.22-0.5-0.5v-3C17.5,3.22,17.72,3,18,3 s0.5,0.22,0.5,0.5v3C18.5,6.78,18.28,7,18,7z M18.5,8.5C18.5,8.78,18.28,9,18,9s-0.5-0.22-0.5-0.5S17.72,8,18,8 S18.5,8.22,18.5,8.5z M19.5,20c0.82,0,1.5-0.67,1.5-1.5v-6.18c-1.05,0.51-2.16,0.69-3.09,0.68c0.06,0.16,0.09,0.33,0.09,0.5 c0,0.83-0.67,1.5-1.5,1.5S15,14.33,15,13.5c0-0.39,0.15-0.74,0.39-1.01c-1.63-0.66-2.96-1.91-3.71-3.49H5.81l1.04-3H11 c0-0.69,0.1-1.37,0.29-2H6.5C5.84,4,5.29,4.42,5.08,5.01l-1.97,5.67C3.04,10.89,3,11.11,3,11.34v7.16C3,19.33,3.67,20,4.5,20 S6,19.33,6,18.5V18h12v0.5C18,19.33,18.68,20,19.5,20z M7.5,15C6.67,15,6,14.33,6,13.5S6.67,12,7.5,12S9,12.67,9,13.5 S8.33,15,7.5,15z" ]
+                    []
+                ]
+            ]
+        ]
+
+
+{-| -}
 car_rental : Icon msg
 car_rental =
     icon
@@ -6472,6 +7015,44 @@ celebration =
                         [ d "M15.06,5.88L12,8.94c-0.29,0.29-0.29,0.77,0,1.06l0,0c0.29,0.29,0.77,0.29,1.06,0l3.06-3.06c1.07-1.07,1.07-2.82,0-3.89 l-1.06-1.06c-0.29-0.29-0.77-0.29-1.06,0l0,0c-0.29,0.29-0.29,0.77,0,1.06l1.06,1.06C15.54,4.6,15.54,5.4,15.06,5.88z" ]
                         []
                     ]
+                ]
+            ]
+        ]
+
+
+{-| -}
+cell_tower : Icon msg
+cell_tower =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M7.9,14.1l0.09-0.09c0.27-0.27,0.32-0.71,0.08-1.01C7.36,12.09,7,11.01,7,10c0-1.08,0.35-2.16,1.04-3.01 c0.25-0.3,0.21-0.75-0.07-1.02L7.9,5.9C7.56,5.56,7,5.6,6.7,5.98C5.79,7.16,5.3,8.58,5.3,10c0,1.42,0.49,2.84,1.4,4.02 C7,14.4,7.56,14.44,7.9,14.1z" ]
+                    []
+                , p
+                    [ d "M18.51,3.49l-0.08,0.08c-0.3,0.3-0.29,0.76-0.03,1.08c1.26,1.53,1.9,3.48,1.9,5.35c0,1.87-0.63,3.81-1.9,5.35 c-0.28,0.33-0.23,0.83,0.08,1.14v0c0.35,0.35,0.93,0.31,1.24-0.07C21.29,14.54,22,12.31,22,10c0-2.32-0.79-4.55-2.31-6.43 C19.39,3.2,18.84,3.16,18.51,3.49z" ]
+                    []
+                , p
+                    [ d "M5.57,3.57L5.49,3.49C5.16,3.16,4.61,3.2,4.31,3.57C2.79,5.45,2,7.68,2,10c0,2.32,0.79,4.55,2.31,6.43 c0.3,0.37,0.85,0.42,1.18,0.08l0.08-0.08c0.3-0.3,0.29-0.76,0.03-1.08C4.33,13.81,3.7,11.87,3.7,10c0-1.87,0.63-3.81,1.9-5.35 C5.86,4.33,5.87,3.87,5.57,3.57z" ]
+                    []
+                , p
+                    [ d "M16.07,14.07c0.36,0.36,0.95,0.32,1.26-0.09c0.9-1.18,1.37-2.58,1.37-3.98c-0.08-1.41-0.51-2.83-1.4-4.01 c-0.29-0.39-0.86-0.43-1.2-0.09l-0.08,0.08c-0.27,0.27-0.32,0.71-0.08,1.01C16.64,7.91,17,8.99,17,10c0,1.07-0.34,2.13-1.01,2.98 C15.73,13.3,15.77,13.77,16.07,14.07L16.07,14.07z" ]
+                    []
+                , p
+                    [ d "M14.5,10c0-1.6-1.51-2.85-3.18-2.41c-0.8,0.21-1.46,0.85-1.7,1.65c-0.32,1.06,0.06,2.04,0.76,2.64l-2.96,8.87 C7.21,21.37,7.67,22,8.32,22h0c0.41,0,0.77-0.26,0.9-0.65L9.67,20h4.67l0.45,1.35c0.13,0.39,0.49,0.65,0.9,0.65h0 c0.65,0,1.1-0.63,0.9-1.25l-2.96-8.87C14.16,11.42,14.5,10.76,14.5,10z M10.33,18L12,13l1.67,5H10.33z" ]
+                    []
                 ]
             ]
         ]
@@ -7199,6 +7780,29 @@ cloud_queue =
 
 
 {-| -}
+cloud_sync : Icon msg
+cloud_sync =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M24,17.48c0,1.38-1.12,2.5-2.5,2.5L15,20c-1.66,0-3-1.34-3-3c0-1.6,1.26-2.9,2.84-2.98C15.4,12.83,16.6,12,18,12 c1.76,0,3.2,1.3,3.45,2.99c0.02,0,0.03-0.01,0.05-0.01C22.88,14.98,24,16.1,24,17.48z M10,15c0-0.55-0.45-1-1-1s-1,0.45-1,1v1.44 c-1.22-1.1-2-2.67-2-4.44c0-2.38,1.39-4.43,3.4-5.4C9.77,6.42,10,6.04,10,5.63c0-0.71-0.73-1.18-1.37-0.88C5.89,6.03,4,8.79,4,12 c0,2.4,1.06,4.54,2.73,6H5c-0.55,0-1,0.45-1,1s0.45,1,1,1h4c0.55,0,1-0.45,1-1V15z M19,6c0.55,0,1-0.45,1-1s-0.45-1-1-1h-4 c-0.55,0-1,0.45-1,1v4c0,0.55,0.45,1,1,1s1-0.45,1-1V7.56c0.98,0.89,1.68,2.08,1.92,3.44l2.02,0c-0.25-1.99-1.23-3.74-2.66-5H19z" ]
+                    []
+                ]
+            ]
+        ]
+
+
+{-| -}
 cloud_upload : Icon msg
 cloud_upload =
     icon
@@ -7223,6 +7827,47 @@ co2 =
         , p
             [ d "M14,9h-3c-0.55,0-1,0.45-1,1v4c0,0.55,0.45,1,1,1h3c0.55,0,1-0.45,1-1v-4C15,9.45,14.55,9,14,9z M13.5,13.5h-2v-3h2V13.5z M20.5,15.5h-2v1h2.25c0.41,0,0.75,0.34,0.75,0.75l0,0c0,0.41-0.34,0.75-0.75,0.75H18c-0.55,0-1-0.45-1-1v-1.5c0-0.55,0.45-1,1-1h2 v-1h-2.25c-0.41,0-0.75-0.34-0.75-0.75v0c0-0.41,0.34-0.75,0.75-0.75h2.75c0.55,0,1,0.45,1,1v1.5C21.5,15.05,21.05,15.5,20.5,15.5z M8,14c0,0.55-0.45,1-1,1H4c-0.55,0-1-0.45-1-1v-4c0-0.55,0.45-1,1-1h3c0.55,0,1,0.45,1,1v0.25C8,10.66,7.66,11,7.25,11 c-0.33,0-0.6-0.21-0.71-0.5c0,0-2.04,0-2.04,0v3l2.04,0c0.1-0.29,0.38-0.5,0.71-0.5C7.66,13,8,13.34,8,13.75V14z" ]
             []
+        ]
+
+
+{-| -}
+co_present : Icon msg
+co_present =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ g
+                    []
+                    [ p
+                        [ d "M21,3H3C1.9,3,1,3.9,1,5v8h2V5h18v16c1.1,0,2-0.9,2-2V5C23,3.9,22.1,3,21,3z" ]
+                        []
+                    ]
+                , g
+                    []
+                    [ c
+                        [ cx "9", cy "10", r "4" ]
+                        []
+                    ]
+                , g
+                    []
+                    [ p
+                        [ d "M15.39,16.56C13.71,15.7,11.53,15,9,15c-2.53,0-4.71,0.7-6.39,1.56C1.61,17.07,1,18.1,1,19.22V22h16v-2.78 C17,18.1,16.39,17.07,15.39,16.56z" ]
+                        []
+                    ]
+                ]
+            ]
         ]
 
 
@@ -7410,6 +8055,26 @@ comments_disabled =
         , p
             [ d "M1.39,2.81C1,3.2,1,3.83,1.39,4.22L2,4.83V16c0,1.1,0.9,2,2,2h11.17l4.61,4.61c0.39,0.39,1.02,0.39,1.41,0 c0.39-0.39,0.39-1.02,0-1.41L2.81,2.81C2.42,2.42,1.78,2.42,1.39,2.81z M6.38,9.21L8.17,11H7c-0.55,0-1-0.45-1-1 C6,9.68,6.15,9.4,6.38,9.21z M7,14c-0.55,0-1-0.45-1-1c0-0.55,0.45-1,1-1h2.17l2,2H7z M14.83,12l-1-1H17c0.55,0,1-0.45,1-1v0 c0-0.55-0.45-1-1-1h-5.17l-1-1H17c0.55,0,1-0.45,1-1v0c0-0.55-0.45-1-1-1H8.83l-4-4H20c1.1,0,2,0.9,2,2v15.17L16.83,14H17 c0.55,0,1-0.45,1-1v0c0-0.55-0.45-1-1-1H14.83z" ]
             []
+        ]
+
+
+{-| -}
+commit : Icon msg
+commit =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M21,13c0.55,0,1-0.45,1-1s-0.45-1-1-1h-4.1h0c-0.46-2.28-2.48-4-4.9-4s-4.44,1.72-4.9,4h0H3c-0.55,0-1,0.45-1,1s0.45,1,1,1 h4.1h0c0.46,2.28,2.48,4,4.9,4s4.44-1.72,4.9-4h0H21z M12,15c-1.66,0-3-1.34-3-3s1.34-3,3-3s3,1.34,3,3S13.66,15,12,15z" ]
+                []
+            ]
         ]
 
 
@@ -7834,6 +8499,26 @@ content_paste_search =
 
 
 {-| -}
+contrast : Icon msg
+contrast =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M12,22c5.52,0,10-4.48,10-10S17.52,2,12,2S2,6.48,2,12S6.48,22,12,22z M13,4.07c3.94,0.49,7,3.85,7,7.93s-3.05,7.44-7,7.93 V4.07z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
 control_camera : Icon msg
 control_camera =
     icon
@@ -8076,6 +8761,29 @@ crib =
 
 
 {-| -}
+crisis_alert : Icon msg
+crisis_alert =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M14.5,2.5c0,1.5-1.5,6-1.5,6h-2c0,0-1.5-4.5-1.5-6C9.5,1.12,10.62,0,12,0S14.5,1.12,14.5,2.5z M12,10c-1.1,0-2,0.9-2,2 s0.9,2,2,2s2-0.9,2-2S13.1,10,12,10z M16.08,5.11c0.18-0.75,0.33-1.47,0.39-2.06C19.75,4.69,22,8.08,22,12c0,5.52-4.48,10-10,10 S2,17.52,2,12c0-3.92,2.25-7.31,5.53-8.95C7.6,3.64,7.74,4.37,7.92,5.11C5.58,6.51,4,9.07,4,12c0,4.42,3.58,8,8,8s8-3.58,8-8 C20,9.07,18.42,6.51,16.08,5.11z M18,12c0,3.31-2.69,6-6,6s-6-2.69-6-6c0-2,0.98-3.77,2.48-4.86c0.23,0.81,0.65,2.07,0.65,2.07 C8.43,9.93,8,10.92,8,12c0,2.21,1.79,4,4,4s4-1.79,4-4c0-1.08-0.43-2.07-1.13-2.79c0,0,0.41-1.22,0.65-2.07C17.02,8.23,18,10,18,12 z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
 crop : Icon msg
 crop =
     icon
@@ -8254,6 +8962,287 @@ cruelty_free =
         , p
             [ d "M16.84,14.52c-0.26-0.19-0.62-0.63-0.79-0.84C17.24,12.01,19,8.87,19,5c0-1.95-0.74-3-2-3c-1.54,0-3.96,2.06-5,5.97 C10.96,4.06,8.54,2,7,2C5.74,2,5,3.05,5,5c0,3.87,1.76,7.01,2.95,8.68c-0.17,0.21-0.53,0.65-0.79,0.84 c-0.5,0.41-1.66,1.37-1.66,2.98c0,2.21,1.79,4,4,4c1.55,0,2.5-0.56,2.5-0.56s0.95,0.56,2.5,0.56c2.21,0,4-1.79,4-4 C18.5,15.89,17.34,14.93,16.84,14.52z M9.35,12.2C8.34,10.7,7,8.12,7,5c0-0.49,0.06-0.8,0.12-0.97c0.94,0.31,3.24,2.71,3.38,7.64 C10.03,11.79,9.66,11.97,9.35,12.2z M10.5,16.75c-0.28,0-0.5-0.34-0.5-0.75c0-0.41,0.22-0.75,0.5-0.75S11,15.59,11,16 C11,16.41,10.78,16.75,10.5,16.75z M12,19.5c-0.55,0-1-0.72-1-1c0-0.28,0.45-0.5,1-0.5s1,0.22,1,0.5C13,18.78,12.55,19.5,12,19.5z M13.5,16.75c-0.28,0-0.5-0.34-0.5-0.75c0-0.41,0.22-0.75,0.5-0.75S14,15.59,14,16C14,16.41,13.78,16.75,13.5,16.75z M13.5,11.67 c0.14-4.93,2.44-7.33,3.38-7.64C16.94,4.2,17,4.51,17,5c0,3.12-1.34,5.7-2.35,7.2C14.34,11.97,13.97,11.79,13.5,11.67z" ]
             []
+        ]
+
+
+{-| -}
+css : Icon msg
+css =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M8,10.25C8,10.66,7.66,11,7.25,11c-0.33,0-0.6-0.21-0.71-0.5l-2.04,0v3l2.04,0c0.1-0.29,0.38-0.5,0.71-0.5 C7.66,13,8,13.34,8,13.75V14c0,0.55-0.45,1-1,1H4c-0.55,0-1-0.45-1-1v-4c0-0.55,0.45-1,1-1h3c0.55,0,1,0.45,1,1V10.25z M13.04,10.5 c0.1,0.29,0.38,0.5,0.71,0.5c0.41,0,0.75-0.34,0.75-0.75V10c0-0.55-0.45-1-1-1h-3c-0.55,0-1,0.45-1,1v1.5c0,0.55,0.45,1,1,1H13v1 h-2.04v0c-0.1-0.29-0.38-0.5-0.71-0.5c-0.41,0-0.75,0.34-0.75,0.75V14c0,0.55,0.45,1,1,1h3c0.55,0,1-0.45,1-1v-1.5 c0-0.55-0.45-1-1-1H11v-1L13.04,10.5z M19.54,10.5c0.1,0.29,0.38,0.5,0.71,0.5c0.41,0,0.75-0.34,0.75-0.75V10c0-0.55-0.45-1-1-1h-3 c-0.55,0-1,0.45-1,1v1.5c0,0.55,0.45,1,1,1h2.5v1h-2.04v0c-0.1-0.29-0.38-0.5-0.71-0.5C16.34,13,16,13.34,16,13.75V14 c0,0.55,0.45,1,1,1h3c0.55,0,1-0.45,1-1v-1.5c0-0.55-0.45-1-1-1h-2.5v-1L19.54,10.5z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+currency_bitcoin : Icon msg
+currency_bitcoin =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M10,7h4c1.1,0,2,0.9,2,2s-0.9,2-2,2h-4V7z M15,17h-5v-4h5c1.1,0,2,0.9,2,2S16.1,17,15,17z M15,4c0-0.55-0.45-1-1-1 s-1,0.45-1,1v1h-2V4c0-0.55-0.45-1-1-1S9,3.45,9,4v1H7C6.45,5,6,5.45,6,6s0.45,1,1,1h1v10H7c-0.55,0-1,0.45-1,1s0.45,1,1,1h2v1 c0,0.55,0.45,1,1,1s1-0.45,1-1v-1h2v1c0,0.55,0.45,1,1,1s1-0.45,1-1v-1c2.21,0,4-1.79,4-4c0-1.45-0.78-2.73-1.94-3.43 C17.65,10.88,18,9.98,18,9c0-1.86-1.27-3.43-3-3.87L15,4z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+currency_exchange : Icon msg
+currency_exchange =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M12,23c5.7,0,10.39-4.34,10.95-9.9c0.06-0.59-0.41-1.1-1-1.1c-0.51,0-0.94,0.38-0.99,0.88C20.52,17.44,16.67,21,12,21 c-3.12,0-5.87-1.59-7.48-4L6,17c0.55,0,1-0.45,1-1s-0.45-1-1-1H2c-0.55,0-1,0.45-1,1v4c0,0.55,0.45,1,1,1c0.55,0,1-0.45,1-1l0-1.67 C4.99,21.15,8.28,23,12,23z M12,1C6.3,1,1.61,5.34,1.05,10.9C1,11.49,1.46,12,2.05,12c0.51,0,0.94-0.38,0.99-0.88 C3.48,6.56,7.33,3,12,3c3.12,0,5.87,1.59,7.48,4L18,7c-0.55,0-1,0.45-1,1c0,0.55,0.45,1,1,1h4c0.55,0,1-0.45,1-1V4 c0-0.55-0.45-1-1-1s-1,0.45-1,1l0,1.67C19.01,2.85,15.72,1,12,1z M11.12,5.88C11.12,5.39,11.52,5,12,5s0.88,0.39,0.88,0.88l0,0.37 c1.07,0.19,1.75,0.76,2.16,1.3c0.34,0.44,0.16,1.08-0.36,1.3C14.32,9,13.9,8.88,13.66,8.57c-0.28-0.38-0.78-0.77-1.6-0.77 c-0.7,0-1.81,0.37-1.81,1.39c0,0.95,0.86,1.31,2.64,1.9c2.4,0.83,3.01,2.05,3.01,3.45c0,2.62-2.5,3.13-3.02,3.22l0,0.37 c0,0.48-0.39,0.88-0.88,0.88s-0.88-0.39-0.88-0.88l0-0.42c-0.63-0.15-1.93-0.61-2.69-2.1c-0.23-0.44,0.03-1.02,0.49-1.2 c0.41-0.16,0.9-0.01,1.11,0.38c0.32,0.61,0.95,1.37,2.12,1.37c0.93,0,1.98-0.48,1.98-1.61c0-0.96-0.7-1.46-2.28-2.03 c-1.1-0.39-3.35-1.03-3.35-3.31c0-0.1,0.01-2.4,2.62-2.96L11.12,5.88z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+currency_franc : Icon msg
+currency_franc =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M18,4c0-0.55-0.45-1-1-1H8C7.45,3,7,3.45,7,4v12H6c-0.55,0-1,0.45-1,1s0.45,1,1,1h1v2c0,0.55,0.45,1,1,1h0 c0.55,0,1-0.45,1-1v-2h3c0.55,0,1-0.45,1-1s-0.45-1-1-1H9v-3h7c0.55,0,1-0.45,1-1c0-0.55-0.45-1-1-1H9V5h8C17.55,5,18,4.55,18,4z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+currency_lira : Icon msg
+currency_lira =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M9,15.84l-1.47,0.92C6.86,17.18,6,16.7,6,15.91c0-0.34,0.18-0.66,0.47-0.85L9,13.48v-2.36l-1.47,0.92 C6.86,12.46,6,11.98,6,11.19c0-0.34,0.18-0.66,0.47-0.85L9,8.76V4c0-0.55,0.45-1,1-1s1,0.45,1,1v3.51l2.47-1.55 C14.14,5.54,15,6.02,15,6.81c0,0.34-0.18,0.66-0.47,0.85L11,9.87l0.01,2.35l2.46-1.54c0.67-0.42,1.53,0.06,1.53,0.85 c0,0.34-0.18,0.66-0.47,0.85L11,14.59V19c2.47,0,4.52-1.79,4.93-4.15c0.08-0.49,0.49-0.85,0.98-0.85c0.61,0,1.09,0.54,1,1.14 C17.37,18.46,14.48,21,11,21h-1c-0.55,0-1-0.45-1-1V15.84z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+currency_pound : Icon msg
+currency_pound =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M17.21,17.61c-0.47-0.24-1.03-0.05-1.31,0.4C15.54,18.61,14.93,19,14,19l-4.9,0c0.83-1,1.5-2.34,1.5-4 c0-0.35-0.03-0.69-0.08-1L13,14c0.55,0,1-0.45,1-1s-0.45-1-1-1l-3.18,0C9,10.42,8,9.6,8,8c0-1.93,1.57-3.5,3.5-3.5 c1.2,0,2.26,0.61,2.89,1.53c0.27,0.4,0.77,0.59,1.22,0.4c0.6-0.25,0.8-0.99,0.43-1.53c-0.99-1.45-2.66-2.4-4.54-2.4 C8.46,2.5,6,4.96,6,8c0,1.78,0.79,2.9,1.49,4L7,12c-0.55,0-1,0.45-1,1s0.45,1,1,1l1.47,0c0.08,0.31,0.13,0.64,0.13,1 c0,1.9-1.29,3.11-2.06,3.66C6.2,18.9,6,19.29,6,19.71v0C6,20.42,6.58,21,7.29,21H14c1.55,0,2.95-0.76,3.63-2 C17.91,18.49,17.72,17.86,17.21,17.61z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+currency_ruble : Icon msg
+currency_ruble =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M8,21c0.55,0,1-0.45,1-1v-2h3c0.55,0,1-0.45,1-1s-0.45-1-1-1H9v-2h4.5c3.22,0,5.79-2.76,5.47-6.04 C18.7,5.1,16.14,3,13.26,3l-0.96,0H8C7.45,3,7,3.45,7,4v8H6c-0.55,0-1,0.45-1,1c0,0.55,0.45,1,1,1h1v2H6c-0.55,0-1,0.45-1,1 s0.45,1,1,1h1v2C7,20.55,7.45,21,8,21z M13.5,12H9V5h4.5C15.43,5,17,6.57,17,8.5S15.43,12,13.5,12z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+currency_rupee : Icon msg
+currency_rupee =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M10.5,14H9.77l5.1,5.31c0.61,0.64,0.16,1.69-0.72,1.69c-0.27,0-0.53-0.11-0.72-0.31L7.4,14.41C7.14,14.15,7,13.79,7,13.43 C7,12.64,7.64,12,8.43,12h2.07c1.76,0,3.22-1.3,3.46-3L7,9C6.45,9,6,8.55,6,8s0.45-1,1-1l6.66,0C13.1,5.82,11.9,5,10.5,5L7,5 C6.45,5,6,4.55,6,4s0.45-1,1-1h10c0.55,0,1,0.45,1,1s-0.45,1-1,1l-2.26,0c0.48,0.58,0.84,1.26,1.05,2L17,7c0.55,0,1,0.45,1,1 s-0.45,1-1,1l-1.02,0C15.72,11.8,13.36,14,10.5,14z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+currency_yen : Icon msg
+currency_yen =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M6.82,3c0.34,0,0.66,0.17,0.84,0.46L12,10.29l4.34-6.83C16.52,3.17,16.84,3,17.18,3c0.79,0,1.27,0.87,0.84,1.54L13.92,11 H17c0.55,0,1,0.45,1,1c0,0.55-0.45,1-1,1h-4v2h4c0.55,0,1,0.45,1,1c0,0.55-0.45,1-1,1h-4v3c0,0.55-0.45,1-1,1s-1-0.45-1-1v-3H7 c-0.55,0-1-0.45-1-1c0-0.55,0.45-1,1-1h4v-2H7c-0.55,0-1-0.45-1-1c0-0.55,0.45-1,1-1h3.08L5.98,4.54C5.55,3.87,6.03,3,6.82,3z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+currency_yuan : Icon msg
+currency_yuan =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M12,21c-0.55,0-1-0.45-1-1v-6H7c-0.55,0-1-0.45-1-1s0.45-1,1-1h3.72L5.98,4.54C5.55,3.87,6.03,3,6.82,3 c0.34,0,0.66,0.17,0.84,0.46L12,10.29l4.34-6.83C16.52,3.17,16.84,3,17.18,3c0.79,0,1.27,0.87,0.84,1.54L13.28,12H17 c0.55,0,1,0.45,1,1s-0.45,1-1,1h-4v6C13,20.55,12.55,21,12,21z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+curtains : Icon msg
+curtains =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M20,19V5c0-1.1-0.9-2-2-2H6C4.9,3,4,3.9,4,5v14H3c-0.55,0-1,0.45-1,1v0c0,0.55,0.45,1,1,1h18c0.55,0,1-0.45,1-1v0 c0-0.55-0.45-1-1-1H20z M8.19,12c2.04-1.35,3.5-3.94,3.76-7h0.09c0.26,3.06,1.72,5.65,3.76,7c-2.04,1.35-3.5,3.94-3.76,7h-0.09 C11.69,15.94,10.23,13.35,8.19,12z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+curtains_closed : Icon msg
+curtains_closed =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M20,19V5c0-1.1-0.9-2-2-2H6C4.9,3,4,3.9,4,5v14H3c-0.55,0-1,0.45-1,1v0c0,0.55,0.45,1,1,1h18c0.55,0,1-0.45,1-1v0 c0-0.55-0.45-1-1-1H20z M11,5h2v14h-2V5z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+cyclone : Icon msg
+cyclone =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M12,8c-2.21,0-4,1.79-4,4c0,2.21,1.79,4,4,4c2.21,0,4-1.79,4-4C16,9.79,14.21,8,12,8z M12,14c-1.1,0-2-0.9-2-2 c0-1.1,0.9-2,2-2s2,0.9,2,2C14,13.1,13.1,14,12,14z" ]
+                    []
+                , p
+                    [ d "M22,6.11L22,6.11c0-0.46-0.3-0.86-0.74-0.97C19.23,4.6,16.03,4,12,4C9.85,4,7.89,4.86,6.46,6.24 c0.1-0.65,0.28-1.69,0.62-2.96C7.25,2.64,6.78,2,6.11,2h0C5.66,2,5.26,2.3,5.14,2.74C4.6,4.77,4,7.97,4,12 c0,2.15,0.86,4.11,2.24,5.54c-0.65-0.1-1.69-0.28-2.96-0.62C2.64,16.75,2,17.22,2,17.89v0c0,0.46,0.3,0.86,0.74,0.97 C4.77,19.4,7.97,20,12,20c2.15,0,4.11-0.86,5.54-2.24c-0.1,0.65-0.28,1.69-0.62,2.96c-0.17,0.64,0.3,1.28,0.97,1.28h0 c0.46,0,0.86-0.3,0.97-0.74C19.4,19.23,20,16.03,20,12c0-2.15-0.86-4.11-2.24-5.54c0.65,0.1,1.69,0.28,2.96,0.62 C21.36,7.25,22,6.78,22,6.11z M12,18c-3.31,0-6-2.69-6-6s2.69-6,6-6s6,2.69,6,6S15.31,18,12,18z" ]
+                    []
+                ]
+            ]
         ]
 
 
@@ -8441,6 +9430,29 @@ data_saver_on =
 
 
 {-| -}
+data_thresholding : Icon msg
+data_thresholding =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M19,3H5C3.9,3,3,3.9,3,5v14c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V5C21,3.9,20.1,3,19,3z M11.38,8.88l1.29,1.29l2.96-2.96 c0.39-0.39,1.02-0.39,1.41,0v0c0.39,0.39,0.39,1.02,0,1.41l-3.67,3.67c-0.39,0.39-1.02,0.39-1.41,0L10.67,11l-2.3,2.3 c-0.39,0.39-1.02,0.39-1.41,0l0,0c-0.39-0.39-0.39-1.02,0-1.41l3-3C10.35,8.48,10.98,8.48,11.38,8.88z M5,16h1.72L5,17.72V16z M5.84,19l3-3h1.83l-3,3H5.84z M9.8,19l3-3h1.62l-3,3H9.8z M13.53,19l3-3h1.62l-3,3H13.53z M19,19h-1.73L19,17.27V19z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
 data_usage : Icon msg
 data_usage =
     icon
@@ -8465,6 +9477,68 @@ date_range =
         , p
             [ d "M19 4h-1V3c0-.55-.45-1-1-1s-1 .45-1 1v1H8V3c0-.55-.45-1-1-1s-1 .45-1 1v1H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 15c0 .55-.45 1-1 1H6c-.55 0-1-.45-1-1V9h14v10zM7 11h2v2H7zm4 0h2v2h-2zm4 0h2v2h-2z" ]
             []
+        ]
+
+
+{-| -}
+deblur : Icon msg
+deblur =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M12,3v18c4.97,0,9-4.03,9-9C21,7.03,16.97,3,12,3z" ]
+                    []
+                , c
+                    [ cx "6", cy "14", r "1" ]
+                    []
+                , c
+                    [ cx "6", cy "18", r "1" ]
+                    []
+                , c
+                    [ cx "6", cy "10", r "1" ]
+                    []
+                , c
+                    [ cx "3", cy "10", r ".5" ]
+                    []
+                , c
+                    [ cx "6", cy "6", r "1" ]
+                    []
+                , c
+                    [ cx "3", cy "14", r ".5" ]
+                    []
+                , c
+                    [ cx "10", cy "21", r ".5" ]
+                    []
+                , c
+                    [ cx "10", cy "3", r ".5" ]
+                    []
+                , c
+                    [ cx "10", cy "6", r "1" ]
+                    []
+                , c
+                    [ cx "10", cy "14", r "1.5" ]
+                    []
+                , c
+                    [ cx "10", cy "10", r "1.5" ]
+                    []
+                , c
+                    [ cx "10", cy "18", r "1" ]
+                    []
+                ]
+            ]
         ]
 
 
@@ -8609,6 +9683,102 @@ delivery_dining =
 
 
 {-| -}
+density_large : Icon msg
+density_large =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M4,5h16c0.55,0,1-0.45,1-1c0-0.55-0.45-1-1-1H4C3.45,3,3,3.45,3,4C3,4.55,3.45,5,4,5z" ]
+                    []
+                , p
+                    [ d "M20,19H4c-0.55,0-1,0.45-1,1c0,0.55,0.45,1,1,1h16c0.55,0,1-0.45,1-1C21,19.45,20.55,19,20,19z" ]
+                    []
+                ]
+            ]
+        ]
+
+
+{-| -}
+density_medium : Icon msg
+density_medium =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M4,5h16c0.55,0,1-0.45,1-1c0-0.55-0.45-1-1-1H4C3.45,3,3,3.45,3,4C3,4.55,3.45,5,4,5z" ]
+                    []
+                , p
+                    [ d "M20,19H4c-0.55,0-1,0.45-1,1c0,0.55,0.45,1,1,1h16c0.55,0,1-0.45,1-1C21,19.45,20.55,19,20,19z" ]
+                    []
+                , p
+                    [ d "M20,11H4c-0.55,0-1,0.45-1,1c0,0.55,0.45,1,1,1h16c0.55,0,1-0.45,1-1C21,11.45,20.55,11,20,11z" ]
+                    []
+                ]
+            ]
+        ]
+
+
+{-| -}
+density_small : Icon msg
+density_small =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M3,3L3,3c0,0.55,0.45,1,1,1h16c0.55,0,1-0.45,1-1v0c0-0.55-0.45-1-1-1H4C3.45,2,3,2.45,3,3z" ]
+                    []
+                , p
+                    [ d "M4,22h16c0.55,0,1-0.45,1-1v0c0-0.55-0.45-1-1-1H4c-0.55,0-1,0.45-1,1v0C3,21.55,3.45,22,4,22z" ]
+                    []
+                , p
+                    [ d "M4,16h16c0.55,0,1-0.45,1-1v0c0-0.55-0.45-1-1-1H4c-0.55,0-1,0.45-1,1v0C3,15.55,3.45,16,4,16z" ]
+                    []
+                , p
+                    [ d "M4,10h16c0.55,0,1-0.45,1-1v0c0-0.55-0.45-1-1-1H4C3.45,8,3,8.45,3,9v0C3,9.55,3.45,10,4,10z" ]
+                    []
+                ]
+            ]
+        ]
+
+
+{-| -}
 departure_board : Icon msg
 departure_board =
     icon
@@ -8633,6 +9803,29 @@ description =
         , p
             [ d "M14.59 2.59c-.38-.38-.89-.59-1.42-.59H6c-1.1 0-2 .9-2 2v16c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8.83c0-.53-.21-1.04-.59-1.41l-4.82-4.83zM15 18H9c-.55 0-1-.45-1-1s.45-1 1-1h6c.55 0 1 .45 1 1s-.45 1-1 1zm0-4H9c-.55 0-1-.45-1-1s.45-1 1-1h6c.55 0 1 .45 1 1s-.45 1-1 1zm-2-6V3.5L18.5 9H14c-.55 0-1-.45-1-1z" ]
             []
+        ]
+
+
+{-| -}
+deselect : Icon msg
+deselect =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M3,13h2v-2H3V13z M7,21h2v-2H7V21z M13,3h-2v2h2V3z M19,3v2h2C21,3.9,20.1,3,19,3z M5,21v-2H3C3,20.1,3.9,21,5,21z M3,17h2 v-2H3V17z M11,21h2v-2h-2V21z M19,13h2v-2h-2V13z M19,9h2V7h-2V9z M15,5h2V3h-2V5z M7.83,5L7,4.17V3h2v2H7.83z M19.83,17L19,16.17 V15h2v2H19.83z M9,15v-3.17L12.17,15H9z M2.1,3.51c-0.39,0.39-0.39,1.02,0,1.41L4.17,7H3v2h2V7.83l2,2V16c0,0.55,0.45,1,1,1h6.17 l2,2H15v2h2v-1.17l2.07,2.07c0.39,0.39,1.02,0.39,1.41,0c0.39-0.39,0.39-1.02,0-1.41L3.51,3.51C3.12,3.12,2.49,3.12,2.1,3.51z M17,8c0-0.55-0.45-1-1-1H9.83l2,2H15v3.17l2,2V8z" ]
+                []
+            ]
         ]
 
 
@@ -8829,6 +10022,77 @@ devices =
 
 
 {-| -}
+devices_fold : Icon msg
+devices_fold =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ g
+                    []
+                    [ p
+                        [ d "M20,3h-3c0-1.43-1.47-2.4-2.79-1.84l-3,1.29C10.48,2.76,10,3.49,10,4.29V19c0,1.1,0.9,2,2,2h8c1.1,0,2-0.9,2-2V5 C22,3.9,21.1,3,20,3z M20,19h-5.33l1.12-0.48C16.52,18.2,17,17.48,17,16.68V5h3V19z" ]
+                        []
+                    ]
+                , g
+                    []
+                    [ rect
+                        []
+                        []
+                    ]
+                , g
+                    []
+                    [ rect
+                        []
+                        []
+                    ]
+                , g
+                    []
+                    [ rect
+                        []
+                        []
+                    ]
+                , g
+                    []
+                    [ rect
+                        []
+                        []
+                    ]
+                , g
+                    []
+                    [ rect
+                        []
+                        []
+                    ]
+                , g
+                    []
+                    [ rect
+                        []
+                        []
+                    ]
+                , g
+                    []
+                    [ rect
+                        []
+                        []
+                    ]
+                ]
+            ]
+        ]
+
+
+{-| -}
 devices_other : Icon msg
 devices_other =
     icon
@@ -8916,6 +10180,29 @@ diamond =
                         []
                     ]
                 ]
+            ]
+        ]
+
+
+{-| -}
+difference : Icon msg
+difference =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M3,7c0.55,0,1,0.45,1,1v13h13c0.55,0,1,0.45,1,1s-0.45,1-1,1H4c-1.1,0-2-0.9-2-2V8C2,7.45,2.45,7,3,7z M15.59,1.59 C15.21,1.21,14.7,1,14.17,1H8C6.9,1,6.01,1.9,6.01,3L6,17c0,1.1,0.89,2,1.99,2H19c1.1,0,2-0.9,2-2V7.83c0-0.53-0.21-1.04-0.59-1.41 L15.59,1.59z M15.5,15h-4c-0.55,0-1-0.45-1-1v0c0-0.55,0.45-1,1-1h4c0.55,0,1,0.45,1,1v0C16.5,14.55,16.05,15,15.5,15z M15.5,9h-1 v1c0,0.55-0.45,1-1,1h0c-0.55,0-1-0.45-1-1V9h-1c-0.55,0-1-0.45-1-1v0c0-0.55,0.45-1,1-1h1V6c0-0.55,0.45-1,1-1h0 c0.55,0,1,0.45,1,1v1h1c0.55,0,1,0.45,1,1v0C16.5,8.55,16.05,9,15.5,9z" ]
+                []
             ]
         ]
 
@@ -9336,6 +10623,79 @@ disc_full =
 
 
 {-| -}
+discount : Icon msg
+discount =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ g
+                    []
+                    [ p
+                        [ d "M12.79,21L3,11.21v2c0,0.53,0.21,1.04,0.59,1.41l7.79,7.79c0.78,0.78,2.05,0.78,2.83,0l6.21-6.21 c0.78-0.78,0.78-2.05,0-2.83L12.79,21z" ]
+                        []
+                    ]
+                , g
+                    []
+                    [ p
+                        [ d "M11.38,17.41c0.78,0.78,2.05,0.78,2.83,0l6.21-6.21c0.78-0.78,0.78-2.05,0-2.83l-7.79-7.79C12.25,0.21,11.74,0,11.21,0H5 C3.9,0,3,0.9,3,2v6.21c0,0.53,0.21,1.04,0.59,1.41L11.38,17.41z M7.25,3C7.94,3,8.5,3.56,8.5,4.25S7.94,5.5,7.25,5.5 S6,4.94,6,4.25S6.56,3,7.25,3z" ]
+                        []
+                    ]
+                ]
+            ]
+        ]
+
+
+{-| -}
+display_settings : Icon msg
+display_settings =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M20,3H4C2.9,3,2,3.9,2,5v12c0,1.1,0.89,2,2,2h4v1c0,0.55,0.45,1,1,1h6c0.55,0,1-0.45,1-1v-1h4c1.1,0,2-0.9,2-2V5 C22,3.89,21.1,3,20,3z M20,17H4V5h16V17z" ]
+                    []
+                , rect
+                    []
+                    []
+                , polygon
+                    [ points "16.5,9.75 18,9.75 18,8.25 16.5,8.25 16.5,7 15,7 15,11 16.5,11" ]
+                    []
+                , rect
+                    []
+                    []
+                , polygon
+                    [ points "7.5,15 9,15 9,11 7.5,11 7.5,12.25 6,12.25 6,13.75 7.5,13.75" ]
+                    []
+                ]
+            ]
+        ]
+
+
+{-| -}
 dns : Icon msg
 dns =
     icon
@@ -9593,6 +10953,26 @@ domain =
         , p
             [ d "M12 7V5c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V9c0-1.1-.9-2-2-2h-8zM6 19H4v-2h2v2zm0-4H4v-2h2v2zm0-4H4V9h2v2zm0-4H4V5h2v2zm4 12H8v-2h2v2zm0-4H8v-2h2v2zm0-4H8V9h2v2zm0-4H8V5h2v2zm9 12h-7v-2h2v-2h-2v-2h2v-2h-2V9h7c.55 0 1 .45 1 1v8c0 .55-.45 1-1 1zm-1-8h-2v2h2v-2zm0 4h-2v2h2v-2z" ]
             []
+        ]
+
+
+{-| -}
+domain_add : Icon msg
+domain_add =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M6,19H4v-2h2V19z M6,15H4v-2h2V15z M6,11H4V9h2V11z M6,7H4V5h2V7z M10,19H8v-2h2V19z M10,15H8v-2h2V15z M10,11H8V9h2V11z M10,7H8V5h2V7z M16,19h-4v-2h2v-2h-2v-2h2v-2h-2V9h8v6h2V8c0-0.55-0.45-1-1-1h-9V4c0-0.55-0.45-1-1-1H3C2.45,3,2,3.45,2,4v16 c0,0.55,0.45,1,1,1h13V19z M18,11h-2v2h2V11z M18,15h-2v2h2V15z M24,20c0,0.55-0.45,1-1,1h-1v1c0,0.55-0.45,1-1,1s-1-0.45-1-1v-1 h-1c-0.55,0-1-0.45-1-1s0.45-1,1-1h1v-1c0-0.55,0.45-1,1-1c0.55,0,1,0.45,1,1v1h1C23.55,19,24,19.45,24,20z" ]
+                []
+            ]
         ]
 
 
@@ -10584,6 +11964,32 @@ elderly =
 
 
 {-| -}
+elderly_woman : Icon msg
+elderly_woman =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M18.52,11c-1.57,0-2.94-0.9-3.6-2.21l-0.79-1.67l0,0C14.12,7.1,13.63,6,12.34,6l0,0C8.72,6,6,16.69,6,19h2.5L7,21 c-0.33,0.44-0.24,1.07,0.2,1.4c0.44,0.33,1.07,0.24,1.4-0.2L11,19h2v3c0,0.55,0.45,1,1,1h0c0.55,0,1-0.45,1-1v-2.71 c0-0.22-0.04-0.43-0.1-0.64L13,13l0.49-2.71c0.81,1.23,2.05,2.14,3.51,2.52V13c0,0.28,0.22,0.5,0.5,0.5S18,13.28,18,13v-0.5 c0-0.28,0.22-0.5,0.5-0.5s0.5,0.22,0.5,0.5v10c0,0.28,0.22,0.5,0.5,0.5s0.5-0.22,0.5-0.5v-10C20,11.71,19.38,11,18.52,11z" ]
+                    []
+                , p
+                    [ d "M11.6,2.91c-0.06,0.19-0.1,0.38-0.1,0.59c0,1.1,0.9,2,2,2s2-0.9,2-2c0-1.1-0.9-2-2-2c-0.21,0-0.4,0.04-0.59,0.1 C12.76,1.25,12.41,1,12,1c-0.55,0-1,0.45-1,1C11,2.41,11.25,2.76,11.6,2.91z" ]
+                    []
+                ]
+            ]
+        ]
+
+
+{-| -}
 electric_bike : Icon msg
 electric_bike =
     icon
@@ -10613,6 +12019,32 @@ electric_bike =
 
 
 {-| -}
+electric_bolt : Icon msg
+electric_bolt =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M14.69,2.21L4.33,11.49c-0.64,0.58-0.28,1.65,0.58,1.73L13,14l-4.85,6.76c-0.22,0.31-0.19,0.74,0.08,1.01h0 c0.3,0.3,0.77,0.31,1.08,0.02l10.36-9.28c0.64-0.58,0.28-1.65-0.58-1.73L11,10l4.85-6.76c0.22-0.31,0.19-0.74-0.08-1.01l0,0 C15.47,1.93,15,1.92,14.69,2.21z" ]
+                    []
+                ]
+            ]
+        ]
+
+
+{-| -}
 electric_car : Icon msg
 electric_car =
     icon
@@ -10633,6 +12065,29 @@ electric_car =
                 []
             , polygon
                 [ points "7,20 11,20 11,18 17,21 13,21 13,23" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+electric_meter : Icon msg
+electric_meter =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M11.73,2C7.05,2.14,3.15,6.03,3,10.71c-0.13,4.04,2.42,7.5,6,8.77V21c0,0.55,0.45,1,1,1h0c0.55,0,1-0.45,1-1v-1.06 c0.33,0.04,0.66,0.06,1,0.06s0.67-0.02,1-0.06V21c0,0.55,0.45,1,1,1h0c0.55,0,1-0.45,1-1v-1.53c3.49-1.24,6-4.57,6-8.47 C21,5.95,16.82,1.85,11.73,2z M13.54,14.71L12,16.25c-0.41,0.41-1.09,0.41-1.5,0h0c-0.41-0.41-0.41-1.09,0-1.5l0.5-0.5l-0.54-0.54 c-0.39-0.39-0.39-1.02,0-1.41L12,10.75c0.41-0.41,1.09-0.41,1.5,0l0,0c0.41,0.41,0.41,1.09,0,1.5l-0.5,0.5l0.54,0.54 C13.93,13.68,13.93,14.32,13.54,14.71z M15,9H9C8.45,9,8,8.55,8,8v0c0-0.55,0.45-1,1-1h6c0.55,0,1,0.45,1,1v0C16,8.55,15.55,9,15,9 z" ]
                 []
             ]
         ]
@@ -10808,6 +12263,52 @@ emergency =
         , p
             [ d "M20.29,8.37l-1-1.73c-0.28-0.48-0.89-0.64-1.37-0.37L14,8.54V4c0-0.55-0.45-1-1-1h-2c-0.55,0-1,0.45-1,1v4.54L6.07,6.27 C5.59,5.99,4.98,6.16,4.71,6.63l-1,1.73C3.43,8.84,3.59,9.46,4.07,9.73L8,12l-3.93,2.27c-0.48,0.28-0.64,0.89-0.37,1.37l1,1.73 c0.28,0.48,0.89,0.64,1.37,0.37L10,15.46V20c0,0.55,0.45,1,1,1h2c0.55,0,1-0.45,1-1v-4.54l3.93,2.27c0.48,0.28,1.09,0.11,1.37-0.37 l1-1.73c0.28-0.48,0.11-1.09-0.37-1.37L16,12l3.93-2.27C20.41,9.46,20.57,8.84,20.29,8.37z" ]
             []
+        ]
+
+
+{-| -}
+emergency_recording : Icon msg
+emergency_recording =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M18,10.48V6c0-1.1-0.9-2-2-2H4C2.9,4,2,4.9,2,6v12c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2v-4.48l3.15,3.13 C21.46,16.97,22,16.74,22,16.3V7.7c0-0.44-0.54-0.67-0.85-0.35L18,10.48z M14.5,14.6c-0.28,0.48-0.89,0.64-1.37,0.37L11,13.73V16 c0,0.55-0.45,1-1,1s-1-0.45-1-1v-2.27l-2.13,1.23c-0.48,0.28-1.09,0.11-1.37-0.37c-0.28-0.48-0.11-1.09,0.37-1.37L8,12l-2.13-1.23 C5.39,10.49,5.22,9.88,5.5,9.4c0.28-0.48,0.89-0.64,1.37-0.37L9,10.27V8c0-0.55,0.45-1,1-1s1,0.45,1,1v2.27l2.13-1.23 c0.48-0.28,1.09-0.11,1.37,0.37c0.28,0.48,0.11,1.09-0.37,1.37L12,12l2.13,1.23C14.61,13.51,14.78,14.12,14.5,14.6z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+emergency_share : Icon msg
+emergency_share =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M12,9c-3.15,0-6,2.41-6,6.15c0,2.35,1.78,5.11,5.34,8.27c0.37,0.33,0.95,0.33,1.33,0C16.22,20.25,18,17.5,18,15.15 C18,11.41,15.15,9,12,9z M12,16.5c-0.83,0-1.5-0.67-1.5-1.5s0.67-1.5,1.5-1.5s1.5,0.67,1.5,1.5S12.83,16.5,12,16.5z M16.18,6.82 c-0.35,0.35-0.89,0.38-1.3,0.09C14.07,6.34,13.07,6,12,6S9.93,6.34,9.12,6.91c-0.41,0.28-0.95,0.26-1.3-0.09 c-0.43-0.43-0.39-1.15,0.09-1.5C9.06,4.49,10.48,4,12,4s2.94,0.49,4.09,1.32C16.58,5.67,16.61,6.39,16.18,6.82z M4.97,3.97 C4.55,3.54,4.59,2.85,5.05,2.47C6.95,0.93,9.37,0,12.01,0c2.64,0,5.06,0.93,6.95,2.48c0.46,0.38,0.5,1.07,0.08,1.49 c-0.36,0.36-0.93,0.39-1.32,0.07C16.16,2.77,14.17,2,12.01,2C9.83,2,7.84,2.77,6.29,4.04C5.9,4.36,5.33,4.32,4.97,3.97z" ]
+                []
+            ]
         ]
 
 
@@ -11068,6 +12569,32 @@ emoji_transportation =
 
 
 {-| -}
+energy_savings_leaf : Icon msg
+energy_savings_leaf =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M12,3c-4.8,0-9,3.86-9,9c0,2.12,0.74,4.07,1.97,5.61l-1.68,1.68c-0.39,0.39-0.39,1.02,0,1.41c0.39,0.39,1.02,0.39,1.41,0 l1.68-1.68C7.93,20.26,9.88,21,12,21c2.3,0,4.61-0.88,6.36-2.64C20.12,16.61,21,14.3,21,12V5c0-1.1-0.9-2-2-2H12z M15.83,12.26 l-5.16,4.63c-0.16,0.15-0.41,0.14-0.56-0.01c-0.14-0.14-0.16-0.36-0.04-0.52l2.44-3.33l-4.05-0.4c-0.44-0.04-0.63-0.59-0.3-0.89 l5.16-4.63c0.16-0.15,0.41-0.14,0.56,0.01c0.14,0.14,0.16,0.36,0.04,0.52l-2.44,3.33l4.05,0.4 C15.98,11.41,16.16,11.96,15.83,12.26z" ]
+                    []
+                ]
+            ]
+        ]
+
+
+{-| -}
 engineering : Icon msg
 engineering =
     icon
@@ -11296,6 +12823,26 @@ event_note =
         , p
             [ d "M16 10H8c-.55 0-1 .45-1 1s.45 1 1 1h8c.55 0 1-.45 1-1s-.45-1-1-1zm3-7h-1V2c0-.55-.45-1-1-1s-1 .45-1 1v1H8V2c0-.55-.45-1-1-1s-1 .45-1 1v1H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V8h14v10c0 .55-.45 1-1 1zm-5-5H8c-.55 0-1 .45-1 1s.45 1 1 1h5c.55 0 1-.45 1-1s-.45-1-1-1z" ]
             []
+        ]
+
+
+{-| -}
+event_repeat : Icon msg
+event_repeat =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M21,12V6c0-1.1-0.9-2-2-2h-1V3c0-0.55-0.45-1-1-1s-1,0.45-1,1v1H8V3c0-0.55-0.45-1-1-1S6,2.45,6,3v1H5C3.9,4,3,4.9,3,6v14 c0,1.1,0.9,2,2,2h7v-2H5V10h14v2H21z M15.13,20c-0.55,0-0.91,0.56-0.68,1.06C15.23,22.79,16.97,24,19,24c2.76,0,5-2.24,5-5 s-2.24-5-5-5c-1.36,0-2.6,0.55-3.5,1.43l0-0.68c0-0.41-0.34-0.75-0.75-0.75h0C14.34,14,14,14.34,14,14.75V17c0,0.55,0.45,1,1,1 h2.25c0.41,0,0.75-0.34,0.75-0.75v0c0-0.41-0.34-0.75-0.75-0.75l-0.7,0c0.63-0.62,1.5-1,2.45-1c1.93,0,3.5,1.57,3.5,3.5 s-1.57,3.5-3.5,3.5c-1.42,0-2.64-0.85-3.19-2.06C15.69,20.17,15.42,20,15.13,20z" ]
+                []
+            ]
         ]
 
 
@@ -11641,6 +13188,35 @@ fact_check =
                 []
                 [ p
                     [ d "M20,3H4C2.9,3,2,3.9,2,5v14c0,1.1,0.9,2,2,2h16c1.1,0,2-0.9,2-2V5 C22,3.9,21.1,3,20,3z M9,17H6c-0.55,0-1-0.45-1-1c0-0.55,0.45-1,1-1h3c0.55,0,1,0.45,1,1C10,16.55,9.55,17,9,17z M9,13H6 c-0.55,0-1-0.45-1-1c0-0.55,0.45-1,1-1h3c0.55,0,1,0.45,1,1C10,12.55,9.55,13,9,13z M9,9H6C5.45,9,5,8.55,5,8c0-0.55,0.45-1,1-1h3 c0.55,0,1,0.45,1,1C10,8.55,9.55,9,9,9z M18.7,11.12l-3.17,3.17c-0.39,0.39-1.03,0.39-1.42,0l-1.41-1.42 c-0.39-0.39-0.39-1.02,0-1.41c0.39-0.39,1.02-0.39,1.41,0l0.71,0.71l2.47-2.47c0.39-0.39,1.02-0.39,1.41,0l0.01,0.01 C19.09,10.1,19.09,10.74,18.7,11.12z", fillRule "evenodd" ]
+                    []
+                ]
+            ]
+        ]
+
+
+{-| -}
+factory : Icon msg
+factory =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M14,10V8.48c0-0.71-0.71-1.19-1.37-0.93L9,9V8.52C9,7.8,8.27,7.31,7.61,7.6L3.21,9.48C2.48,9.8,2,10.52,2,11.32V20 c0,1.1,0.9,2,2,2h16c1.1,0,2-0.9,2-2V10H14z M9,17c0,0.55-0.45,1-1,1s-1-0.45-1-1v-2c0-0.55,0.45-1,1-1s1,0.45,1,1V17z M13,17 c0,0.55-0.45,1-1,1s-1-0.45-1-1v-2c0-0.55,0.45-1,1-1s1,0.45,1,1V17z M17,17c0,0.55-0.45,1-1,1s-1-0.45-1-1v-2c0-0.55,0.45-1,1-1 s1,0.45,1,1V17z" ]
+                    []
+                , p
+                    [ d "M20.12,2h-1.23c-0.51,0-0.93,0.38-0.99,0.88L17.2,8.5h4.6l-0.69-5.62C21.05,2.38,20.62,2,20.12,2z" ]
                     []
                 ]
             ]
@@ -12000,6 +13576,26 @@ file_download_off =
 
 
 {-| -}
+file_open : Icon msg
+file_open =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M13.17,2H6C4.9,2,4,2.9,4,4v16c0,1.1,0.9,2,2,2h9v-6c0-1.1,0.9-2,2-2h3V8.83c0-0.53-0.21-1.04-0.59-1.41l-4.83-4.83 C14.21,2.21,13.7,2,13.17,2z M13,8V3.5L18.5,9H14C13.45,9,13,8.55,13,8z M22.66,17c0,0.55-0.45,1-1,1h-1.24l2.24,2.24 c0.39,0.39,0.39,1.02,0,1.41l0,0c-0.39,0.39-1.02,0.39-1.41,0L19,19.41l0,1.24c0,0.55-0.45,1-1,1c-0.55,0-1-0.45-1-1V17 c0-0.55,0.45-1,1-1h3.66C22.21,16,22.66,16.45,22.66,17z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
 file_present : Icon msg
 file_present =
     icon
@@ -12214,6 +13810,32 @@ filter_alt =
 
 
 {-| -}
+filter_alt_off : Icon msg
+filter_alt_off =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M19.79,5.61C20.3,4.95,19.83,4,19,4H6.83l7.97,7.97L19.79,5.61z" ]
+                    []
+                , p
+                    [ d "M20.49,20.49L3.51,3.51c-0.39-0.39-1.02-0.39-1.41,0c-0.39,0.39-0.39,1.02,0,1.41L10,13v5c0,1.1,0.9,2,2,2s2-0.9,2-2 v-1.17l5.07,5.07c0.39,0.39,1.02,0.39,1.41,0S20.88,20.88,20.49,20.49z" ]
+                    []
+                ]
+            ]
+        ]
+
+
+{-| -}
 filter_b_and_w : Icon msg
 filter_b_and_w =
     icon
@@ -12294,6 +13916,26 @@ filter_list =
         , p
             [ d "M11 18h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM3 7c0 .55.45 1 1 1h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1zm4 6h10c.55 0 1-.45 1-1s-.45-1-1-1H7c-.55 0-1 .45-1 1s.45 1 1 1z" ]
             []
+        ]
+
+
+{-| -}
+filter_list_off : Icon msg
+filter_list_off =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M21,7c0-0.55-0.45-1-1-1H8.83l2,2H20C20.55,8,21,7.55,21,7z M18,12c0-0.55-0.45-1-1-1h-3.17l2,2H17 C17.55,13,18,12.55,18,12z M13.98,16.81C13.99,16.87,14,16.94,14,17c0,0.55-0.45,1-1,1h-2c-0.55,0-1-0.45-1-1s0.45-1,1-1h2 c0.06,0,0.13,0.01,0.19,0.02L10.17,13H7c-0.55,0-1-0.45-1-1s0.45-1,1-1h1.17l-3-3H4C3.45,8,3,7.55,3,7c0-0.32,0.15-0.6,0.38-0.79 L2.1,4.93c-0.39-0.39-0.39-1.02,0-1.41s1.02-0.39,1.41,0l16.97,16.97c0.39,0.39,0.39,1.02,0,1.41s-1.02,0.39-1.41,0L13.98,16.81z" ]
+                []
+            ]
         ]
 
 
@@ -12494,6 +14136,32 @@ flag =
         , p
             [ d "M14.4 6l-.24-1.2c-.09-.46-.5-.8-.98-.8H6c-.55 0-1 .45-1 1v15c0 .55.45 1 1 1s1-.45 1-1v-6h5.6l.24 1.2c.09.47.5.8.98.8H19c.55 0 1-.45 1-1V7c0-.55-.45-1-1-1h-4.6z" ]
             []
+        ]
+
+
+{-| -}
+flag_circle : Icon msg
+flag_circle =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M12,2C6.48,2,2,6.48,2,12c0,5.52,4.48,10,10,10s10-4.48,10-10C22,6.48,17.52,2,12,2z M17,15h-3.38 c-0.38,0-0.73-0.21-0.89-0.55L12,13H9.5v4.25C9.5,17.66,9.16,18,8.75,18h0C8.34,18,8,17.66,8,17.25V8c0-0.55,0.45-1,1-1h4.38 c0.38,0,0.73,0.21,0.89,0.55L15,9h2c0.55,0,1,0.45,1,1v4C18,14.55,17.55,15,17,15z" ]
+                    []
+                ]
+            ]
         ]
 
 
@@ -12808,6 +14476,35 @@ flip_to_front =
 
 
 {-| -}
+flood : Icon msg
+flood =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M18.67,19c-1.95,0-2.09,1-3.33,1c-1.19,0-1.42-1-3.33-1c-1.95,0-2.1,1-3.34,1c-1.24,0-1.38-1-3.33-1 c-1.54,0-1.96,0.62-2.67,0.88C2.27,20.03,2,20.4,2,20.83v0c0,0.71,0.72,1.19,1.38,0.94C4.15,21.48,4.49,21,5.34,21 c1.24,0,1.38,1,3.33,1c1.95,0,2.1-1,3.34-1c1.22,0,1.4,1,3.33,1c1.93,0,2.1-1,3.33-1c0.84,0,1.18,0.47,1.95,0.77 c0.66,0.26,1.38-0.23,1.38-0.94v-0.01c0-0.42-0.27-0.8-0.67-0.94C20.62,19.62,20.21,19,18.67,19z" ]
+                    []
+                , p
+                    [ d "M8.68,17.5c1.95,0,2.09-1,3.33-1c1.19,0,1.42,1,3.33,1c1.95,0,2.09-1,3.33-1c0.82,0,1.17,0.46,1.93,0.76 c0.66,0.26,1.38-0.23,1.38-0.94v0c0-0.42-0.26-0.79-0.65-0.94c-0.29-0.11-0.54-0.27-0.83-0.43l-2.02-7.53l1.17,0.47 c0.51,0.21,1.09-0.04,1.29-0.55v0c0.21-0.51-0.05-1.1-0.57-1.29l-9.24-3.54c-0.81-0.31-1.72-0.06-2.27,0.61l-6.23,7.7 c-0.35,0.43-0.28,1.06,0.16,1.4l0,0c0.43,0.34,1.06,0.26,1.39-0.17l0.78-1l0.93,3.48c-0.18-0.02-0.35-0.05-0.56-0.05 c-1.54,0-1.95,0.62-2.66,0.88C2.27,15.53,2,15.91,2,16.33v0c0,0.7,0.69,1.19,1.35,0.95c0.8-0.29,1.18-0.78,2-0.78 C6.54,16.5,6.77,17.5,8.68,17.5z M14.04,10.18l1.42,5.31c-1.34,0.09-1.47-0.99-3.47-0.99c-0.36,0-0.65,0.04-0.91,0.1l-0.91-3.39 L14.04,10.18z" ]
+                    []
+                ]
+            ]
+        ]
+
+
+{-| -}
 flourescent : Icon msg
 flourescent =
     icon
@@ -12920,6 +14617,84 @@ folder =
 
 
 {-| -}
+folder_copy : Icon msg
+folder_copy =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M2,6L2,6C1.45,6,1,6.45,1,7v12c0,1.1,0.9,2,2,2h16c0.55,0,1-0.45,1-1v0c0-0.55-0.45-1-1-1H3V7C3,6.45,2.55,6,2,6z" ]
+                    []
+                , p
+                    [ d "M21,4h-7l-1.41-1.41C12.21,2.21,11.7,2,11.17,2H7C5.9,2,5.01,2.9,5.01,4L5,15c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V6 C23,4.9,22.1,4,21,4z" ]
+                    []
+                ]
+            ]
+        ]
+
+
+{-| -}
+folder_delete : Icon msg
+folder_delete =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M16.5,15.5h-2v-4h2V15.5z M20,6h-8l-1.41-1.41C10.21,4.21,9.7,4,9.17,4H4C2.9,4,2.01,4.9,2.01,6L2,18c0,1.1,0.9,2,2,2h16 c1.1,0,2-0.9,2-2V8C22,6.9,21.1,6,20,6z M18.25,11.5H18v4c0,0.83-0.67,1.5-1.5,1.5h-2c-0.83,0-1.5-0.67-1.5-1.5v-4h-0.25 c-0.41,0-0.75-0.34-0.75-0.75c0-0.41,0.34-0.75,0.75-0.75h1.75V9.75C14.5,9.34,14.84,9,15.25,9h0.5c0.41,0,0.75,0.34,0.75,0.75V10 h1.75c0.41,0,0.75,0.34,0.75,0.75C19,11.16,18.66,11.5,18.25,11.5z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+folder_off : Icon msg
+folder_off =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M2.81,2.81c-0.39-0.39-1.02-0.39-1.41,0C1,3.2,1,3.83,1.39,4.22l0.85,0.85C2.1,5.35,2.01,5.66,2.01,6L2,18 c0,1.1,0.9,2,2,2h13.17l2.61,2.61c0.39,0.39,1.02,0.39,1.41,0c0.39-0.39,0.39-1.02,0-1.41L2.81,2.81z" ]
+                    []
+                , p
+                    [ d "M20,6h-8l-1.41-1.41C10.21,4.21,9.7,4,9.17,4H6.83l14.93,14.93C21.91,18.65,22,18.34,22,18V8C22,6.9,21.1,6,20,6z" ]
+                    []
+                ]
+            ]
+        ]
+
+
+{-| -}
 folder_open : Icon msg
 folder_open =
     icon
@@ -12958,6 +14733,26 @@ folder_special =
         , p
             [ d "M20 6h-8l-1.41-1.41C10.21 4.21 9.7 4 9.17 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-3.06 10.41L15 15.28l-1.94 1.13c-.38.22-.84-.12-.74-.55l.51-2.2-1.69-1.46c-.33-.29-.16-.84.28-.88l2.23-.19.88-2.06c.17-.4.75-.4.92 0l.88 2.06 2.23.19c.44.04.62.59.28.88l-1.69 1.46.51 2.2c.11.43-.35.77-.72.55z" ]
             []
+        ]
+
+
+{-| -}
+folder_zip : Icon msg
+folder_zip =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M20,6h-8l-1.41-1.41C10.21,4.21,9.7,4,9.17,4H4C2.9,4,2.01,4.9,2.01,6L2,18c0,1.1,0.9,2,2,2h16c1.1,0,2-0.9,2-2V8 C22,6.9,21.1,6,20,6z M18,12h-2v2h2v2h-2v2h-2v-2h2v-2h-2v-2h2v-2h-2V8h2v2h2V12z" ]
+                []
+            ]
         ]
 
 
@@ -13045,6 +14840,52 @@ forest =
                     [ d "M13,20c0,1.1,0.9,2,2,2s2-0.9,2-2v-1h-4V20z" ]
                     []
                 ]
+            ]
+        ]
+
+
+{-| -}
+fork_left : Icon msg
+fork_left =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M15,20c0,0.55-0.45,1-1,1c-0.55,0-1-0.45-1-1v-3c-0.73-2.58-3.07-3.47-5.17-3l0.88,0.88c0.39,0.39,0.39,1.02,0,1.41 c-0.39,0.39-1.02,0.39-1.41,0l-2.59-2.59c-0.39-0.39-0.39-1.02,0-1.41l2.59-2.59c0.39-0.39,1.02-0.39,1.41,0 c0.39,0.39,0.39,1.02,0,1.41L7.83,12c1.51-0.33,3.73,0.08,5.17,1.36l0-6.53l-0.88,0.88c-0.39,0.39-1.02,0.39-1.41,0 c-0.39-0.39-0.39-1.02,0-1.41l2.59-2.59c0.39-0.39,1.02-0.39,1.41,0l2.59,2.59c0.39,0.39,0.39,1.02,0,1.41 c-0.39,0.39-1.02,0.39-1.41,0L15,6.83V20z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+fork_right : Icon msg
+fork_right =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M9,20c0,0.55,0.45,1,1,1c0.55,0,1-0.45,1-1v-3c0.73-2.58,3.07-3.47,5.17-3l-0.88,0.88c-0.39,0.39-0.39,1.02,0,1.41 c0.39,0.39,1.02,0.39,1.41,0l2.59-2.59c0.39-0.39,0.39-1.02,0-1.41l-2.59-2.59c-0.39-0.39-1.02-0.39-1.41,0 c-0.39,0.39-0.39,1.02,0,1.41L16.17,12c-1.51-0.33-3.73,0.08-5.17,1.36l0-6.53l0.88,0.88c0.39,0.39,1.02,0.39,1.41,0 c0.39-0.39,0.39-1.02,0-1.41l-2.59-2.59c-0.39-0.39-1.02-0.39-1.41,0L6.71,6.29c-0.39,0.39-0.39,1.02,0,1.41 c0.39,0.39,1.02,0.39,1.41,0L9,6.83V20z" ]
+                []
             ]
         ]
 
@@ -13297,6 +15138,26 @@ format_list_numbered_rtl =
         , p
             [ d "M20.5 16h-2c-.28 0-.5.22-.5.5s.22.5.5.5H20v.5h-.5c-.28 0-.5.22-.5.5s.22.5.5.5h.5v.5h-1.5c-.28 0-.5.22-.5.5s.22.5.5.5h2c.28 0 .5-.22.5-.5v-3c0-.28-.22-.5-.5-.5zm-2-11h.5v2.5c0 .28.22.5.5.5s.5-.22.5-.5v-3c0-.28-.22-.5-.5-.5h-1c-.28 0-.5.22-.5.5s.22.5.5.5zm2.5 5.72v-.22c0-.28-.22-.5-.5-.5h-2c-.28 0-.5.22-.5.5s.22.5.5.5h1.3l-1.68 1.96c-.08.09-.12.21-.12.32v.22c0 .28.22.5.5.5h2c.28 0 .5-.22.5-.5s-.22-.5-.5-.5h-1.3l1.68-1.96c.08-.09.12-.21.12-.32zM15 5H3c-.55 0-1 .45-1 1s.45 1 1 1h12c.55 0 1-.45 1-1s-.45-1-1-1zm0 12H3c-.55 0-1 .45-1 1s.45 1 1 1h12c.55 0 1-.45 1-1s-.45-1-1-1zm0-6H3c-.55 0-1 .45-1 1s.45 1 1 1h12c.55 0 1-.45 1-1s-.45-1-1-1z" ]
             []
+        ]
+
+
+{-| -}
+format_overline : Icon msg
+format_overline =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M5,4c0-0.55,0.45-1,1-1h12c0.55,0,1,0.45,1,1s-0.45,1-1,1H6C5.45,5,5,4.55,5,4z M12,7c-3.87,0-7,3.13-7,7 c0,3.87,3.13,7,7,7s7-3.13,7-7C19,10.13,15.87,7,12,7z M12,18.5c-2.49,0-4.5-2.01-4.5-4.5S9.51,9.5,12,9.5s4.5,2.01,4.5,4.5 S14.49,18.5,12,18.5z" ]
+                []
+            ]
         ]
 
 
@@ -13706,6 +15567,29 @@ garage =
 
 
 {-| -}
+gas_meter : Icon msg
+gas_meter =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M16,4h-1V3c0-0.55-0.45-1-1-1h0c-0.55,0-1,0.45-1,1v1h-2V3c0-0.55-0.45-1-1-1h0C9.45,2,9,2.45,9,3v1H8C5.79,4,4,5.79,4,8 v10c0,2.21,1.79,4,4,4h8c2.21,0,4-1.79,4-4V8C20,5.79,18.21,4,16,4z M12,18c-1.38,0-2.5-1.1-2.5-2.46c0-1.02,0.38-1.35,2.12-3.35 c0.2-0.23,0.56-0.23,0.75,0c1.73,1.99,2.12,2.34,2.12,3.35C14.5,16.9,13.38,18,12,18z M15,10H9c-0.55,0-1-0.45-1-1v0 c0-0.55,0.45-1,1-1h6c0.55,0,1,0.45,1,1v0C16,9.55,15.55,10,15,10z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
 gavel : Icon msg
 gavel =
     icon
@@ -13786,6 +15670,29 @@ gif_box =
         , p
             [ d "M19,3H5C3.9,3,3,3.9,3,5v14c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V5C21,3.9,20.1,3,19,3z M10.5,10.5c0,0.28-0.22,0.5-0.5,0.5 H8.5v2h1v-0.5c0-0.29,0.25-0.53,0.55-0.5c0.26,0.02,0.45,0.26,0.45,0.52V13c0,0.55-0.45,1-1,1h-1c-0.55,0-1-0.45-1-1v-2 c0-0.55,0.45-1,1-1H10C10.28,10,10.5,10.22,10.5,10.5z M12,10c0.28,0,0.5,0.22,0.5,0.5v3c0,0.28-0.22,0.5-0.5,0.5s-0.5-0.22-0.5-0.5 v-3C11.5,10.22,11.72,10,12,10z M14,14c-0.28,0-0.5-0.22-0.5-0.5v-3c0-0.28,0.22-0.5,0.5-0.5h2c0.28,0,0.5,0.22,0.5,0.5 S16.28,11,16,11h-1.5v0.5h1c0.28,0,0.5,0.22,0.5,0.5s-0.22,0.5-0.5,0.5h-1v1C14.5,13.78,14.28,14,14,14z" ]
             []
+        ]
+
+
+{-| -}
+girl : Icon msg
+girl =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M12,7.5c0.97,0,1.75-0.78,1.75-1.75S12.97,4,12,4s-1.75,0.78-1.75,1.75S11.03,7.5,12,7.5z M14,16v3c0,0.55-0.45,1-1,1h-2 c-0.55,0-1-0.45-1-1v-3H9.44c-0.7,0-1.18-0.7-0.94-1.35l1.88-5.03C10.63,8.95,11.28,8.5,12,8.5s1.37,0.45,1.62,1.12l1.88,5.03 C15.74,15.3,15.26,16,14.56,16H14z" ]
+                    []
+                ]
+            ]
         ]
 
 
@@ -14331,6 +16238,29 @@ hail =
 
 
 {-| -}
+handshake : Icon msg
+handshake =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M16.48,10.41c-0.39,0.39-1.04,0.39-1.43,0l-4.47-4.46l-7.05,7.04l-0.66-0.63c-1.17-1.17-1.17-3.07,0-4.24l4.24-4.24 c1.17-1.17,3.07-1.17,4.24,0L16.48,9C16.87,9.39,16.87,10.02,16.48,10.41z M17.18,8.29c0.78,0.78,0.78,2.05,0,2.83 c-1.27,1.27-2.61,0.22-2.83,0l-3.76-3.76l-5.57,5.57c-0.39,0.39-0.39,1.02,0,1.41c0.39,0.39,1.02,0.39,1.42,0l4.62-4.62l0.71,0.71 l-4.62,4.62c-0.39,0.39-0.39,1.02,0,1.41c0.39,0.39,1.02,0.39,1.42,0l4.62-4.62l0.71,0.71l-4.62,4.62c-0.39,0.39-0.39,1.02,0,1.41 c0.39,0.39,1.02,0.39,1.41,0l4.62-4.62l0.71,0.71l-4.62,4.62c-0.39,0.39-0.39,1.02,0,1.41c0.39,0.39,1.02,0.39,1.41,0l8.32-8.34 c1.17-1.17,1.17-3.07,0-4.24l-4.24-4.24c-1.15-1.15-3.01-1.17-4.18-0.06L17.18,8.29z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
 handyman : Icon msg
 handyman =
     icon
@@ -14815,6 +16745,29 @@ heart_broken =
 
 
 {-| -}
+heat_pump : Icon msg
+heat_pump =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M19,3H5C3.9,3,3,3.9,3,5v14c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V5C21,3.9,20.1,3,19,3z M12.75,7.08 c0.82,0.12,1.57,0.44,2.2,0.91l-2.2,2.2V7.08z M11.25,7.08v3.11l-2.2-2.2C9.68,7.52,10.43,7.2,11.25,7.08z M7.99,9.05l2.2,2.2H7.08 C7.2,10.43,7.52,9.68,7.99,9.05z M7.08,12.75h3.11l-2.2,2.2C7.52,14.32,7.2,13.57,7.08,12.75z M11.25,16.92 c-0.82-0.12-1.57-0.44-2.2-0.91l2.2-2.2V16.92z M12,13c-0.55,0-1-0.45-1-1c0-0.55,0.45-1,1-1s1,0.45,1,1C13,12.55,12.55,13,12,13z M12.75,16.92v-3.11l2.2,2.2C14.32,16.48,13.57,16.8,12.75,16.92z M16.01,14.95l-2.2-2.2h3.11C16.8,13.57,16.48,14.32,16.01,14.95z M13.81,11.25l2.2-2.2c0.47,0.64,0.79,1.39,0.91,2.2H13.81z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
 height : Icon msg
 height =
     icon
@@ -14913,6 +16866,26 @@ hevc =
                     [ d "M19.5,10.5c0,0.28,0.22,0.5,0.5,0.5h0.5c0.28,0,0.5-0.22,0.5-0.5V10c0-0.55-0.45-1-1-1h-2c-0.55,0-1,0.45-1,1v4 c0,0.55,0.45,1,1,1h2c0.55,0,1-0.45,1-1v-0.5c0-0.28-0.22-0.5-0.5-0.5H20c-0.28,0-0.5,0.22-0.5,0.5h-1v-3H19.5z" ]
                     []
                 ]
+            ]
+        ]
+
+
+{-| -}
+hexagon : Icon msg
+hexagon =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M16.05,3H7.95C7.24,3,6.58,3.38,6.22,4l-4.04,7c-0.36,0.62-0.36,1.38,0,2l4.04,7c0.36,0.62,1.02,1,1.73,1h8.09 c0.71,0,1.37-0.38,1.73-1l4.04-7c0.36-0.62,0.36-1.38,0-2l-4.04-7C17.42,3.38,16.76,3,16.05,3z" ]
+                []
             ]
         ]
 
@@ -15130,6 +17103,52 @@ hive =
                     [ d "M9.91,16.49l-1.2,2c-0.19,0.32-0.19,0.71,0,1.03l1.2,2c0.18,0.3,0.51,0.49,0.86,0.49h2.46c0.35,0,0.68-0.18,0.86-0.49 l1.2-2c0.19-0.32,0.19-0.71,0-1.03l-1.2-2c-0.18-0.3-0.51-0.49-0.86-0.49h-2.46C10.42,16,10.09,16.18,9.91,16.49z" ]
                     []
                 ]
+            ]
+        ]
+
+
+{-| -}
+hls : Icon msg
+hls =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M10.75,9C10.34,9,10,9.34,10,9.75V14c0,0.55,0.45,1,1,1h2.25c0.41,0,0.75-0.34,0.75-0.75s-0.34-0.75-0.75-0.75H11.5V9.75 C11.5,9.34,11.16,9,10.75,9z M19.04,10.5c0.1,0.29,0.38,0.5,0.71,0.5c0.41,0,0.75-0.34,0.75-0.75V10c0-0.55-0.45-1-1-1h-3 c-0.55,0-1,0.45-1,1v1.5c0,0.55,0.45,1,1,1H19v1h-2.04v0c-0.1-0.29-0.38-0.5-0.71-0.5c-0.41,0-0.75,0.34-0.75,0.75V14 c0,0.55,0.45,1,1,1h3c0.55,0,1-0.45,1-1v-1.5c0-0.55-0.45-1-1-1H17v-1L19.04,10.5z M8,9.75C8,9.34,7.66,9,7.25,9S6.5,9.34,6.5,9.75 V11h-2V9.75C4.5,9.34,4.16,9,3.75,9S3,9.34,3,9.75v4.5C3,14.66,3.34,15,3.75,15s0.75-0.34,0.75-0.75V12.5h2v1.75 C6.5,14.66,6.84,15,7.25,15S8,14.66,8,14.25V9.75z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+hls_off : Icon msg
+hls_off =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M17.83,15h1.67c0.55,0,1-0.45,1-1v-1.5c0-0.55-0.45-1-1-1H17v-1l2.04,0c0.1,0.29,0.38,0.5,0.71,0.5 c0.41,0,0.75-0.34,0.75-0.75V10c0-0.55-0.45-1-1-1h-3c-0.55,0-1,0.45-1,1v1.5c0,0.55,0.45,1,1,1H19v1h-2.04v0 c-0.1-0.29-0.38-0.5-0.71-0.5c-0.12,0-0.24,0.03-0.34,0.08L17.83,15z M19.07,21.9c0.39,0.39,1.02,0.39,1.41,0s0.39-1.02,0-1.41 L3.51,3.51c-0.39-0.39-1.02-0.39-1.41,0s-0.39,1.02,0,1.41l4.48,4.48C6.53,9.51,6.5,9.63,6.5,9.75V11h-2V9.75 C4.5,9.34,4.16,9,3.75,9S3,9.34,3,9.75v4.5C3,14.66,3.34,15,3.75,15s0.75-0.34,0.75-0.75V12.5h2v1.75C6.5,14.66,6.84,15,7.25,15 S8,14.66,8,14.25v-3.42l2,2V14c0,0.55,0.45,1,1,1h1.17L19.07,21.9z" ]
+                []
             ]
         ]
 
@@ -15549,6 +17568,29 @@ how_to_vote =
                     [ d "M10.59,14.42c0.78,0.79,2.05,0.8,2.84,0.01l4.98-4.98c0.78-0.78,0.78-2.05,0-2.83l-3.54-3.53c-0.78-0.78-2.05-0.78-2.83,0 L7.09,8.04c-0.78,0.78-0.78,2.03-0.01,2.82L10.59,14.42z M13.46,4.5l3.53,3.53l-4.94,4.94L8.52,9.44L13.46,4.5z" ]
                     []
                 ]
+            ]
+        ]
+
+
+{-| -}
+html : Icon msg
+html =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M21,15c-0.55,0-1-0.45-1-1V9.75C20,9.34,20.34,9,20.75,9s0.75,0.34,0.75,0.75v3.75h1.75c0.41,0,0.75,0.34,0.75,0.75 c0,0.41-0.34,0.75-0.75,0.75H21z M16,10.49h1v3.76c0,0.41,0.34,0.75,0.75,0.75s0.75-0.34,0.75-0.75V10c0-0.55-0.45-1-1-1H13 c-0.55,0-1,0.45-1,1v4.25c0,0.41,0.34,0.75,0.75,0.75s0.75-0.34,0.75-0.75V10.5h1v2.75c0,0.41,0.34,0.75,0.75,0.75 S16,13.66,16,13.25V10.49z M5,9.75C5,9.34,4.66,9,4.25,9S3.5,9.34,3.5,9.75V11h-2V9.75C1.5,9.34,1.16,9,0.75,9S0,9.34,0,9.75v4.5 C0,14.66,0.34,15,0.75,15s0.75-0.34,0.75-0.75V12.5h2v1.75C3.5,14.66,3.84,15,4.25,15S5,14.66,5,14.25V9.75z M10.25,10.5 c0.41,0,0.75-0.34,0.75-0.75C11,9.34,10.66,9,10.25,9h-3.5C6.34,9,6,9.34,6,9.75c0,0.41,0.34,0.75,0.75,0.75h1v3.75 C7.75,14.66,8.09,15,8.5,15s0.75-0.34,0.75-0.75V10.5H10.25z" ]
+                []
             ]
         ]
 
@@ -16077,6 +18119,61 @@ insights =
 
 
 {-| -}
+install_desktop : Icon msg
+install_desktop =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M20,17H4V5h8V3H4C2.9,3,2,3.9,2,5v12c0,1.1,0.89,2,2,2h4v1c0,0.55,0.45,1,1,1h6c0.55,0,1-0.45,1-1v-1h4c1.1,0,2-0.9,2-2 v-3h-2V17z" ]
+                    []
+                , p
+                    [ d "M17.71,13.29l3.59-3.59c0.39-0.39,0.39-1.02,0-1.41l0,0c-0.39-0.39-1.02-0.39-1.41,0L18,10.17V4c0-0.55-0.45-1-1-1h0 c-0.55,0-1,0.45-1,1v6.17l-1.89-1.88c-0.39-0.39-1.02-0.39-1.41,0l0,0c-0.39,0.39-0.39,1.02,0,1.41l3.59,3.59 C16.69,13.68,17.32,13.68,17.71,13.29z" ]
+                    []
+                ]
+            ]
+        ]
+
+
+{-| -}
+install_mobile : Icon msg
+install_mobile =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M18.71,13.29l3.59-3.59c0.39-0.39,0.39-1.02,0-1.41l0,0c-0.39-0.39-1.02-0.39-1.41,0L19,10.17V4c0-0.55-0.45-1-1-1h0 c-0.55,0-1,0.45-1,1v6.17l-1.89-1.88c-0.39-0.39-1.02-0.39-1.41,0l0,0c-0.39,0.39-0.39,1.02,0,1.41l3.59,3.59 C17.69,13.68,18.32,13.68,18.71,13.29z" ]
+                []
+            , p
+                [ d "M17,18H7V6h7V1H7C5.9,1,5,1.9,5,3v18c0,1.1,0.9,2,2,2h10c1.1,0,2-0.9,2-2v-5h-2V18z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
 integration_instructions : Icon msg
 integration_instructions =
     icon
@@ -16265,6 +18362,175 @@ iso =
 
 
 {-| -}
+javascript : Icon msg
+javascript =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M15.54,10.5c0.1,0.29,0.38,0.5,0.71,0.5c0.41,0,0.75-0.34,0.75-0.75V10c0-0.55-0.45-1-1-1h-3c-0.55,0-1,0.45-1,1v1.5 c0,0.55,0.45,1,1,1h2.5v1h-2.04v0c-0.1-0.29-0.38-0.5-0.71-0.5C12.34,13,12,13.34,12,13.75V14c0,0.55,0.45,1,1,1h3 c0.55,0,1-0.45,1-1v-1.5c0-0.55-0.45-1-1-1h-2.5v-1L15.54,10.5z M7.5,13.5H9V9.75C9,9.34,9.34,9,9.75,9c0.41,0,0.75,0.34,0.75,0.75 v3.75c0,0.83-0.67,1.5-1.5,1.5H7.5C6.67,15,6,14.33,6,13.5v-0.25c0-0.41,0.34-0.75,0.75-0.75c0.41,0,0.75,0.34,0.75,0.75V13.5z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+join_full : Icon msg
+join_full =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M12.68,6.8c-0.39-0.35-0.98-0.35-1.37,0C9.35,8.56,9,10.84,9,12c0,1.15,0.35,3.44,2.32,5.2c0.39,0.35,0.98,0.35,1.37,0 C14.65,15.44,15,13.16,15,12C15,10.85,14.65,8.56,12.68,6.8z" ]
+                    []
+                , p
+                    [ d "M7.5,12c0-0.97,0.23-4.16,3.03-6.5C9.75,5.19,8.9,5,8,5c-3.86,0-7,3.14-7,7s3.14,7,7,7c0.9,0,1.75-0.19,2.53-0.5 C7.73,16.16,7.5,12.97,7.5,12z" ]
+                    []
+                , p
+                    [ d "M16,5c-0.9,0-1.75,0.19-2.53,0.5c2.8,2.34,3.03,5.53,3.03,6.5c0,0.97-0.23,4.16-3.03,6.5C14.25,18.81,15.1,19,16,19 c3.86,0,7-3.14,7-7S19.86,5,16,5z" ]
+                    []
+                ]
+            ]
+        ]
+
+
+{-| -}
+join_inner : Icon msg
+join_inner =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M12.68,6.8c-0.39-0.35-0.98-0.35-1.37,0C9.35,8.56,9,10.84,9,12c0,1.15,0.35,3.44,2.32,5.2c0.39,0.35,0.98,0.35,1.37,0 C14.65,15.44,15,13.16,15,12C15,10.85,14.65,8.56,12.68,6.8z" ]
+                []
+            , g
+                []
+                [ p
+                    [ d "M9.04,16.87C8.71,16.95,8.36,17,8,17c-2.76,0-5-2.24-5-5s2.24-5,5-5c0.36,0,0.71,0.05,1.04,0.13 c0.39-0.56,0.88-1.12,1.49-1.63C9.75,5.19,8.9,5,8,5c-3.86,0-7,3.14-7,7s3.14,7,7,7c0.9,0,1.75-0.19,2.53-0.5 C9.92,17.99,9.43,17.43,9.04,16.87z" ]
+                    []
+                ]
+            , p
+                [ d "M16,5c-0.9,0-1.75,0.19-2.53,0.5c0.61,0.51,1.1,1.07,1.49,1.63C15.29,7.05,15.64,7,16,7c2.76,0,5,2.24,5,5s-2.24,5-5,5 c-0.36,0-0.71-0.05-1.04-0.13c-0.39,0.56-0.88,1.12-1.49,1.63C14.25,18.81,15.1,19,16,19c3.86,0,7-3.14,7-7S19.86,5,16,5z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+join_left : Icon msg
+join_left =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ g
+                    []
+                    [ p
+                        [ d "M12.68,6.8c-0.39-0.35-0.98-0.35-1.37,0C9.35,8.56,9,10.84,9,12c0,1.15,0.35,3.44,2.32,5.2c0.39,0.35,0.98,0.35,1.37,0 C14.65,15.44,15,13.16,15,12C15,10.85,14.65,8.56,12.68,6.8z" ]
+                        []
+                    ]
+                , g
+                    []
+                    [ p
+                        [ d "M7.5,12c0-0.97,0.23-4.16,3.03-6.5C9.75,5.19,8.9,5,8,5c-3.86,0-7,3.14-7,7s3.14,7,7,7c0.9,0,1.75-0.19,2.53-0.5 C7.73,16.16,7.5,12.97,7.5,12z" ]
+                        []
+                    ]
+                , g
+                    []
+                    [ p
+                        [ d "M16,5c-0.9,0-1.75,0.19-2.53,0.5c0.61,0.51,1.1,1.07,1.49,1.63C15.29,7.05,15.64,7,16,7c2.76,0,5,2.24,5,5s-2.24,5-5,5 c-0.36,0-0.71-0.05-1.04-0.13c-0.39,0.56-0.88,1.12-1.49,1.63C14.25,18.81,15.1,19,16,19c3.86,0,7-3.14,7-7S19.86,5,16,5z" ]
+                        []
+                    ]
+                ]
+            ]
+        ]
+
+
+{-| -}
+join_right : Icon msg
+join_right =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ g
+                    []
+                    [ p
+                        [ d "M11.32,17.2c0.39,0.35,0.98,0.35,1.37,0C14.65,15.44,15,13.16,15,12c0-1.15-0.35-3.44-2.32-5.2 c-0.39-0.35-0.98-0.35-1.37,0C9.35,8.56,9,10.84,9,12C9,13.15,9.35,15.44,11.32,17.2z" ]
+                        []
+                    ]
+                , g
+                    []
+                    [ p
+                        [ d "M16.5,12c0,0.97-0.23,4.16-3.03,6.5C14.25,18.81,15.1,19,16,19c3.86,0,7-3.14,7-7s-3.14-7-7-7c-0.9,0-1.75,0.19-2.53,0.5 C16.27,7.84,16.5,11.03,16.5,12z" ]
+                        []
+                    ]
+                , g
+                    []
+                    [ p
+                        [ d "M8,19c0.9,0,1.75-0.19,2.53-0.5c-0.61-0.51-1.1-1.07-1.49-1.63C8.71,16.95,8.36,17,8,17c-2.76,0-5-2.24-5-5s2.24-5,5-5 c0.36,0,0.71,0.05,1.04,0.13c0.39-0.56,0.88-1.12,1.49-1.63C9.75,5.19,8.9,5,8,5c-3.86,0-7,3.14-7,7S4.14,19,8,19z" ]
+                        []
+                    ]
+                ]
+            ]
+        ]
+
+
+{-| -}
 kayaking : Icon msg
 kayaking =
     icon
@@ -16310,6 +18576,29 @@ key =
             []
             [ p
                 [ d "M20.59,10h-7.94C11.7,7.31,8.89,5.5,5.77,6.12c-2.29,0.46-4.15,2.3-4.63,4.58C0.32,14.58,3.26,18,7,18 c2.61,0,4.83-1.67,5.65-4H13l1.29,1.29c0.39,0.39,1.02,0.39,1.41,0L17,14l1.29,1.29c0.39,0.39,1.03,0.39,1.42,0l2.59-2.61 c0.39-0.39,0.39-1.03-0.01-1.42l-0.99-0.97C21.1,10.1,20.85,10,20.59,10z M7,15c-1.65,0-3-1.35-3-3c0-1.65,1.35-3,3-3s3,1.35,3,3 C10,13.65,8.65,15,7,15z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+key_off : Icon msg
+key_off =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M12.83,10l4.09,4.09L17,14l1.29,1.29c0.39,0.39,1.03,0.39,1.42,0l2.59-2.61c0.39-0.39,0.39-1.03-0.01-1.42l-0.99-0.97 C21.1,10.1,20.85,10,20.59,10H12.83z M19.07,21.9c0.39,0.39,1.02,0.39,1.41,0s0.39-1.02,0-1.41L3.51,3.51 c-0.39-0.39-1.02-0.39-1.41,0c-0.39,0.39-0.39,1.02,0,1.41l1.88,1.88C2.2,7.85,1,9.79,1,12c0,3.31,2.69,6,6,6 c2.21,0,4.15-1.2,5.18-2.99L19.07,21.9z M9.91,12.74C9.58,14.03,8.4,15,7,15c-1.65,0-3-1.35-3-3c0-1.4,0.97-2.58,2.26-2.91 L9.91,12.74z" ]
                 []
             ]
         ]
@@ -16412,6 +18701,55 @@ keyboard_capslock =
         [ p
             [ d "M12 8.41l3.89 3.89c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L12.71 6.3c-.39-.39-1.02-.39-1.41 0l-4.6 4.59c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0L12 8.41zM7 18h10c.55 0 1-.45 1-1s-.45-1-1-1H7c-.55 0-1 .45-1 1s.45 1 1 1z" ]
             []
+        ]
+
+
+{-| -}
+keyboard_command_key : Icon msg
+keyboard_command_key =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M17.5,3C15.57,3,14,4.57,14,6.5V8h-4V6.5C10,4.57,8.43,3,6.5,3S3,4.57,3,6.5S4.57,10,6.5,10H8v4H6.5 C4.57,14,3,15.57,3,17.5S4.57,21,6.5,21s3.5-1.57,3.5-3.5V16h4v1.5c0,1.93,1.57,3.5,3.5,3.5s3.5-1.57,3.5-3.5S19.43,14,17.5,14H16 v-4h1.5c1.93,0,3.5-1.57,3.5-3.5S19.43,3,17.5,3L17.5,3z M16,8V6.5C16,5.67,16.67,5,17.5,5S19,5.67,19,6.5S18.33,8,17.5,8H16L16,8 z M6.5,8C5.67,8,5,7.33,5,6.5S5.67,5,6.5,5S8,5.67,8,6.5V8H6.5L6.5,8z M10,14v-4h4v4H10L10,14z M17.5,19c-0.83,0-1.5-0.67-1.5-1.5 V16h1.5c0.83,0,1.5,0.67,1.5,1.5S18.33,19,17.5,19L17.5,19z M6.5,19C5.67,19,5,18.33,5,17.5S5.67,16,6.5,16H8v1.5 C8,18.33,7.33,19,6.5,19L6.5,19z" ]
+                    []
+                ]
+            ]
+        ]
+
+
+{-| -}
+keyboard_control_key : Icon msg
+keyboard_control_key =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M5.71,12.71L5.71,12.71c0.39,0.39,1.02,0.39,1.41,0L12,7.83l4.88,4.88c0.39,0.39,1.02,0.39,1.41,0v0 c0.39-0.39,0.39-1.02,0-1.41l-5.59-5.59c-0.39-0.39-1.02-0.39-1.41,0l-5.59,5.59C5.32,11.68,5.32,12.32,5.71,12.71z" ]
+                []
+            ]
         ]
 
 
@@ -16539,6 +18877,35 @@ keyboard_hide =
         [ p
             [ d "M20 3H4c-1.1 0-1.99.9-1.99 2L2 15c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-9 3h2v2h-2V6zm0 3h2v2h-2V9zM8 6h2v2H8V6zm0 3h2v2H8V9zm-1 2H5V9h2v2zm0-3H5V6h2v2zm8 7H9c-.55 0-1-.45-1-1s.45-1 1-1h6c.55 0 1 .45 1 1s-.45 1-1 1zm1-4h-2V9h2v2zm0-3h-2V6h2v2zm3 3h-2V9h2v2zm0-3h-2V6h2v2zm-6.65 14.65l2.79-2.79c.31-.31.09-.85-.35-.85H9.21c-.45 0-.67.54-.35.85l2.79 2.79c.19.19.51.19.7 0z" ]
             []
+        ]
+
+
+{-| -}
+keyboard_option_key : Icon msg
+keyboard_option_key =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M15,6L15,6c0,0.55,0.45,1,1,1h4c0.55,0,1-0.45,1-1v0c0-0.55-0.45-1-1-1h-4C15.45,5,15,5.45,15,6z" ]
+                    []
+                , p
+                    [ d "M9.58,6C9.22,5.38,8.56,5,7.85,5H4C3.45,5,3,5.45,3,6v0c0,0.55,0.45,1,1,1h3.85l6.35,11c0.36,0.62,1.02,1,1.73,1H20 c0.55,0,1-0.45,1-1v0c0-0.55-0.45-1-1-1h-4.07L9.58,6z" ]
+                    []
+                ]
+            ]
         ]
 
 
@@ -16681,6 +19048,26 @@ label_off =
 
 
 {-| -}
+lan : Icon msg
+lan =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M15,22h4c1.1,0,2-0.9,2-2v-3c0-1.1-0.9-2-2-2h-1v-2c0-1.1-0.9-2-2-2h-3V9h1c1.1,0,2-0.9,2-2V4c0-1.1-0.9-2-2-2h-4 C8.9,2,8,2.9,8,4v3c0,1.1,0.9,2,2,2h1v2H8c-1.1,0-2,0.9-2,2v2H5c-1.1,0-2,0.9-2,2v3c0,1.1,0.9,2,2,2h4c1.1,0,2-0.9,2-2v-3 c0-1.1-0.9-2-2-2H8v-2h8v2h-1c-1.1,0-2,0.9-2,2v3C13,21.1,13.9,22,15,22z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
 landscape : Icon msg
 landscape =
     icon
@@ -16691,6 +19078,44 @@ landscape =
         , p
             [ d "M13.2 7.07L10.25 11l2.25 3c.33.44.24 1.07-.2 1.4-.44.33-1.07.25-1.4-.2-1.05-1.4-2.31-3.07-3.1-4.14-.4-.53-1.2-.53-1.6 0l-4 5.33c-.49.67-.02 1.61.8 1.61h18c.82 0 1.29-.94.8-1.6l-7-9.33c-.4-.54-1.2-.54-1.6 0z" ]
             []
+        ]
+
+
+{-| -}
+landslide : Icon msg
+landslide =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ polygon
+                    [ points "15.47,13.79 12.89,12.76 6,15.05 2,13.51 2,15.61 6,16.95" ]
+                    []
+                , p
+                    [ d "M10.57,11.42L8.6,8.8C8.22,8.3,7.63,8,7,8H4c-1.1,0-2,0.9-2,2v1.61l4,1.33L10.57,11.42z" ]
+                    []
+                , p
+                    [ d "M6,19.05l-4-1.33V20c0,1.1,0.9,2,2,2h14c1.65,0,2.59-1.88,1.6-3.2l-2.57-3.42L6,19.05z" ]
+                    []
+                , p
+                    [ d "M17,4.65V2.64c0-0.95-0.67-1.77-1.61-1.96l-2.58-0.52c-0.52-0.1-1.06,0-1.5,0.3L9.89,1.41C9.33,1.78,9,2.4,9,3.07v1.86 C9,5.6,9.33,6.22,9.89,6.59l1.23,0.82c0.55,0.37,1.24,0.44,1.85,0.19l2.77-1.11C16.5,6.2,17,5.46,17,4.65z" ]
+                    []
+                , p
+                    [ d "M17.75,7.6l-1,0.8C16.28,8.78,16,9.35,16,9.96v1.08c0,0.61,0.28,1.18,0.75,1.56l0.8,0.64c0.58,0.47,1.38,0.57,2.06,0.27 l2.2-0.98C22.53,12.21,23,11.49,23,10.7V9.6c0-0.94-0.65-1.75-1.57-1.95l-2-0.44C18.84,7.08,18.22,7.22,17.75,7.6z" ]
+                    []
+                ]
+            ]
         ]
 
 
@@ -17021,6 +19446,32 @@ lightbulb =
                         [ d "M12,2C7.86,2,4.5,5.36,4.5,9.5c0,3.82,2.66,5.86,3.77,6.5h7.46c1.11-0.64,3.77-2.68,3.77-6.5C19.5,5.36,16.14,2,12,2z" ]
                         []
                     ]
+                ]
+            ]
+        ]
+
+
+{-| -}
+lightbulb_circle : Icon msg
+lightbulb_circle =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M12,2C6.48,2,2,6.48,2,12c0,5.52,4.48,10,10,10s10-4.48,10-10C22,6.48,17.52,2,12,2z M12,19c-0.83,0-1.5-0.67-1.5-1.5h3 C13.5,18.33,12.83,19,12,19z M14.25,16.5h-4.5C9.34,16.5,9,16.16,9,15.75v0C9,15.34,9.34,15,9.75,15h4.5 c0.41,0,0.75,0.34,0.75,0.75v0C15,16.16,14.66,16.5,14.25,16.5z M14.97,14H9.03C7.8,13.09,7,11.64,7,10c0-2.76,2.24-5,5-5 s5,2.24,5,5C17,11.64,16.2,13.09,14.97,14z" ]
+                    []
                 ]
             ]
         ]
@@ -17932,6 +20383,20 @@ lock_open =
 
 
 {-| -}
+lock_reset : Icon msg
+lock_reset =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ rect
+            [ f "none" ]
+            []
+        , p
+            [ d "M13.26,3C8.17,2.86,4,6.94,4,12H2.21c-0.45,0-0.67,0.54-0.35,0.85l2.79,2.79c0.2,0.2,0.51,0.2,0.71,0l2.8-2.79 C8.46,12.54,8.24,12,7.79,12H6c0-3.89,3.2-7.06,7.1-7c3.71,0.05,6.84,3.18,6.9,6.9c0.06,3.91-3.1,7.1-7,7.1 c-1.59,0-3.05-0.53-4.23-1.43c-0.4-0.3-0.96-0.27-1.31,0.09l0,0c-0.43,0.43-0.39,1.14,0.09,1.5C9.06,20.31,10.95,21,13,21 c5.06,0,9.14-4.17,9-9.25C21.87,7.05,17.95,3.13,13.26,3z M15,11v-1c0-1.1-0.9-2-2-2s-2,0.9-2,2v1c-0.55,0-1,0.45-1,1v3 c0,0.55,0.45,1,1,1h4c0.55,0,1-0.45,1-1v-3C16,11.45,15.55,11,15,11z M14,11h-2v-1c0-0.55,0.45-1,1-1s1,0.45,1,1V11z" ]
+            []
+        ]
+
+
+{-| -}
 login : Icon msg
 login =
     icon
@@ -18253,6 +20718,35 @@ lunch_dining =
 
 
 {-| -}
+lyrics : Icon msg
+lyrics =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M14,9c0-2.04,1.24-3.79,3-4.57V4c0-1.1-0.9-2-2-2H4C2.9,2,2.01,2.9,2.01,4L2,22l4-4h9c1.1,0,2-0.9,2-2v-2.42 C15.24,12.8,14,11.05,14,9z M10,14H6v-2h4V14z M13,11H6V9h7V11z M13,8H6V6h7V8z" ]
+                    []
+                , p
+                    [ d "M20,6.18C19.69,6.07,19.35,6,19,6c-1.66,0-3,1.34-3,3c0,1.66,1.34,3,3,3s3-1.34,3-3V3h2V1h-4V6.18z" ]
+                    []
+                ]
+            ]
+        ]
+
+
+{-| -}
 mail : Icon msg
 mail =
     icon
@@ -18263,6 +20757,41 @@ mail =
         , p
             [ d "M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-.4 4.25l-6.54 4.09c-.65.41-1.47.41-2.12 0L4.4 8.25c-.25-.16-.4-.43-.4-.72 0-.67.73-1.07 1.3-.72L12 11l6.7-4.19c.57-.35 1.3.05 1.3.72 0 .29-.15.56-.4.72z" ]
             []
+        ]
+
+
+{-| -}
+mail_lock : Icon msg
+mail_lock =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ g
+                    []
+                    [ p
+                        [ d "M22,9.97V6c0-1.1-0.9-2-2-2H4C2.9,4,2.01,4.9,2.01,6L2,18c0,1.1,0.9,2,2,2h12v-5.03c0-2.76,2.24-5,5-5H22z M19.6,8.25 l-6.54,4.09c-0.65,0.41-1.47,0.41-2.12,0L4.4,8.25C4.15,8.09,4,7.82,4,7.53v0c0-0.67,0.73-1.07,1.3-0.72L12,11l6.7-4.19 C19.27,6.46,20,6.86,20,7.53v0C20,7.82,19.85,8.09,19.6,8.25z" ]
+                        []
+                    ]
+                , g
+                    []
+                    [ p
+                        [ d "M23,15v-1c0-1.1-0.9-2-2-2s-2,0.9-2,2v1c-0.55,0-1,0.45-1,1v3c0,0.55,0.45,1,1,1h4c0.55,0,1-0.45,1-1v-3 C24,15.45,23.55,15,23,15z M22,15h-2v-1c0-0.55,0.45-1,1-1s1,0.45,1,1V15z" ]
+                        []
+                    ]
+                ]
+            ]
         ]
 
 
@@ -18348,6 +20877,29 @@ manage_accounts =
                     [ d "M20.75,16c0-0.22-0.03-0.42-0.06-0.63l0.84-0.73c0.18-0.16,0.22-0.42,0.1-0.63l-0.59-1.02c-0.12-0.21-0.37-0.3-0.59-0.22 l-1.06,0.36c-0.32-0.27-0.68-0.48-1.08-0.63l-0.22-1.09c-0.05-0.23-0.25-0.4-0.49-0.4h-1.18c-0.24,0-0.44,0.17-0.49,0.4 l-0.22,1.09c-0.4,0.15-0.76,0.36-1.08,0.63l-1.06-0.36c-0.23-0.08-0.47,0.02-0.59,0.22l-0.59,1.02c-0.12,0.21-0.08,0.47,0.1,0.63 l0.84,0.73c-0.03,0.21-0.06,0.41-0.06,0.63s0.03,0.42,0.06,0.63l-0.84,0.73c-0.18,0.16-0.22,0.42-0.1,0.63l0.59,1.02 c0.12,0.21,0.37,0.3,0.59,0.22l1.06-0.36c0.32,0.27,0.68,0.48,1.08,0.63l0.22,1.09c0.05,0.23,0.25,0.4,0.49,0.4h1.18 c0.24,0,0.44-0.17,0.49-0.4l0.22-1.09c0.4-0.15,0.76-0.36,1.08-0.63l1.06,0.36c0.23,0.08,0.47-0.02,0.59-0.22l0.59-1.02 c0.12-0.21,0.08-0.47-0.1-0.63l-0.84-0.73C20.72,16.42,20.75,16.22,20.75,16z M17,18c-1.1,0-2-0.9-2-2s0.9-2,2-2s2,0.9,2,2 S18.1,18,17,18z" ]
                     []
                 ]
+            ]
+        ]
+
+
+{-| -}
+manage_history : Icon msg
+manage_history =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M22.75,19c0-0.22-0.03-0.42-0.06-0.63l0.84-0.73c0.18-0.16,0.22-0.42,0.1-0.63l-0.59-1.02c-0.12-0.21-0.37-0.3-0.59-0.22 l-1.06,0.36c-0.32-0.27-0.68-0.48-1.08-0.63l-0.22-1.09c-0.05-0.23-0.25-0.4-0.49-0.4h-1.18c-0.24,0-0.44,0.17-0.49,0.4l-0.22,1.09 c-0.4,0.15-0.76,0.36-1.08,0.63l-1.06-0.36c-0.23-0.08-0.47,0.02-0.59,0.22l-0.59,1.02c-0.12,0.21-0.08,0.47,0.1,0.63l0.84,0.73 c-0.03,0.21-0.06,0.41-0.06,0.63s0.03,0.42,0.06,0.63l-0.84,0.73c-0.18,0.16-0.22,0.42-0.1,0.63l0.59,1.02 c0.12,0.21,0.37,0.3,0.59,0.22l1.06-0.36c0.32,0.27,0.68,0.48,1.08,0.63l0.22,1.09c0.05,0.23,0.25,0.4,0.49,0.4h1.18 c0.24,0,0.44-0.17,0.49-0.4l0.22-1.09c0.4-0.15,0.76-0.36,1.08-0.63l1.06,0.36c0.23,0.08,0.47-0.02,0.59-0.22l0.59-1.02 c0.12-0.21,0.08-0.47-0.1-0.63l-0.84-0.73C22.72,19.42,22.75,19.22,22.75,19z M19,21c-1.1,0-2-0.9-2-2s0.9-2,2-2s2,0.9,2,2 S20.1,21,19,21z M12,7c-0.55,0-1,0.45-1,1v4c0,0.27,0.11,0.52,0.29,0.71l2.07,2.07l1.04-1.79L13,11.59V8C13,7.45,12.55,7,12,7z M4.26,13c-0.65,0-1.14,0.61-0.98,1.24C4.28,18.13,7.8,21,12,21c0.02,0,0.05,0,0.07,0l-1.21-2.09c-2.75-0.45-4.96-2.51-5.64-5.18 C5.11,13.29,4.71,13,4.26,13z M4,10c-0.55,0-1-0.45-1-1V5c0-0.55,0.45-1,1-1s1,0.45,1,1v1.36C6.65,4.32,9.17,3,12,3 c4.97,0,9,4.03,9,9h-2c0-3.86-3.14-7-7-7C9.63,5,7.53,6.19,6.26,8H8c0.55,0,1,0.45,1,1s-0.45,1-1,1H4z" ]
+                []
             ]
         ]
 
@@ -18553,6 +21105,35 @@ mark_email_unread =
 
 
 {-| -}
+mark_unread_chat_alt : Icon msg
+mark_unread_chat_alt =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ c
+                    [ cx "19", cy "3", r "3" ]
+                    []
+                , p
+                    [ d "M7,8C6.45,8,6,7.55,6,7c0-0.55,0.45-1,1-1h8.03c-1.21-1.6-1.08-3.21-0.92-4H4.01c-1.1,0-2,0.89-2,2L2,19.58 c0,0.89,1.08,1.34,1.71,0.71L6,18h14c1.1,0,2-0.9,2-2V6.97C21.16,7.61,20.13,8,19,8H7z M13,14H7c-0.55,0-1-0.45-1-1 c0-0.55,0.45-1,1-1h6c0.55,0,1,0.45,1,1C14,13.55,13.55,14,13,14z M17,11H7c-0.55,0-1-0.45-1-1c0-0.55,0.45-1,1-1h10 c0.55,0,1,0.45,1,1C18,10.55,17.55,11,17,11z" ]
+                    []
+                ]
+            ]
+        ]
+
+
+{-| -}
 markunread : Icon msg
 markunread =
     icon
@@ -18670,6 +21251,29 @@ mediation =
                     [ d "M18,13h-5.06c-0.34,3.1-2.26,5.72-4.94,7.05c-0.03,1.81-1.66,3.23-3.55,2.9c-1.2-0.21-2.19-1.2-2.4-2.4 C1.71,18.65,3.16,17,5,17c0.95,0,1.78,0.45,2.33,1.14c1.9-1.03,3.26-2.91,3.58-5.14h-3.1c-0.48,1.34-1.86,2.24-3.42,1.94 c-1.18-0.23-2.13-1.2-2.35-2.38C1.7,10.66,3.16,9,5,9c1.3,0,2.4,0.84,2.82,2h3.1C10.6,8.77,9.23,6.9,7.33,5.86 c-0.64,0.8-1.67,1.28-2.81,1.1C3.29,6.77,2.26,5.77,2.05,4.54C1.72,2.65,3.17,1,5,1c1.64,0,2.96,1.31,2.99,2.95 c2.68,1.33,4.6,3.95,4.94,7.05H18V9.21c0-0.45,0.54-0.67,0.85-0.35l2.79,2.79c0.2,0.2,0.2,0.51,0,0.71l-2.79,2.79 C18.54,15.46,18,15.24,18,14.79V13z" ]
                     []
                 ]
+            ]
+        ]
+
+
+{-| -}
+medical_information : Icon msg
+medical_information =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M20,7h-5V4c0-1.1-0.9-2-2-2h-2C9.9,2,9,2.9,9,4v3H4C2.9,7,2,7.9,2,9v11c0,1.1,0.9,2,2,2h16c1.1,0,2-0.9,2-2V9 C22,7.9,21.1,7,20,7z M11,4h2v5h-2V4z M7,16H6c-0.55,0-1-0.45-1-1s0.45-1,1-1h1v-1c0-0.55,0.45-1,1-1s1,0.45,1,1v1h1 c0.55,0,1,0.45,1,1s-0.45,1-1,1H9v1c0,0.55-0.45,1-1,1s-1-0.45-1-1V16z M13.75,14.5c-0.41,0-0.75-0.34-0.75-0.75S13.34,13,13.75,13 h4.5c0.41,0,0.75,0.34,0.75,0.75s-0.34,0.75-0.75,0.75H13.75z M13.75,17.5c-0.41,0-0.75-0.34-0.75-0.75S13.34,16,13.75,16h2.5 c0.41,0,0.75,0.34,0.75,0.75s-0.34,0.75-0.75,0.75H13.75z" ]
+                []
             ]
         ]
 
@@ -18865,6 +21469,29 @@ menu_open =
 
 
 {-| -}
+merge : Icon msg
+merge =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M8.71,7.71c-0.39-0.39-0.39-1.02,0-1.41l2.59-2.59c0.39-0.39,1.02-0.39,1.41,0l2.59,2.59c0.39,0.39,0.39,1.02,0,1.41 c-0.39,0.39-1.02,0.39-1.41,0L13,6.83v5.1c0,1.06,0.42,2.08,1.17,2.83l4.12,4.12c0.39,0.39,0.39,1.02,0,1.41s-1.02,0.39-1.41,0 L12,15.41l-4.88,4.88c-0.39,0.39-1.02,0.39-1.41,0c-0.39-0.39-0.39-1.02,0-1.41l4.12-4.12c0.75-0.75,1.17-1.77,1.17-2.83v-5.1 l-0.88,0.88C9.73,8.1,9.1,8.1,8.71,7.71z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
 merge_type : Icon msg
 merge_type =
     icon
@@ -19025,6 +21652,29 @@ minimize =
         , p
             [ d "M7 19h10c.55 0 1 .45 1 1s-.45 1-1 1H7c-.55 0-1-.45-1-1s.45-1 1-1z" ]
             []
+        ]
+
+
+{-| -}
+minor_crash : Icon msg
+minor_crash =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M19.5,24c0.82,0,1.5-0.67,1.5-1.5v-7.16c0-0.22-0.04-0.45-0.11-0.66l-1.97-5.67C18.72,8.42,18.16,8,17.5,8h-11 C5.84,8,5.29,8.42,5.08,9.01l-1.97,5.67C3.04,14.89,3,15.11,3,15.34v7.16C3,23.33,3.68,24,4.5,24S6,23.33,6,22.5V22h12v0.5 C18,23.33,18.67,24,19.5,24z M6.85,10h10.29l1.04,3H5.81L6.85,10z M6,17.5C6,16.67,6.67,16,7.5,16S9,16.67,9,17.5S8.33,19,7.5,19 S6,18.33,6,17.5z M15,17.5c0-0.83,0.67-1.5,1.5-1.5s1.5,0.67,1.5,1.5S17.33,19,16.5,19S15,18.33,15,17.5z M8.71,5.71 c-0.39,0.39-1.02,0.39-1.41,0L5.71,4.12c-0.39-0.39-0.39-1.02,0-1.41s1.02-0.39,1.41,0l1.59,1.59C9.1,4.68,9.1,5.32,8.71,5.71z M18.29,2.71c0.39,0.39,0.39,1.02,0,1.41l-1.59,1.59c-0.39,0.39-1.02,0.39-1.41,0s-0.39-1.02,0-1.41l1.59-1.59 C17.27,2.32,17.9,2.32,18.29,2.71z M12,5c-0.55,0-1-0.45-1-1V1c0-0.55,0.45-1,1-1s1,0.45,1,1v3C13,4.55,12.55,5,12,5z" ]
+                []
+            ]
         ]
 
 
@@ -19235,6 +21885,41 @@ mode_edit_outline =
                     []
                     [ p
                         [ d "M20.71,5.63l-2.34-2.34c-0.39-0.39-1.02-0.39-1.41,0l-1.83,1.83l3.75,3.75l1.83-1.83C21.1,6.65,21.1,6.02,20.71,5.63z" ]
+                        []
+                    ]
+                ]
+            ]
+        ]
+
+
+{-| -}
+mode_fan_off : Icon msg
+mode_fan_off =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ g
+                    []
+                    [ p
+                        [ d "M16.34,8.36l-2.29,0.82c-0.18-0.13-0.38-0.25-0.58-0.34c0.17-0.83,0.63-1.58,1.36-2.06C16.85,5.44,16.18,2,13.39,2 c-3.08,0-4.9,1.47-5.3,3.26L18.73,15.9c1.5,0.39,3.27-0.51,3.27-2.51C22,9,18.99,7.16,16.34,8.36z" ]
+                        []
+                    ]
+                , g
+                    []
+                    [ p
+                        [ d "M2.1,3.51L2.1,3.51c-0.39,0.39-0.39,1.02,0,1.41L5.27,8.1C3.77,7.7,2,8.61,2,10.61c0,4.4,3.01,6.24,5.66,5.03l2.29-0.82 c0.18,0.13,0.38,0.25,0.58,0.34c-0.17,0.83-0.63,1.58-1.36,2.06C7.15,18.56,7.82,22,10.61,22c3.08,0,4.9-1.47,5.3-3.26l3.16,3.16 c0.39,0.39,1.02,0.39,1.41,0l0,0c0.39-0.39,0.39-1.02,0-1.41L3.51,3.51C3.12,3.12,2.49,3.12,2.1,3.51z" ]
                         []
                     ]
                 ]
@@ -19730,6 +22415,38 @@ mouse =
 
 
 {-| -}
+move_down : Icon msg
+move_down =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M3.01,10.72c-0.14,2.57,1.66,4.73,4.07,5.18l-0.79-0.79c-0.39-0.39-0.39-1.02,0-1.41l0,0c0.39-0.39,1.02-0.39,1.41,0 l2.59,2.59c0.39,0.39,0.39,1.02,0,1.41L7.71,20.3c-0.39,0.39-1.02,0.39-1.41,0h0c-0.39-0.39-0.39-1.02,0-1.41l0.88-0.88l0-0.06 c-3.64-0.43-6.43-3.65-6.15-7.47C1.29,6.78,4.55,4,8.26,4L10,4c0.55,0,1,0.45,1,1v0c0,0.55-0.45,1-1,1L8.22,6 C5.52,6,3.15,8.04,3.01,10.72z" ]
+                    []
+                , p
+                    [ d "M15,11h5c1.1,0,2-0.9,2-2V6c0-1.1-0.9-2-2-2h-5c-1.1,0-2,0.9-2,2v3C13,10.1,13.9,11,15,11z M20,9h-5V6h5V9z" ]
+                    []
+                , p
+                    [ d "M20,20h-5c-1.1,0-2-0.9-2-2v-3c0-1.1,0.9-2,2-2h5c1.1,0,2,0.9,2,2v3C22,19.1,21.1,20,20,20z" ]
+                    []
+                ]
+            ]
+        ]
+
+
+{-| -}
 move_to_inbox : Icon msg
 move_to_inbox =
     icon
@@ -19745,6 +22462,38 @@ move_to_inbox =
             [ p
                 [ d "M19,3H5C3.9,3,3,3.9,3,5v14c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V5C21,3.9,20.1,3,19,3z M19,14h-3.56 c-0.36,0-0.68,0.19-0.86,0.5C14.06,15.4,13.11,16,12,16s-2.06-0.6-2.58-1.5C9.24,14.19,8.91,14,8.56,14H5V5h14V14z M14.79,10H13V7 c0-0.55-0.45-1-1-1h0c-0.55,0-1,0.45-1,1v3H9.21c-0.45,0-0.67,0.54-0.35,0.85l2.79,2.79c0.2,0.2,0.51,0.2,0.71,0l2.79-2.79 C15.46,10.54,15.24,10,14.79,10z" ]
                 []
+            ]
+        ]
+
+
+{-| -}
+move_up : Icon msg
+move_up =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M3.01,13.28c-0.14-2.57,1.66-4.73,4.07-5.18L6.29,8.88c-0.39,0.39-0.39,1.02,0,1.41l0,0c0.39,0.39,1.02,0.39,1.41,0 l2.59-2.59c0.39-0.39,0.39-1.02,0-1.41L7.71,3.7c-0.39-0.39-1.02-0.39-1.41,0l0,0c-0.39,0.39-0.39,1.02,0,1.41l0.88,0.88l0,0.06 c-3.64,0.43-6.43,3.65-6.15,7.47C1.29,17.22,4.55,20,8.26,20H10c0.55,0,1-0.45,1-1v0c0-0.55-0.45-1-1-1H8.22 C5.52,18,3.15,15.96,3.01,13.28z" ]
+                    []
+                , p
+                    [ d "M13,15v3c0,1.1,0.9,2,2,2h5c1.1,0,2-0.9,2-2v-3c0-1.1-0.9-2-2-2h-5C13.9,13,13,13.9,13,15z M20,18h-5v-3h5V18z" ]
+                    []
+                , p
+                    [ d "M20,4h-5c-1.1,0-2,0.9-2,2v3c0,1.1,0.9,2,2,2h5c1.1,0,2-0.9,2-2V6C22,4.9,21.1,4,20,4z" ]
+                    []
+                ]
             ]
         ]
 
@@ -20130,6 +22879,29 @@ nearby_off =
 
 
 {-| -}
+nest_cam_wired_stand : Icon msg
+nest_cam_wired_stand =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M15.83,1.01l-4.11,0.42C8.47,1.75,6,4.48,6,7.75s2.47,6,5.72,6.33l1.9,0.19l-0.56,0.85C12.71,15.04,12.36,15,12,15 c-2.76,0-5,2.24-5,5v2c0,0.55,0.45,1,1,1h8c0.55,0,1-0.45,1-1v-2c0-1.67-0.83-3.15-2.09-4.06l0.97-1.45 C17.02,14.56,18,13.66,18,12.5V3C18,1.83,17,0.91,15.83,1.01z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
 network_cell : Icon msg
 network_cell =
     icon
@@ -20178,6 +22950,29 @@ network_locked =
 
 
 {-| -}
+network_ping : Icon msg
+network_ping =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M2.71,6.79c-0.39,0.39-0.39,1.02,0,1.41L10.5,16H5c-0.55,0-1,0.45-1,1s0.45,1,1,1h14c0.55,0,1-0.45,1-1s-0.45-1-1-1h-5.5 l5.15-5.15C18.91,10.95,19.2,11,19.5,11c1.38,0,2.5-1.12,2.5-2.5S20.88,6,19.5,6S17,7.12,17,8.5c0,0.35,0.07,0.67,0.2,0.97 l-5.2,5.2L4.12,6.79C3.73,6.4,3.1,6.4,2.71,6.79z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
 network_wifi : Icon msg
 network_wifi =
     icon
@@ -20192,6 +22987,75 @@ network_wifi =
             []
             [ p
                 [ d "M12,4C7.7,4,3.78,5.6,0.79,8.24C0.35,8.63,0.32,9.3,0.73,9.71l10.56,10.58c0.39,0.39,1.02,0.39,1.42,0L23.27,9.71 c0.41-0.41,0.38-1.08-0.06-1.47C20.22,5.6,16.3,4,12,4z M12,8c-2.86,0-5.5,0.94-7.65,2.51L2.92,9.07C5.51,7.08,8.67,6,12,6 s6.49,1.08,9.08,3.07l-1.43,1.43C17.5,8.94,14.86,8,12,8z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+network_wifi_1_bar : Icon msg
+network_wifi_1_bar =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M12,4C7.31,4,3.07,5.9,0,8.98L12,21L24,8.98C20.93,5.9,16.69,4,12,4z M15.32,14.84C14.34,14.3,13.2,14,12,14 c-1.2,0-2.34,0.3-3.32,0.84L2.92,9.07C5.51,7.08,8.67,6,12,6s6.49,1.08,9.08,3.07L15.32,14.84z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+network_wifi_2_bar : Icon msg
+network_wifi_2_bar =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M12,4C7.7,4,3.78,5.6,0.79,8.24C0.35,8.63,0.32,9.3,0.73,9.71l10.56,10.58c0.39,0.39,1.02,0.39,1.42,0L23.27,9.71 c0.41-0.41,0.38-1.08-0.06-1.47C20.22,5.6,16.3,4,12,4z M16.78,13.38C15.4,12.5,13.76,12,12,12c-1.76,0-3.4,0.5-4.78,1.38l-4.3-4.3 C5.51,7.08,8.67,6,12,6s6.49,1.08,9.08,3.07L16.78,13.38z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+network_wifi_3_bar : Icon msg
+network_wifi_3_bar =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M12,4C7.7,4,3.78,5.6,0.79,8.24C0.35,8.63,0.32,9.3,0.73,9.71l10.56,10.58c0.39,0.39,1.02,0.39,1.42,0L23.27,9.71 c0.41-0.41,0.38-1.08-0.06-1.47C20.22,5.6,16.3,4,12,4z M2.92,9.07C5.51,7.08,8.67,6,12,6s6.49,1.08,9.08,3.07l-2.85,2.86 C16.46,10.71,14.31,10,12,10c-2.31,0-4.46,0.71-6.23,1.93L2.92,9.07z" ]
                 []
             ]
         ]
@@ -20219,6 +23083,29 @@ new_releases =
         [ p
             [ d "M22.42 11.34l-1.86-2.12.26-2.81c.05-.5-.29-.96-.77-1.07l-2.76-.63-1.44-2.43c-.26-.43-.79-.61-1.25-.41L12 3 9.41 1.89c-.46-.2-1-.02-1.25.41L6.71 4.72l-2.75.62c-.49.11-.83.56-.78 1.07l.26 2.8-1.86 2.13c-.33.38-.33.94 0 1.32l1.86 2.12-.26 2.82c-.05.5.29.96.77 1.07l2.76.63 1.44 2.42c.26.43.79.61 1.26.41L12 21l2.59 1.11c.46.2 1 .02 1.25-.41l1.44-2.43 2.76-.63c.49-.11.82-.57.77-1.07l-.26-2.81 1.86-2.12c.34-.36.34-.92.01-1.3zM13 17h-2v-2h2v2zm-1-4c-.55 0-1-.45-1-1V8c0-.55.45-1 1-1s1 .45 1 1v4c0 .55-.45 1-1 1z" ]
             []
+        ]
+
+
+{-| -}
+newspaper : Icon msg
+newspaper =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M21.15,3.85l-0.82,0.82l-0.95-0.96c-0.39-0.39-1.02-0.39-1.42,0L17,4.67l-0.96-0.96c-0.39-0.39-1.03-0.39-1.42,0 l-0.95,0.96l-0.96-0.96c-0.39-0.39-1.02-0.39-1.41,0l-0.96,0.96L9.38,3.71c-0.39-0.39-1.02-0.39-1.42,0L7,4.67L6.04,3.71 c-0.39-0.39-1.03-0.39-1.42,0L3.67,4.67L2.85,3.85C2.54,3.54,2,3.76,2,4.21V19c0,1.1,0.9,2,2,2l16,0c1.1,0,2-0.9,2-2V4.21 C22,3.76,21.46,3.54,21.15,3.85z M11,19H4v-6h7V19z M20,19h-7v-2h7V19z M20,15h-7v-2h7V15z M20,11H4V8h16V11z" ]
+                []
+            ]
         ]
 
 
@@ -20458,6 +23345,29 @@ no_cell =
 
 
 {-| -}
+no_crash : Icon msg
+no_crash =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M19.5,24c0.82,0,1.5-0.67,1.5-1.5v-7.16c0-0.22-0.04-0.45-0.11-0.66l-1.97-5.67C18.72,8.42,18.16,8,17.5,8h-11 C5.84,8,5.29,8.42,5.08,9.01l-1.97,5.67C3.04,14.89,3,15.11,3,15.34v7.16C3,23.33,3.68,24,4.5,24S6,23.33,6,22.5V22h12v0.5 C18,23.33,18.67,24,19.5,24z M6.85,10h10.29l1.04,3H5.81L6.85,10z M6,17.5C6,16.67,6.67,16,7.5,16S9,16.67,9,17.5S8.33,19,7.5,19 S6,18.33,6,17.5z M15,17.5c0-0.83,0.67-1.5,1.5-1.5s1.5,0.67,1.5,1.5S17.33,19,16.5,19S15,18.33,15,17.5z M16.24,0.71 c0.39,0.39,0.39,1.02,0,1.41l-3.54,3.54c-0.39,0.39-1.02,0.39-1.41,0L9.88,4.24c-0.39-0.39-0.39-1.02,0-1.41l0,0 c0.39-0.39,1.02-0.39,1.41,0L12,3.54l2.83-2.83C15.22,0.32,15.85,0.32,16.24,0.71z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
 no_drinks : Icon msg
 no_drinks =
     icon
@@ -20640,6 +23550,88 @@ no_transfer =
         , p
             [ d "M5.78,2.95C7.24,2.16,9.48,2,12,2c4.42,0,8,0.5,8,4v10c0,0.35-0.08,0.67-0.19,0.98L13.83,11H18V6H8.83L5.78,2.95z M20.49,21.9c-0.39,0.39-1.02,0.39-1.41,0l-1.01-1.01C17.89,20.96,17.7,21,17.5,21c-0.83,0-1.5-0.68-1.5-1.5V19H8v0.5 C8,20.33,7.33,21,6.5,21S5,20.33,5,19.5v-1.28C4.39,17.67,4,16.88,4,16V6.83l-1.9-1.9c-0.39-0.39-0.39-1.02,0-1.41 c0.39-0.39,1.02-0.39,1.41,0l16.97,16.97C20.88,20.88,20.88,21.51,20.49,21.9z M9,15.5C9,14.67,8.33,14,7.5,14S6,14.67,6,15.5 C6,16.33,6.67,17,7.5,17S9,16.33,9,15.5z M8.17,11L6,8.83V11H8.17z" ]
             []
+        ]
+
+
+{-| -}
+noise_aware : Icon msg
+noise_aware =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M3.23,13L3.23,13c-0.64,0-1.13,0.59-0.98,1.21c0.25,1.12,0.7,2.18,1.3,3.12c0.34,0.54,1.1,0.61,1.55,0.16l0,0 c0.32-0.32,0.4-0.83,0.15-1.21c-0.49-0.77-0.85-1.62-1.05-2.54C4.1,13.3,3.68,13,3.23,13z" ]
+                    []
+                , p
+                    [ d "M5.09,6.51L5.09,6.51C4.64,6.06,3.88,6.13,3.54,6.67c-0.6,0.95-1.04,2-1.3,3.12C2.11,10.41,2.59,11,3.23,11h0 c0.45,0,0.87-0.3,0.97-0.74c0.2-0.92,0.56-1.77,1.05-2.54C5.49,7.34,5.42,6.83,5.09,6.51z" ]
+                    []
+                , p
+                    [ d "M11,3.23L11,3.23c0-0.64-0.59-1.13-1.21-0.98c-1.12,0.25-2.18,0.7-3.12,1.3c-0.54,0.34-0.61,1.1-0.16,1.55l0,0 c0.32,0.32,0.83,0.4,1.21,0.15C8.49,4.76,9.34,4.4,10.26,4.2C10.7,4.1,11,3.68,11,3.23z" ]
+                    []
+                , p
+                    [ d "M17.33,3.54c-0.95-0.6-2-1.04-3.12-1.3C13.59,2.11,13,2.59,13,3.23v0c0,0.45,0.3,0.87,0.74,0.97 c0.92,0.2,1.77,0.56,2.54,1.05c0.38,0.24,0.89,0.17,1.21-0.15l0,0C17.94,4.64,17.87,3.88,17.33,3.54z" ]
+                    []
+                , p
+                    [ d "M18.91,17.49L18.91,17.49c0.45,0.45,1.21,0.38,1.55-0.16c0.6-0.95,1.04-2,1.3-3.12c0.14-0.62-0.35-1.21-0.98-1.21h0 c-0.45,0-0.87,0.3-0.97,0.74c-0.2,0.92-0.56,1.77-1.05,2.54C18.51,16.66,18.58,17.17,18.91,17.49z" ]
+                    []
+                , p
+                    [ d "M20.77,11L20.77,11c0.64,0,1.13-0.59,0.98-1.21c-0.25-1.12-0.7-2.18-1.3-3.12c-0.34-0.54-1.1-0.61-1.55-0.16l0,0 c-0.32,0.32-0.4,0.83-0.15,1.21c0.49,0.77,0.85,1.62,1.05,2.54C19.9,10.7,20.32,11,20.77,11z" ]
+                    []
+                , p
+                    [ d "M13,20.77L13,20.77c0,0.64,0.59,1.13,1.21,0.98c1.12-0.25,2.18-0.7,3.12-1.3c0.54-0.34,0.61-1.1,0.16-1.55l0,0 c-0.32-0.32-0.83-0.4-1.21-0.15c-0.77,0.49-1.62,0.85-2.54,1.05C13.3,19.9,13,20.32,13,20.77z" ]
+                    []
+                , p
+                    [ d "M6.67,20.46c0.95,0.6,2,1.04,3.12,1.3c0.62,0.14,1.21-0.35,1.21-0.98v0c0-0.45-0.3-0.87-0.74-0.97 c-0.92-0.2-1.77-0.56-2.54-1.05c-0.38-0.24-0.89-0.17-1.21,0.15l0,0C6.06,19.36,6.13,20.12,6.67,20.46z" ]
+                    []
+                , c
+                    [ cx "12", cy "12", r "5" ]
+                    []
+                ]
+            ]
+        ]
+
+
+{-| -}
+noise_control_off : Icon msg
+noise_control_off =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ g
+                    []
+                    [ g
+                        []
+                        [ c
+                            [ cx "12", cy "12", r "5" ]
+                            []
+                        ]
+                    ]
+                ]
+            ]
         ]
 
 
@@ -21011,6 +24003,67 @@ offline_share =
 
 
 {-| -}
+oil_barrel : Icon msg
+oil_barrel =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M20,13c0.55,0,1-0.45,1-1s-0.45-1-1-1h-1V5h1c0.55,0,1-0.45,1-1s-0.45-1-1-1H4C3.45,3,3,3.45,3,4s0.45,1,1,1h1v6H4 c-0.55,0-1,0.45-1,1s0.45,1,1,1h1v6H4c-0.55,0-1,0.45-1,1s0.45,1,1,1h16c0.55,0,1-0.45,1-1s-0.45-1-1-1h-1v-6H20z M12,16 c-1.66,0-3-1.32-3-2.95c0-1.16,0.41-1.58,2.24-3.68c0.4-0.46,1.12-0.46,1.51,0c1.82,2.09,2.24,2.52,2.24,3.68 C15,14.68,13.66,16,12,16z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+on_device_training : Icon msg
+on_device_training =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M11.5,17h1c0.28,0,0.5-0.22,0.5-0.5l0,0c0-0.28-0.22-0.5-0.5-0.5h-1c-0.28,0-0.5,0.22-0.5,0.5l0,0 C11,16.78,11.22,17,11.5,17z" ]
+                    []
+                , p
+                    [ d "M11.52,11.06c-0.71,0.16-1.29,0.74-1.46,1.44c-0.23,0.94,0.21,1.8,0.94,2.22v0.53c0,0.14,0.11,0.25,0.25,0.25h1.5 c0.14,0,0.25-0.11,0.25-0.25v-0.53c0.6-0.35,1-0.98,1-1.72C14,11.74,12.83,10.75,11.52,11.06z" ]
+                    []
+                , p
+                    [ d "M18,1.01L6,1C4.9,1,4,1.9,4,3v18c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2V3C20,1.9,19.1,1.01,18,1.01z M18,18H6V6h12V18z" ]
+                    []
+                , p
+                    [ d "M15.33,15.27c0.36,0.36,0.99,0.26,1.21-0.2C16.83,14.44,17,13.74,17,13s-0.17-1.44-0.46-2.07 c-0.22-0.47-0.84-0.57-1.21-0.2l0,0c-0.22,0.22-0.28,0.56-0.15,0.84c0.2,0.44,0.31,0.92,0.31,1.43s-0.11,0.99-0.31,1.43 C15.06,14.72,15.11,15.05,15.33,15.27L15.33,15.27z" ]
+                    []
+                , p
+                    [ d "M8.67,15.27c0.22-0.22,0.28-0.56,0.15-0.84C8.61,13.99,8.5,13.51,8.5,13c0-1.93,1.57-3.5,3.5-3.5v0.69 c0,0.22,0.25,0.33,0.42,0.19l1.62-1.44c0.11-0.1,0.11-0.27,0-0.37l-1.62-1.44C12.25,6.98,12,7.09,12,7.31V8c-2.76,0-5,2.24-5,5 c0,0.74,0.17,1.44,0.46,2.07C7.68,15.54,8.3,15.64,8.67,15.27L8.67,15.27z" ]
+                    []
+                ]
+            ]
+        ]
+
+
+{-| -}
 ondemand_video : Icon msg
 ondemand_video =
     icon
@@ -21258,6 +24311,35 @@ outlined_flag =
 
 
 {-| -}
+output : Icon msg
+output =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M17.71,16.29l3.59-3.59c0.39-0.39,0.39-1.02,0-1.41l-3.59-3.59c-0.39-0.39-1.02-0.39-1.41,0v0 c-0.39,0.39-0.39,1.02,0,1.41L18.17,11H10c-0.55,0-1,0.45-1,1v0c0,0.55,0.45,1,1,1h8.17l-1.88,1.88c-0.39,0.39-0.39,1.02,0,1.41 l0,0C16.68,16.68,17.32,16.68,17.71,16.29z" ]
+                    []
+                , p
+                    [ d "M19,19H5V5h14v1c0,0.55,0.45,1,1,1h0c0.55,0,1-0.45,1-1V5c0-1.1-0.9-2-2-2H5C3.9,3,3,3.9,3,5v14c0,1.1,0.9,2,2,2h14 c1.11,0,2-0.9,2-2v-1c0-0.55-0.45-1-1-1h0c-0.55,0-1,0.45-1,1V19z" ]
+                    []
+                ]
+            ]
+        ]
+
+
+{-| -}
 padding : Icon msg
 padding =
     icon
@@ -21356,6 +24438,29 @@ pan_tool =
         , p
             [ d "M21.5 4c-.83 0-1.5.67-1.5 1.5v5c0 .28-.22.5-.5.5s-.5-.22-.5-.5v-8c0-.83-.67-1.5-1.5-1.5S16 1.67 16 2.5v8c0 .28-.22.5-.5.5s-.5-.22-.5-.5v-9c0-.83-.67-1.5-1.5-1.5S12 .67 12 1.5v8.99c0 .28-.22.5-.5.5s-.5-.22-.5-.5V4.5c0-.83-.67-1.5-1.5-1.5S8 3.67 8 4.5v11.41l-4.12-2.35c-.58-.33-1.3-.24-1.78.22-.6.58-.62 1.54-.03 2.13l6.78 6.89c.75.77 1.77 1.2 2.85 1.2H19c2.21 0 4-1.79 4-4V5.5c0-.83-.67-1.5-1.5-1.5z" ]
             []
+        ]
+
+
+{-| -}
+pan_tool_alt : Icon msg
+pan_tool_alt =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M5.2,15.43c0-0.65,0.6-1.13,1.24-0.99L10,15.24V4.5C10,3.67,10.67,3,11.5,3S13,3.67,13,4.5v6h0.91 c0.31,0,0.62,0.07,0.89,0.21l4.09,2.04c0.77,0.38,1.21,1.22,1.09,2.07l-0.63,4.46C19.21,20.27,18.36,21,17.37,21h-6.16 c-0.53,0-1.29-0.21-1.66-0.59l-4.07-4.29C5.3,15.94,5.2,15.69,5.2,15.43z" ]
+                []
+            ]
         ]
 
 
@@ -21806,6 +24911,26 @@ pending_actions =
 
 
 {-| -}
+pentagon : Icon msg
+pentagon =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M2.47,10.42l3.07,9.22C5.82,20.45,6.58,21,7.44,21h9.12c0.86,0,1.63-0.55,1.9-1.37l3.07-9.22 c0.28-0.84-0.03-1.76-0.75-2.27L13.15,2.8c-0.69-0.48-1.61-0.48-2.29,0L3.22,8.14C2.5,8.65,2.19,9.58,2.47,10.42z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
 people : Icon msg
 people =
     icon
@@ -21880,6 +25005,29 @@ people_outline =
         , p
             [ d "M9 12c1.93 0 3.5-1.57 3.5-3.5S10.93 5 9 5 5.5 6.57 5.5 8.5 7.07 12 9 12zm0-5c.83 0 1.5.67 1.5 1.5S9.83 10 9 10s-1.5-.67-1.5-1.5S8.17 7 9 7zm0 6.75c-2.34 0-7 1.17-7 3.5V18c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-.75c0-2.33-4.66-3.5-7-3.5zM4.34 17c.84-.58 2.87-1.25 4.66-1.25s3.82.67 4.66 1.25H4.34zm11.7-3.19c1.16.84 1.96 1.96 1.96 3.44V19h3c.55 0 1-.45 1-1v-.75c0-2.02-3.5-3.17-5.96-3.44zM15 12c1.93 0 3.5-1.57 3.5-3.5S16.93 5 15 5c-.54 0-1.04.13-1.5.35.63.89 1 1.98 1 3.15s-.37 2.26-1 3.15c.46.22.96.35 1.5.35z" ]
             []
+        ]
+
+
+{-| -}
+percent : Icon msg
+percent =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M7.5,4C5.57,4,4,5.57,4,7.5S5.57,11,7.5,11S11,9.43,11,7.5S9.43,4,7.5,4z M7.5,9C6.67,9,6,8.33,6,7.5S6.67,6,7.5,6 S9,6.67,9,7.5S8.33,9,7.5,9z M16.5,13c-1.93,0-3.5,1.57-3.5,3.5s1.57,3.5,3.5,3.5s3.5-1.57,3.5-3.5S18.43,13,16.5,13z M16.5,18 c-0.83,0-1.5-0.67-1.5-1.5s0.67-1.5,1.5-1.5s1.5,0.67,1.5,1.5S17.33,18,16.5,18z M19.29,4.71c0.39,0.39,0.39,1.02,0,1.41 L6.12,19.29c-0.39,0.39-1.02,0.39-1.41,0s-0.39-1.02,0-1.41L17.88,4.71C18.27,4.32,18.9,4.32,19.29,4.71z" ]
+                    []
+                ]
+            ]
         ]
 
 
@@ -22808,6 +25956,29 @@ photo_size_select_small =
 
 
 {-| -}
+php : Icon msg
+php =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M6.5,10.5h-2v1h2V10.5z M20,10.5h-2v1h2V10.5z M13,12.5h-2v1.75c0,0.41-0.34,0.75-0.75,0.75S9.5,14.66,9.5,14.25v-4.5 C9.5,9.34,9.84,9,10.25,9S11,9.34,11,9.75V11h2V9.75C13,9.34,13.34,9,13.75,9s0.75,0.34,0.75,0.75v4.5c0,0.41-0.34,0.75-0.75,0.75 S13,14.66,13,14.25V12.5z M18,14.25c0,0.41-0.34,0.75-0.75,0.75s-0.75-0.34-0.75-0.75V10c0-0.55,0.45-1,1-1H20 c0.83,0,1.5,0.68,1.5,1.5v1c0,0.82-0.67,1.5-1.5,1.5h-2V14.25z M3,10c0-0.55,0.45-1,1-1h2.5C7.33,9,8,9.68,8,10.5v1 C8,12.32,7.33,13,6.5,13h-2v1.25C4.5,14.66,4.16,15,3.75,15S3,14.66,3,14.25V10z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
 piano : Icon msg
 piano =
     icon
@@ -22976,6 +26147,26 @@ pin_invoke =
         , p
             [ d "M22,12v6c0,1.1-0.9,2-2,2H4c-1.1,0-2-0.9-2-2V6c0-1.1,0.9-2,2-2h10l0,2H4v12h16v-6H22z M22,7c0-1.66-1.34-3-3-3 c-1.66,0-3,1.34-3,3s1.34,3,3,3C20.66,10,22,8.66,22,7z M9.34,15.66c0.39,0.39,1.02,0.39,1.41,0l2.12-2.12l1.27,1.27 C14.46,15.12,15,14.9,15,14.45V10.5c0-0.28-0.22-0.5-0.5-0.5h-3.95c-0.45,0-0.67,0.54-0.35,0.85l1.27,1.27l-2.12,2.12 C8.95,14.63,8.95,15.27,9.34,15.66z" ]
             []
+        ]
+
+
+{-| -}
+pinch : Icon msg
+pinch =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M8.2,17.43c0-0.65,0.6-1.13,1.24-0.99L13,17.24V6.5C13,5.67,13.67,5,14.5,5S16,5.67,16,6.5v6h0.91 c0.31,0,0.62,0.07,0.89,0.21l4.09,2.04c0.77,0.38,1.21,1.22,1.09,2.07l-0.63,4.46C22.21,22.27,21.36,23,20.37,23h-6.16 c-0.53,0-1.29-0.21-1.66-0.59l-4.07-4.29C8.3,17.94,8.2,17.69,8.2,17.43z M9.5,5.25C9.5,5.66,9.84,6,10.25,6S11,5.66,11,5.25V2 c0-0.55-0.45-1-1-1H6.75C6.34,1,6,1.34,6,1.75S6.34,2.5,6.75,2.5h1.69L2.5,8.44V6.75C2.5,6.34,2.16,6,1.75,6S1,6.34,1,6.75V10 c0,0.55,0.45,1,1,1h3.25C5.66,11,6,10.66,6,10.25S5.66,9.5,5.25,9.5H3.56L9.5,3.56V5.25z" ]
+                []
+            ]
         ]
 
 
@@ -23267,6 +26458,29 @@ playlist_play =
 
 
 {-| -}
+playlist_remove : Icon msg
+playlist_remove =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M13.71,21.3c0.39,0.39,1.02,0.39,1.41,0L17,19.41l1.89,1.89c0.39,0.39,1.02,0.39,1.41,0s0.39-1.02,0-1.41L18.41,18 l1.89-1.89c0.39-0.39,0.39-1.02,0-1.41s-1.02-0.39-1.41,0L17,16.59l-1.89-1.89c-0.39-0.39-1.02-0.39-1.41,0s-0.39,1.02,0,1.41 L15.59,18l-1.89,1.89C13.32,20.27,13.32,20.91,13.71,21.3z M14,11c0-0.55-0.45-1-1-1H4c-0.55,0-1,0.45-1,1s0.45,1,1,1h9 C13.55,12,14,11.55,14,11z M14,7c0-0.55-0.45-1-1-1H4C3.45,6,3,6.45,3,7s0.45,1,1,1h9C13.55,8,14,7.55,14,7z M3,15 c0,0.55,0.45,1,1,1h5c0.55,0,1-0.45,1-1s-0.45-1-1-1H4C3.45,14,3,14.45,3,15z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
 plumbing : Icon msg
 plumbing =
     icon
@@ -23392,6 +26606,29 @@ poll =
         , p
             [ d "M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM8 17c-.55 0-1-.45-1-1v-5c0-.55.45-1 1-1s1 .45 1 1v5c0 .55-.45 1-1 1zm4 0c-.55 0-1-.45-1-1V8c0-.55.45-1 1-1s1 .45 1 1v8c0 .55-.45 1-1 1zm4 0c-.55 0-1-.45-1-1v-2c0-.55.45-1 1-1s1 .45 1 1v2c0 .55-.45 1-1 1z" ]
             []
+        ]
+
+
+{-| -}
+polyline : Icon msg
+polyline =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M10.04,6.85L7.3,10H4.5C3.67,10,3,10.67,3,11.5v3C3,15.33,3.67,16,4.5,16h3c0.14,0,0.27-0.02,0.39-0.05L15,19.5v1 c0,0.83,0.67,1.5,1.5,1.5h3c0.83,0,1.5-0.67,1.5-1.5v-3c0-0.83-0.67-1.5-1.5-1.5h-3c-0.75,0-1.37,0.55-1.48,1.27L9,14.26V11.5 c0-0.12-0.01-0.24-0.04-0.36L11.7,8h2.8C15.33,8,16,7.33,16,6.5v-3C16,2.67,15.33,2,14.5,2h-3C10.67,2,10,2.67,10,3.5v3 C10,6.62,10.01,6.74,10.04,6.85z" ]
+                []
+            ]
         ]
 
 
@@ -23753,6 +26990,58 @@ production_quantity_limits =
 
 
 {-| -}
+propane : Icon msg
+propane =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M16.75,6L16,6V5c0-1.1-0.9-2-2-2h-4C8.9,3,8,3.9,8,5v1L7.25,6C3.97,6,1.1,8.53,1,11.82C0.9,15.21,3.62,18,7,18v2 c0,0.55,0.45,1,1,1h0c0.55,0,1-0.45,1-1v-2h6v2c0,0.55,0.45,1,1,1h0c0.55,0,1-0.45,1-1v-2c3.38,0,6.1-2.79,6-6.18 C22.9,8.53,20.03,6,16.75,6z M10,5h4v1h-4V5z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+propane_tank : Icon msg
+propane_tank =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M4,15v3c0,2.21,1.79,4,4,4h8c2.21,0,4-1.79,4-4v-3H4z" ]
+                    []
+                , p
+                    [ d "M20,13v-3c0-1.86-1.28-3.41-3-3.86V4c0-1.1-0.9-2-2-2H9C7.9,2,7,2.9,7,4v2.14c-1.72,0.45-3,2-3,3.86v3H20z M9,4h6v2h-2 c0-0.55-0.45-1-1-1s-1,0.45-1,1H9V4z" ]
+                    []
+                ]
+            ]
+        ]
+
+
+{-| -}
 psychology : Icon msg
 psychology =
     icon
@@ -24025,6 +27314,29 @@ question_answer =
 
 
 {-| -}
+question_mark : Icon msg
+question_mark =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M7.92,7.54C7.12,7.2,6.78,6.21,7.26,5.49C8.23,4.05,9.85,3,11.99,3c2.35,0,3.96,1.07,4.78,2.41c0.7,1.15,1.11,3.3,0.03,4.9 c-1.2,1.77-2.35,2.31-2.97,3.45c-0.15,0.27-0.24,0.49-0.3,0.94c-0.09,0.73-0.69,1.3-1.43,1.3c-0.87,0-1.58-0.75-1.48-1.62 c0.06-0.51,0.18-1.04,0.46-1.54c0.77-1.39,2.25-2.21,3.11-3.44c0.91-1.29,0.4-3.7-2.18-3.7c-1.17,0-1.93,0.61-2.4,1.34 C9.26,7.61,8.53,7.79,7.92,7.54z M14,20c0,1.1-0.9,2-2,2s-2-0.9-2-2c0-1.1,0.9-2,2-2S14,18.9,14,20z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
 queue : Icon msg
 queue =
     icon
@@ -24259,6 +27571,52 @@ ramen_dining =
 
 
 {-| -}
+ramp_left : Icon msg
+ramp_left =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M12,21c-0.55,0-1-0.45-1-1V6.83l-0.88,0.88C9.73,8.1,9.1,8.1,8.71,7.71c-0.39-0.39-0.39-1.02,0-1.41l2.59-2.59 c0.39-0.39,1.02-0.39,1.41,0l2.59,2.59c0.39,0.39,0.39,1.02,0,1.41c-0.39,0.39-1.02,0.39-1.41,0L13,6.83v0V9 c0,3.62,2.89,6.22,4.97,7.62c0.52,0.35,0.59,1.09,0.14,1.53c-0.33,0.33-0.87,0.4-1.26,0.13c-1.59-1.06-2.89-2.28-3.85-3.59l0,5.3 C13,20.55,12.55,21,12,21z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+ramp_right : Icon msg
+ramp_right =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M12,21c0.55,0,1-0.45,1-1V6.83l0.88,0.88c0.39,0.39,1.02,0.39,1.41,0c0.39-0.39,0.39-1.02,0-1.41l-2.59-2.59 c-0.39-0.39-1.02-0.39-1.41,0L8.71,6.29c-0.39,0.39-0.39,1.02,0,1.41c0.39,0.39,1.02,0.39,1.41,0L11,6.83v0V9 c0,3.62-2.89,6.22-4.97,7.62c-0.52,0.35-0.59,1.09-0.14,1.53c0.33,0.33,0.87,0.4,1.26,0.13c1.59-1.06,2.89-2.28,3.85-3.59l0,5.3 C11,20.55,11.45,21,12,21z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
 rate_review : Icon msg
 rate_review =
     icon
@@ -24471,6 +27829,29 @@ record_voice_over =
 
 
 {-| -}
+rectangle : Icon msg
+rectangle =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M2,6v12c0,1.1,0.9,2,2,2h16c1.1,0,2-0.9,2-2V6c0-1.1-0.9-2-2-2H4C2.9,4,2,4.9,2,6z" ]
+                    []
+                ]
+            ]
+        ]
+
+
+{-| -}
 recycling : Icon msg
 recycling =
     icon
@@ -24673,6 +28054,47 @@ remove_red_eye =
         , p
             [ d "M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z" ]
             []
+        ]
+
+
+{-| -}
+remove_road : Icon msg
+remove_road =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M19,4L19,4c-0.55,0-1,0.45-1,1v7c0,0.55,0.45,1,1,1h0c0.55,0,1-0.45,1-1V5C20,4.45,19.55,4,19,4z" ]
+                    []
+                , p
+                    [ d "M5,20L5,20c0.55,0,1-0.45,1-1V5c0-0.55-0.45-1-1-1h0C4.45,4,4,4.45,4,5v14C4,19.55,4.45,20,5,20z" ]
+                    []
+                , p
+                    [ d "M12,8L12,8c0.55,0,1-0.45,1-1V5c0-0.55-0.45-1-1-1h0c-0.55,0-1,0.45-1,1v2C11,7.55,11.45,8,12,8z" ]
+                    []
+                , p
+                    [ d "M12,14L12,14c0.55,0,1-0.45,1-1v-2c0-0.55-0.45-1-1-1h0c-0.55,0-1,0.45-1,1v2C11,13.55,11.45,14,12,14z" ]
+                    []
+                , p
+                    [ d "M12,20L12,20c0.55,0,1-0.45,1-1v-2c0-0.55-0.45-1-1-1h0c-0.55,0-1,0.45-1,1v2C11,19.55,11.45,20,12,20z" ]
+                    []
+                , p
+                    [ d "M21.79,15.71L21.79,15.71c-0.39-0.39-1.02-0.39-1.41,0L19,17.09l-1.38-1.38c-0.39-0.39-1.02-0.39-1.41,0v0 c-0.39,0.39-0.39,1.02,0,1.41l1.38,1.38l-1.38,1.38c-0.39,0.39-0.39,1.02,0,1.41l0,0c0.39,0.39,1.02,0.39,1.41,0L19,19.91 l1.38,1.38c0.39,0.39,1.02,0.39,1.41,0l0,0c0.39-0.39,0.39-1.02,0-1.41l-1.38-1.38l1.38-1.38C22.18,16.73,22.18,16.1,21.79,15.71z" ]
+                    []
+                ]
+            ]
         ]
 
 
@@ -25116,6 +28538,130 @@ ring_volume =
 
 
 {-| -}
+rocket : Icon msg
+rocket =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M11.41,2.87c0.35-0.26,0.82-0.26,1.18,0C13.81,3.75,16.5,6.46,16.5,13c0,2.16-0.78,4.76-1.36,6.35 C15,19.74,14.63,20,14.21,20l-4.41,0c-0.42,0-0.8-0.26-0.94-0.65C8.28,17.76,7.5,15.16,7.5,13C7.5,6.46,10.19,3.75,11.41,2.87z M14,11c0-1.1-0.9-2-2-2s-2,0.9-2,2s0.9,2,2,2S14,12.1,14,11z M7.69,20.52c-0.48-1.23-1.52-4.17-1.67-6.87l-1.13,0.75 C4.33,14.78,4,15.4,4,16.07v4.45c0,0.71,0.71,1.19,1.37,0.93L7.69,20.52z M20,20.52v-4.45c0-0.67-0.33-1.29-0.89-1.66l-1.13-0.75 c-0.15,2.69-1.2,5.64-1.67,6.87l2.32,0.93C19.29,21.71,20,21.23,20,20.52z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+rocket_launch : Icon msg
+rocket_launch =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M9.19,6.35c-2.04,2.29-3.44,5.58-3.57,5.89l-2.26-0.97c-0.65-0.28-0.81-1.13-0.31-1.63l3.01-3.01 c0.47-0.47,1.15-0.68,1.81-0.55L9.19,6.35L9.19,6.35z M10.68,16.51c0.3,0.3,0.74,0.38,1.12,0.2c1.16-0.54,3.65-1.81,5.26-3.42 c4.59-4.59,4.63-8.33,4.36-9.93c-0.07-0.4-0.39-0.72-0.79-0.79c-1.6-0.27-5.34-0.23-9.93,4.36c-1.61,1.61-2.87,4.1-3.42,5.26 c-0.18,0.38-0.09,0.83,0.2,1.12L10.68,16.51z M17.65,14.81c-2.29,2.04-5.58,3.44-5.89,3.57l0.97,2.26 c0.28,0.65,1.13,0.81,1.63,0.31l3.01-3.01c0.47-0.47,0.68-1.15,0.55-1.81L17.65,14.81L17.65,14.81z M8.94,17.41 c0.2,1.06-0.15,2.04-0.82,2.71c-0.77,0.77-3.16,1.34-4.71,1.64c-0.69,0.13-1.3-0.48-1.17-1.17c0.3-1.55,0.86-3.94,1.64-4.71 c0.67-0.67,1.65-1.02,2.71-0.82C7.76,15.28,8.72,16.24,8.94,17.41z M13,9c0-1.1,0.9-2,2-2s2,0.9,2,2s-0.9,2-2,2S13,10.1,13,9z" ]
+                    []
+                ]
+            ]
+        ]
+
+
+{-| -}
+roller_shades : Icon msg
+roller_shades =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M20,19V5c0-1.1-0.9-2-2-2H6C4.9,3,4,3.9,4,5v14H3c-0.55,0-1,0.45-1,1v0c0,0.55,0.45,1,1,1h18c0.55,0,1-0.45,1-1v0 c0-0.55-0.45-1-1-1H20z M6,19v-6h5v1.8c-0.4,0.3-0.8,0.8-0.8,1.4c0,1,0.8,1.8,1.8,1.8s1.8-0.8,1.8-1.8c0-0.6-0.3-1.1-0.8-1.4V13h5 v6H6z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+roller_shades_closed : Icon msg
+roller_shades_closed =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M20,19V5c0-1.1-0.9-2-2-2H6C4.9,3,4,3.9,4,5v14H3c-0.55,0-1,0.45-1,1v0c0,0.55,0.45,1,1,1h7.25 c0,0.97,0.78,1.75,1.75,1.75s1.75-0.78,1.75-1.75H21c0.55,0,1-0.45,1-1v0c0-0.55-0.45-1-1-1H20z M6,19v-2h5v2H6z M13,19v-2h5v2H13 z" ]
+                    []
+                ]
+            ]
+        ]
+
+
+{-| -}
+roller_skating : Icon msg
+roller_skating =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M18,16c1.1,0,2-0.9,2-2l0-0.88c0-2.1-1.55-3.53-3.03-3.88l-2.7-0.67C13.4,8.35,12.7,7.76,12.32,7H9.5C9.22,7,9,6.78,9,6.5 S9.22,6,9.5,6h2.52L12,5H9.5C9.22,5,9,4.78,9,4.5C9,4.22,9.22,4,9.5,4H12V3c0-1.1-0.9-2-2-2H6C4.9,1,4,1.9,4,3v11c0,1.1,0.9,2,2,2 H18z M5,23c-1.66,0-3-1.34-3-3s1.34-3,3-3s3,1.34,3,3S6.66,23,5,23z M19,23c-1.66,0-3-1.34-3-3s1.34-3,3-3s3,1.34,3,3 S20.66,23,19,23z M12,23c-1.66,0-3-1.34-3-3s1.34-3,3-3s3,1.34,3,3S13.66,23,12,23z" ]
+                    []
+                ]
+            ]
+        ]
+
+
+{-| -}
 roofing : Icon msg
 roofing =
     icon
@@ -25251,6 +28797,52 @@ rotate_right =
         , p
             [ d "M14.83 4.83L12.7 2.7c-.62-.62-1.7-.18-1.7.71v.66C7.06 4.56 4 7.92 4 12c0 3.64 2.43 6.71 5.77 7.68.62.18 1.23-.32 1.23-.96v-.03c0-.43-.27-.82-.68-.94C7.82 17.03 6 14.73 6 12c0-2.97 2.16-5.43 5-5.91v1.53c0 .89 1.07 1.33 1.7.71l2.13-2.08c.4-.38.4-1.02 0-1.42zm4.84 4.93c-.16-.55-.38-1.08-.66-1.59-.31-.57-1.1-.66-1.56-.2l-.01.01c-.31.31-.38.78-.17 1.16.2.37.36.76.48 1.16.12.42.51.7.94.7h.02c.65 0 1.15-.62.96-1.24zM13 18.68v.02c0 .65.62 1.14 1.24.96.55-.16 1.08-.38 1.59-.66.57-.31.66-1.1.2-1.56l-.02-.02c-.31-.31-.78-.38-1.16-.17-.37.21-.76.37-1.16.49-.41.12-.69.51-.69.94zm4.44-2.65c.46.46 1.25.37 1.56-.2.28-.51.5-1.04.67-1.59.18-.62-.31-1.24-.96-1.24h-.02c-.44 0-.82.28-.94.7-.12.4-.28.79-.48 1.17-.21.38-.13.86.17 1.16z" ]
             []
+        ]
+
+
+{-| -}
+roundabout_left : Icon msg
+roundabout_left =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M16,21c-0.55,0-1-0.45-1-1l0-5.09c0-0.98,0.71-1.8,1.67-1.97C18.56,12.63,20,10.98,20,9c0-2.21-1.79-4-4-4 c-1.98,0-3.63,1.44-3.94,3.33C11.89,9.29,11.07,10,10.09,10l-4.26,0l0.88,0.88c0.39,0.39,0.39,1.02,0,1.41 c-0.39,0.39-1.02,0.39-1.41,0L2.71,9.71c-0.39-0.39-0.39-1.02,0-1.41l2.59-2.59c0.39-0.39,1.02-0.39,1.41,0 c0.39,0.39,0.39,1.02,0,1.41L5.83,8l4.25,0c0.48-2.84,2.94-5,5.92-5c3.31,0,6,2.69,6,6c0,2.97-2.16,5.44-5,5.92L17,20 C17,20.55,16.55,21,16,21z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+roundabout_right : Icon msg
+roundabout_right =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M8,21c0.55,0,1-0.45,1-1l0-5.09c0-0.98-0.71-1.8-1.67-1.97C5.44,12.63,4,10.98,4,9c0-2.21,1.79-4,4-4 c1.98,0,3.63,1.44,3.94,3.33C12.11,9.29,12.93,10,13.91,10l4.26,0l-0.88,0.88c-0.39,0.39-0.39,1.02,0,1.41 c0.39,0.39,1.02,0.39,1.41,0l2.59-2.59c0.39-0.39,0.39-1.02,0-1.41l-2.59-2.59c-0.39-0.39-1.02-0.39-1.41,0 c-0.39,0.39-0.39,1.02,0,1.41L18.17,8l-4.25,0C13.44,5.16,10.97,3,8,3C4.69,3,2,5.69,2,9c0,2.97,2.16,5.44,5,5.92L7,20 C7,20.55,7.45,21,8,21z" ]
+                []
+            ]
         ]
 
 
@@ -25465,6 +29057,29 @@ rv_hookup =
 
 
 {-| -}
+safety_check : Icon msg
+safety_check =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M11.3,2.26l-6,2.25C4.52,4.81,4,5.55,4,6.39v4.7c0,4.83,3.13,9.37,7.43,10.75c0.37,0.12,0.77,0.12,1.14,0 c4.3-1.38,7.43-5.91,7.43-10.75v-4.7c0-0.83-0.52-1.58-1.3-1.87l-6-2.25C12.25,2.09,11.75,2.09,11.3,2.26z M12,17 c-2.76,0-5-2.24-5-5s2.24-5,5-5s5,2.24,5,5S14.76,17,12,17z M14,14c-0.2,0.2-0.51,0.2-0.71,0l-1.65-1.65 c-0.09-0.09-0.15-0.22-0.15-0.35V9.5C11.5,9.22,11.72,9,12,9c0.28,0,0.5,0.22,0.5,0.5v2.29l1.5,1.5C14.2,13.49,14.2,13.8,14,14z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
 safety_divider : Icon msg
 safety_divider =
     icon
@@ -25521,6 +29136,26 @@ satellite =
 
 
 {-| -}
+satellite_alt : Icon msg
+satellite_alt =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M20.95,14.88c-0.4,3.18-2.89,5.67-6.07,6.07C14.37,21.01,14,21.44,14,21.94c0,0.04,0,0.08,0.01,0.12 c0.07,0.55,0.57,0.94,1.12,0.87c4.09-0.51,7.3-3.72,7.81-7.81c0.06-0.55-0.33-1.05-0.88-1.11C21.51,13.94,21.01,14.33,20.95,14.88z M18.84,15.26c0.14-0.53-0.18-1.08-0.72-1.22c-0.54-0.14-1.08,0.18-1.22,0.72c-0.27,1.05-1.09,1.87-2.15,2.15 C14.3,17.03,14,17.43,14,17.88c0,0.08,0.01,0.17,0.03,0.25c0.14,0.53,0.69,0.85,1.22,0.72C17.02,18.38,18.39,17.01,18.84,15.26z M21.8,4.12l-3.54-3.54c-0.78-0.78-2.05-0.78-2.83,0l-3.18,3.18c-0.78,0.78-0.78,2.05,0,2.83l1.24,1.24l-0.71,0.71L11.55,7.3 c-0.78-0.78-2.05-0.78-2.83,0L7.3,8.72c-0.78,0.78-0.78,2.05,0,2.83l1.24,1.24l-0.71,0.71L6.6,12.25c-0.78-0.78-2.05-0.78-2.83,0 l-3.18,3.18c-0.78,0.78-0.78,2.05,0,2.83l3.54,3.54c0.78,0.78,2.05,0.78,2.83,0l3.18-3.18c0.78-0.78,0.78-2.05,0-2.83l-1.24-1.24 l0.71-0.71l1.24,1.24c0.78,0.78,2.05,0.78,2.83,0l1.41-1.41c0.78-0.78,0.78-2.05,0-2.83L13.84,9.6l0.71-0.71l1.24,1.24 c0.78,0.78,2.05,0.78,2.83,0l3.18-3.18C22.58,6.17,22.58,4.9,21.8,4.12z M5.54,20.38L2,16.85l1.06-1.06l3.54,3.54L5.54,20.38z M7.66,18.26l-3.54-3.54l1.06-1.06l3.54,3.54L7.66,18.26z M17.2,8.72l-3.54-3.54l1.06-1.06l3.54,3.54L17.2,8.72z M19.32,6.6 l-3.54-3.54L16.85,2l3.54,3.54L19.32,6.6z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
 save : Icon msg
 save =
     icon
@@ -25545,6 +29180,26 @@ save_alt =
         , p
             [ d "M19 13v5c0 .55-.45 1-1 1H6c-.55 0-1-.45-1-1v-5c0-.55-.45-1-1-1s-1 .45-1 1v6c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-6c0-.55-.45-1-1-1s-1 .45-1 1zm-6-.33l1.88-1.88c.39-.39 1.02-.39 1.41 0 .39.39.39 1.02 0 1.41l-3.59 3.59c-.39.39-1.02.39-1.41 0L7.7 12.2c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0L11 12.67V4c0-.55.45-1 1-1s1 .45 1 1v8.67z" ]
             []
+        ]
+
+
+{-| -}
+save_as : Icon msg
+save_as =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M20.41,6.41l-2.83-2.83C17.21,3.21,16.7,3,16.17,3H5C3.9,3,3,3.9,3,5v14c0,1.1,0.9,2,2,2h7.4l8.6-8.6V7.83 C21,7.3,20.79,6.79,20.41,6.41z M12,18c-1.66,0-3-1.34-3-3s1.34-3,3-3s3,1.34,3,3S13.66,18,12,18z M15,9c0,0.55-0.45,1-1,1H7 c-0.55,0-1-0.45-1-1V7c0-0.55,0.45-1,1-1h7c0.55,0,1,0.45,1,1V9z M19.99,16.25l1.77,1.77l-4.84,4.84C16.82,22.95,16.69,23,16.56,23 H15.5c-0.28,0-0.5-0.22-0.5-0.5v-1.06c0-0.13,0.05-0.26,0.15-0.35L19.99,16.25z M23.25,16.51l-0.85,0.85l-1.77-1.77l0.85-0.85 c0.2-0.2,0.51-0.2,0.71,0l1.06,1.06C23.45,16,23.45,16.32,23.25,16.51z" ]
+                []
+            ]
         ]
 
 
@@ -25586,6 +29241,26 @@ savings =
             []
             [ p
                 [ d "M19.83,7.5l-2.27-2.27c0.07-0.42,0.18-0.81,0.32-1.15c0.11-0.26,0.15-0.56,0.09-0.87C17.84,2.49,17.14,1.99,16.4,2 c-1.59,0.03-3,0.81-3.9,2l-5,0C4.46,4,2,6.46,2,9.5c0,2.25,1.37,7.48,2.08,10.04C4.32,20.4,5.11,21,6.01,21L8,21c1.1,0,2-0.9,2-2v0 h2v0c0,1.1,0.9,2,2,2l2.01,0c0.88,0,1.66-0.58,1.92-1.43l1.25-4.16l2.14-0.72c0.41-0.14,0.68-0.52,0.68-0.95V8.5c0-0.55-0.45-1-1-1 H19.83z M12,9H9C8.45,9,8,8.55,8,8v0c0-0.55,0.45-1,1-1h3c0.55,0,1,0.45,1,1v0C13,8.55,12.55,9,12,9z M16,11c-0.55,0-1-0.45-1-1 c0-0.55,0.45-1,1-1s1,0.45,1,1C17,10.55,16.55,11,16,11z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+scale : Icon msg
+scale =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M16,21c0,0.55,0.45,1,1,1l3.43,0c0.87,0,1.58-0.75,1.5-1.62C21.34,14.18,17.4,11.68,14,11V8c3.31-0.42,6.03-1.86,7.27-3.73 C21.92,3.3,21.15,2,19.98,2H4.02C2.85,2,2.08,3.3,2.73,4.27C3.97,6.14,6.69,7.58,10,8l0,3c-3.4,0.68-7.34,3.18-7.93,9.38 C1.99,21.25,2.7,22,3.57,22L7,22c0.55,0,1-0.45,1-1c0-0.55-0.45-1-1-1H4.13c0.93-6.83,6.65-7.2,7.87-7.2s6.94,0.37,7.87,7.2H17 C16.45,20,16,20.45,16,21z M11.5,21.94c-0.7-0.17-1.27-0.74-1.44-1.44c-0.18-0.74,0.06-1.44,0.53-1.91 c0.55-0.55,2.91-1.57,4.33-2.15c0.41-0.17,0.82,0.24,0.65,0.65c-0.58,1.42-1.6,3.78-2.15,4.33C12.95,21.88,12.25,22.12,11.5,21.94z" ]
                 []
             ]
         ]
@@ -25719,6 +29394,29 @@ score =
 
 
 {-| -}
+scoreboard : Icon msg
+scoreboard =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M17.5,13.5H16v-3h1.5V13.5z M16,2c-0.55,0-1,0.45-1,1v1H9V3c0-0.55-0.45-1-1-1S7,2.45,7,3v1H4C2.9,4,2,4.9,2,6v12 c0,1.1,0.9,2,2,2h16c1.1,0,2-0.9,2-2V6c0-1.1-0.9-2-2-2h-3V3C17,2.45,16.55,2,16,2z M9.5,14.25C9.5,14.66,9.16,15,8.75,15H6 c-0.55,0-1-0.45-1-1v-1.5c0-0.55,0.45-1,1-1h2v-1H5.75C5.34,10.5,5,10.16,5,9.75S5.34,9,5.75,9H8.5c0.55,0,1,0.45,1,1v1.5 c0,0.55-0.45,1-1,1h-2v1h2.25C9.16,13.5,9.5,13.84,9.5,14.25z M19,14c0,0.55-0.45,1-1,1h-2.5c-0.55,0-1-0.45-1-1v-4 c0-0.55,0.45-1,1-1H18c0.55,0,1,0.45,1,1V14z M12.75,6.75c0,0.41-0.34,0.75-0.75,0.75s-0.75-0.34-0.75-0.75S11.59,6,12,6 S12.75,6.34,12.75,6.75z M12.75,10.25c0,0.41-0.34,0.75-0.75,0.75s-0.75-0.34-0.75-0.75S11.59,9.5,12,9.5S12.75,9.84,12.75,10.25z M12.75,13.75c0,0.41-0.34,0.75-0.75,0.75s-0.75-0.34-0.75-0.75S11.59,13,12,13S12.75,13.34,12.75,13.75z M12.75,17.25 c0,0.41-0.34,0.75-0.75,0.75s-0.75-0.34-0.75-0.75S11.59,16.5,12,16.5S12.75,16.84,12.75,17.25z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
 screen_lock_landscape : Icon msg
 screen_lock_landscape =
     icon
@@ -25814,6 +29512,32 @@ screen_rotation =
 
 
 {-| -}
+screen_rotation_alt : Icon msg
+screen_rotation_alt =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M18.53,9.29C19.16,9.92,18.71,11,17.82,11c-0.27,0-0.52-0.11-0.71-0.29L10.4,4L5.41,9H7c0.55,0,1,0.45,1,1s-0.45,1-1,1H3 c-0.55,0-1-0.45-1-1V6c0-0.55,0.45-1,1-1s1,0.45,1,1v1.59l5-5c0.78-0.78,2.05-0.78,2.83,0L18.53,9.29z" ]
+                []
+            , p
+                [ d "M5.47,14.71C4.84,14.08,5.29,13,6.18,13c0.27,0,0.52,0.11,0.71,0.29L13.6,20l4.99-5H17c-0.55,0-1-0.45-1-1s0.45-1,1-1h4 c0.55,0,1,0.45,1,1v4c0,0.55-0.45,1-1,1s-1-0.45-1-1v-1.59l-5,5c-0.78,0.78-2.05,0.78-2.83,0L5.47,14.71z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
 screen_search_desktop : Icon msg
 screen_search_desktop =
     icon
@@ -25875,6 +29599,61 @@ screenshot =
                     [ d "M17,1.01L7,1C5.9,1,5,1.9,5,3v18c0,1.1,0.9,2,2,2h10c1.1,0,2-0.9,2-2V3C19,1.9,18.1,1.01,17,1.01z M17,18H7V6h10V18z M9.5,8.5h1.75C11.66,8.5,12,8.16,12,7.75v0C12,7.34,11.66,7,11.25,7h-2.5C8.34,7,8,7.34,8,7.75v2.5C8,10.66,8.34,11,8.75,11h0 c0.41,0,0.75-0.34,0.75-0.75V8.5z M12.75,17h2.5c0.41,0,0.75-0.34,0.75-0.75v-2.5c0-0.41-0.34-0.75-0.75-0.75h0 c-0.41,0-0.75,0.34-0.75,0.75v1.75h-1.75c-0.41,0-0.75,0.34-0.75,0.75l0,0C12,16.66,12.34,17,12.75,17z" ]
                     []
                 ]
+            ]
+        ]
+
+
+{-| -}
+screenshot_monitor : Icon msg
+screenshot_monitor =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M20,3H4C2.9,3,2,3.9,2,5v12c0,1.1,0.89,2,2,2h4v1c0,0.55,0.45,1,1,1h6c0.55,0,1-0.45,1-1v-1h4c1.1,0,2-0.9,2-2V5 C22,3.89,21.1,3,20,3z M20,17H4V5h16V17z" ]
+                    []
+                , p
+                    [ d "M6.5,7.5h1.75C8.66,7.5,9,7.16,9,6.75v0C9,6.34,8.66,6,8.25,6H6C5.45,6,5,6.45,5,7v2.25C5,9.66,5.34,10,5.75,10h0 C6.16,10,6.5,9.66,6.5,9.25V7.5z" ]
+                    []
+                , p
+                    [ d "M18.25,12L18.25,12c-0.41,0-0.75,0.34-0.75,0.75v1.75h-1.75c-0.41,0-0.75,0.34-0.75,0.75v0c0,0.41,0.34,0.75,0.75,0.75H18 c0.55,0,1-0.45,1-1v-2.25C19,12.34,18.66,12,18.25,12z" ]
+                    []
+                ]
+            ]
+        ]
+
+
+{-| -}
+scuba_diving : Icon msg
+scuba_diving =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M1,13c0-1.1,0.9-2,2-2s2,0.9,2,2s-0.9,2-2,2S1,14.1,1,13z M8.89,10.11l3.56-0.95c0.53-0.14,0.85-0.69,0.71-1.22L12.9,6.97 c-0.14-0.53-0.69-0.85-1.22-0.71L8.11,7.21c-0.8,0.21-1.28,1.04-1.06,1.84l0,0C7.27,9.85,8.09,10.33,8.89,10.11z M22.52,2.52 c-0.29-0.29-0.75-0.29-1.04,0L19,5l-2,4l-9.48,2.87c-0.82,0.2-1.39,0.89-1.5,1.68L5.24,18L3,21c-0.33,0.44-0.24,1.07,0.2,1.4 c0.44,0.33,1.07,0.24,1.4-0.2L7,19l1.14-3.14l5.57-1.77c0.19-0.06,0.38-0.15,0.54-0.27l4.2-2.94c0.36-0.25,0.62-0.61,0.75-1.02 L20.5,5.9l2.06-2.38C22.81,3.22,22.79,2.79,22.52,2.52z" ]
+                []
             ]
         ]
 
@@ -26261,6 +30040,47 @@ sensor_door =
             , p
                 [ d "M18,2H6C4.9,2,4,2.9,4,4v16c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2V4C20,2.9,19.1,2,18,2z M15.5,13.5 c-0.83,0-1.5-0.67-1.5-1.5s0.67-1.5,1.5-1.5S17,11.17,17,12S16.33,13.5,15.5,13.5z" ]
                 []
+            ]
+        ]
+
+
+{-| -}
+sensor_occupied : Icon msg
+sensor_occupied =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M12,11c1.66,0,3-1.34,3-3s-1.34-3-3-3S9,6.34,9,8S10.34,11,12,11z" ]
+                    []
+                , p
+                    [ d "M12,12c-1.84,0-3.56,0.5-5.03,1.37C6.36,13.73,6,14.39,6,15.09L6,16c0,0.55,0.45,1,1,1h10c0.55,0,1-0.45,1-1l0-0.91 c0-0.7-0.36-1.36-0.97-1.72C15.56,12.5,13.84,12,12,12z" ]
+                    []
+                , p
+                    [ d "M22.11,7.79L22.11,7.79c0.55-0.23,0.78-0.88,0.5-1.41c-1.13-2.12-2.87-3.86-4.99-4.99c-0.52-0.28-1.17-0.04-1.4,0.5v0 c-0.19,0.47-0.01,1.02,0.43,1.25c1.79,0.94,3.26,2.42,4.21,4.21C21.09,7.8,21.64,7.98,22.11,7.79z" ]
+                    []
+                , p
+                    [ d "M7.79,1.89L7.79,1.89c-0.23-0.55-0.88-0.78-1.4-0.5C4.27,2.52,2.52,4.26,1.4,6.38c-0.28,0.52-0.05,1.18,0.5,1.41l0,0 c0.47,0.2,1.02,0.01,1.25-0.43c0.94-1.79,2.42-3.26,4.21-4.21C7.8,2.91,7.98,2.36,7.79,1.89z" ]
+                    []
+                , p
+                    [ d "M1.89,16.21L1.89,16.21c-0.55,0.23-0.78,0.88-0.5,1.4c1.13,2.12,2.87,3.87,5,5c0.52,0.28,1.17,0.04,1.4-0.5l0,0 c0.19-0.47,0.01-1.02-0.43-1.25c-1.79-0.94-3.26-2.42-4.21-4.21C2.91,16.2,2.36,16.02,1.89,16.21z" ]
+                    []
+                , p
+                    [ d "M16.21,22.11L16.21,22.11c0.23,0.55,0.88,0.78,1.4,0.5c2.12-1.13,3.87-2.87,5-5c0.28-0.52,0.04-1.17-0.5-1.4h0 c-0.47-0.19-1.02-0.01-1.25,0.43c-0.94,1.79-2.42,3.26-4.21,4.21C16.2,21.09,16.02,21.64,16.21,22.11z" ]
+                    []
+                ]
             ]
         ]
 
@@ -26872,6 +30692,38 @@ settings_voice =
 
 
 {-| -}
+severe_cold : Icon msg
+severe_cold =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M20,2c-0.55,0-1,0.45-1,1v3c0,0.55,0.45,1,1,1c0.55,0,1-0.45,1-1V3C21,2.45,20.55,2,20,2z" ]
+                    []
+                , c
+                    [ cx "20", cy "9", r "1" ]
+                    []
+                , p
+                    [ d "M12,10.41l3.29-3.29c0.39-0.39,0.39-1.02,0-1.41l0,0c-0.39-0.39-1.02-0.39-1.41,0L12,7.59V5c0-0.55-0.45-1-1-1h0 c-0.55,0-1,0.45-1,1v2.59L8.12,5.71c-0.39-0.39-1.02-0.39-1.41,0l0,0c-0.39,0.39-0.39,1.02,0,1.41L10,10.41V12H8.41L5.12,8.71 c-0.39-0.39-1.02-0.39-1.41,0l0,0c-0.39,0.39-0.39,1.02,0,1.41L5.59,12H3c-0.55,0-1,0.45-1,1v0c0,0.55,0.45,1,1,1h2.59l-1.88,1.88 c-0.39,0.39-0.39,1.02,0,1.41l0,0c0.39,0.39,1.02,0.39,1.41,0L8.41,14H10v1.59l-3.29,3.29c-0.39,0.39-0.39,1.02,0,1.41l0,0 c0.39,0.39,1.02,0.39,1.41,0L10,18.41V21c0,0.55,0.45,1,1,1h0c0.55,0,1-0.45,1-1v-2.59l1.88,1.88c0.39,0.39,1.02,0.39,1.41,0l0,0 c0.39-0.39,0.39-1.02,0-1.41L12,15.59V14h1.59l3.29,3.29c0.39,0.39,1.02,0.39,1.41,0l0,0c0.39-0.39,0.39-1.02,0-1.41L16.41,14H19 c0.55,0,1-0.45,1-1v0c0-0.55-0.45-1-1-1h-7V10.41z" ]
+                    []
+                ]
+            ]
+        ]
+
+
+{-| -}
 share : Icon msg
 share =
     icon
@@ -27069,6 +30921,29 @@ shopping_cart =
 
 
 {-| -}
+shopping_cart_checkout : Icon msg
+shopping_cart_checkout =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M7,18c-1.1,0-1.99,0.9-1.99,2S5.9,22,7,22s2-0.9,2-2S8.1,18,7,18z M17,18c-1.1,0-1.99,0.9-1.99,2s0.89,2,1.99,2s2-0.9,2-2 S18.1,18,17,18z M19,16c0-0.55-0.45-1-1-1H7l1.1-2h7.45c0.75,0,1.41-0.41,1.75-1.03l3.24-6.14c0.25-0.48,0.08-1.08-0.4-1.34 c-0.49-0.27-1.1-0.08-1.36,0.41L15.55,11H8.53L4.54,2.57C4.38,2.22,4.02,2,3.64,2H2C1.45,2,1,2.45,1,3s0.45,1,1,1h1l3.6,7.59 l-1.35,2.44C4.52,15.37,5.48,17,7,17h11C18.55,17,19,16.55,19,16z M11.29,2.71c0.39-0.39,1.02-0.39,1.41,0l2.59,2.59 c0.39,0.39,0.39,1.02,0,1.41l-2.59,2.59c-0.39,0.39-1.02,0.39-1.41,0c-0.39-0.39-0.39-1.02,0-1.41L12.17,7L9,7C8.45,7,8,6.55,8,6 c0-0.55,0.45-1,1-1l3.17,0l-0.88-0.88C10.9,3.73,10.9,3.1,11.29,2.71z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
 short_text : Icon msg
 short_text =
     icon
@@ -27214,6 +31089,29 @@ sick =
 
 
 {-| -}
+sign_language : Icon msg
+sign_language =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M12.49,13l-0.93-1.86c-0.37-0.74-0.07-1.64,0.67-2.01l0,0c0.16-0.08,0.34-0.05,0.47,0.07l5.53,5.26 c0.5,0.47,0.78,1.13,0.78,1.81v5.23c0,1.38-1.12,2.5-2.5,2.5h-11c-0.55,0-1-0.45-1-1c0-0.55,0.45-1,1-1H10v-1H4c-0.55,0-1-0.45-1-1 c0-0.55,0.45-1,1-1h6v-1H3c-0.55,0-1-0.45-1-1c0-0.55,0.45-1,1-1h7v-1H4.5c-0.55,0-1-0.45-1-1c0-0.55,0.45-1,1-1H12.49z M11.78,7.12c-0.84,0.4-1.17,0.62-1.63,1.19l-2.7-2.85c-0.38-0.4-0.36-1.03,0.04-1.41c0.4-0.38,1.03-0.36,1.41,0.04L11.78,7.12z M9.64,9.21C9.41,9.76,9.35,10.45,9.44,11H8.58L6.31,8.61C5.93,8.21,5.94,7.58,6.35,7.2c0.4-0.38,1.03-0.36,1.41,0.04L9.64,9.21z M20.33,13.91l0.88-0.83c0.5-0.47,0.79-1.13,0.79-1.82V3.64c0-0.17-0.11-0.33-0.27-0.39l0,0c-0.78-0.28-1.64,0.12-1.92,0.9 L19.1,6.11l-5.5-5.8c-0.38-0.4-1.01-0.42-1.41-0.04c-0.4,0.38-0.42,1.01-0.04,1.41l3.79,3.99l-0.73,0.69l-4.82-5.08 c-0.38-0.4-1.01-0.42-1.41-0.04c-0.4,0.38-0.42,1.01-0.04,1.41l3.78,3.98L15.38,9l3.61,3.43l0.61,0.58 C19.89,13.28,20.13,13.58,20.33,13.91z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
 signal_cellular_0_bar : Icon msg
 signal_cellular_0_bar =
     icon
@@ -27258,6 +31156,55 @@ signal_cellular_alt =
         , p
             [ d "M18.5 4c.83 0 1.5.67 1.5 1.5v13c0 .83-.67 1.5-1.5 1.5s-1.5-.67-1.5-1.5v-13c0-.83.67-1.5 1.5-1.5zm-12 10c.83 0 1.5.67 1.5 1.5v3c0 .83-.67 1.5-1.5 1.5S5 19.33 5 18.5v-3c0-.83.67-1.5 1.5-1.5zm6-5c.83 0 1.5.67 1.5 1.5v8c0 .83-.67 1.5-1.5 1.5s-1.5-.67-1.5-1.5v-8c0-.83.67-1.5 1.5-1.5z" ]
             []
+        ]
+
+
+{-| -}
+signal_cellular_alt_1_bar : Icon msg
+signal_cellular_alt_1_bar =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M6.5,20C5.67,20,5,19.33,5,18.5v-3C5,14.67,5.67,14,6.5,14S8,14.67,8,15.5v3C8,19.33,7.33,20,6.5,20z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+signal_cellular_alt_2_bar : Icon msg
+signal_cellular_alt_2_bar =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M6.5,20C5.67,20,5,19.33,5,18.5v-3C5,14.67,5.67,14,6.5,14S8,14.67,8,15.5v3C8,19.33,7.33,20,6.5,20z M12.5,20 c-0.83,0-1.5-0.67-1.5-1.5v-8C11,9.67,11.67,9,12.5,9S14,9.67,14,10.5v8C14,19.33,13.33,20,12.5,20z" ]
+                    []
+                ]
+            ]
         ]
 
 
@@ -27542,6 +31489,29 @@ signal_wifi_statusbar_null =
             [ p
                 [ d "M12,4C7.7,4,3.78,5.6,0.79,8.24C0.35,8.63,0.32,9.3,0.73,9.71l10.56,10.58c0.39,0.39,1.02,0.39,1.42,0L23.27,9.71 c0.41-0.41,0.38-1.08-0.06-1.47C20.22,5.6,16.3,4,12,4z M2.92,9.07C5.51,7.08,8.67,6,12,6c3.33,0,6.49,1.08,9.08,3.07L12,18.17 L2.92,9.07z" ]
                 []
+            ]
+        ]
+
+
+{-| -}
+signpost : Icon msg
+signpost =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ polygon
+                    [ points "13,10 18,10 21,7 18,4 13,4 13,2 11,2 11,4 4,4 4,10 11,10 11,12 6,12 3,15 6,18 11,18 11,22 13,22 13,18 20,18 20,12 13,12" ]
+                    []
+                ]
             ]
         ]
 
@@ -27976,6 +31946,59 @@ social_distance =
 
 
 {-| -}
+solar_power : Icon msg
+solar_power =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M3.33,16H11v-3H5.6c-0.94,0-1.75,0.65-1.95,1.57L3.33,16z" ]
+                    []
+                , p
+                    [ d "M13,16h7.67l-0.32-1.43C20.14,13.65,19.33,13,18.4,13H13V16z" ]
+                    []
+                , p
+                    [ d "M21.11,18H13v4h6.51c1.28,0,2.23-1.18,1.95-2.43L21.11,18z" ]
+                    []
+                , p
+                    [ d "M4.49,22H11v-4H2.89l-0.35,1.57C2.26,20.82,3.21,22,4.49,22z" ]
+                    []
+                , p
+                    [ d "M12,8L12,8c-0.55,0-1,0.45-1,1v1c0,0.55,0.45,1,1,1h0c0.55,0,1-0.45,1-1V9C13,8.45,12.55,8,12,8z" ]
+                    []
+                , p
+                    [ d "M18.59,8.62L18.59,8.62c0.39-0.39,0.39-1.02,0-1.41L17.88,6.5c-0.39-0.39-1.02-0.39-1.41,0v0c-0.39,0.39-0.39,1.02,0,1.41 l0.71,0.71C17.57,9.01,18.2,9.01,18.59,8.62z" ]
+                    []
+                , p
+                    [ d "M6.82,8.62l0.71-0.71c0.39-0.39,0.39-1.02,0-1.41l0,0c-0.39-0.39-1.02-0.39-1.41,0L5.41,7.2c-0.39,0.39-0.39,1.02,0,1.41 l0,0C5.8,9.01,6.43,9.01,6.82,8.62z" ]
+                    []
+                , p
+                    [ d "M5,2H4C3.45,2,3,2.45,3,3v0c0,0.55,0.45,1,1,1h1c0.55,0,1-0.45,1-1v0C6,2.45,5.55,2,5,2z" ]
+                    []
+                , p
+                    [ d "M20,2h-1c-0.55,0-1,0.45-1,1v0c0,0.55,0.45,1,1,1h1c0.55,0,1-0.45,1-1v0C21,2.45,20.55,2,20,2z" ]
+                    []
+                , p
+                    [ d "M12,7c2.76,0,5-2.24,5-5H7C7,4.76,9.24,7,12,7z" ]
+                    []
+                ]
+            ]
+        ]
+
+
+{-| -}
 sort : Icon msg
 sort =
     icon
@@ -27997,6 +32020,29 @@ sort_by_alpha =
         [ p
             [ d "M12.93 2.65c-.2-.2-.51-.2-.71 0l-2.01 2.01h4.72l-2-2.01zm-.7 18.7c.2.2.51.2.71 0l1.98-1.98h-4.66l1.97 1.98zm-1.25-3.62c.6 0 1.01-.6.79-1.16L8.04 7.03c-.18-.46-.63-.76-1.12-.76-.49 0-.94.3-1.12.76l-3.74 9.53c-.22.56.19 1.16.79 1.16.35 0 .67-.22.8-.55l.71-1.9h5.11l.71 1.9c.13.34.45.56.8.56zm-6.01-4.09l1.94-5.18 1.94 5.18H4.97zm16.08 2.5h-5.33l5.72-8.29c.46-.66-.02-1.57-.82-1.57h-6.48c-.44 0-.79.36-.79.8v.01c0 .44.36.8.79.8h5.09l-5.73 8.28c-.46.66.02 1.57.82 1.57h6.72c.44 0 .79-.36.79-.79.02-.45-.34-.81-.78-.81z" ]
             []
+        ]
+
+
+{-| -}
+sos : Icon msg
+sos =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M13.5,7h-3c-1.1,0-2,0.9-2,2v6c0,1.1,0.9,2,2,2h3c1.1,0,2-0.9,2-2V9C15.5,7.9,14.6,7,13.5,7z M13.5,15h-3V9h3V15z M3,9v2h2 c1.1,0,2,0.9,2,2v2c0,1.1-0.9,2-2,2H2c-0.55,0-1-0.45-1-1c0-0.55,0.45-1,1-1h3v-2H3c-1.1,0-2-0.9-2-2V9c0-1.1,0.9-2,2-2h3 c0.55,0,1,0.45,1,1S6.55,9,6,9H3z M19,9v2h2c1.1,0,2,0.9,2,2v2c0,1.1-0.9,2-2,2h-3c-0.55,0-1-0.45-1-1c0-0.55,0.45-1,1-1h3v-2h-2 c-1.1,0-2-0.9-2-2V9c0-1.1,0.9-2,2-2h3c0.55,0,1,0.45,1,1s-0.45,1-1,1H19z" ]
+                []
+            ]
         ]
 
 
@@ -28126,6 +32172,111 @@ space_dashboard =
         , p
             [ d "M9,21H5c-1.1,0-2-0.9-2-2V5c0-1.1,0.9-2,2-2h4c1.1,0,2,0.9,2,2v14C11,20.1,10.1,21,9,21z M15,21h4c1.1,0,2-0.9,2-2v-5 c0-1.1-0.9-2-2-2h-4c-1.1,0-2,0.9-2,2v5C13,20.1,13.9,21,15,21z M21,8V5c0-1.1-0.9-2-2-2h-4c-1.1,0-2,0.9-2,2v3c0,1.1,0.9,2,2,2h4 C20.1,10,21,9.1,21,8z" ]
             []
+        ]
+
+
+{-| -}
+spatial_audio : Icon msg
+spatial_audio =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M22.11,7.95c-1.89-0.23-5.57-1.83-6.09-6.09C15.96,1.36,15.54,1,15.04,1h0c-0.6,0-1.07,0.53-1,1.13 c0.31,2.43,2.38,7.12,7.8,7.8c0.6,0.08,1.13-0.4,1.13-1v0C22.97,8.43,22.6,8.01,22.11,7.95z" ]
+                    []
+                , p
+                    [ d "M21.71,5.83c0.64,0.17,1.26-0.31,1.26-0.97c0-0.47-0.34-0.85-0.79-0.97c-0.49-0.14-1.72-0.68-2.11-2.13 C19.95,1.32,19.57,1,19.11,1H19.1c-0.66,0-1.14,0.64-0.96,1.28C18.74,4.5,20.58,5.53,21.71,5.83z" ]
+                    []
+                , c
+                    [ cx "10", cy "9", r "4" ]
+                    []
+                , p
+                    [ d "M16.39,15.56C14.71,14.7,12.53,14,10,14c-2.53,0-4.71,0.7-6.39,1.56C2.61,16.07,2,17.1,2,18.22V21h16v-2.78 C18,17.1,17.39,16.07,16.39,15.56z" ]
+                    []
+                ]
+            ]
+        ]
+
+
+{-| -}
+spatial_audio_off : Icon msg
+spatial_audio_off =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ c
+                [ cx "10", cy "9", r "4" ]
+                []
+            , p
+                [ d "M16.39,15.56C14.71,14.7,12.53,14,10,14c-2.53,0-4.71,0.7-6.39,1.56C2.61,16.07,2,17.1,2,18.22L2,19c0,1.1,0.9,2,2,2h12 c1.1,0,2-0.9,2-2l0-0.78C18,17.1,17.39,16.07,16.39,15.56z" ]
+                []
+            , g
+                []
+                [ p
+                    [ d "M21.11,1.85c-0.37-0.48-1.08-0.52-1.5-0.09l0,0c-0.35,0.35-0.39,0.91-0.09,1.3c1.17,1.5,2.64,5.23,0,8.61 c-0.3,0.39-0.26,0.95,0.09,1.3l0,0c0.43,0.43,1.13,0.38,1.5-0.09C22.61,10.95,24.46,6.16,21.11,1.85z" ]
+                    []
+                , p
+                    [ d "M18.31,4.84c-0.33-0.57-1.11-0.67-1.58-0.21c-0.33,0.33-0.36,0.84-0.13,1.25c0.25,0.44,0.74,1.69-0.01,2.99 c-0.23,0.4-0.19,0.9,0.14,1.22l0,0c0.47,0.47,1.25,0.35,1.58-0.22C19.47,7.88,18.89,5.85,18.31,4.84z" ]
+                    []
+                ]
+            ]
+        ]
+
+
+{-| -}
+spatial_tracking : Icon msg
+spatial_tracking =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ c
+                    [ cx "10", cy "9", r "4" ]
+                    []
+                , p
+                    [ d "M16.39,15.56C14.71,14.7,12.53,14,10,14c-2.53,0-4.71,0.7-6.39,1.56C2.61,16.07,2,17.1,2,18.22V21h16v-2.78 C18,17.1,17.39,16.07,16.39,15.56z" ]
+                    []
+                , p
+                    [ d "M19.39,1.76L19.39,1.76c-0.43-0.43-1.14-0.39-1.51,0.09c-1.5,1.93-3.35,6.72,0,11.03c0.37,0.48,1.08,0.52,1.5,0.09l0,0 c0.35-0.35,0.39-0.91,0.09-1.3c-1.17-1.5-2.64-5.23,0-8.61C19.78,2.67,19.74,2.11,19.39,1.76z" ]
+                    []
+                , p
+                    [ d "M22.4,5.86c0.23-0.4,0.19-0.9-0.14-1.22l0,0C21.79,4.16,21,4.27,20.67,4.85c-1.15,2-0.57,4.03,0.01,5.04 c0.33,0.57,1.11,0.67,1.58,0.21c0.33-0.33,0.36-0.84,0.13-1.25C22.14,8.41,21.65,7.16,22.4,5.86z" ]
+                    []
+                ]
+            ]
         ]
 
 
@@ -28575,6 +32726,29 @@ sports_golf =
 
 
 {-| -}
+sports_gymnastics : Icon msg
+sports_gymnastics =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M4,6c0-1.1,0.9-2,2-2s2,0.9,2,2S7.1,8,6,8S4,7.1,4,6z M13,22c-0.56,0-1.02-0.44-1.05-1l-0.45-9L8,11H2c-0.55,0-1-0.45-1-1 s0.45-1,1-1h5l6.26-4.47c0.42-0.3,1-0.23,1.34,0.16c0.38,0.45,0.3,1.12-0.18,1.46L11.14,8.5H14l7.09-4.09 c0.41-0.24,0.93-0.15,1.24,0.21c0.36,0.43,0.3,1.07-0.14,1.41L14.5,12l-0.45,9C14.02,21.56,13.56,22,13,22z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
 sports_handball : Icon msg
 sports_handball =
     icon
@@ -28673,6 +32847,35 @@ sports_kabaddi =
                     []
                 , p
                     [ d "M11.24,10.56l-2-2c-0.1-0.1-0.2-0.18-0.31-0.26C8.71,8.16,8.46,8.06,8.21,8.02C8.08,7.99,7.96,7.98,7.83,7.98 c-0.51,0-1.02,0.2-1.41,0.59l-3.34,3.34c-0.41,0.41-0.62,0.98-0.58,1.54C2.5,13.63,2.54,13.82,2.61,14l1.07,2.95l-2.92,2.92 c-0.39,0.39-0.39,1.02,0,1.41l0,0c0.39,0.39,1.02,0.39,1.41,0l3.54-3.54v-2.22L7,16.75v4.13c0,0.55,0.45,1,1,1h0 c0.55,0,1-0.45,1-1v-5l-2.12-2.12l2.36-2.36l0.71,0.71l0,0c1.02,1,2.28,1.69,3.79,1.94c0.64,0.11,1.21-0.45,1.16-1.1v0 c-0.03-0.48-0.4-0.87-0.87-0.94C12.9,11.83,11.97,11.29,11.24,10.56z" ]
+                    []
+                ]
+            ]
+        ]
+
+
+{-| -}
+sports_martial_arts : Icon msg
+sports_martial_arts =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M19.06,2.6L11.6,8.7l-1.21-1.04l2.48-1.43c0.57-0.33,0.67-1.11,0.21-1.57l-2.95-2.95c-0.39-0.39-1.02-0.39-1.41,0l0,0 c-0.39,0.39-0.39,1.02,0,1.41l2.03,2.03L5.35,8.26c-0.23,0.13-0.39,0.35-0.46,0.6l-0.96,3.49c-0.07,0.26-0.04,0.53,0.1,0.77 l1.74,3.02c0.28,0.48,0.89,0.64,1.37,0.37h0c0.48-0.28,0.64-0.89,0.37-1.37l-1.53-2.66l0.36-1.29L9.5,13l0.44,8 c0.03,0.56,0.49,1,1.05,1h0c0.56,0,1.02-0.44,1.05-1l0.45-9l7.87-7.96c0.36-0.36,0.38-0.93,0.05-1.32l0,0 C20.07,2.32,19.47,2.27,19.06,2.6z" ]
+                    []
+                , c
+                    [ cx "5", cy "5", r "2" ]
                     []
                 ]
             ]
@@ -28880,6 +33083,29 @@ sports_volleyball =
 
 
 {-| -}
+square : Icon msg
+square =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M3,5v14c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V5c0-1.1-0.9-2-2-2H5C3.9,3,3,3.9,3,5z" ]
+                    []
+                ]
+            ]
+        ]
+
+
+{-| -}
 square_foot : Icon msg
 square_foot =
     icon
@@ -28901,6 +33127,26 @@ square_foot =
                     [ d "M17.66,17.66l-0.71,0.71c-0.2,0.2-0.51,0.2-0.71,0l0,0c-0.2-0.2-0.2-0.51,0-0.71l0.71-0.71l-1.94-1.94l-0.71,0.71 c-0.2,0.2-0.51,0.2-0.71,0l0,0c-0.2-0.2-0.2-0.51,0-0.71l0.71-0.71l-1.94-1.94l-0.71,0.71c-0.2,0.2-0.51,0.2-0.71,0l0,0 c-0.2-0.2-0.2-0.51,0-0.71l0.71-0.71L9.7,9.7l-0.71,0.71c-0.2,0.2-0.51,0.2-0.71,0l0,0c-0.2-0.2-0.2-0.51,0-0.71l0.71-0.71 L7.05,7.05L6.34,7.76c-0.2,0.2-0.51,0.2-0.71,0l0,0c-0.2-0.2-0.2-0.51,0-0.71l0.71-0.71L4.85,4.85C4.54,4.54,4,4.76,4,5.21V18 c0,1.1,0.9,2,2,2h12.79c0.45,0,0.67-0.54,0.35-0.85L17.66,17.66z M7,16v-4.76L12.76,17H8C7.45,17,7,16.55,7,16z" ]
                     []
                 ]
+            ]
+        ]
+
+
+{-| -}
+ssid_chart : Icon msg
+ssid_chart =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M3,9.03c0-0.32,0.15-0.62,0.41-0.81L7.14,5.5c0.4-0.29,0.95-0.25,1.3,0.1l3.78,3.78l7.2-5.23C20.07,3.67,21,4.14,21,4.96 c0,0.32-0.15,0.62-0.41,0.81l-7.9,5.73c-0.4,0.29-0.95,0.25-1.29-0.1L7.62,7.62L4.59,9.84C3.93,10.32,3,9.85,3,9.03z M21,16 c0-0.55-0.45-1-1-1h-3.35c-0.23,0-0.45,0.08-0.62,0.22l-3.9,3.12L6.6,12.99c-0.35-0.34-0.88-0.38-1.27-0.1l-1.9,1.35 C3.16,14.43,3,14.74,3,15.06c0,0.81,0.92,1.29,1.58,0.81L5.8,15l5.57,5.39c0.36,0.35,0.93,0.38,1.32,0.06L17,17h3 C20.55,17,21,16.55,21,16z" ]
+                []
             ]
         ]
 
@@ -28936,6 +33182,26 @@ stacked_line_chart =
         , p
             [ d "M2.79,14.78L2.7,14.69c-0.39-0.39-0.39-1.02,0-1.41l6.09-6.1c0.39-0.39,1.02-0.39,1.41,0l3.29,3.29l6.39-7.18 c0.38-0.43,1.05-0.44,1.45-0.04l0,0c0.37,0.38,0.39,0.98,0.04,1.37l-7.17,8.07c-0.38,0.43-1.04,0.45-1.45,0.04L9.5,9.48l-5.3,5.3 C3.82,15.17,3.18,15.17,2.79,14.78z M4.2,20.78l5.3-5.3l3.25,3.25c0.41,0.41,1.07,0.39,1.45-0.04l7.17-8.07 c0.35-0.39,0.33-0.99-0.04-1.37l0,0c-0.4-0.4-1.07-0.39-1.45,0.04l-6.39,7.18l-3.29-3.29c-0.39-0.39-1.02-0.39-1.41,0l-6.09,6.1 c-0.39,0.39-0.39,1.02,0,1.41l0.09,0.09C3.18,21.17,3.82,21.17,4.2,20.78z" ]
             []
+        ]
+
+
+{-| -}
+stadium : Icon msg
+stadium =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M6.11,5.45L3.72,6.64C3.39,6.8,3,6.56,3,6.19V3.81C3,3.44,3.39,3.2,3.72,3.36l2.38,1.19C6.47,4.74,6.47,5.26,6.11,5.45z M18,3.81v2.38c0,0.37,0.39,0.61,0.72,0.45l2.38-1.19c0.37-0.18,0.37-0.71,0-0.89l-2.38-1.19C18.39,3.2,18,3.44,18,3.81z M11,2.81 v2.38c0,0.37,0.39,0.61,0.72,0.45l2.38-1.19c0.37-0.18,0.37-0.71,0-0.89l-2.38-1.19C11.39,2.2,11,2.44,11,2.81z M5,10.04 C6.38,10.53,8.77,11,12,11s5.62-0.47,7-0.96C19,9.86,16.22,9,12,9S5,9.86,5,10.04z M14,17h-4c-0.55,0-1,0.45-1,1l0,3.88 C4.94,21.49,2,20.34,2,19v-9c0-1.66,4.48-3,10-3s10,1.34,10,3v9c0,1.34-2.94,2.48-7,2.87L15,18C15,17.45,14.55,17,14,17z" ]
+                []
+            ]
         ]
 
 
@@ -29100,6 +33366,20 @@ stars =
             []
         , p
             [ d "M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm3.23 15.39L12 15.45l-3.22 1.94c-.38.23-.85-.11-.75-.54l.85-3.66-2.83-2.45c-.33-.29-.15-.84.29-.88l3.74-.32 1.46-3.45c.17-.41.75-.41.92 0l1.46 3.44 3.74.32c.44.04.62.59.28.88l-2.83 2.45.85 3.67c.1.43-.36.77-.74.54z" ]
+            []
+        ]
+
+
+{-| -}
+start : Icon msg
+start =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ rect
+            [ f "none" ]
+            []
+        , p
+            [ d "M15.29,17.29c0.39,0.39,1.02,0.39,1.41,0l4.59-4.59c0.39-0.39,0.39-1.02,0-1.41L16.7,6.7c-0.39-0.39-1.02-0.39-1.41,0 c-0.38,0.39-0.39,1.03,0,1.42L18.17,11H7c-0.55,0-1,0.45-1,1s0.45,1,1,1h11.17l-2.88,2.88C14.9,16.27,14.9,16.9,15.29,17.29z M3,18 c0.55,0,1-0.45,1-1V7c0-0.55-0.45-1-1-1S2,6.45,2,7v10C2,17.55,2.45,18,3,18z" ]
             []
         ]
 
@@ -29300,6 +33580,29 @@ storm =
                     [ d "M18.93,8C16.72,4.18,11.82,2.87,8,5.07c-1.41,0.82-2.48,2-3.16,3.37c-0.1-1.75,0.1-3.5,0.59-5.17C5.61,2.63,5.14,2,4.48,2 H4.47C4.04,2,3.64,2.28,3.52,2.7C2.24,7.01,2.65,11.81,5.07,16c1.1,1.91,2.88,3.19,4.86,3.72c1.98,0.53,4.16,0.31,6.07-0.79 c1.41-0.82,2.48-2,3.16-3.37c0.1,1.75-0.09,3.5-0.58,5.18C18.4,21.37,18.87,22,19.53,22h0c0.44,0,0.83-0.28,0.95-0.7 C21.75,16.99,21.35,12.19,18.93,8z M15,17.2c-2.87,1.65-6.54,0.67-8.2-2.2c-0.11-0.2-0.21-0.4-0.3-0.6C5.3,11.64,6.33,8.34,9,6.8 c2.86-1.65,6.54-0.67,8.2,2.2c0.11,0.2,0.21,0.4,0.3,0.6C18.7,12.36,17.67,15.66,15,17.2z M12,10c1.1,0,2,0.9,2,2s-0.9,2-2,2 s-2-0.9-2-2S10.9,10,12,10 M12,8c-2.21,0-4,1.79-4,4s1.79,4,4,4s4-1.79,4-4S14.21,8,12,8z" ]
                     []
                 ]
+            ]
+        ]
+
+
+{-| -}
+straight : Icon msg
+straight =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M13,6.83l0.88,0.88c0.39,0.39,1.02,0.39,1.41,0c0.39-0.39,0.39-1.02,0-1.41l-2.59-2.59c-0.39-0.39-1.02-0.39-1.41,0 L8.71,6.29c-0.39,0.39-0.39,1.02,0,1.41c0.39,0.39,1.02,0.39,1.41,0L11,6.83V20c0,0.55,0.45,1,1,1h0c0.55,0,1-0.45,1-1V6.83 L13,6.83z" ]
+                []
             ]
         ]
 
@@ -29805,6 +34108,186 @@ swipe =
 
 
 {-| -}
+swipe_down : Icon msg
+swipe_down =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M8.83,19.1c-0.26-0.6,0.09-1.28,0.73-1.41l3.58-0.71L8.79,7.17c-0.34-0.76,0-1.64,0.76-1.98c0.76-0.34,1.64,0,1.98,0.76 l2.43,5.49l0.84-0.37c0.28-0.13,0.59-0.18,0.9-0.17l4.56,0.21c0.86,0.04,1.6,0.63,1.83,1.45l1.23,4.33 c0.27,0.96-0.2,1.97-1.11,2.37l-5.63,2.49c-0.48,0.21-1.26,0.33-1.76,0.14l-5.45-2.27C9.13,19.53,8.93,19.34,8.83,19.1z M5.59,2.73 C4.27,4.65,3.5,6.99,3.5,9.5c0,0.92,0.1,1.82,0.3,2.68l-1.19-1.19c-0.29-0.29-0.77-0.32-1.07-0.04c-0.31,0.29-0.31,0.78-0.02,1.08 l2.26,2.26c0.39,0.39,1.02,0.39,1.41,0l2.24-2.24c0.29-0.29,0.32-0.77,0.04-1.07c-0.29-0.31-0.78-0.31-1.08-0.02l-1.09,1.09 C5.11,11.24,5,10.38,5,9.5c0-2.2,0.68-4.24,1.83-5.93c0.2-0.3,0.17-0.7-0.09-0.95C6.41,2.28,5.86,2.34,5.59,2.73z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+swipe_down_alt : Icon msg
+swipe_down_alt =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M13,13.9c2.28-0.46,4-2.48,4-4.9c0-2.76-2.24-5-5-5S7,6.24,7,9c0,2.42,1.72,4.44,4,4.9v4.27l-0.88-0.88 c-0.39-0.39-1.02-0.39-1.41,0c-0.39,0.39-0.39,1.02,0,1.41l2.59,2.59c0.39,0.39,1.02,0.39,1.41,0l2.59-2.59 c0.39-0.39,0.39-1.02,0-1.41c-0.39-0.39-1.02-0.39-1.41,0L13,18.17V13.9z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+swipe_left : Icon msg
+swipe_left =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M3.5,4.02V2.75C3.5,2.34,3.16,2,2.75,2S2,2.34,2,2.75V6c0,0.55,0.45,1,1,1h3.25C6.66,7,7,6.66,7,6.25S6.66,5.5,6.25,5.5 H4.09c2.11-1.86,4.88-3,7.91-3c4.42,0,7.27,2.19,8.25,4.1C20.37,6.85,20.63,7,20.91,7c0.56,0,0.93-0.59,0.67-1.08 C20.3,3.39,16.81,1,12,1C8.78,1,5.82,2.13,3.5,4.02z M5.2,17.43c0-0.65,0.6-1.13,1.24-0.99L10,17.24V6.5C10,5.67,10.67,5,11.5,5 S13,5.67,13,6.5v6h0.91c0.31,0,0.62,0.07,0.89,0.21l4.09,2.04c0.77,0.38,1.21,1.22,1.09,2.07l-0.63,4.46 C19.21,22.27,18.36,23,17.37,23h-6.16c-0.53,0-1.29-0.21-1.66-0.59l-4.07-4.29C5.3,17.94,5.2,17.69,5.2,17.43z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+swipe_left_alt : Icon msg
+swipe_left_alt =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M10.1,13c0.46,2.28,2.48,4,4.9,4c2.76,0,5-2.24,5-5s-2.24-5-5-5c-2.42,0-4.44,1.72-4.9,4H5.83l0.88-0.88 c0.39-0.39,0.39-1.02,0-1.41c-0.39-0.39-1.02-0.39-1.41,0l-2.59,2.59c-0.39,0.39-0.39,1.02,0,1.41l2.59,2.59 c0.39,0.39,1.02,0.39,1.41,0c0.39-0.39,0.39-1.02,0-1.41L5.83,13H10.1z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+swipe_right : Icon msg
+swipe_right =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M12,1C7.19,1,3.7,3.39,2.41,5.92C2.16,6.41,2.53,7,3.09,7c0.28,0,0.54-0.15,0.66-0.4C4.73,4.69,7.58,2.5,12,2.5 c3.03,0,5.79,1.14,7.91,3h-2.16C17.34,5.5,17,5.84,17,6.25S17.34,7,17.75,7H21c0.55,0,1-0.45,1-1V2.75C22,2.34,21.66,2,21.25,2 S20.5,2.34,20.5,2.75v1.27C18.18,2.13,15.22,1,12,1z M5.2,17.43c0-0.65,0.6-1.13,1.24-0.99L10,17.24V6.5C10,5.67,10.67,5,11.5,5 S13,5.67,13,6.5v6h0.91c0.31,0,0.62,0.07,0.89,0.21l4.09,2.04c0.77,0.38,1.21,1.22,1.09,2.07l-0.63,4.46 C19.21,22.27,18.36,23,17.37,23h-6.16c-0.53,0-1.29-0.21-1.66-0.59l-4.07-4.29C5.3,17.94,5.2,17.69,5.2,17.43z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+swipe_right_alt : Icon msg
+swipe_right_alt =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M13.9,11C13.44,8.72,11.42,7,9,7c-2.76,0-5,2.24-5,5s2.24,5,5,5c2.42,0,4.44-1.72,4.9-4h4.27l-0.88,0.88 c-0.39,0.39-0.39,1.02,0,1.41c0.39,0.39,1.02,0.39,1.41,0l2.59-2.59c0.39-0.39,0.39-1.02,0-1.41l-2.59-2.59 c-0.39-0.39-1.02-0.39-1.41,0c-0.39,0.39-0.39,1.02,0,1.41L18.17,11H13.9z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+swipe_up : Icon msg
+swipe_up =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M8.83,19.1c-0.26-0.6,0.09-1.28,0.73-1.41l3.58-0.71L8.79,7.17c-0.34-0.76,0-1.64,0.76-1.98c0.76-0.34,1.64,0,1.98,0.76 l2.43,5.49l0.84-0.37c0.28-0.13,0.59-0.18,0.9-0.17l4.56,0.21c0.86,0.04,1.6,0.63,1.83,1.45l1.23,4.33 c0.27,0.96-0.2,1.97-1.11,2.37l-5.63,2.49c-0.48,0.21-1.26,0.33-1.76,0.14l-5.45-2.27C9.13,19.53,8.93,19.34,8.83,19.1z M6.75,13.38c0.26-0.26,0.29-0.66,0.09-0.95C5.68,10.74,5,8.7,5,6.5c0-0.88,0.11-1.74,0.32-2.56l1.09,1.09 c0.3,0.3,0.79,0.29,1.08-0.02c0.28-0.3,0.25-0.78-0.04-1.07L5.21,1.71c-0.39-0.39-1.02-0.39-1.41,0L1.53,3.97 c-0.3,0.3-0.29,0.79,0.02,1.08c0.3,0.28,0.78,0.25,1.07-0.04L3.8,3.82C3.6,4.68,3.5,5.58,3.5,6.5c0,2.51,0.77,4.85,2.09,6.77 C5.86,13.66,6.41,13.72,6.75,13.38z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+swipe_up_alt : Icon msg
+swipe_up_alt =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M13,5.41l0.88,0.88c0.39,0.39,1.02,0.39,1.41,0c0.39-0.39,0.39-1.02,0-1.41l-2.59-2.59c-0.39-0.39-1.02-0.39-1.41,0 L8.71,4.88c-0.39,0.39-0.39,1.02,0,1.41c0.39,0.39,1.02,0.39,1.41,0L11,5.41v4.27c-2.28,0.46-4,2.48-4,4.9c0,2.76,2.24,5,5,5 s5-2.24,5-5c0-2.42-1.72-4.44-4-4.9V5.41z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+swipe_vertical : Icon msg
+swipe_vertical =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M0,12c0,3.22,1.13,6.18,3.02,8.5H1.75C1.34,20.5,1,20.84,1,21.25S1.34,22,1.75,22H5c0.55,0,1-0.45,1-1v-3.25 C6,17.34,5.66,17,5.25,17c-0.41,0-0.75,0.34-0.75,0.75v2.16c-1.86-2.11-3-4.88-3-7.91s1.14-5.79,3-7.91v2.16 C4.5,6.66,4.84,7,5.25,7C5.66,7,6,6.66,6,6.25V3c0-0.55-0.45-1-1-1H1.75C1.34,2,1,2.34,1,2.75S1.34,3.5,1.75,3.5h1.27 C1.13,5.82,0,8.78,0,12z M8.83,19.1c-0.26-0.6,0.09-1.28,0.73-1.41l3.58-0.71L8.79,7.17c-0.34-0.76,0-1.64,0.76-1.98 c0.76-0.34,1.64,0,1.98,0.76l2.43,5.49l0.84-0.37c0.28-0.13,0.59-0.18,0.9-0.17l4.56,0.21c0.86,0.04,1.6,0.63,1.83,1.45l1.23,4.33 c0.27,0.96-0.2,1.97-1.11,2.37l-5.63,2.49c-0.48,0.21-1.26,0.33-1.76,0.14l-5.45-2.27C9.13,19.53,8.93,19.34,8.83,19.1z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
 switch_access_shortcut : Icon msg
 switch_access_shortcut =
     icon
@@ -29997,6 +34480,26 @@ sync_disabled =
         , p
             [ d "M10 5.74v-.19c0-.68-.71-1.11-1.32-.82-.19.09-.36.2-.54.3L9.6 6.49c.24-.18.4-.45.4-.75zM20 12c0-2.21-.91-4.2-2.36-5.64l1.51-1.51c.31-.31.09-.85-.36-.85H14v4.79c0 .45.54.67.85.35l1.39-1.39C17.32 8.85 18 10.34 18 12c0 .85-.18 1.66-.5 2.39l1.48 1.48C19.62 14.72 20 13.41 20 12zM3.57 4.7c-.39.39-.39 1.02 0 1.41l1.65 1.65C4.45 9 4 10.44 4 12c0 2.21.91 4.2 2.36 5.64l-1.51 1.51c-.31.31-.09.85.36.85H9.5c.28 0 .5-.22.5-.5v-4.29c0-.45-.54-.67-.85-.35l-1.39 1.39C6.68 15.15 6 13.66 6 12c0-1 .26-1.93.69-2.76l8.07 8.07c-.01.02-.01.02-.01.04-.43.12-.75.48-.75.91v.18c0 .68.71 1.11 1.32.82.31-.14.61-.31.9-.49l1.87 1.87c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L4.98 4.7c-.39-.39-1.02-.39-1.41 0z" ]
             []
+        ]
+
+
+{-| -}
+sync_lock : Icon msg
+sync_lock =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M10,19c0,0.55-0.45,1-1,1H5c-0.55,0-1-0.45-1-1v0c0-0.55,0.45-1,1-1h1.73C5.06,16.54,4,14.4,4,12 c0-3.19,1.87-5.93,4.56-7.22C9.23,4.47,10,4.96,10,5.7c0,0.38-0.22,0.72-0.57,0.88C7.41,7.55,6,9.61,6,12c0,1.77,0.78,3.34,2,4.44 V15c0-0.55,0.45-1,1-1h0c0.55,0,1,0.45,1,1V19z M15,4c-0.55,0-1,0.45-1,1v4c0,0.55,0.45,1,1,1h0c0.55,0,1-0.45,1-1V7.56 c1.22,1.1,2,2.67,2,4.44h2c0-2.4-1.06-4.54-2.73-6H19c0.55,0,1-0.45,1-1v0c0-0.55-0.45-1-1-1H15z M20,17v-1c0-1.1-0.9-2-2-2 s-2,0.9-2,2v1c-0.55,0-1,0.45-1,1v3c0,0.55,0.45,1,1,1h4c0.55,0,1-0.45,1-1v-3C21,17.45,20.55,17,20,17z M19,17h-2v-1 c0-0.55,0.45-1,1-1s1,0.45,1,1V17z" ]
+                []
+            ]
         ]
 
 
@@ -30497,6 +35000,29 @@ temple_hindu =
 
 
 {-| -}
+terminal : Icon msg
+terminal =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M20,4H4C2.89,4,2,4.9,2,6v12c0,1.1,0.89,2,2,2h16c1.1,0,2-0.9,2-2V6C22,4.9,21.11,4,20,4z M20,18H4V8h16V18z M12,16 c0-0.55,0.45-1,1-1h4c0.55,0,1,0.45,1,1c0,0.55-0.45,1-1,1h-4C12.45,17,12,16.55,12,16z M6.79,9.71c0.39-0.39,1.02-0.39,1.41,0 l2.59,2.59c0.39,0.39,0.39,1.02,0,1.41l-2.59,2.59c-0.39,0.39-1.02,0.39-1.41,0c-0.39-0.39-0.39-1.02,0-1.41L8.67,13l-1.88-1.88 C6.4,10.73,6.4,10.1,6.79,9.71z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
 terrain : Icon msg
 terrain =
     icon
@@ -30506,6 +35032,20 @@ terrain =
             []
         , p
             [ d "M13.2 7.07L10.25 11l2.25 3c.33.44.24 1.07-.2 1.4-.44.33-1.07.25-1.4-.2-1.05-1.4-2.31-3.07-3.1-4.14-.4-.53-1.2-.53-1.6 0l-4 5.33c-.49.67-.02 1.61.8 1.61h18c.82 0 1.29-.94.8-1.6l-7-9.33c-.4-.54-1.2-.54-1.6 0z" ]
+            []
+        ]
+
+
+{-| -}
+text_decrease : Icon msg
+text_decrease =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ rect
+            [ f "none" ]
+            []
+        , p
+            [ d "M2.61,19L2.61,19c0.48,0,0.91-0.3,1.06-0.75l1.01-2.83h5.65l0.99,2.82C11.48,18.7,11.91,19,12.39,19 c0.79,0,1.33-0.79,1.05-1.52L9.19,6.17C8.93,5.47,8.25,5,7.5,5S6.07,5.47,5.81,6.17L1.56,17.48C1.28,18.21,1.83,19,2.61,19z M7.44,7.6h0.12l2.03,5.79H5.41L7.44,7.6z M15,12c0-0.55,0.45-1,1-1h6c0.55,0,1,0.45,1,1s-0.45,1-1,1h-6C15.45,13,15,12.55,15,12z" ]
             []
         ]
 
@@ -30534,6 +35074,20 @@ text_format =
             []
         , p
             [ d "M5 18c0 .55.45 1 1 1h12c.55 0 1-.45 1-1s-.45-1-1-1H6c-.55 0-1 .45-1 1zm4.5-5.2h5l.66 1.6c.15.36.5.6.89.6.69 0 1.15-.71.88-1.34l-3.88-8.97C12.87 4.27 12.46 4 12 4c-.46 0-.87.27-1.05.69l-3.88 8.97c-.27.63.2 1.34.89 1.34.39 0 .74-.24.89-.6l.65-1.6zM12 5.98L13.87 11h-3.74L12 5.98z" ]
+            []
+        ]
+
+
+{-| -}
+text_increase : Icon msg
+text_increase =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ rect
+            [ f "none" ]
+            []
+        , p
+            [ d "M2.61,19L2.61,19c0.48,0,0.91-0.3,1.06-0.75l1.01-2.83h5.65l0.99,2.82C11.48,18.7,11.91,19,12.39,19 c0.79,0,1.33-0.79,1.05-1.52L9.19,6.17C8.93,5.47,8.25,5,7.5,5S6.07,5.47,5.81,6.17L1.56,17.48C1.28,18.21,1.83,19,2.61,19z M7.44,7.6h0.12l2.03,5.79H5.41L7.44,7.6z M15,12c0-0.55,0.45-1,1-1h2V9c0-0.55,0.45-1,1-1s1,0.45,1,1v2h2c0.55,0,1,0.45,1,1 s-0.45,1-1,1h-2v2c0,0.55-0.45,1-1,1s-1-0.45-1-1v-2h-2C15.45,13,15,12.55,15,12z" ]
             []
         ]
 
@@ -30861,6 +35415,38 @@ thumbs_up_down =
 
 
 {-| -}
+thunderstorm : Icon msg
+thunderstorm =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M17.92,7.02C17.45,4.18,14.97,2,12,2C9.82,2,7.83,3.18,6.78,5.06C4.09,5.41,2,7.74,2,10.5C2,13.53,4.47,16,7.5,16h10 c2.48,0,4.5-2.02,4.5-4.5C22,9.16,20.21,7.23,17.92,7.02z" ]
+                    []
+                , p
+                    [ d "M15.95,20.11l-0.84-0.42l0.9-1.03c0.36-0.42,0.32-1.05-0.09-1.41c-0.42-0.36-1.05-0.32-1.41,0.09l-1.75,2 c-0.2,0.23-0.29,0.55-0.23,0.85c0.06,0.3,0.26,0.56,0.53,0.7l0.84,0.42L13,22.34c-0.36,0.42-0.32,1.05,0.09,1.41 c0.19,0.17,0.42,0.25,0.66,0.25c0.28,0,0.55-0.12,0.75-0.34l1.75-2c0.2-0.23,0.29-0.55,0.23-0.85 C16.42,20.5,16.22,20.24,15.95,20.11z" ]
+                    []
+                , p
+                    [ d "M9.95,20.11L9.1,19.68l0.9-1.03c0.36-0.42,0.32-1.05-0.09-1.41c-0.42-0.36-1.05-0.32-1.41,0.09l-1.75,2 c-0.2,0.23-0.29,0.55-0.23,0.85c0.06,0.3,0.26,0.56,0.53,0.7l0.84,0.42L7,22.34c-0.36,0.42-0.32,1.05,0.09,1.41 C7.28,23.92,7.52,24,7.75,24c0.28,0,0.55-0.12,0.75-0.34l1.75-2c0.2-0.23,0.29-0.55,0.23-0.85C10.42,20.5,10.22,20.24,9.95,20.11z" ]
+                    []
+                ]
+            ]
+        ]
+
+
+{-| -}
 time_to_leave : Icon msg
 time_to_leave =
     icon
@@ -30915,13 +35501,28 @@ timeline =
 timer : Icon msg
 timer =
     icon
-        [ v "0 0 24 24" ]
-        [ p
-            [ d "M0 0h24v24H0V0z", f "none" ]
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
             []
-        , p
-            [ d "M14 1h-4c-.55 0-1 .45-1 1s.45 1 1 1h4c.55 0 1-.45 1-1s-.45-1-1-1zm-2 13c.55 0 1-.45 1-1V9c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .55.45 1 1 1zm7.03-6.61l.75-.75c.38-.38.39-1.01 0-1.4l-.01-.01c-.39-.39-1.01-.38-1.4 0l-.75.75C16.07 4.74 14.12 4 12 4c-4.8 0-8.88 3.96-9 8.76C2.87 17.84 6.94 22 12 22c4.98 0 9-4.03 9-9 0-2.12-.74-4.07-1.97-5.61zM12 20c-3.87 0-7-3.13-7-7s3.13-7 7-7 7 3.13 7 7-3.13 7-7 7z" ]
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
             []
+            [ g
+                []
+                [ p
+                    [ d "M10,3h4c0.55,0,1-0.45,1-1c0-0.55-0.45-1-1-1h-4C9.45,1,9,1.45,9,2C9,2.55,9.45,3,10,3z" ]
+                    []
+                , p
+                    [ d "M19.03,7.39l0.75-0.75c0.38-0.38,0.39-1.01,0-1.4c0,0-0.01-0.01-0.01-0.01c-0.39-0.39-1.01-0.38-1.4,0l-0.75,0.75 C16.07,4.74,14.12,4,12,4c-4.8,0-8.88,3.96-9,8.76C2.87,17.84,6.94,22,12,22c4.98,0,9-4.03,9-9C21,10.88,20.26,8.93,19.03,7.39z M13,13c0,0.55-0.45,1-1,1s-1-0.45-1-1V9c0-0.55,0.45-1,1-1s1,0.45,1,1V13z" ]
+                    []
+                ]
+            ]
         ]
 
 
@@ -30985,13 +35586,31 @@ timer_3_select =
 timer_off : Icon msg
 timer_off =
     icon
-        [ v "0 0 24 24" ]
-        [ p
-            [ d "M0 0h24v24H0V0z", f "none" ]
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
             []
-        , p
-            [ d "M10 3h4c.55 0 1-.45 1-1s-.45-1-1-1h-4c-.55 0-1 .45-1 1s.45 1 1 1zm2 5c-.51 0-.92.39-.98.89L13 10.86V9c0-.55-.45-1-1-1zm0-2c3.87 0 7 3.13 7 7 0 1.12-.27 2.18-.74 3.12l1.47 1.47C20.53 16.25 21 14.68 21 13c0-2.12-.74-4.07-1.97-5.61l.75-.75c.38-.38.39-1.01 0-1.4l-.01-.01c-.39-.39-1.01-.38-1.4 0l-.75.75C16.07 4.74 14.12 4 12 4c-1.66 0-3.22.48-4.57 1.29l1.45 1.45c.94-.47 2-.74 3.12-.74zm8.19 14.88L3.87 4.56c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41l2.07 2.07C3.61 9.42 3.05 11.03 3 12.76 2.87 17.84 6.94 22 12 22c1.84 0 3.55-.55 4.98-1.5l1.79 1.79c.39.39 1.02.39 1.41 0 .4-.39.4-1.02.01-1.41zM12 20c-3.87 0-7-3.13-7-7 0-1.29.35-2.49.96-3.52l9.57 9.57c-1.04.6-2.24.95-3.53.95z" ]
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
             []
+            [ g
+                []
+                [ p
+                    [ d "M10,3h4c0.55,0,1-0.45,1-1c0-0.55-0.45-1-1-1h-4C9.45,1,9,1.45,9,2C9,2.55,9.45,3,10,3z" ]
+                    []
+                , p
+                    [ d "M12,8c0.55,0,1,0.45,1,1v1.17l6.98,6.98C20.63,15.91,21,14.5,21,13c0-2.12-0.74-4.07-1.97-5.61l0.75-0.75 c0.38-0.38,0.39-1.01,0-1.4c0,0-0.01-0.01-0.01-0.01c-0.39-0.39-1.01-0.38-1.4,0l-0.75,0.75C16.07,4.74,14.12,4,12,4 c-1.48,0-2.89,0.38-4.13,1.04l3.36,3.36C11.41,8.16,11.68,8,12,8z" ]
+                    []
+                , p
+                    [ d "M2.1,3.51L2.1,3.51c-0.39,0.39-0.39,1.02,0,1.41l2.72,2.72C3.73,9.09,3.05,10.86,3,12.76C2.87,17.84,6.94,22,12,22 c2.02,0,3.88-0.67,5.38-1.79l1.69,1.69c0.39,0.39,1.02,0.39,1.41,0l0,0c0.39-0.39,0.39-1.02,0-1.41L3.51,3.51 C3.12,3.12,2.49,3.12,2.1,3.51z" ]
+                    []
+                ]
+            ]
         ]
 
 
@@ -31006,6 +35625,35 @@ tips_and_updates =
         , p
             [ d "M7,20h4c0,1.1-0.9,2-2,2S7,21.1,7,20z M5,18c0,0.55,0.45,1,1,1h6c0.55,0,1-0.45,1-1s-0.45-1-1-1H6C5.45,17,5,17.45,5,18z M16.5,9.5c0,3.82-2.66,5.86-3.77,6.5H5.27C4.16,15.36,1.5,13.32,1.5,9.5C1.5,5.36,4.86,2,9,2S16.5,5.36,16.5,9.5z M21.37,7.37L20,8 l1.37,0.63L22,10l0.63-1.37L24,8l-1.37-0.63L22,6L21.37,7.37z M19,6l0.94-2.06L22,3l-2.06-0.94L19,0l-0.94,2.06L16,3l2.06,0.94L19,6 z" ]
             []
+        ]
+
+
+{-| -}
+tire_repair : Icon msg
+tire_repair =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M18,7c0,0.55,0.45,1,1,1c0.28,0,0.53-0.11,0.71-0.29c0.4-0.4,1.04-2.46,1.04-2.46s-2.06,0.64-2.46,1.04 C18.11,6.47,18,6.72,18,7z" ]
+                    []
+                , p
+                    [ d "M19,2c-2.76,0-5,2.24-5,5c0,2.05,1.23,3.81,3,4.58V12c0,0.55,0.45,1,1,1v5c0,0.55-0.45,1-1,1s-1-0.45-1-1v-3 c0-1.65-1.35-3-3-3c-0.35,0-0.69,0.06-1,0.17V5c0-1.1-0.9-2-2-2H4C2.9,3,2,3.9,2,5v14c0,1.1,0.9,2,2,2h6c1.1,0,2-0.9,2-2v-4 c0-0.55,0.45-1,1-1s1,0.45,1,1v3c0,1.65,1.35,3,3,3s3-1.35,3-3v-5c0.55,0,1-0.45,1-1v-0.42c1.77-0.77,3-2.53,3-4.58 C24,4.24,21.76,2,19,2z M6,19.5l-2-2v-2.83l2,2V19.5z M6,14.5l-2-2V9.67l2,2V14.5z M6,9.5l-2-2V4.67l2,2V9.5z M10,17.5l-2,2v-2.83 l2-2V17.5z M10,12.5l-2,2v-2.83l2-2V12.5z M10,7.5l-2,2V6.67l2-2V7.5z M19,10c-1.66,0-3-1.34-3-3s1.34-3,3-3s3,1.34,3,3 S20.66,10,19,10z" ]
+                    []
+                ]
+            ]
         ]
 
 
@@ -31134,6 +35782,47 @@ topic =
             , p
                 [ d "M20,6h-8l-1.41-1.41C10.21,4.21,9.7,4,9.17,4H4C2.9,4,2.01,4.9,2.01,6L2,18c0,1.1,0.9,2,2,2h16c1.1,0,2-0.9,2-2V8 C22,6.9,21.1,6,20,6z M13,16H7c-0.55,0-1-0.45-1-1c0-0.55,0.45-1,1-1h6c0.55,0,1,0.45,1,1C14,15.55,13.55,16,13,16z M17,12H7 c-0.55,0-1-0.45-1-1c0-0.55,0.45-1,1-1h10c0.55,0,1,0.45,1,1C18,11.55,17.55,12,17,12z" ]
                 []
+            ]
+        ]
+
+
+{-| -}
+tornado : Icon msg
+tornado =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ g
+                    []
+                    [ p
+                        [ d "M20.11,8l1.16-2c0.77-1.33-0.19-3-1.73-3H4.47c-1.54,0-2.5,1.67-1.73,3l1.16,2H20.11z" ]
+                        []
+                    ]
+                , g
+                    []
+                    [ p
+                        [ d "M7.95,15l2.32,4.01c0.77,1.33,2.69,1.33,3.46,0L16.05,15H7.95z" ]
+                        []
+                    ]
+                , g
+                    []
+                    [ polygon
+                        [ points "18.95,10 5.05,10 6.79,13 17.21,13" ]
+                        []
+                    ]
+                ]
             ]
         ]
 
@@ -31415,6 +36104,35 @@ try =
 
 
 {-| -}
+tsunami : Icon msg
+tsunami =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M18.16,17.98c-2.76,1.76-4.67,0.77-5.61,0.08c-0.34-0.24-0.78-0.23-1.12,0.01c-0.97,0.7-2.83,1.65-5.55-0.06 C5.55,17.8,5.13,17.78,4.81,18c-0.91,0.61-1.53,0.85-2,0.94C2.34,19.03,2,19.44,2,19.91v0c0,0.6,0.54,1.09,1.13,0.98 c0.77-0.14,1.51-0.42,2.2-0.83c2.04,1.21,4.63,1.21,6.67,0c2.06,1.22,4.61,1.22,6.67,0c0.69,0.41,1.44,0.69,2.21,0.83 c0.59,0.11,1.13-0.38,1.13-0.98v-0.01c0-0.47-0.33-0.88-0.8-0.97c-0.49-0.1-1.11-0.34-2.02-0.94 C18.88,17.79,18.47,17.78,18.16,17.98z" ]
+                    []
+                , p
+                    [ d "M19.33,12H21c0.55,0,1-0.45,1-1v0c0-0.55-0.45-1-1-1l-1.61,0c-1.86,0-3.4-1.5-3.39-3.36c0-0.37,0.06-0.7,0.16-1.05 C16.53,4.3,15.6,3.03,14.27,3C14.18,3,14.09,3,14,3C7.36,3,2.15,8.03,2.01,14.5l0,0.03c-0.04,1.13,1.07,1.98,2.14,1.6 c0.4-0.14,0.78-0.32,1.15-0.54c2.08,1.2,4.64,1.22,6.7-0.02c2.06,1.22,4.61,1.22,6.67,0c0.68,0.41,1.42,0.68,2.18,0.82 c0.6,0.11,1.16-0.36,1.16-0.98v-0.01c0-0.46-0.32-0.88-0.78-0.97c-0.49-0.09-1.12-0.33-2.03-0.94c-0.31-0.21-0.73-0.22-1.05-0.01 c-2.73,1.74-4.63,0.77-5.58,0.09c-0.35-0.25-0.81-0.26-1.16-0.01c-0.15,0.11-0.09,0.06-0.32,0.2C10.39,12.82,10,11.7,10,10.5 c0-2.58,1.77-4.74,4.21-5.33C14.08,5.68,14,6.19,14,6.67C14,9.61,16.39,12,19.33,12z" ]
+                    []
+                ]
+            ]
+        ]
+
+
+{-| -}
 tty : Icon msg
 tty =
     icon
@@ -31484,6 +36202,144 @@ tungsten =
 
 
 {-| -}
+turn_left : Icon msg
+turn_left =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M7.71,13.29c-0.39,0.39-1.02,0.39-1.41,0l-2.59-2.59c-0.39-0.39-0.39-1.02,0-1.41l2.59-2.59c0.39-0.39,1.02-0.39,1.41,0 c0.39,0.39,0.39,1.02,0,1.41L6.83,9L15,9c1.1,0,2,0.9,2,2v8c0,0.55-0.45,1-1,1c-0.55,0-1-0.45-1-1v-8l-8.17,0l0.88,0.88 C8.1,12.27,8.1,12.9,7.71,13.29z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+turn_right : Icon msg
+turn_right =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M16.29,13.29c0.39,0.39,1.02,0.39,1.41,0l2.59-2.59c0.39-0.39,0.39-1.02,0-1.41l-2.59-2.59c-0.39-0.39-1.02-0.39-1.41,0 c-0.39,0.39-0.39,1.02,0,1.41L17.17,9L9,9c-1.1,0-2,0.9-2,2v8c0,0.55,0.45,1,1,1s1-0.45,1-1v-8l8.17,0l-0.88,0.88 C15.9,12.27,15.9,12.9,16.29,13.29z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+turn_sharp_left : Icon msg
+turn_sharp_left =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M8,6.83l0.88,0.88c0.39,0.39,1.02,0.39,1.41,0c0.39-0.39,0.39-1.02,0-1.41L7.71,3.71c-0.39-0.39-1.02-0.39-1.41,0 L3.71,6.29c-0.39,0.39-0.39,1.02,0,1.41c0.39,0.39,1.02,0.39,1.41,0L6,6.83V13c0,1.1,0.9,2,2,2h8v5c0,0.55,0.45,1,1,1h0 c0.55,0,1-0.45,1-1v-5c0-1.1-0.9-2-2-2H8V6.83L8,6.83z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+turn_sharp_right : Icon msg
+turn_sharp_right =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M16,6.83l-0.88,0.88c-0.39,0.39-1.02,0.39-1.41,0c-0.39-0.39-0.39-1.02,0-1.41l2.59-2.59c0.39-0.39,1.02-0.39,1.41,0 l2.59,2.59c0.39,0.39,0.39,1.02,0,1.41c-0.39,0.39-1.02,0.39-1.41,0L18,6.83V13c0,1.1-0.9,2-2,2H8v5c0,0.55-0.45,1-1,1h0 c-0.55,0-1-0.45-1-1v-5c0-1.1,0.9-2,2-2h8V6.83L16,6.83z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+turn_slight_left : Icon msg
+turn_slight_left =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M11.66,5L11.66,5c0-0.55-0.45-1-1-1H7C6.45,4,6,4.45,6,5v3.66c0,0.55,0.45,1,1,1h0c0.55,0,1-0.45,1-1V7.41l5,5V19 c0,0.55,0.45,1,1,1h0c0.55,0,1-0.45,1-1v-6.58c0-0.53-0.21-1.04-0.59-1.41l-5-5h1.24C11.21,6,11.66,5.55,11.66,5z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+turn_slight_right : Icon msg
+turn_slight_right =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M12.34,5L12.34,5c0-0.55,0.45-1,1-1H17c0.55,0,1,0.45,1,1v3.66c0,0.55-0.45,1-1,1h0c-0.55,0-1-0.45-1-1V7.41l-5,5V19 c0,0.55-0.45,1-1,1h0c-0.55,0-1-0.45-1-1v-6.58c0-0.53,0.21-1.04,0.59-1.41l5-5h-1.24C12.79,6,12.34,5.55,12.34,5z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
 turned_in : Icon msg
 turned_in =
     icon
@@ -31548,6 +36404,52 @@ two_wheeler =
                 []
             , p
                 [ d "M20,11c-0.18,0-0.36,0.03-0.53,0.05L17.41,9H19c0.55,0,1-0.45,1-1V7.62c0-0.74-0.78-1.23-1.45-0.89l-2.28,1.14l-2.57-2.57 C13.52,5.11,13.26,5,13,5h-3C9.45,5,9,5.45,9,6v0c0,0.55,0.45,1,1,1h2.17c0.27,0,0.52,0.11,0.71,0.29L14.59,9h-3.35 c-0.16,0-0.31,0.04-0.45,0.11l-3.14,1.57c-0.38,0.19-0.85,0.12-1.15-0.19l-1.2-1.2C5.11,9.11,4.85,9,4.59,9H1c-0.55,0-1,0.45-1,1v0 c0,0.55,0.45,1,1,1h3c-2.52,0-4.49,2.32-3.89,4.94c0.33,1.45,1.5,2.62,2.95,2.95C5.68,19.49,8,17.52,8,15l1.41,1.41 C9.79,16.79,10.3,17,10.83,17h1.01c0.72,0,1.38-0.38,1.74-1.01l2.91-5.09l1.01,1.01c-1.13,0.91-1.76,2.41-1.38,4.05 c0.34,1.44,1.51,2.61,2.95,2.94C21.68,19.49,24,17.51,24,15C24,12.79,22.21,11,20,11z M4,17c-1.1,0-2-0.9-2-2c0-1.1,0.9-2,2-2 c1.1,0,2,0.9,2,2C6,16.1,5.1,17,4,17z M20,17c-1.1,0-2-0.9-2-2c0-1.1,0.9-2,2-2s2,0.9,2,2C22,16.1,21.1,17,20,17z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+u_turn_left : Icon msg
+u_turn_left =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M3.71,12.29c0.39-0.39,1.02-0.39,1.41,0L6,13.17V9c0-3.31,2.69-6,6-6s6,2.69,6,6v11c0,0.55-0.45,1-1,1s-1-0.45-1-1V9 c0-2.21-1.79-4-4-4S8,6.79,8,9v4.17l0.88-0.88c0.39-0.39,1.02-0.39,1.41,0c0.39,0.39,0.39,1.02,0,1.41l-2.59,2.59 c-0.39,0.39-1.02,0.39-1.41,0l-2.59-2.59C3.32,13.32,3.32,12.68,3.71,12.29z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+u_turn_right : Icon msg
+u_turn_right =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M20.29,12.29c-0.39-0.39-1.02-0.39-1.41,0L18,13.17V9c0-3.31-2.69-6-6-6S6,5.69,6,9v11c0,0.55,0.45,1,1,1s1-0.45,1-1V9 c0-2.21,1.79-4,4-4s4,1.79,4,4v4.17l-0.88-0.88c-0.39-0.39-1.02-0.39-1.41,0c-0.39,0.39-0.39,1.02,0,1.41l2.59,2.59 c0.39,0.39,1.02,0.39,1.41,0l2.59-2.59C20.68,13.32,20.68,12.68,20.29,12.29z" ]
                 []
             ]
         ]
@@ -31820,6 +36722,52 @@ vaccines =
 
 
 {-| -}
+vape_free : Icon msg
+vape_free =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M20.49,21.9c-0.39,0.39-1.02,0.39-1.41,0l-2.9-2.9H8v-3h5.17L2.1,4.93c-0.39-0.39-0.39-1.02,0-1.41s1.02-0.39,1.41,0 l16.97,16.97C20.88,20.88,20.88,21.51,20.49,21.9z M18.83,16h1.67c0.83,0,1.5,0.67,1.5,1.5c0,0.46-0.21,0.87-0.53,1.14L18.83,16z M10.5,17c-0.28,0-0.5,0.22-0.5,0.5s0.22,0.5,0.5,0.5s0.5-0.22,0.5-0.5S10.78,17,10.5,17z M18.85,7.73c0.62-0.61,1-1.45,1-2.38 c0-1.51-1-2.79-2.38-3.21C16.99,2,16.5,2.36,16.5,2.86c0,0.33,0.21,0.62,0.52,0.71c0.77,0.23,1.33,0.94,1.33,1.78 c0,0.82-0.53,1.51-1.27,1.76C16.75,7.22,16.5,7.5,16.5,7.85V8c0,0.37,0.27,0.69,0.64,0.75c1.93,0.31,3.36,2,3.36,4.02v1.48 c0,0.41,0.34,0.75,0.75,0.75S22,14.66,22,14.25v-1.49C22,10.54,20.72,8.62,18.85,7.73z M14.48,11.65c0.04,0,0.09,0,0.13,0h1.42 c1.05,0,1.97,0.74,1.97,2.05v0.55c0,0.41,0.34,0.75,0.76,0.75c0.41,0,0.75-0.33,0.75-0.75v-0.89c-0.01-1.81-1.61-3.16-3.48-3.16 h-1.3c-1.02,0-1.94-0.73-2.07-1.75c-0.12-0.95,0.46-1.7,1.3-1.93c0.32-0.09,0.54-0.38,0.54-0.72c0-0.49-0.46-0.86-0.93-0.72 c-1.41,0.41-2.43,1.71-2.42,3.24L14.48,11.65z M3,18.5c1.33,0,2.71,0.18,4,0.5v-3c-1.29,0.32-2.67,0.5-4,0.5c-0.55,0-1,0.45-1,1 S2.45,18.5,3,18.5z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+vaping_rooms : Icon msg
+vaping_rooms =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M22,17.5c0,0.83-0.67,1.5-1.5,1.5H8v-3h12.5C21.33,16,22,16.67,22,17.5z M10.5,17c-0.28,0-0.5,0.22-0.5,0.5 s0.22,0.5,0.5,0.5s0.5-0.22,0.5-0.5S10.78,17,10.5,17z M18.85,7.73c0.62-0.61,1-1.45,1-2.38c0-1.51-1-2.79-2.38-3.21 C16.99,2,16.5,2.36,16.5,2.86c0,0.33,0.21,0.62,0.52,0.71c0.77,0.23,1.33,0.94,1.33,1.78c0,0.82-0.53,1.51-1.27,1.76 C16.75,7.22,16.5,7.5,16.5,7.85V8c0,0.37,0.27,0.69,0.64,0.75c1.93,0.31,3.36,2,3.36,4.02v1.48c0,0.41,0.34,0.75,0.75,0.75 S22,14.66,22,14.25v-1.49C22,10.54,20.72,8.62,18.85,7.73z M18.76,15c0.41,0,0.75-0.33,0.75-0.75v-0.89 c-0.01-1.81-1.61-3.16-3.48-3.16h-1.3c-1.02,0-1.94-0.73-2.07-1.75c-0.12-0.95,0.46-1.7,1.3-1.93c0.32-0.09,0.54-0.38,0.54-0.72 c0-0.49-0.46-0.86-0.93-0.72c-1.42,0.41-2.45,1.73-2.42,3.28c0.03,1.84,1.62,3.29,3.46,3.29h1.42c1.05,0,1.97,0.74,1.97,2.05v0.55 C18,14.66,18.34,15,18.76,15z M3,18.5c1.33,0,2.71,0.18,4,0.5v-3c-1.29,0.32-2.67,0.5-4,0.5c-0.55,0-1,0.45-1,1S2.45,18.5,3,18.5z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
 verified : Icon msg
 verified =
     icon
@@ -31913,6 +36861,52 @@ vertical_distribute =
 
 
 {-| -}
+vertical_shades : Icon msg
+vertical_shades =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M20,19V5c0-1.1-0.9-2-2-2H6C4.9,3,4,3.9,4,5v14H3c-0.55,0-1,0.45-1,1v0c0,0.55,0.45,1,1,1h18c0.55,0,1-0.45,1-1v0 c0-0.55-0.45-1-1-1H20z M10,19V5h4v14H10z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+vertical_shades_closed : Icon msg
+vertical_shades_closed =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M20,19V5c0-1.1-0.9-2-2-2H6C4.9,3,4,3.9,4,5v14H3c-0.55,0-1,0.45-1,1v0c0,0.55,0.45,1,1,1h18c0.55,0,1-0.45,1-1v0 c0-0.55-0.45-1-1-1H20z M13,5h1.5v14H13V5z M11,19H9.5V5H11V19z M6,5h1.5v14H6V5z M16.5,19V5H18v14H16.5z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
 vertical_split : Icon msg
 vertical_split =
     icon
@@ -31986,6 +36980,29 @@ video_camera_front =
             []
             [ p
                 [ d "M18,10.48V6c0-1.1-0.9-2-2-2H4C2.9,4,2,4.9,2,6v12c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2v-4.48l3.15,3.13 C21.46,16.97,22,16.74,22,16.3V7.7c0-0.44-0.54-0.67-0.85-0.35L18,10.48z M10,8c1.1,0,2,0.9,2,2s-0.9,2-2,2s-2-0.9-2-2S8.9,8,10,8z M14,16H6v-0.57c0-0.81,0.48-1.53,1.22-1.85C8.07,13.21,9.01,13,10,13c0.99,0,1.93,0.21,2.78,0.58C13.52,13.9,14,14.62,14,15.43V16 z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+video_file : Icon msg
+video_file =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M13.17,2H6.01c-1.1,0-2,0.89-2,2L4,20c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2V8.83c0-0.53-0.21-1.04-0.59-1.41l-4.83-4.83 C14.21,2.21,13.7,2,13.17,2z M13,8V3.5L18.5,9H14C13.45,9,13,8.55,13,8z M14,14l1.27-0.67C15.6,13.15,16,13.39,16,13.77v2.46 c0,0.38-0.4,0.62-0.73,0.44L14,16v1c0,0.55-0.45,1-1,1H9c-0.55,0-1-0.45-1-1v-4c0-0.55,0.45-1,1-1h4c0.55,0,1,0.45,1,1V14z" ]
                 []
             ]
         ]
@@ -32204,6 +37221,32 @@ view_comfy =
 
 
 {-| -}
+view_comfy_alt : Icon msg
+view_comfy_alt =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M20,4H4C2.9,4,2,4.9,2,6v12c0,1.1,0.9,2,2,2h16c1.1,0,2-0.9,2-2V6C22,4.9,21.1,4,20,4z M10.5,17h-3 C7.22,17,7,16.78,7,16.5v-3C7,13.22,7.22,13,7.5,13h3c0.28,0,0.5,0.22,0.5,0.5v3C11,16.78,10.78,17,10.5,17z M10.5,11h-3 C7.22,11,7,10.78,7,10.5v-3C7,7.22,7.22,7,7.5,7h3C10.78,7,11,7.22,11,7.5v3C11,10.78,10.78,11,10.5,11z M16.5,17h-3 c-0.28,0-0.5-0.22-0.5-0.5v-3c0-0.28,0.22-0.5,0.5-0.5h3c0.28,0,0.5,0.22,0.5,0.5v3C17,16.78,16.78,17,16.5,17z M16.5,11h-3 c-0.28,0-0.5-0.22-0.5-0.5v-3C13,7.22,13.22,7,13.5,7h3C16.78,7,17,7.22,17,7.5v3C17,10.78,16.78,11,16.5,11z" ]
+                    []
+                ]
+            ]
+        ]
+
+
+{-| -}
 view_compact : Icon msg
 view_compact =
     icon
@@ -32214,6 +37257,58 @@ view_compact =
         , p
             [ d "M5 19h4v-7H3v5c0 1.1.9 2 2 2zm5 0h10c1.1 0 2-.9 2-2v-5H10v7zM3 7v4h19V7c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2z" ]
             []
+        ]
+
+
+{-| -}
+view_compact_alt : Icon msg
+view_compact_alt =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M20,4H4C2.9,4,2,4.9,2,6v12c0,1.1,0.9,2,2,2h16c1.1,0,2-0.9,2-2V6C22,4.9,21.1,4,20,4z M11,16.5H8 c-0.28,0-0.5-0.22-0.5-0.5v-3c0-0.28,0.22-0.5,0.5-0.5h3c0.28,0,0.5,0.22,0.5,0.5v3C11.5,16.28,11.28,16.5,11,16.5z M11,11.5H8 c-0.28,0-0.5-0.22-0.5-0.5V8c0-0.28,0.22-0.5,0.5-0.5h3c0.28,0,0.5,0.22,0.5,0.5v3C11.5,11.28,11.28,11.5,11,11.5z M16,16.5h-3 c-0.28,0-0.5-0.22-0.5-0.5v-3c0-0.28,0.22-0.5,0.5-0.5h3c0.28,0,0.5,0.22,0.5,0.5v3C16.5,16.28,16.28,16.5,16,16.5z M16,11.5h-3 c-0.28,0-0.5-0.22-0.5-0.5V8c0-0.28,0.22-0.5,0.5-0.5h3c0.28,0,0.5,0.22,0.5,0.5v3C16.5,11.28,16.28,11.5,16,11.5z" ]
+                    []
+                ]
+            ]
+        ]
+
+
+{-| -}
+view_cozy : Icon msg
+view_cozy =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M20,4H4C2.9,4,2,4.9,2,6v12c0,1.1,0.9,2,2,2h16c1.1,0,2-0.9,2-2V6C22,4.9,21.1,4,20,4z M10.75,16.75h-3 c-0.28,0-0.5-0.22-0.5-0.5v-3c0-0.28,0.22-0.5,0.5-0.5h3c0.28,0,0.5,0.22,0.5,0.5v3C11.25,16.53,11.03,16.75,10.75,16.75z M10.75,11.25h-3c-0.28,0-0.5-0.22-0.5-0.5v-3c0-0.28,0.22-0.5,0.5-0.5h3c0.28,0,0.5,0.22,0.5,0.5v3 C11.25,11.03,11.03,11.25,10.75,11.25z M16.25,16.75h-3c-0.28,0-0.5-0.22-0.5-0.5v-3c0-0.28,0.22-0.5,0.5-0.5h3 c0.28,0,0.5,0.22,0.5,0.5v3C16.75,16.53,16.53,16.75,16.25,16.75z M16.25,11.25h-3c-0.28,0-0.5-0.22-0.5-0.5v-3 c0-0.28,0.22-0.5,0.5-0.5h3c0.28,0,0.5,0.22,0.5,0.5v3C16.75,11.03,16.53,11.25,16.25,11.25z" ]
+                    []
+                ]
+            ]
         ]
 
 
@@ -32276,6 +37371,29 @@ view_in_ar =
                     [ d "M19,14.87V9.13c0-0.72-0.38-1.38-1-1.73l-5-2.88c-0.31-0.18-0.65-0.27-1-0.27s-0.69,0.09-1,0.27L6,7.39 C5.38,7.75,5,8.41,5,9.13v5.74c0,0.72,0.38,1.38,1,1.73l5,2.88c0.31,0.18,0.65,0.27,1,0.27s0.69-0.09,1-0.27l5-2.88 C18.62,16.25,19,15.59,19,14.87z M11,17.17l-4-2.3v-4.63l4,2.33V17.17z M12,10.84L8.04,8.53L12,6.25l3.96,2.28L12,10.84z M17,14.87l-4,2.3v-4.6l4-2.33V14.87z" ]
                     []
                 ]
+            ]
+        ]
+
+
+{-| -}
+view_kanban : Icon msg
+view_kanban =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M19,3H5C3.9,3,3,3.9,3,5v14c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V5C21,3.9,20.1,3,19,3z M8,17L8,17c-0.55,0-1-0.45-1-1V8 c0-0.55,0.45-1,1-1h0c0.55,0,1,0.45,1,1v8C9,16.55,8.55,17,8,17z M12,12L12,12c-0.55,0-1-0.45-1-1V8c0-0.55,0.45-1,1-1h0 c0.55,0,1,0.45,1,1v3C13,11.55,12.55,12,12,12z M16,15L16,15c-0.55,0-1-0.45-1-1V8c0-0.55,0.45-1,1-1h0c0.55,0,1,0.45,1,1v6 C17,14.55,16.55,15,16,15z" ]
+                []
             ]
         ]
 
@@ -32356,6 +37474,29 @@ view_stream =
         , p
             [ d "M3,17v-2c0-1.1,0.9-2,2-2h14c1.1,0,2,0.9,2,2v2c0,1.1-0.9,2-2,2H5C3.9,19,3,18.1,3,17z M3,7v2c0,1.1,0.9,2,2,2h14 c1.1,0,2-0.9,2-2V7c0-1.1-0.9-2-2-2H5C3.9,5,3,5.9,3,7z" ]
             []
+        ]
+
+
+{-| -}
+view_timeline : Icon msg
+view_timeline =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M19,3H5C3.9,3,3,3.9,3,5v14c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V5C21,3.9,20.1,3,19,3z M11,17H7c-0.55,0-1-0.45-1-1v0 c0-0.55,0.45-1,1-1h4c0.55,0,1,0.45,1,1v0C12,16.55,11.55,17,11,17z M14,13h-4c-0.55,0-1-0.45-1-1v0c0-0.55,0.45-1,1-1h4 c0.55,0,1,0.45,1,1v0C15,12.55,14.55,13,14,13z M17,9h-4c-0.55,0-1-0.45-1-1v0c0-0.55,0.45-1,1-1h4c0.55,0,1,0.45,1,1v0 C18,8.55,17.55,9,17,9z" ]
+                []
+            ]
         ]
 
 
@@ -32472,6 +37613,53 @@ voicemail =
 
 
 {-| -}
+volcano : Icon msg
+volcano =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ g
+                    []
+                    [ p
+                        [ d "M16.49,8h-4.14c-0.82,0-1.55,0.5-1.86,1.26L9,13H7.3c-0.79,0-1.51,0.47-1.83,1.19l-2.22,5C2.66,20.51,3.63,22,5.08,22 h14.27c1.33,0,2.29-1.27,1.92-2.55l-2.86-10C18.17,8.59,17.38,8,16.49,8z" ]
+                        []
+                    ]
+                , g
+                    []
+                    [ p
+                        [ d "M14,1L14,1c-0.55,0-1,0.45-1,1v2c0,0.55,0.45,1,1,1h0c0.55,0,1-0.45,1-1V2C15,1.45,14.55,1,14,1z" ]
+                        []
+                    ]
+                , g
+                    []
+                    [ p
+                        [ d "M19.66,3.34L19.66,3.34c-0.39-0.39-1.02-0.39-1.41,0l-1.41,1.41c-0.39,0.39-0.39,1.02,0,1.41v0 c0.39,0.39,1.02,0.39,1.41,0l1.41-1.41C20.05,4.37,20.05,3.73,19.66,3.34z" ]
+                        []
+                    ]
+                , g
+                    []
+                    [ p
+                        [ d "M11.17,4.76L9.76,3.34c-0.39-0.39-1.02-0.39-1.41,0l0,0c-0.39,0.39-0.39,1.02,0,1.41l1.41,1.41 c0.39,0.39,1.02,0.39,1.41,0l0,0C11.56,5.78,11.56,5.15,11.17,4.76z" ]
+                        []
+                    ]
+                ]
+            ]
+        ]
+
+
+{-| -}
 volume_down : Icon msg
 volume_down =
     icon
@@ -32559,6 +37747,29 @@ vpn_key =
 
 
 {-| -}
+vpn_key_off : Icon msg
+vpn_key_off =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M3.98,6.81C2.2,7.85,1,9.79,1,12c0,3.31,2.69,6,6,6c2.21,0,4.15-1.2,5.18-2.99l6.89,6.89c0.39,0.39,1.02,0.39,1.41,0 c0.39-0.39,0.39-1.02,0-1.41L3.51,3.51c-0.39-0.39-1.02-0.39-1.41,0c-0.39,0.39-0.39,1.02,0,1.41L3.98,6.81z M8.99,11.82 C9,11.88,9,11.94,9,12c0,1.1-0.9,2-2,2s-2-0.9-2-2s0.9-2,2-2c0.06,0,0.12,0,0.18,0.01L8.99,11.82z M20.32,17.5 C20.74,17.13,21,16.59,21,16v-2c1.1,0,2-0.9,2-2s-0.9-2-2-2h-8.17L20.32,17.5" ]
+                []
+            ]
+        ]
+
+
+{-| -}
 vpn_lock : Icon msg
 vpn_lock =
     icon
@@ -32609,6 +37820,29 @@ wallpaper =
         , p
             [ d "M4 5c0-.55.45-1 1-1h5c.55 0 1-.45 1-1s-.45-1-1-1H4c-1.1 0-2 .9-2 2v6c0 .55.45 1 1 1s1-.45 1-1V5zm5.61 8.49l-2.96 3.7c-.26.33-.03.81.39.81H17c.41 0 .65-.47.4-.8l-2-2.67c-.2-.27-.6-.27-.8 0l-1.63 2.18-2.58-3.22c-.2-.25-.58-.25-.78 0zM17 8.5c0-.83-.67-1.5-1.5-1.5S14 7.67 14 8.5s.67 1.5 1.5 1.5S17 9.33 17 8.5zM20 2h-6c-.55 0-1 .45-1 1s.45 1 1 1h5c.55 0 1 .45 1 1v5c0 .55.45 1 1 1s1-.45 1-1V4c0-1.1-.9-2-2-2zm0 17c0 .55-.45 1-1 1h-5c-.55 0-1 .45-1 1s.45 1 1 1h6c1.1 0 2-.9 2-2v-6c0-.55-.45-1-1-1s-1 .45-1 1v5zM3 13c-.55 0-1 .45-1 1v6c0 1.1.9 2 2 2h6c.55 0 1-.45 1-1s-.45-1-1-1H5c-.55 0-1-.45-1-1v-5c0-.55-.45-1-1-1z" ]
             []
+        ]
+
+
+{-| -}
+warehouse : Icon msg
+warehouse =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M22,19V8.35c0-0.82-0.5-1.55-1.26-1.86l-8-3.2c-0.48-0.19-1.01-0.19-1.49,0l-8,3.2C2.5,6.8,2,7.54,2,8.35V19 c0,1.1,0.9,2,2,2h3v-9h10v9h3C21.1,21,22,20.1,22,19z M11,19H9v2h2V19z M13,16h-2v2h2V16z M15,19h-2v2h2V19z" ]
+                []
+            ]
         ]
 
 
@@ -32679,6 +37913,35 @@ watch_later =
                 []
                 [ p
                     [ d "M12,2C6.5,2,2,6.5,2,12s4.5,10,10,10s10-4.5,10-10S17.5,2,12,2z M15.55,15.8l-4.08-2.51c-0.3-0.18-0.48-0.5-0.48-0.85 V7.75C11,7.34,11.34,7,11.75,7s0.75,0.34,0.75,0.75v4.45l3.84,2.31c0.36,0.22,0.48,0.69,0.26,1.05 C16.38,15.91,15.91,16.02,15.55,15.8z" ]
+                    []
+                ]
+            ]
+        ]
+
+
+{-| -}
+watch_off : Icon msg
+watch_off =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M12,7c2.76,0,5,2.24,5,5c0,0.64-0.13,1.25-0.35,1.82l1.5,1.5C18.69,14.33,19,13.2,19,12c0-2.22-1.03-4.19-2.64-5.47 l-0.93-3.1C15.17,2.58,14.4,2,13.51,2h-3.02C9.6,2,8.83,2.58,8.57,3.42L8.04,5.21l2.14,2.14C10.75,7.13,11.36,7,12,7z" ]
+                    []
+                , p
+                    [ d "M2.1,3.51L2.1,3.51c-0.39,0.39-0.39,1.02,0,1.41l3.75,3.75C5.31,9.67,5,10.8,5,12c0,2.22,1.03,4.19,2.64,5.47l0.93,3.1 C8.83,21.42,9.6,22,10.49,22h3.02c0.88,0,1.66-0.58,1.92-1.43l0.53-1.78l3.11,3.11c0.39,0.39,1.02,0.39,1.41,0l0,0 c0.39-0.39,0.39-1.02,0-1.41L3.51,3.51C3.12,3.12,2.49,3.12,2.1,3.51z M12,17c-2.76,0-5-2.24-5-5c0-0.64,0.13-1.25,0.35-1.82 l6.47,6.47C13.25,16.87,12.64,17,12,17z" ]
                     []
                 ]
             ]
@@ -32966,6 +38229,29 @@ web_asset_off =
 
 
 {-| -}
+webhook : Icon msg
+webhook =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M2,16c0-1.84,1-3.45,2.48-4.32C5.15,11.29,6,11.76,6,12.54c0,0.36-0.19,0.68-0.5,0.86C4.6,13.92,4,14.89,4,16 c0,1.85,1.68,3.31,3.6,2.94c1.42-0.28,2.4-1.61,2.4-3.06v0c0-0.49,0.39-0.88,0.88-0.88l5,0c0.27-0.31,0.67-0.5,1.12-0.5 c0.83,0,1.5,0.67,1.5,1.5c0,0.83-0.67,1.5-1.5,1.5c-0.44,0-0.84-0.19-1.12-0.5l-3.98,0c-0.46,2.28-2.48,4-4.9,4 C4.24,21,2,18.76,2,16z M16.37,7c0.65,0,1.14-0.62,0.97-1.25C16.79,3.59,14.83,2,12.5,2c-2.76,0-5,2.24-5,5 c0,1.43,0.6,2.71,1.55,3.62l-2.35,3.9C6.02,14.66,5.5,15.27,5.5,16c0,0.83,0.67,1.5,1.5,1.5s1.5-0.67,1.5-1.5 c0-0.16-0.02-0.31-0.07-0.45l2.86-4.75c0.25-0.41,0.13-0.95-0.28-1.19C10.11,9.08,9.5,8.11,9.5,7c0-1.65,1.35-3,3-3 c1.38,0,2.54,0.93,2.89,2.2C15.52,6.66,15.9,7,16.37,7z M17,13c-0.38,0-0.75,0.07-1.09,0.2c-0.4,0.16-0.86-0.04-1.08-0.41 l-2.6-4.32C11.53,8.35,11,7.74,11,7c0-0.83,0.67-1.5,1.5-1.5S14,6.17,14,7c0,0.15-0.02,0.29-0.06,0.43l2.19,3.65 C16.41,11.03,16.7,11,17,11l0,0c2.76,0,5,2.24,5,5c0,2.76-2.24,5-5,5c-0.86,0-1.68-0.22-2.39-0.61c-0.92-0.5-0.58-1.89,0.47-1.89 c0.17,0,0.34,0.05,0.49,0.14C15.99,18.87,16.48,19,17,19c1.65,0,3-1.35,3-3S18.65,13,17,13z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
 weekend : Icon msg
 weekend =
     icon
@@ -33102,6 +38388,52 @@ wifi =
 
 
 {-| -}
+wifi_1_bar : Icon msg
+wifi_1_bar =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ c
+                [ cx "12", cy "18", r "2" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+wifi_2_bar : Icon msg
+wifi_2_bar =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M12,16c-1.1,0-2,0.9-2,2s0.9,2,2,2s2-0.9,2-2S13.1,16,12,16z M5.38,14.37c-0.63-0.63-0.59-1.71,0.13-2.24 C7.33,10.79,9.57,10,12,10c2.43,0,4.67,0.79,6.49,2.13c0.72,0.53,0.76,1.6,0.13,2.24c-0.53,0.54-1.37,0.57-1.98,0.12 C15.33,13.55,13.73,13,12,13c-1.73,0-3.33,0.55-4.64,1.49C6.75,14.93,5.91,14.9,5.38,14.37z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
 wifi_calling : Icon msg
 wifi_calling =
     icon
@@ -33163,6 +38495,58 @@ wifi_calling_3 =
 
 
 {-| -}
+wifi_channel : Icon msg
+wifi_channel =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M4.13,21c0.5,0,0.92-0.38,0.99-0.87c0.65-4.89,1.95-9.01,2.88-10c0.91,0.98,2.19,5.01,2.86,9.82 c0.08,0.6,0.59,1.05,1.19,1.05c0.54,0,1.02-0.36,1.16-0.89C13.83,17.73,15.11,15,16,15c0.9,0,2.19,2.83,2.81,5.2 c0.12,0.48,0.56,0.8,1.05,0.8c0.62,0,1.12-0.52,1.09-1.14C20.75,15.89,19.81,3,16,3c-2.51,0-3.77,5.61-4.4,10.57 C10.79,10.66,9.61,8,8,8c-2.92,0-4.41,8.71-4.85,11.87C3.06,20.47,3.53,21,4.13,21z M16,13c-0.99,0-1.82,0.62-2.5,1.5 c0.57-4.77,1.54-8.62,2.5-9.44c0.97,0.81,1.91,4.67,2.49,9.43C17.81,13.62,16.98,13,16,13z" ]
+                []
+            ]
+        ]
+
+
+{-| -}
+wifi_find : Icon msg
+wifi_find =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ g
+                    []
+                    [ p
+                        [ d "M11,14c0-3.36,2.64-6,6-6c2.2,0,4.08,1.13,5.13,2.86l0.36-0.37c0.86-0.86,0.76-2.27-0.2-3.01C19.44,5.3,15.87,4,12,4 C8.13,4,4.56,5.3,1.71,7.48c-0.96,0.74-1.06,2.15-0.2,3.01l9.08,9.09c0.78,0.78,2.05,0.78,2.83,0l0.45-0.45 C12.14,18.09,11,16.2,11,14z" ]
+                        []
+                    ]
+                , g
+                    []
+                    [ p
+                        [ d "M20.44,16.03C20.79,15.44,21,14.75,21,14c0-2.24-1.76-4-4-4s-4,1.76-4,4c0,2.24,1.76,4,4,4c0.75,0,1.44-0.21,2.03-0.56 l1.85,1.85c0.39,0.39,1.02,0.39,1.41,0c0.39-0.39,0.39-1.02,0-1.41L20.44,16.03z M17,16c-1.12,0-2-0.88-2-2c0-1.12,0.88-2,2-2 s2,0.88,2,2C19,15.12,18.12,16,17,16z" ]
+                        []
+                    ]
+                ]
+            ]
+        ]
+
+
+{-| -}
 wifi_lock : Icon msg
 wifi_lock =
     icon
@@ -33199,6 +38583,26 @@ wifi_off =
         , p
             [ d "M20.06 10.14c.56.46 1.38.42 1.89-.09.59-.59.55-1.57-.1-2.1-3.59-2.94-8.2-4.03-12.55-3.26l2.59 2.59c2.89-.03 5.8.92 8.17 2.86zm-2.27 1.83c-.78-.57-1.63-1-2.52-1.3l2.95 2.95c.24-.58.1-1.27-.43-1.65zm-3.84 4.26c-1.22-.63-2.68-.63-3.91 0-.59.31-.7 1.12-.23 1.59l1.47 1.47c.39.39 1.02.39 1.41 0l1.47-1.47c.49-.47.39-1.28-.21-1.59zm5.73 1.67L4.12 2.34c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L5.05 6.1c-1.01.5-1.99 1.11-2.89 1.85-.65.53-.69 1.51-.1 2.1.51.51 1.32.56 1.87.1 1-.82 2.1-1.46 3.25-1.93l2.23 2.23c-1.13.3-2.21.8-3.19 1.51-.69.5-.73 1.51-.13 2.11l.01.01c.49.49 1.26.54 1.83.13 1.19-.84 2.58-1.26 3.97-1.29l6.37 6.37c.39.39 1.02.39 1.41 0 .39-.37.39-1 0-1.39z" ]
             []
+        ]
+
+
+{-| -}
+wifi_password : Icon msg
+wifi_password =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M18.49,12.13C16.67,10.79,14.43,10,12,10c-2.43,0-4.67,0.79-6.49,2.13c-0.72,0.53-0.76,1.6-0.13,2.24 c0.53,0.54,1.37,0.57,1.98,0.12C8.67,13.55,10.27,13,12,13c1.73,0,3.33,0.55,4.64,1.49c0.62,0.44,1.45,0.41,1.98-0.12 C19.26,13.73,19.22,12.66,18.49,12.13z M22.8,7.89C19.86,5.46,16.1,4,12,4S4.14,5.46,1.2,7.89C0.53,8.44,0.49,9.47,1.11,10.1l0,0 c0.55,0.55,1.42,0.58,2.02,0.09C5.55,8.2,8.64,7,12,7s6.45,1.2,8.87,3.19c0.6,0.49,1.47,0.46,2.02-0.09l0,0 C23.51,9.47,23.47,8.44,22.8,7.89z M12,16c-1.1,0-2,0.9-2,2s0.9,2,2,2s2-0.9,2-2S13.1,16,12,16z M23,19v-1c0-1.1-0.9-2-2-2 s-2,0.9-2,2v1c-0.55,0-1,0.45-1,1v3c0,0.55,0.45,1,1,1h4c0.55,0,1-0.45,1-1v-3C24,19.45,23.55,19,23,19z M22,19h-2v-1 c0-0.55,0.45-1,1-1s1,0.45,1,1V19z" ]
+                []
+            ]
         ]
 
 
@@ -33275,29 +38679,6 @@ wifi_tethering_error =
 
 
 {-| -}
-wifi_tethering_error_rounded : Icon msg
-wifi_tethering_error_rounded =
-    icon
-        [ b "new 0 0 24 24", v "0 0 24 24" ]
-        [ g
-            []
-            [ p
-                [ d "M0,0h24v24H0V0z", f "none" ]
-                []
-            ]
-        , g
-            []
-            [ g
-                []
-                [ p
-                    [ d "M10.66,7.14c-2.24,0.48-4.04,2.3-4.52,4.54c-0.37,1.75,0.02,3.38,0.89,4.66c0.34,0.51,1.08,0.55,1.51,0.11l0,0 c0.35-0.35,0.37-0.88,0.1-1.28c-0.5-0.76-0.75-1.71-0.61-2.73c0.23-1.74,1.67-3.17,3.41-3.4C13.9,8.71,16,10.61,16,13 c0,0.8-0.24,1.54-0.64,2.16c-0.27,0.41-0.25,0.95,0.1,1.29l0,0c0.43,0.43,1.17,0.4,1.51-0.11C17.62,15.4,18,14.25,18,13 C18,9.25,14.55,6.3,10.66,7.14z M10.25,3.15c-4.05,0.69-7.19,3.69-8.03,7.72c-0.66,3.17,0.2,6.16,1.97,8.38 c0.37,0.46,1.07,0.49,1.49,0.07l0,0c0.36-0.36,0.39-0.93,0.07-1.32c-1.34-1.67-2.03-3.9-1.66-6.28c0.55-3.47,3.42-6.24,6.92-6.65 c2.76-0.33,5.27,0.74,6.93,2.59C18.14,7.87,18.41,8,18.7,8h0c0.85,0,1.34-1.01,0.77-1.65C17.28,3.9,13.91,2.53,10.25,3.15z M12,11 c-1.1,0-2,0.9-2,2c0,0.55,0.23,1.05,0.59,1.41C10.95,14.77,11.45,15,12,15s1.05-0.23,1.41-0.59C13.77,14.05,14,13.55,14,13 C14,11.9,13.1,11,12,11z M21,10L21,10c0.55,0,1,0.45,1,1v4c0,0.55-0.45,1-1,1h0c-0.55,0-1-0.45-1-1v-4C20,10.45,20.45,10,21,10z M21,18L21,18c0.55,0,1,0.45,1,1v0c0,0.55-0.45,1-1,1h0c-0.55,0-1-0.45-1-1v0C20,18.45,20.45,18,21,18z" ]
-                    []
-                ]
-            ]
-        ]
-
-
-{-| -}
 wifi_tethering_off : Icon msg
 wifi_tethering_off =
     icon
@@ -33314,6 +38695,50 @@ wifi_tethering_off =
                 []
                 [ p
                     [ d "M2.11,3.51L2.11,3.51C1.71,3.9,1.71,4.54,2.1,4.93l1.98,1.98C2.78,8.6,2,10.71,2,13c0,2.36,0.82,4.53,2.19,6.24 c0.37,0.47,1.07,0.5,1.5,0.08l0,0c0.36-0.36,0.39-0.92,0.08-1.32C4.66,16.63,4,14.89,4,13c0-1.75,0.57-3.35,1.51-4.66l1.43,1.43 C6.35,10.7,6,11.81,6,13c0,1.25,0.38,2.4,1.03,3.35c0.34,0.5,1.08,0.54,1.51,0.11l0,0c0.35-0.35,0.37-0.88,0.1-1.29 C8.24,14.54,8,13.8,8,13c0-0.63,0.15-1.23,0.41-1.76l1.61,1.61c0,0.05-0.02,0.1-0.02,0.15c0,0.55,0.23,1.05,0.59,1.41 C10.95,14.77,11.45,15,12,15c0.05,0,0.1-0.01,0.16-0.02l6.91,6.91c0.39,0.39,1.02,0.39,1.41,0l0,0c0.39-0.39,0.39-1.02,0-1.41 L3.51,3.51C3.12,3.12,2.49,3.12,2.11,3.51z M17.7,14.87C17.89,14.28,18,13.65,18,13c0-3.31-2.69-6-6-6c-0.65,0-1.28,0.1-1.87,0.3 l1.71,1.71C11.89,9,11.95,9,12,9c2.21,0,4,1.79,4,4c0,0.05,0,0.11-0.01,0.16L17.7,14.87z M12,5c4.42,0,8,3.58,8,8 c0,1.22-0.27,2.37-0.77,3.4l1.49,1.49C21.53,16.45,22,14.78,22,13c0-5.52-4.48-10-10-10c-1.78,0-3.44,0.46-4.89,1.28l1.48,1.48 C9.63,5.27,10.78,5,12,5z" ]
+                    []
+                ]
+            ]
+        ]
+
+
+{-| -}
+wind_power : Icon msg
+wind_power =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M9,3H5C4.45,3,4,3.45,4,4v0c0,0.55,0.45,1,1,1h4c0.55,0,1-0.45,1-1v0C10,3.45,9.55,3,9,3z" ]
+                    []
+                , p
+                    [ d "M5,7H2C1.45,7,1,7.45,1,8v0c0,0.55,0.45,1,1,1h3c0.55,0,1-0.45,1-1v0C6,7.45,5.55,7,5,7z" ]
+                    []
+                , p
+                    [ d "M4,21h3c0.55,0,1-0.45,1-1v0c0-0.55-0.45-1-1-1H4c-0.55,0-1,0.45-1,1v0C3,20.55,3.45,21,4,21z" ]
+                    []
+                , p
+                    [ d "M13.73,10.61c0.75,0.23,1.3,0.78,1.57,1.46l4.27-7.11c0.65-1.08,0.3-2.48-0.78-3.13c-0.87-0.52-1.99-0.41-2.73,0.29 l-3.43,3.21C12.23,5.7,12,6.23,12,6.78v3.93C12.36,10.56,12.98,10.38,13.73,10.61z" ]
+                    []
+                , p
+                    [ d "M10.61,12.27c0.16-0.52,0.48-0.96,0.89-1.27H3.28C2.02,11,1,12.02,1,13.28c0,1.02,0.67,1.91,1.65,2.19l4.51,1.29 c0.53,0.15,1.1,0.08,1.58-0.21l2.69-1.61C10.66,14.32,10.3,13.27,10.61,12.27z" ]
+                    []
+                , p
+                    [ d "M22.21,18.61l-2.28-4.1c-0.27-0.48-0.73-0.83-1.26-0.97l-3.18-0.8c0.03,0.32,0,0.66-0.1,0.99 c-0.32,1.06-1.28,1.77-2.39,1.77c-0.61,0-0.99-0.22-1-0.22V21c-1.1,0-2,0.9-2,2h6c0-1.1-0.9-2-2-2v-4.28l4.61,4.61 c0.89,0.89,2.33,0.89,3.22,0C22.55,20.61,22.71,19.5,22.21,18.61z" ]
+                    []
+                , p
+                    [ d "M12.56,14.43c0.79,0.24,1.63-0.2,1.87-1c0.24-0.79-0.2-1.63-1-1.87c-0.79-0.24-1.63,0.2-1.87,1 C11.32,13.35,11.77,14.19,12.56,14.43z" ]
                     []
                 ]
             ]
@@ -33391,6 +38816,35 @@ work =
         , p
             [ d "M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z" ]
             []
+        ]
+
+
+{-| -}
+work_history : Icon msg
+work_history =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            , rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ g
+                []
+                [ p
+                    [ d "M18,11c1.49,0,2.87,0.47,4,1.26V8c0-1.11-0.89-2-2-2h-4V4c0-1.11-0.89-2-2-2h-4C8.89,2,8,2.89,8,4v2H4 C2.89,6,2.01,6.89,2.01,8L2,19c0,1.11,0.89,2,2,2h7.68C11.25,20.09,11,19.08,11,18C11,14.13,14.13,11,18,11z M10,4h4v2h-4V4z" ]
+                    []
+                , p
+                    [ d "M18,13c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5S20.76,13,18,13z M19.65,20.35l-2.15-2.15V15h1v2.79l1.85,1.85 L19.65,20.35z" ]
+                    []
+                ]
+            ]
         ]
 
 
@@ -33567,6 +39021,26 @@ zoom_in =
         , p
             [ d "M15.5 14h-.79l-.28-.27c1.2-1.4 1.82-3.31 1.48-5.34-.47-2.78-2.79-5-5.59-5.34-4.23-.52-7.78 3.04-7.27 7.27.34 2.8 2.56 5.12 5.34 5.59 2.03.34 3.94-.28 5.34-1.48l.27.28v.79l4.26 4.25c.41.41 1.07.41 1.48 0l.01-.01c.41-.41.41-1.07 0-1.48L15.5 14zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14zm0-7c-.28 0-.5.22-.5.5V9H7.5c-.28 0-.5.22-.5.5s.22.5.5.5H9v1.5c0 .28.22.5.5.5s.5-.22.5-.5V10h1.5c.28 0 .5-.22.5-.5s-.22-.5-.5-.5H10V7.5c0-.28-.22-.5-.5-.5z" ]
             []
+        ]
+
+
+{-| -}
+zoom_in_map : Icon msg
+zoom_in_map =
+    icon
+        [ b "new 0 0 24 24", v "0 0 24 24" ]
+        [ g
+            []
+            [ rect
+                [ f "none" ]
+                []
+            ]
+        , g
+            []
+            [ p
+                [ d "M3,8c0,0.55,0.45,1,1,1l4,0c0.55,0,1-0.45,1-1l0-4c0-0.55-0.45-1-1-1S7,3.45,7,4l0,1.59L4.62,3.21 c-0.39-0.39-1.02-0.39-1.41,0c-0.39,0.39-0.39,1.02,0,1.41L5.59,7L4,7C3.45,7,3,7.45,3,8z M20,7h-1.59l2.38-2.38 c0.39-0.39,0.39-1.02,0-1.41c-0.39-0.39-1.02-0.39-1.41,0L17,5.59V4c0-0.55-0.45-1-1-1c-0.55,0-1,0.45-1,1v4c0,0.55,0.45,1,1,1h4 c0.55,0,1-0.45,1-1S20.55,7,20,7z M4,17h1.59l-2.38,2.38c-0.39,0.39-0.39,1.02,0,1.41c0.39,0.39,1.02,0.39,1.41,0L7,18.41L7,20 c0,0.55,0.45,1,1,1s1-0.45,1-1l0-4c0-0.55-0.45-1-1-1l-4,0c-0.55,0-1,0.45-1,1C3,16.55,3.45,17,4,17z M21,16c0-0.55-0.45-1-1-1h-4 c-0.55,0-1,0.45-1,1v4c0,0.55,0.45,1,1,1c0.55,0,1-0.45,1-1v-1.59l2.38,2.38c0.39,0.39,1.02,0.39,1.41,0 c0.39-0.39,0.39-1.02,0-1.41L18.41,17H20C20.55,17,21,16.55,21,16z" ]
+                []
+            ]
         ]
 
 

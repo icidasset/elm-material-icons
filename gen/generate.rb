@@ -77,6 +77,7 @@ end
 
 def icon_function_name(name)
   case name
+  when "123" ; "one_two_three"
   when "1x_mobiledata" ; "one_x_mobiledata"
   when "3g_mobiledata" ; "three_g_mobiledata"
   when "3p" ; "three_p"
@@ -224,8 +225,8 @@ def generate(family)
 
   import Material.Icons.Internal exposing (..)
   import Material.Icons.Types exposing (..)
-  import Svg exposing (Svg, g, line, polygon, polyline, rect, text, use, svg)
-  import Svg.Attributes as A exposing (baseProfile, clipRule, cx, cy, d, enableBackground, fill, fillOpacity, fillRule, id, overflow, points, r, x1, x2, xlinkHref, y1, y2)
+  import Svg exposing (Svg, ellipse, g, line, polygon, polyline, rect, text, use, svg)
+  import Svg.Attributes as A exposing (baseProfile, clipRule, cx, cy, d, enableBackground, fill, fillOpacity, fillRule, id, overflow, points, r, rx, ry, x1, x2, xlinkHref, y1, y2)
   HERE
 
   # Process each icon

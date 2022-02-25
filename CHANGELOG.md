@@ -1,5 +1,10 @@
 # Changelog
 
+#### 10.0.0
+
+Synced icons with [material.io](https://material.io/icons)
+
+
 #### 9.0.0
 
 Synced icons with [material.io](https://material.io/icons)
