@@ -79,6 +79,7 @@ def icon_function_name(name)
   case name
   when "123" ; "one_two_three"
   when "1x_mobiledata" ; "one_x_mobiledata"
+  when "18_up_rating" ; "eighteen_up_rating"
   when "3g_mobiledata" ; "three_g_mobiledata"
   when "3p" ; "three_p"
   when "3d_rotation" ; "three_d_rotation"
@@ -133,8 +134,8 @@ end
 # =====
 
 # Clean up directories
-# FileUtils.rm_rf SOT_DIR
-# FileUtils.mkdir_p "#{SOT_DIR}/icons"
+FileUtils.rm_rf SOT_DIR
+FileUtils.mkdir_p "#{SOT_DIR}/icons"
 
 FileUtils.rm_rf OUT_DIR
 FileUtils.mkdir_p OUT_DIR

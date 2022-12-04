@@ -1,5 +1,68 @@
 # Changelog
 
+#### 11.0.0
+
+Synced icons with [material.io](https://material.io/icons)
+
+```
+Added:
+    add_home : Material.Icons.Types.Icon msg
+    add_home_work : Material.Icons.Types.Icon msg
+    arrow_outward : Material.Icons.Types.Icon msg
+    assist_walker : Material.Icons.Types.Icon msg
+    blind : Material.Icons.Types.Icon msg
+    blinds : Material.Icons.Types.Icon msg
+    broadcast_on_home : Material.Icons.Types.Icon msg
+    broadcast_on_personal : Material.Icons.Types.Icon msg
+    contact_emergency : Material.Icons.Types.Icon msg
+    dataset : Material.Icons.Types.Icon msg
+    dataset_linked : Material.Icons.Types.Icon msg
+    desk : Material.Icons.Types.Icon msg
+    diversity_1 : Material.Icons.Types.Icon msg
+    diversity_2 : Material.Icons.Types.Icon msg
+    diversity_3 : Material.Icons.Types.Icon msg
+    eighteen_up_rating : Material.Icons.Types.Icon msg
+    face_2 : Material.Icons.Types.Icon msg
+    face_3 : Material.Icons.Types.Icon msg
+    face_4 : Material.Icons.Types.Icon msg
+    face_5 : Material.Icons.Types.Icon msg
+    face_6 : Material.Icons.Types.Icon msg
+    fire_hydrant_alt : Material.Icons.Types.Icon msg
+    fire_truck : Material.Icons.Types.Icon msg
+    fluorescent : Material.Icons.Types.Icon msg
+    groups_2 : Material.Icons.Types.Icon msg
+    groups_3 : Material.Icons.Types.Icon msg
+    lock_person : Material.Icons.Types.Icon msg
+    macro_off : Material.Icons.Types.Icon msg
+    man_2 : Material.Icons.Types.Icon msg
+    man_3 : Material.Icons.Types.Icon msg
+    man_4 : Material.Icons.Types.Icon msg
+    no_adult_content : Material.Icons.Types.Icon msg
+    person_2 : Material.Icons.Types.Icon msg
+    person_3 : Material.Icons.Types.Icon msg
+    person_4 : Material.Icons.Types.Icon msg
+    psychology_alt : Material.Icons.Types.Icon msg
+    repartition : Material.Icons.Types.Icon msg
+    shape_line : Material.Icons.Types.Icon msg
+    transcribe : Material.Icons.Types.Icon msg
+    troubleshoot : Material.Icons.Types.Icon msg
+    type_specimen : Material.Icons.Types.Icon msg
+    unfold_less_double : Material.Icons.Types.Icon msg
+    unfold_more_double : Material.Icons.Types.Icon msg
+    video_chat : Material.Icons.Types.Icon msg
+    wallet : Material.Icons.Types.Icon msg
+    web_stories : Material.Icons.Types.Icon msg
+    width_full : Material.Icons.Types.Icon msg
+    width_normal : Material.Icons.Types.Icon msg
+    width_wide : Material.Icons.Types.Icon msg
+    woman_2 : Material.Icons.Types.Icon msg
+
+Removed:
+    flourescent : Icon msg
+    phone_in_talk : Icon msg
+    whatsapp : Icon msg
+```
+
 #### 10.0.0
 
 Synced icons with [material.io](https://material.io/icons)
