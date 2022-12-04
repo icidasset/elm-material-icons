@@ -2,7 +2,8 @@
 
 #### 11.0.0
 
-Synced icons with [material.io](https://material.io/icons)
+- Removed 'two tone' variant, reached the Elm docs limit 😞
+- Synced icons with [material.io](https://material.io/icons)
 
 ```
 Added:
