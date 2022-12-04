@@ -8,7 +8,7 @@ import Material.Icons as Filled
 import Material.Icons.Outlined as Outlined
 import Material.Icons.Types exposing (Coloring(..))
 
-Filled.offline_bolt 16 (Color <| Color.rgb 96 181 204)
+Filled.offline_bolt 16 (Color <| Color.rgb255 96 181 204)
 Outlined.offline_bolt 16 Inherit
 ```
 
